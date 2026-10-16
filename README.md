@@ -4,7 +4,7 @@
 
 **ELMA-IoT MIE** is a portable Windows equipment-list and schematic-library application, part of [ELMA-IoT](https://github.com/elma-iot).
 
-## Version 1.2
+## Version 1.3
 
 - Portable single EXE with the ELMA-IoT animated startup logo and green application icon.
 - Master equipment tables with search, direct editing, existing dropdown choices, typed dates and session undo/redo.
@@ -13,6 +13,12 @@
 - Linked schematics with native grouped-vector rendering and export to XLSX, PDF, PNG or JPEG; multi-page image exports retain all pages.
 - Reusable Illustration Library with enlarged previews and independent placement dimensions, scale, rotation and flips.
 - File, View, Language and Help menus, contextual tooltips and button press feedback.
+- Native Excel font, color, fill, alignment and wrapping controls for selected cells.
+- Well-row and year-separator popup controls, deletion confirmation and shared undo/redo.
+- Missing-schematic import from well links, with XLSX/PDF association preserved on export.
+- Read-only Revision History and editable Outstanding tabs, including a live open-action badge and automatic duplicate explanations.
+- Editor name/surname prompts and dated revision entries for saved changes.
+- Versioned timestamped backups and documented project-format compatibility.
 - Interactive searchable user guide with a navigation tree.
 - Twenty offline interface languages, live switching, Arabic/Persian interface direction and external JSON catalogs for adding languages. Imported data retains its original text.
 - Save project as XLSX restores the master workbook and linked Schematics folder for further editing in Excel.
