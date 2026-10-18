@@ -10,13 +10,13 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v4) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v5) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
-> **Version 1.11.0.** The portable build uses optional downloads. The Microsoft Store 1.11.0.0 update was submitted for certification on 18 October 2026 and includes its reviewed feature modules for offline use; it does not download executable extensions. Store approval is pending, so the public listing may still offer an earlier version. All screenshots use synthetic demonstration data.
+> **Maintenance release 1.11.1.** The portable edition improves optional-content opening responsiveness and rendering and uses the v5 content catalog. Use the in-app pack menu to select compatible downloads; earlier catalogs remain available. The Microsoft Store 1.11.0.0 update was submitted on 18 October 2026 with its reviewed modules bundled for offline use. No new Store submission was made for this maintenance release; check the Store listing for current availability. All screenshots use synthetic demonstration data.
 
 ## Built around the equipment lifecycle
 
@@ -128,7 +128,7 @@ Essential project editing, stock movement, source handling, save/recovery and lo
 
 Pack downloads show measured progress. The app verifies the signed release catalog and each package's SHA-256 checksum before loading it. Downloads fetch public application assets; they do not upload a project. A failed download leaves existing content and project data intact.
 
-Use the application's pack menu for compatible versions. The public [optional-content release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v4) is also available for reference; old catalogs remain available for earlier application versions.
+Use the application's pack menu for compatible versions. The public [optional-content release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v5) is also available for reference; old catalogs remain available for earlier application versions.
 
 ## Get started
 
