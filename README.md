@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
-> **Development preview: 1.11.0.** This page describes the current portable development build. The Microsoft Store edition can be on an earlier version; downloadable executable extensions described here are for the portable edition. A new Store update is not implied by this page. All screenshots use synthetic demonstration data.
+> **Version 1.11.0.** The portable build uses optional downloads. The Microsoft Store 1.11.0.0 update was submitted for certification on 18 October 2026 and includes its reviewed feature modules for offline use; it does not download executable extensions. Store approval is pending, so the public listing may still offer an earlier version. All screenshots use synthetic demonstration data.
 
 ## Built around the equipment lifecycle
 
