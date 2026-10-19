@@ -156,6 +156,11 @@ This public repository hosts product information, branding, demonstration screen
 Copyright © 2026 ELMA IoT. All rights reserved. This information page does not grant a license to application source or organizational branding.
 
 
-## 1.11.2 content preview — owner review
+## On-demand language and learning packs
 
-Prepared language and learning ZIPs include the concise Save/Save as controls, standard keyboard-shortcut guidance and demonstrations in all 20 languages. The application review build and source remain in the private repository. These preview payloads are not yet activated through the signed optional-content catalog; existing stable content remains unchanged. Microsoft Store submission is on hold for owner testing.
+The portable app version 1.11.4 downloads the current language and learning packs separately when requested. They include the latest Save/Save as controls, keyboard-shortcut guidance and tutorial captions in all 20 supported languages, with 39 guide topics. The main executable keeps a small English fallback and the tutorial playback engine rather than embedding the complete content. Downloaded packs are retained for offline use.
+
+- [Language pack 1.11.2](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v6-preview/MIE-Languages-1.11.2.zip) — 801,250 bytes.
+- [User guide and tutorials 1.11.2](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v6-preview/MIE-Learning-1.11.2.zip) — 905,477 bytes.
+
+Use Help > Packs, open the guide, or select an unavailable language to download through the application. Version 1.11.4 contains the exact approved hashes for these two data assets. Executable extensions continue to use the existing signed catalog. The historical release tag includes “preview”; these exact data files are supported by version 1.11.4. Application source and portable builds remain in the private repository. Microsoft Store submission remains pending.
