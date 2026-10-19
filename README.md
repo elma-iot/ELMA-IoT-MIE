@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
-> **Portable maintenance release 1.11.9.** Duplicate hover cards show the matching wells or stock entries. The portable edition includes selected-row autofill from readable XLSX schematic labels, retaining existing conflicting entries for review. Project/tab responsiveness and native optional-content rendering improvements are retained. The main executable remains about 1.59 MB; full translations and the interactive guide/tutorials download on demand. Use the in-app pack menu to select compatible downloads. Earlier catalogs remain available. This portable release does not change the Store submission or establish its current availability; check the Store listing for the available Store version. All screenshots use synthetic demonstration data.
+> **Maintenance release 1.11.10.** Duplicate and stock-warning cells now glow gently; hover cards show the matching wells or stock entries. The portable edition includes selected-row autofill from readable XLSX schematic labels, retaining existing conflicting entries for review. Project/tab responsiveness and native optional-content rendering improvements are retained. The main executable remains about 1.59 MB; full translations and the interactive guide/tutorials download on demand. Use the in-app pack menu to select compatible downloads. Earlier catalogs remain available. A refreshed Store upload candidate has been built and locally checked; submission is pending Partner Center access. Check the Store listing for the currently available version. All screenshots use synthetic demonstration data.
 
 ## Built around the equipment lifecycle
 
@@ -59,7 +59,7 @@ MIE is specialized for wellhead equipment workflows in upstream oil and gas oper
 
 - Edit cells directly, retain workbook dropdown choices, format text and cells, and use worksheet undo/redo.
 - Add or rename well rows and year dividers. Confirm row removal before committing it.
-- Inspect red duplicate/conflict cells for explanations and matching records.
+- Inspect glowing red duplicate/conflict cells for explanations and matching records. The glow stops when the issue is resolved and stays steady when Windows animations are disabled.
 - Press **F** or **Ctrl+F** for an overlay with find/replace. Expand the advanced options for case, whole words, regular expressions, scope and wrapping. Replacements enable editing when needed.
 - Use the mouse wheel with **Ctrl** to zoom, or the slim footer slider. Each tab retains its own zoom and scroll position.
 - Drag tab headers to rearrange them. Detach views onto another monitor, reattach them, or close the detached window to return its tab.
