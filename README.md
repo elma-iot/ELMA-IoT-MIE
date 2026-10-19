@@ -164,3 +164,9 @@ The portable app version 1.11.4 downloads the current language and learning pack
 - [User guide and tutorials 1.11.2](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v6-preview/MIE-Learning-1.11.2.zip) — 905,477 bytes.
 
 Use Help > Packs, open the guide, or select an unavailable language to download through the application. Version 1.11.4 contains the exact approved hashes for these two data assets. Executable extensions continue to use the existing signed catalog. The historical release tag includes “preview”; these exact data files are supported by version 1.11.4. Application source and portable builds remain in the private repository. Microsoft Store submission remains pending.
+
+## Open and recent projects in 1.11.5
+
+File > Open lists five recent projects with filename, last-saved date/time and folder so identically named files can be distinguished. Ctrl+O and Browse open another file. Save updates the active file; first Save and Save as suggest timestamped filenames, with a counter when the suggested copy name exists. Existing files are not renamed.
+
+The [1.11.5 language and learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v7) include this guidance and the shortened Open label in all 20 languages. They retain all earlier Save/Save as and shortcut documentation and are downloaded on demand by version 1.11.5.
