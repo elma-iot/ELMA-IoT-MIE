@@ -154,3 +154,8 @@ Use the [issue tracker](https://github.com/elma-iot/ELMA-IoT-MIE/issues) for rep
 This public repository hosts product information, branding, demonstration screenshots and optional-content releases. Application source is maintained privately. No customer project data, owner signing keys, activation utilities or data-bearing application bundles are published here. The preview screenshots were captured from the application and Theme Studio using purpose-built synthetic data.
 
 Copyright © 2026 ELMA IoT. All rights reserved. This information page does not grant a license to application source or organizational branding.
+
+
+## 1.11.2 content preview — owner review
+
+Prepared language and learning ZIPs include the concise Save/Save as controls, standard keyboard-shortcut guidance and demonstrations in all 20 languages. The application review build and source remain in the private repository. These preview payloads are not yet activated through the signed optional-content catalog; existing stable content remains unchanged. Microsoft Store submission is on hold for owner testing.
