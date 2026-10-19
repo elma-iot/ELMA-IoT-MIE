@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
-> **Portable maintenance release 1.11.7.** The portable edition improves project/tab responsiveness and native optional-content rendering, including ultrawide windows. The main executable remains about 1.57 MB; full translations and the interactive guide/tutorials download on demand. Use the in-app pack menu to select compatible downloads. Earlier catalogs remain available. This portable release does not change the Store submission or establish its current availability; check the Store listing for the available Store version. All screenshots use synthetic demonstration data.
+> **Portable maintenance release 1.11.8.** The portable edition adds selected-row autofill from readable XLSX schematic labels, retaining existing conflicting entries for review. Project/tab responsiveness and native optional-content rendering improvements are retained. The main executable remains about 1.59 MB; full translations and the interactive guide/tutorials download on demand. Use the in-app pack menu to select compatible downloads. Earlier catalogs remain available. This portable release does not change the Store submission or establish its current availability; check the Store listing for the available Store version. All screenshots use synthetic demonstration data.
 
 ## Built around the equipment lifecycle
 
