@@ -10,7 +10,7 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v5) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v12) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
@@ -121,6 +121,8 @@ Essential project editing, stock movement, source handling, save/recovery and lo
 
 | Optional feature | How to get it |
 |---|---|
+| Classic games and game window/controls | Included in the current app; matching standalone host DLL is public below |
+| Nebula Vanguard, native 3D solar system | Optional game module; download through the app |
 | All interface translations | Select a language, or use **Help → Packs** |
 | User guide and tutorials | Open the guide/tutorial, or use **Help → Packs** |
 | Theme Studio | **View → Theme → Theme Studio**, or **Help → Packs** |
@@ -128,7 +130,7 @@ Essential project editing, stock movement, source handling, save/recovery and lo
 
 Pack downloads show measured progress. The app verifies the signed release catalog and each package's SHA-256 checksum before loading it. Downloads fetch public application assets; they do not upload a project. A failed download leaves existing content and project data intact.
 
-Use the application's pack menu for compatible versions. The public [optional-content release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v5) is also available for reference; old catalogs remain available for earlier application versions.
+Use the application's pack menu for compatible versions. The public [optional-content release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v12) is also available for reference; old catalogs remain available for earlier application versions.
 
 ## Get started
 
@@ -156,14 +158,22 @@ This public repository hosts product information, branding, demonstration screen
 Copyright © 2026 ELMA IoT. All rights reserved. This information page does not grant a license to application source or organizational branding.
 
 
-## On-demand language and learning packs
+## Current public pack downloads
 
-The portable app version 1.11.4 downloads the current language and learning packs separately when requested. They include the latest Save/Save as controls, keyboard-shortcut guidance and tutorial captions in all 20 supported languages, with 39 guide topics. The main executable keeps a small English fallback and the tutorial playback engine rather than embedding the complete content. Downloaded packs are retained for offline use.
+The [current optional-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v12) collects the complete set in one place. Earlier releases remain available at their original URLs.
 
-- [Language pack 1.11.2](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v6-preview/MIE-Languages-1.11.2.zip) — 801,250 bytes.
-- [User guide and tutorials 1.11.2](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v6-preview/MIE-Learning-1.11.2.zip) — 905,477 bytes.
+| Pack | Current version | File |
+|---|---|---|
+| Classic games and shared host | 1.11.11 | [Game host DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Arcade-Pack-1.11.11.dll) |
+| Nebula Vanguard | 1.11.7 | [Native 3D game DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Nebula-Vanguard-1.11.7.dll) |
+| All 20 interface languages | 1.11.11 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Languages-1.11.11.zip) |
+| User guide and tutorials | 1.11.11 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Learning-1.11.11.zip) |
+| Theme Studio | 1.11.0 | [Theme editor](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Theme-Studio-1.11.0.exe) |
+| GLB model viewer | 1.11.0 | [Viewer DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-GLB-Viewer-1.11.0.dll) |
 
-Use Help > Packs, open the guide, or select an unavailable language to download through the application. Version 1.11.4 contains the exact approved hashes for these two data assets. Executable extensions continue to use the existing signed catalog. The historical release tag includes “preview”; these exact data files are supported by version 1.11.4. Application source and portable builds remain in the private repository. Microsoft Store submission remains pending.
+The current portable EXE already embeds the classic-game host, including the common game window and controls. The standalone public DLL is the identical module, provided for completeness; it does not run by itself and requires no manual installation in the current app. Nebula is a separate optional renderer. Use the application's pack menu to obtain compatible downloads. Store builds bundle executable modules in their MSIX. Language and learning data remain separate on-demand downloads and work offline after installation.
+
+The public release collects matching files without changing the original catalog, trusted hashes or runtime URLs. Application source and the main portable EXE remain private. No operational project data is included.
 
 ## Open and recent projects in 1.11.5
 
