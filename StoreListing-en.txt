@@ -1,0 +1,29 @@
+ELMA-IoT MIE brings master equipment records, well schematics and reusable illustrations into one Windows workspace for wellhead equipment teams. Follow hardware from expected delivery through inventory to installation, while keeping part numbers, serial numbers and source drawings close to the record.
+
+EQUIPMENT TRACEABILITY
+Maintain the Master Equip. list, Inventory and In-Order views. Record expected deliveries, receive equipment into stock and select matching inventory when recording installed equipment. Duplicate and stock-conflict cells glow for attention; hover cards identify the matching wells or stock entries. Outstanding actions and their tab count update as issues are found or resolved.
+
+SCHEMATICS AND ILLUSTRATIONS
+Open a well's linked schematic or import a missing drawing. Readable XLSX schematic labels can fill available equipment and well details in the selected master row; conflicting existing values are retained for review. The illustration library reuses identical resources while retaining each occurrence's dimensions, scale, rotation and flips. Supported native vector groups remain available in saved previews. A bundled optional viewer supports user-supplied static GLB 3D models.
+
+EDIT, REVIEW AND EXCHANGE
+Edit cells, format text and fills, add well rows and year separators, and use undo/redo and find/replace. Changes enter the named Revision History workflow. Save a compressed MIE project, use Save as for a separate copy, or export the master workbook with its linked Schematics folder as XLSX. Export individual schematics to supported XLSX, PDF, PNG and JPEG formats. Backups support local recovery.
+
+LOCAL AND CLOUD SYNCHRONIZATION
+Local-folder and network-share synchronization are available in Free. Licensed cloud synchronization supports Google Drive and compatible WebDAV services including Nextcloud, ownCloud, Koofr and pCloud. One progress window displays connection/request activity, elapsed time, errors and completion warnings. Cancel is available from the beginning; Retry appears after a failed or cancelled worker stops. Quiet waits remain visible. Conflicting copies require a choice and backups are retained. Windows network-share calls may need their system timeout before cancellation finishes.
+
+PERSONALIZE AND LEARN
+Light, Dark and Auto themes, detachable views, per-tab zoom and remembered window layouts help organize the workspace. Additional interface languages and the searchable guide/tutorials download as separate data packs, with 20 supported languages including English. Imported project data keeps its original language. Downloaded data packs work offline. Theme Studio and executable viewer/game modules are included in the Store package. Optional idle-screen games are ancillary features.
+
+FREE AND LICENSED FEATURES
+Core equipment records, editing, import/export, local project work and local/network-folder sync do not require payment or a product account. Optional owner-issued licenses enable project branding, cloud synchronization and encryption of new files/backups. There is no in-app checkout or automatic subscription. Licensed checks and remote services require their respective connections.
+
+Licenses may be issued to partners, for evaluation or under a separately agreed commercial arrangement. Any fees, duration and support terms are agreed with the owner beforehand. Activation does not take payment or start an automatically renewing subscription.
+
+PROJECT DATA AND ACTIVATION
+Projects remain local unless you choose a synchronization destination or export/share files. No publisher account or advertising is required. License activation creates an encrypted request containing your name, surname, machine identity and request time for you to share with the owner. Licensed features use an internet time check.
+
+REQUIREMENTS
+Windows 10/11 with .NET Framework 4.8. Microsoft Excel must be installed for the supported import/rendering of new XLSX schematics; saved schematic previews can be viewed without Excel. Initial language/guide downloads require internet access. No customer well data or source drawings are included.
+
+Part of the ELMA-IoT project.
