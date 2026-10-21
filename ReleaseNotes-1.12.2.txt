@@ -1,0 +1,9 @@
+Version 1.12.2
+
+- Smaller project saves through shared drawing storage, with native drawing content, positions and transforms preserved. File sizes depend on project content.
+- Faster subsequent master-only saves by reusing the compressed drawing archive; derived previews regenerate when needed.
+- Linked well names appear underlined, including newly imported schematics and exported workbook links.
+- Licensed options stay clickable and explain whether activation, renewal or a license update is needed. Get License opens activation.
+- Cleaner synchronization settings and updated downloadable language and learning packs.
+
+Earlier projects remain readable. Projects saved in the new storage format require MIE 1.12.0 or later; keep an older-format copy when exchanging with earlier versions.

@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
-> **Version 1.12.2.** Shared drawing storage reduces repeated native schematic content while preserving positions, scales and transforms. Subsequent master-only saves reuse the compressed drawing archive. Linked well names appear underlined, and unavailable licensed options explain activation or renewal through Get License. Translations and the interactive guide/tutorials remain separate on-demand data packs; the latest language/learning update is [content v13](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13), while the other compatible content remains available through the in-app pack menu and earlier releases. **Compatibility:** older projects remain readable; projects saved in the compact format require MIE 1.12.0 or later. Keep an older-format copy when exchanging with earlier versions. Microsoft Store version **1.11.11.0 is published**. Version **1.12.2.0** and its updated product description/release notes were submitted on **21 October 2026** as **Submission 6**; Partner Center confirmed **In certification**, with automatic publication after approval. Check the Store listing for the version currently available. All screenshots use synthetic demonstration data.
+> **Version 1.12.2.** Shared drawing storage reduces repeated native schematic content while preserving positions, scales and transforms. Subsequent master-only saves reuse the compressed drawing archive. Linked well names appear underlined, and unavailable licensed options explain activation or renewal through Get License. Translations and the interactive guide/tutorials remain separate on-demand data packs; the latest language/learning update is [content v13](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13), while the other compatible content remains available through the in-app pack menu and earlier releases. **Compatibility:** older projects remain readable; projects saved in the compact format require MIE 1.12.0 or later. Keep an older-format copy when exchanging with earlier versions. Microsoft Store version **1.11.11.0 is published**. Version **1.12.2.0** and its updated product description/release notes were submitted on **21 October 2026** as **Submission 6**; Partner Center confirmed **In certification**, with automatic publication after approval. Check the Store listing for the version currently available. Equipment-table screenshots use synthetic demonstration data. The viewer illustration uses the supplied wellhead image inside an application frame and is labeled as an illustrative preview.
 
 ## Built around the equipment lifecycle
 
@@ -76,7 +76,9 @@ Work with supported Excel and PDF source drawings, open the saved previews, and 
 
 ## New: optional GLB 3D model viewer
 
-![GLB viewer displaying an original synthetic wellhead training model](assets/screenshots/1.11/glb-viewer.jpg)
+![Illustrative wellhead preview inside the MIE viewer frame](assets/screenshots/1.12/glb-viewer-preview.png)
+
+*Illustrative preview: the supplied wellhead picture is placed inside the application frame. This is not a captured rendering of an imported GLB file.*
 
 Illustrations can now include **static GLB 2.0 models** alongside flat images and native vector previews. Choose **Illustration Library → Import 3D model**. The separate viewer pack downloads on first use, then remains available offline.
 
@@ -89,7 +91,7 @@ Illustrations can now include **static GLB 2.0 models** alongside flat images an
 
 GLB data is stored inside the project and deduplicated. Importing through a schematic's placement-details window also links the model to that schematic. A model does not replace the Excel schematic or its 2D illustration.
 
-The initial viewer supports triangle meshes, node transforms, base colors and embedded PNG/JPEG textures in GLB files up to **32 MB**. Rendering approximates materials; it is not a full PBR renderer. Skins, sparse accessors, compression extensions and external resources are not supported yet. **Wellhead model libraries will be published separately later.** The pictured model is a synthetic demonstration, not a published equipment model library.
+The initial viewer supports triangle meshes, node transforms, base colors and embedded PNG/JPEG textures in GLB files up to **32 MB**. Rendering approximates materials; it is not a full PBR renderer. Skins, sparse accessors, compression extensions and external resources are not supported yet. **Wellhead model libraries will be published separately later.** The pictured wellhead is a supplied illustration, not a downloadable model library or a GLB compatibility test.
 
 ## Share changes and keep recovery options
 
@@ -155,21 +157,21 @@ Use the application's pack menu for compatible versions. The public [optional-co
 
 Use the [issue tracker](https://github.com/elma-iot/ELMA-IoT-MIE/issues) for reproducible problems and feature suggestions. Include the application version, Windows version and steps to reproduce. Use synthetic or redacted examples rather than posting customer equipment records or confidential drawings.
 
-This public repository hosts product information, branding, demonstration screenshots and optional-content releases. Application source is maintained privately. No customer project data, owner signing keys, activation utilities or data-bearing application bundles are published here. The preview screenshots were captured from the application and Theme Studio using purpose-built synthetic data.
+This public repository hosts product information, branding, demonstration screenshots and optional-content releases. Application source is maintained privately. No customer project data, owner signing keys, activation utilities or data-bearing application bundles are published here. The equipment workspace and Theme Studio screenshots use purpose-built synthetic data. The labeled viewer preview composites the supplied wellhead illustration inside an application frame.
 
 Copyright © 2026 ELMA IoT. All rights reserved. This information page does not grant a license to application source or organizational branding.
 
 
 ## Current public pack downloads
 
-The [current optional-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v12) collects the complete set in one place. Earlier releases remain available at their original URLs.
+The [v13 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13) contains the language and learning packs for MIE 1.12.2. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v12). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
 
 | Pack | Current version | File |
 |---|---|---|
 | Classic games and shared host | 1.11.11 | [Game host DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Arcade-Pack-1.11.11.dll) |
 | Nebula Vanguard | 1.11.7 | [Native 3D game DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Nebula-Vanguard-1.11.7.dll) |
-| All 20 interface languages | 1.11.11 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Languages-1.11.11.zip) |
-| User guide and tutorials | 1.11.11 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Learning-1.11.11.zip) |
+| All 20 interface languages | 1.12.2 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v13/MIE-Languages-1.12.2.zip) |
+| User guide and tutorials | 1.12.2 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v13/MIE-Learning-1.12.2.zip) |
 | Theme Studio | 1.11.0 | [Theme editor](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Theme-Studio-1.11.0.exe) |
 | GLB model viewer | 1.11.0 | [Viewer DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-GLB-Viewer-1.11.0.dll) |
 
@@ -184,4 +186,4 @@ File > Open lists five recent projects with filename, last-saved date/time and f
 The [1.11.5 language and learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v7) include this guidance and the shortened Open label in all 20 languages. They retain all earlier Save/Save as and shortcut documentation and are downloaded on demand by version 1.11.5.
 
 
-The current [Microsoft Store product description](StoreListing-en.txt) covers equipment traceability, schematic autofill, duplicate glows and hover cards, synchronization feedback, on-demand language/guide packs, requirements and Free/licensed features. It was refreshed with the 1.11.11.0 submission.
+The current [Microsoft Store product description](StoreListing-en.txt) covers equipment traceability, schematic autofill, duplicate glows and hover cards, synchronization feedback, on-demand language/guide packs, requirements and Free/licensed features. It was refreshed with the 1.12.2.0 submission. See the [1.12.2 release notes](ReleaseNotes-1.12.2.txt) for shared drawing storage, linked-well styling and licensed-feature prompt changes.
