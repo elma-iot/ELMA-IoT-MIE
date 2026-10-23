@@ -1,0 +1,14 @@
+ELMA-IoT MIE 1.13.0 review
+
+Automatic synchronization after explicit pairing, with a configurable one-minute interval.
+BASE/LOCAL/SHARED merging of independent fields and separate PN/SN changes.
+Explicit competing-value decisions, Apply to All and Resolve Later.
+Stable row identities, original audit attribution and synchronization transaction records.
+Protected local recovery journals, common checkpoints and safe concurrent-write retries.
+Existing shared encrypted-project-file storage, provider authentication, backups and licensing retained.
+No new database or removal of local encryption. Changed synchronization payloads remain full project files.
+Complex concurrent workbook layouts or formatting changes stop for safe reconciliation.
+Saved tracking metadata requires reader 1.13.0 or later; older projects remain readable.
+Language and guide/tutorial updates for 20 languages are available in public content release v15.
+Review source and executables are private. This version has not been submitted to Microsoft Store.
+No operational well/project data, credentials or owner keys are distributed in the public repository.
