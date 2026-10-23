@@ -1,0 +1,11 @@
+ELMA-IoT MIE 1.13.2 review
+
+- Inventory and In-Order display equipment sections with editable merged titles and separate No, PN, SN, Location and Comments columns.
+- In-Order retains OPD/DOA, date validation and live overdue coloring.
+- Green + offers a new item row or new equipment title. Row deletion affects only its equipment section.
+- Far-right + and recycle bin manage named custom information columns. Destructive operations ask for confirmation; undo restores data.
+- Stock receipt, installation, duplicate warnings, Outstanding and revision history retain their existing behavior and native synchronization identities.
+- Excel export uses merged section titles, repeated headers and editable field cells. Reimport reconstructs stock entries. Formula-bearing or formula-referenced stock sheets keep native coordinates to protect references.
+- Check legacy backup in Sync settings defaults to off. Legacy single-file metadata/content are skipped unless enabled, for folder/network and supported cloud providers. Incremental synchronization continues independently.
+- Guide/tutorial and language updates for twenty languages remain separate optional data packs, public content v18. No well data is distributed.
+- Separate test build. Not submitted to Microsoft Store.
