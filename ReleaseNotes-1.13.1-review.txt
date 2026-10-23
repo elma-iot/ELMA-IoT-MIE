@@ -1,0 +1,9 @@
+ELMA-IoT MIE 1.13.1 review
+
+Incremental compressed synchronization uses immutable transaction batches, conditional commitment and configurable complete snapshots on passive storage. Only missing changes and newly referenced native resources are transferred. Existing merge, stable identities, conflict review, audit and offline journal components are reused.
+
+Compression-only sync requires no key. Optional encryption uses the existing key-generation/copy/load settings and encryption license. Existing encrypted local data and recovery backups retain their protection. Legacy shared single-file backups are permanently read-only in updated clients and later old-client changes are reconciled against their imported ancestor.
+
+Import / Restore backup folder reconstructs an offline copy or reviews a merge into a working project, validating integrity, identity, snapshot coverage and required causal changes. Historical material is retained. Google Drive uses an explicit shared backup-folder ID with account Editor access.
+
+The separate portable review executable is approximately 1.8 MB. Application-owned translations and learning content remain separate on-demand packs for all twenty languages (content v17). No operational project data or keys are included in source or distributions. This version is for user review and has not been submitted to Microsoft Store.

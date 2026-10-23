@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/mie.png" alt="ELMA-IoT MIE" width="112">
 
@@ -17,6 +17,14 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
 > **Version 1.12.2.** Shared drawing storage reduces repeated native schematic content while preserving positions, scales and transforms. Subsequent master-only saves reuse the compressed drawing archive. Linked well names appear underlined, and unavailable licensed options explain activation or renewal through Get License. Translations and the interactive guide/tutorials remain separate on-demand data packs; the 1.12.2 language/learning update is [content v13](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13), while the other compatible content remains available through the in-app pack menu and earlier releases. **Compatibility:** older projects remain readable; projects saved in the compact format require MIE 1.12.0 or later. Keep an older-format copy when exchanging with earlier versions. Microsoft Store version **1.11.11.0 is published**. Version **1.12.2.0** and its updated product description/release notes were submitted on **21 October 2026** as **Submission 6**; Partner Center confirmed **In certification**, with automatic publication after approval. Check the Store listing for the version currently available. Equipment-table screenshots use synthetic demonstration data. The viewer illustration uses the supplied wellhead image inside an application frame and is labeled as an illustrative preview.
+
+## 1.13.1 review update
+
+The review build adds incremental synchronization through passive folders, network shares and supported cloud storage. Compressed immutable transaction batches, a conditional commit index and periodic snapshots exchange only missing changes and new resources. Compression-only sync needs no encryption key; optional encryption reuses the existing Generate key, Copy key and Load key backup controls. Existing encrypted local projects and recovery copies retain protection.
+
+Legacy single-file shared backups stay read-only and can be reconciled as older clients update them. A complete backup folder can be copied to another PC and restored offline or merged with field review. Local project storage and the existing journal/merge/audit components remain in place. Snapshot thresholds are configurable and historical data is retained.
+
+All twenty language and guide/tutorial updates are separate [content v17 data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v17). Application source and review binaries remain private. This is a separate test build and has not been submitted to Microsoft Store. [Review release notes](ReleaseNotes-1.13.1-review.txt).
 
 ## 1.13.0 review update
 
