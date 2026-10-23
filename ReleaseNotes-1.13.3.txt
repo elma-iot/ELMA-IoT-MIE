@@ -1,0 +1,11 @@
+ELMA-IoT MIE 1.13.3
+
+- Inventory and In-Order use editable equipment sections, one shared column header, separate PN/SN/Location/Comments fields, automatic numbering and custom information columns.
+- Cell fonts, text colors, fills, alignment and decorations match while typing and after committing in light and dark themes.
+- Add item rows or equipment titles with the green +. Confirmed removal and undo preserve control over stock changes. Existing receipt and installation rules remain.
+- Repeated worksheet parsing and unchanged stock row-template rebuilding are reduced; hidden-view refreshes are coalesced and stock-cell lookups indexed.
+- Sync and Edit remain visible after saving long project filenames. Header status text is removed; details and operation progress remain available through Sync and the footer.
+- Incremental folder/network/cloud synchronization exchanges compressed change batches and new resources with snapshots, field-level review and recovery history. Check legacy backup defaults to off; enable it for read-only legacy reconciliation. Optional encryption reuses existing settings and keys.
+- Excel export/reimport supports equipment sections and custom columns; formula-dependent stock sheets retain native coordinates.
+- Updated user guide, tutorials and twenty language catalogs download separately and remain available offline. Project data stays in its original language.
+- Existing local project storage, encryption, backup/recovery and native schematic resources are preserved. Tracked saves require reader 1.13.0 or later. No database migration.

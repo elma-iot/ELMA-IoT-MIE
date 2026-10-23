@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/mie.png" alt="ELMA-IoT MIE" width="112">
 
@@ -17,6 +17,14 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
 > **Version 1.12.2.** Shared drawing storage reduces repeated native schematic content while preserving positions, scales and transforms. Subsequent master-only saves reuse the compressed drawing archive. Linked well names appear underlined, and unavailable licensed options explain activation or renewal through Get License. Translations and the interactive guide/tutorials remain separate on-demand data packs; the 1.12.2 language/learning update is [content v13](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13), while the other compatible content remains available through the in-app pack menu and earlier releases. **Compatibility:** older projects remain readable; projects saved in the compact format require MIE 1.12.0 or later. Keep an older-format copy when exchanging with earlier versions. Microsoft Store version **1.11.11.0 is published**. Version **1.12.2.0** and its updated product description/release notes were submitted on **21 October 2026** as **Submission 6**; Partner Center confirmed **In certification**, with automatic publication after approval. Check the Store listing for the version currently available. Equipment-table screenshots use synthetic demonstration data. The viewer illustration uses the supplied wellhead image inside an application frame and is labeled as an illustrative preview.
+
+## 1.13.3
+
+Inventory and In-Order now use a shared field header above editable equipment sections. Editors preserve the displayed text and fill formatting while typing and after commit. Row/section additions, custom information columns, duplicate warnings, stock receipt/installation and Excel round-tripping remain available. The compact header keeps Sync and Edit visible with long saved filenames.
+
+This audit reduces repeated worksheet parsing, reuses stock row templates, coalesces hidden-tab refreshes and indexes stock cell lookups. On one 9.25 MB project copy, median edit processing improved from 748 ms to 673 ms and editor preparation from 660 ms to 486 ms; measurements vary by PC and project. Project storage and encryption were retained.
+
+Incremental compressed sync uses passive shared storage, immutable batches, snapshots and field-level conflict review. **Check legacy backup** is off by default and enables read-only reconciliation only when selected. The current guide/tutorials and all twenty languages are on-demand [content v19 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v19). Source and application binaries are released privately. [Release notes](ReleaseNotes-1.13.3.txt). Microsoft Store submission status will be updated after Partner Center confirms it.
 
 ## 1.13.2 review update
 
