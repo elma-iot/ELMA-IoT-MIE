@@ -10,11 +10,12 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v20) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-> **1.14.0 review update:** Quantity-based orders and partial receiving now connect to licensed Min. Stock policies and a Metrics dashboard based on recorded stock movements and actual delivery dates. Min. Stock and Metrics are hidden when the license is inactive; saved planning data is retained. Selective XLSX export includes numeric metrics, native charts and author metadata. Interface, guide and tutorial updates for all twenty languages remain separate [on-demand packs (v20)](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v20). New planning-schema saves require reader 1.14.0; use Save as for a separate review copy. See [review release notes](ReleaseNotes-1.14.0-review.txt). The review executable and source are private; this does not announce a Microsoft Store publication.
+> **1.14.1 review:** Reparse a schematic already linked to a well using the small refresh icon beside its name. Read mode offers detected updates; edit mode offers force reparse for every available schematic. The existing review dialog handles field mapping and conflicts before changes are applied. Background checks are cached and never edit equipment automatically. See [release notes](ReleaseNotes-1.14.1-review.txt); updated twenty-language learning and interface content is in [content v21](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). The review executable and source remain private.
+> **1.14.0 review update:** Quantity-based orders and partial receiving now connect to licensed Min. Stock policies and a Metrics dashboard based on recorded stock movements and actual delivery dates. Min. Stock and Metrics are hidden when the license is inactive; saved planning data is retained. Selective XLSX export includes numeric metrics, native charts and author metadata. Interface, guide and tutorial updates for all twenty languages remain separate [on-demand packs (v20)](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). New planning-schema saves require reader 1.14.0; use Save as for a separate review copy. See [review release notes](ReleaseNotes-1.14.0-review.txt). The review executable and source are private; this does not announce a Microsoft Store publication.
 ![Master equipment workspace with synthetic demonstration records](assets/screenshots/1.11/workspace.jpg)
 
 > **Version 1.12.2.** Shared drawing storage reduces repeated native schematic content while preserving positions, scales and transforms. Subsequent master-only saves reuse the compressed drawing archive. Linked well names appear underlined, and unavailable licensed options explain activation or renewal through Get License. Translations and the interactive guide/tutorials remain separate on-demand data packs; the 1.12.2 language/learning update is [content v13](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13), while the other compatible content remains available through the in-app pack menu and earlier releases. **Compatibility:** older projects remain readable; projects saved in the compact format require MIE 1.12.0 or later. Keep an older-format copy when exchanging with earlier versions. Microsoft Store version **1.11.11.0 is published**. Version **1.12.2.0** and its updated product description/release notes were submitted on **21 October 2026** as **Submission 6**; Partner Center confirmed **In certification**, with automatic publication after approval. Check the Store listing for the version currently available. Equipment-table screenshots use synthetic demonstration data. The viewer illustration uses the supplied wellhead image inside an application frame and is labeled as an illustrative preview.
@@ -165,7 +166,7 @@ Essential project editing, stock movement, source handling, save/recovery and lo
 
 Pack downloads show measured progress. The app verifies the signed release catalog and each package's SHA-256 checksum before loading it. Downloads fetch public application assets; they do not upload a project. A failed download leaves existing content and project data intact.
 
-Use the application's pack menu for compatible versions. The public [optional-content release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v20) is also available for reference; old catalogs remain available for earlier application versions.
+Use the application's pack menu for compatible versions. The public [optional-content release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21) is also available for reference; old catalogs remain available for earlier application versions.
 
 ## Get started
 
@@ -195,7 +196,7 @@ Copyright © 2026 ELMA IoT. All rights reserved. This information page does not 
 
 ## Current public pack downloads
 
-The [v13 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13) contains the language and learning packs for MIE 1.12.2. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v20). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
+The [v13 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13) contains the language and learning packs for MIE 1.12.2. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
 
 | Pack | Current version | File |
 |---|---|---|

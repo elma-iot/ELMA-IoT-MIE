@@ -1,0 +1,13 @@
+ELMA-IoT MIE 1.14.1 — linked schematic refresh review
+
+- Small frameless sync-style refresh icons appear beside well names in the Master Equip. list.
+- Read mode shows an icon only when a background check finds missing/different equipment identifiers or items requiring mapping. Edit mode offers force reparse for every well with an available schematic.
+- Refresh reads the schematic already stored in the project; the original Excel/PDF file does not need to be imported again.
+- Every refresh opens the existing review dialog with the clicked well fixed. Review current/source values, map unknown equipment, and explicitly apply selected changes. Existing conflicts and formula protection remain in place.
+- Keep drawing only records a decision to retain the current equipment. The same read-mode warning remains suppressed until relevant row values, source schematic or parser revision changes. Edit-mode force reparse remains available. Closing review without a decision makes no change.
+- Applying changes and recording the review state form one undoable revision. Review decisions are retained in native project/Excel metadata and follow existing save, recovery and sync workflows.
+- Detection is debounced, cached and runs on a cancellable background worker. Stale results are discarded after project/row changes; parsing does not automatically edit equipment.
+- Updated guide topic and guided demonstration are included in the separate twenty-language learning/interface packs, public content release v21.
+- The 1.13.3-to-1.14 upgrade fixes remain included. New-schema saves require reader 1.14.0 or later. Existing valid version-independent licenses remain valid on their issued Windows installation.
+
+This is a private review build. No Microsoft Store submission is included. Operational project data is not included in the executable or release archive.
