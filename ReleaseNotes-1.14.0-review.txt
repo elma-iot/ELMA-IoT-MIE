@@ -1,0 +1,13 @@
+ELMA-IoT MIE 1.14.0 — review build
+
+- Inventory and In-Order: insert equipment after a selected section or at the end; add 1–20 item rows with inline validation; toolbar shows current font, size, colors and formatting, including equipment titles.
+- Quantity-based orders retain ordered, received, cancelled and remaining balances. Partial receiving creates physical inventory records with serial numbers and actual delivery dates in one undoable transaction. Legacy SN and Location fields remain available.
+- Licensed Min. Stock groups inventory by normalized part number and description, retains policies when stock is depleted, supports editable planning fields and custom columns, and explains shortages, reservations, dated incoming orders and replenishment suggestions.
+- Licensed Metrics uses recorded movements and actual delivery dates. Manual/campaign forecasting and optional supported-history forecasting distinguish missing evidence from measured history.
+- Stock movement records and stable automatic Outstanding entries support traceability and review. Concurrent receipts merge by event identity; over-receipt requires review.
+- Min. Stock and Metrics disappear when a license is inactive or expired. Their saved data is retained, and protected backend edits and exports are blocked.
+- Select worksheets below Save as type when exporting XLSX. Export includes author metadata, numeric planning values and native Excel Metrics charts.
+- About shows one license status. Twenty-language interface, guide and tutorial updates are downloaded separately in content release v20.
+- Native compressed storage, optional encryption, recovery journals, revision history and incremental synchronization remain in place. No database migration. New-schema projects require MIE 1.14.0; use Save as to keep a separate review copy.
+
+This is a private review executable. No Microsoft Store submission is included in this release.
