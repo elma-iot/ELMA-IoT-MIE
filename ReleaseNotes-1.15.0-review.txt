@@ -1,0 +1,17 @@
+ELMA-IoT MIE 1.15.0 — Rig/Well Schedule review
+
+- New licensed Rig/Well Schedule workspace for manual well, batch, completion, rig-move and maintenance planning.
+- Editable native timeline with rig/well/project/year grouping, five time scales, drag/resize/reassignment, overlap warnings and readiness/order markers.
+- Exact, monthly and quarterly plans preserve date uncertainty.
+- Default 30-calendar-day readiness buffer; project, activity, PN and requirement overrides.
+- Reviewed historical equipment suggestions become Proposed requirements; approval is required before stock projection.
+- Chronological procurement credits stock and partial incoming deliveries once, protects minimum stock and checks reusable asset allocations.
+- Named planning revisions, scenario separation, comparison/restoration, Outstanding alerts and planning Metrics.
+- Reviewed XLSX/CSV/TSV/Project XML imports; optional external converters support MPP and text-based PDF. Summary rows and existing matches remain reviewable.
+- Selective licensed Excel export includes schedule inputs, BOM, settings, revisions, procurement and Gantt. Reordered/custom columns survive reimport.
+- Existing compressed/encrypted project storage, recovery, revision history and incremental synchronization are reused.
+- Opt-in schema setup creates a recovery copy. Older projects open without enabling planning; projects containing the module require reader 1.15.0.
+- Existing valid licenses remain valid on their issued Windows installation. Expiry retains planning data but hides the tab and blocks planning exports/changes.
+- Updated interface and guide/tutorial content is delivered in separate twenty-language packs, public content release v22.
+
+Private review build for testing. No operational project/schedule data is bundled. No Microsoft Store submission is included.
