@@ -8,6 +8,7 @@ ELMA-IoT MIE 1.14.0 — review build
 - Min. Stock and Metrics disappear when a license is inactive or expired. Their saved data is retained, and protected backend edits and exports are blocked.
 - Select worksheets below Save as type when exporting XLSX. Export includes author metadata, numeric planning values and native Excel Metrics charts.
 - About shows one license status. Twenty-language interface, guide and tutorial updates are downloaded separately in content release v20.
+- Upgrade compatibility: open/import 1.13.3 XLSX and .miepack data and join existing sync backups from a fresh 1.14 client. Tested with compression-only and encrypted storage, old change batches, snapshot compaction and read-only legacy backup import. Existing version-independent licenses remain valid on their issued PC.
 - Native compressed storage, optional encryption, recovery journals, revision history and incremental synchronization remain in place. No database migration. New-schema projects require MIE 1.14.0; use Save as to keep a separate review copy.
 
 This is a private review executable. No Microsoft Store submission is included in this release.
