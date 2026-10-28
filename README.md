@@ -10,9 +10,11 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v22) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v23) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+> **1.15.1 review:** Master headers now match Inventory’s theme. Add equipment or information columns in Edit mode and drag headers into a saved MIE layout; No and Well Name remain fixed and frozen. Added columns retain their data, stock handling, revision/undo and synchronization behavior. Excel retains canonical physical field addresses and MIE layout metadata. See [release notes](ReleaseNotes-1.15.1-review.txt) and [twenty-language content v23](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v23). Source and the review EXE remain private.
 
 > **1.15.0 review:** The licensed Rig/Well Schedule workspace adds editable activities and Gantt planning, reviewed equipment requirements, chronological procurement, scenarios and named revisions. It includes reviewed schedule imports and selective licensed Excel export of inputs, procurement and Gantt snapshots. Enabling planning is an explicit migration with a recovery copy; projects using this module require reader 1.15.0, while older projects open without enabling it. Existing licenses remain valid on their issued Windows installation. Source and the review EXE remain private. See [release notes](ReleaseNotes-1.15.0-review.txt) and separate [twenty-language content v22](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v22). This does not announce a Microsoft Store publication.
 

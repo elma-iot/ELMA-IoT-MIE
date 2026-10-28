@@ -1,0 +1,12 @@
+ELMA-IoT MIE 1.15.1 — Master headers and columns review
+
+- Master Equip. list headers now use the same theme, padding and automatic height as Inventory.
+- Add column in Edit mode creates an equipment column with PN/SN editing, or an information column for text.
+- No and Well Name remain fixed and frozen. Drag other headers to rearrange the MIE display order.
+- The saved layout follows the project and supports Undo/Redo. Native equipment field addresses remain unchanged.
+- Added columns and values survive project save/load, incremental synchronization and Excel export. Display-order metadata is retained for MIE; Excel’s physical field order stays canonical.
+- Duplicate highlighting, stock selection/installation and manual schematic mapping recognize added equipment columns.
+- Projects using added master columns require reader 1.15.1 or later. Older projects still open normally.
+- User guide and tutorial updates are available in the twenty-language optional content v23 packs.
+
+Private review build. No operational data is bundled. No Microsoft Store submission is included.
