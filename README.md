@@ -10,9 +10,11 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v24) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v25) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+> **1.15.3 review:** Frameless green plus/recycle controls now sit beside editable Master, Inventory, In-Order and Min. Stock headings. Add next or Add last places a batch relative to the clicked heading; empty inputs are ignored. Custom deletions require confirmation and support full Undo/Redo. Dragging slides neighboring columns around a green outlined drop gap. Header refresh and stock field ordering are retained through save/load and Excel roundtrips. See [release notes](ReleaseNotes-1.15.3-review.txt) and separate [twenty-language content v25](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v25), with 51 guide topics and updated demonstrations. Source and the review EXE remain private.
 
 > **1.15.2 review:** Add several master columns with a trailing plus and trash controls; Add closes immediately and applies one undoable batch. Existing headings can be renamed while keeping equipment and planning field identities stable. Excel now physically follows the displayed master column order and custom worksheet headings; use MIE 1.15.2 or later to reimport these exports with their hidden field names intact. The duplicate-key error with formatted empty headers is fixed. See [release notes](ReleaseNotes-1.15.2-review.txt) and separate [twenty-language content v24](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v24), including 51 guide topics and updated demonstrations. Source and the review EXE remain private.
 

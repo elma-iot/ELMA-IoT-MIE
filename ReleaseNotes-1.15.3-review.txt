@@ -1,0 +1,16 @@
+ELMA-IoT MIE 1.15.3 — Inline column controls and animated reordering
+
+- Editable Master Equip., Inventory, In-Order and Min. Stock headings now have a bold green frameless plus and a recycle icon before it. The separate Add column controls have been removed from their toolbars.
+- The shared batch popup offers Add next and Add last. Add next uses the clicked heading; Add last appends at the far right. The fixed Master No / Well Name pair stays in place.
+- Multiple names can be entered together. Empty or whitespace-only inputs are ignored. At least one filled, unique name is required. Add closes immediately and prevents double submission.
+- Custom columns can be removed after confirmation. Required fields remain protected. Additions, placement and deletions use existing Undo/Redo and revision tracking. One Undo restores a deleted custom column with its name, values and position.
+- Dragging a movable header now slides neighboring columns aside and shows a green outlined drop gap with a floating header. Native hit testing and final drop behavior remain in control. The preview does not commit changes while hovering, cleans up on cancellation and respects Windows reduced-motion settings.
+- Header labels refresh on table reload and Undo/Redo even if the column count is unchanged. The exact 18'' Landing Sub name is tested in the interface and through Excel export/reimport.
+- Stock information-column order is now saved in the project and retained through Excel export/reimport. Adding after a selected stock or minimum-stock heading is no longer overridden by stale view restoration.
+- The updated twenty-language optional data packs (public content v25) include all 51 guide topics, the inline controls, placement choices, deletion safeguards, empty-input behavior and animated reordering. Demonstrations remain temporary and restore the working project.
+
+Validation: inline popup and placement checks; master/stock/minimum deletion and undo; compressed save/load; Excel column-order and PN/SN roundtrip; animated-preview cleanup and fixed-column checks; stock, planning, schedule, schematic and incremental-merge regressions; guide/tutorial language coverage.
+
+Older project data and existing licenses remain supported. Custom master fields still require reader 1.15.1 or later. Reimport of reordered/labeled Excel master exports requires MIE 1.15.2 or later with hidden field names intact. Native linked schematic drawings and operational project files are not modified by this review.
+
+Private portable review build. No project data, owner keys or credentials are included. No Microsoft Store submission is included.
