@@ -1,0 +1,15 @@
+ELMA-IoT MIE 1.15.4 — Column context menus and dialog keyboard controls
+
+- Column heading plus and recycle icons have been removed. In Edit mode, right-click a supported heading for Add columns..., Remove column... and Rename column....
+- No offers Rename only. Required fields remain protected from removal. Master No and Well Name stay fixed. Existing worksheet-specific column options are retained in the menu.
+- Add next / Add last, batches with ignored empty inputs, removal confirmation, full Undo/Redo and Excel roundtrips remain available through the menu commands.
+- Dialogs now use a shared keyboard policy: Enter activates the primary OK / Add / Apply / Save action; Esc invokes Cancel or closes secondary viewers. The same click handlers and validation run for mouse and keyboard.
+- Action matching uses stable source identities and works in every language. A focused button keeps its own action; disabled actions stay blocked. Existing local handlers, modifier shortcuts, multiline text, dropdown/calendar selection and table editing retain their standard behavior.
+- Shared dialog factories, direct About/Save prompts, license and sync forms, settings, import/review and secondary help/placement viewers were inspected. Native Windows file/color pickers retain their native keyboard behavior. Main and detached workspaces are not closed by the new dialog handler.
+- Public content v26 updates all twenty UI language packs, all 51 guide topics and demonstrations for the context-menu workflow and Enter/Esc behavior.
+
+Validation: routed Enter/Esc tests for OK, Add, Apply, Save, Import and Remove in English/Turkish/Arabic; default-action selection and disabled controls; preservation of multiline, grid, dropdown and local keyboard behavior; context-menu add/remove/rename and No restrictions; column undo/save/load/Excel and animated drag regressions; localized guide/tutorial checks.
+
+Older data files and licenses remain supported. The underlying project schema and shared-file synchronization transport are unchanged. Custom master fields retain their 1.15.1 reader requirement. Reordered/labeled Excel master exports require MIE 1.15.2 or later for reimport with hidden field names intact.
+
+Private portable review. No project data, owner keys or credentials are included. No Microsoft Store submission is included.
