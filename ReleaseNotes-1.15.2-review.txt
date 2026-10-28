@@ -1,0 +1,14 @@
+ELMA-IoT MIE 1.15.2 — Master columns and editable headers review
+
+- Fixed the duplicate-key error when formatted empty cells already exist beyond the master headers. Existing hidden unlabeled data is preserved.
+- Add master column supports several names: plus beside the last input, trash beside earlier inputs. Add closes immediately, prevents repeat submissions and prepares the batch on a worker. One Undo reverses the complete batch.
+- In Edit mode, double-click or right-click an existing header to rename it. Master, Inventory, In-Order, Min. Stock, Outstanding and schedule worksheet headings are supported. Read-only Revision History, Metrics and Illustration Library headings can be renamed without editing their records.
+- Built-in fields retain their internal identities, including renamed No and Well Name, which remain fixed in position. Labels follow save/load, undo and synchronization.
+- Excel physically follows the displayed master column order and includes added fields and custom worksheet headings. Standard hidden Excel names preserve field identities for reimport with MIE 1.15.2 or later. Keep these names intact.
+- Field values, formatting, links and supported formulas follow reordered fields. Legacy cosmetic merges crossing moved fields are shortened or removed without losing their text. Unsupported split formula ranges and structured Excel tables are rejected before publication of a reordered workbook.
+- Native linked schematic drawings remain unchanged. Existing project readers and optional licensing behavior are preserved; custom master columns still require reader 1.15.1 or later.
+- Public on-demand content v24 contains updated UI translations in 20 languages, 51 guide topics and demonstrations for batch addition and header renaming. Packs remain separate from the EXE.
+
+Validation: synthetic batch, undo/redo, Excel layout/formula/reference, header rename, source-project copy roundtrip, incremental sync, schematic refresh/import, stock planning, schedule and recovery checks. Guide and tutorial localization coverage checked for all twenty languages.
+
+Private review build. No operational well data or owner keys are bundled. No Microsoft Store submission is included.
