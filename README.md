@@ -10,9 +10,29 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v26) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v27) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+> **1.15.5 review:** **Quarantine** is a free tab after Inventory, with **Damaged / Scrap** status and traceable, undoable transfers out of usable stock. Licensed **Min. Stock Autofill** now analyzes eligible historical wells and the imported rig schedule automatically; manual well selection is optional. The icon beside Edit explains missing evidence when disabled. See [release notes](ReleaseNotes-1.15.5-review.txt) and separate [twenty-language content v27](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v27), with 53 guide topics and safe demonstrations. Source and review EXE are private.
+
+![Quarantine with synthetic equipment and Damaged/Scrap status](assets/screenshots/1.15.5/quarantine.png)
+
+![Automatic minimum-stock preview with synthetic historical wells and rig schedule](assets/screenshots/1.15.5/autofill.png)
+
+### Quarantine and automatic minimum-stock suggestions
+
+In **Inventory**, enter Edit, select a physical item and choose **Quarantine**. Select its equipment section, condition, actual date and inspection reference. PN/SN, location, comments and extra fields are preserved; the Inventory source is cleared. **Damaged** means awaiting inspection; **Scrap** means unfit for use. Both are excluded from usable stock. Undo/Redo, revisions, synchronization, compressed project saves and free Excel export retain the item and status. Projects containing quarantined items require MIE **1.15.5+**; older project files still open in the new app.
+
+In licensed **Min. Stock**, the table/sparkle icon beside Edit opens a calculated preview using the active programme and eligible history. No initial well selection is required.
+
+| Available evidence | Autofill behavior |
+| --- | --- |
+| Approved, included, future dated PN requirement with positive quantity | Explicit equipment demand is available without historical reference wells. |
+| Future drilling activity plus at least three completed wells and three positive examples for a PN spanning 30 days | Estimates that PN's share within the equipment slot; region cohorts are used where specified. |
+| Dates alone, incomplete/unverified slots, or insufficient repeated PN history | No invented PN demand; the button or preview explains the missing evidence. |
+
+Historical estimates start **unchecked** and show their assumptions. Higher manual minima remain unchanged by default. A reviewed batch can be undone. Minima represent stock thresholds, not order quantities; use the procurement view for dated inventory/order allocation. Unspecified well designs reduce confidence. This estimator does not infer design applicability, calculate shortage probabilities or automatically learn supplier reliability. The guide explains the calculation, lead-time assumptions and last-reviewed warning in every supported language.
 
 > **1.15.4 review:** Column headers use a right-click menu for Add, Remove and Rename, with no plus or recycle icons. No offers Rename only; required fields remain protected. Enter accepts primary dialog actions and Esc cancels or closes secondary dialogs, with multilingual action matching and preserved multiline/table/dropdown editing. Placement, batch operations, Undo/Redo and Excel roundtrips remain available. See [release notes](ReleaseNotes-1.15.4-review.txt) and separate [twenty-language content v26](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v26), with 51 guide topics and updated demonstrations. Source and the review EXE remain private.
 

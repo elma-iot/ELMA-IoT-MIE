@@ -1,0 +1,23 @@
+ELMA-IoT MIE 1.15.5 - Quarantine and automatic Autofill review
+
+Quarantine (free edition)
+- New tab immediately after Inventory and before In-Order, with equipment sections, normal editing/formatting, custom fields, search, zoom and detach/attach.
+- Damaged / Scrap dropdown: awaiting inspection or unfit for use. Both are excluded from available Inventory and installation matching.
+- Inventory Edit > select an item > Quarantine transfers its PN/SN, location, notes and additional fields. Select target section, status, actual movement date and inspection reference. Source stock is cleared and a Transfer movement is recorded.
+- Empty Quarantine cells can use existing matching-stock selection with status choice. Existing destinations are never silently overwritten.
+- One Undo/Redo restores/repeats the entire movement. Native project storage, revisions and three-way sync retain it.
+- Free Excel export includes Quarantine sections and a Damaged/Scrap validation dropdown. Excel reimport retains status.
+- Projects containing quarantined items require MIE 1.15.5 or newer. Older project files remain readable in this version. Existing license identity and keys are unchanged.
+
+Minimum-stock Autofill (licensed)
+- Table/sparkle icon immediately before Edit, including detached Min. Stock windows.
+- Opens and analyzes eligible historical wells and the active rig programme automatically. Historical-well selection is an optional override.
+- Disabled with a hover explanation unless there is a valid approved dated PN requirement, or an upcoming drilling activity with qualifying history: three completed wells, three positive PN examples and 30-day span.
+- Historical PN variants use their positive-record share within each equipment slot. Unknown slots are excluded; variants are not all assumed on every future well. Explicit region restricts the cohort; pooled/unspecified designs carry lower-confidence evidence.
+- Approved requirements take precedence per activity. Estimates require review, default unchecked, retain higher manual minima, and apply as one undoable batch. Unknown lead time remains unfilled.
+- This is a dated schedule/install-mix estimator, not a learned continuous demand or shortage-probability model. Policy movement forecasting has separate requirements.
+
+Help and distribution
+- Separate on-demand language and learning data packs 1.15.5 (public content v27), 20 languages, 53 guide topics, new safe synthetic Autofill and Quarantine demonstrations.
+- Small English-only bootstrap remains in the main EXE. Well data, owner/license keys and operational project files are excluded from GitHub releases.
+- Review build only; this release does not announce Microsoft Store publication.
