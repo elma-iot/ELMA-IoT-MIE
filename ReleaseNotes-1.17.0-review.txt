@@ -1,0 +1,35 @@
+ELMA-IoT MIE 1.17.0 review — Equipment lifecycle and procurement correction
+
+Procurement correction
+- Quarantine is never incoming supply. Only eligible serviceable Inventory contributes available stock, and only confirmed outstanding In-Order quantities contribute incoming supply.
+- Physical held, serviceable, available, quarantined held, owned offsite and historical disposed quantities are reconciled separately. Serialized duplicates are conservatively counted at most once and unavailable pending review.
+- Min. Stock, schedule procurement, forecasts, Outstanding and licensed Metrics use the same eligibility rules. Metrics exports numeric stock breakdowns to Excel. Repair, reservation and disposal do not create fictitious well consumption.
+
+Equipment lifecycle
+- Inventory and Quarantine remain separate worksheets. Stable Equipment IDs travel with transfers; partial nonserialized quantities create linked child IDs without duplicating quantities. Existing PN, SN, location, notes, custom fields and attachments are preserved.
+- Condition, Availability, Disposition and Physical Location are separate. Custody distinguishes held equipment from equipment owned at an external repair facility.
+- Controlled actions: Send to Quarantine; Record Inspection; Send for Repair; Record Repair Completion; Record Test / Certification; Release to Service; Declare Beyond Economical Repair; Approve for Scrap; Complete Disposal; documented Reverse Disposal.
+- Release requires passed inspection, applicable passed testing or a recorded exemption, repair completion where applicable and physical return. Returned installed equipment remains unavailable pending assessment; direct installation rechecks eligibility.
+- Scrap approval retains physically held stock. Separate completed disposal removes only the disposed quantity from active physical/available stock. Disposed archive remains read-only; a documented reversal returns only to unavailable assessment.
+- Legacy Scrap is migrated to assessment/disposition review, never assumed to prove completed disposal. Imported disposed status without original events remains unavailable for documentary review.
+
+Approvals and history
+- Release, scrap approval, disposal and reversal require a named approver, reason, supporting evidence/reference and a separate explicit confirmation dialog. Inspection reports, test certificates, NCRs and disposal documents can be embedded and copied from History.
+- Existing license holder name and user ID are captured when present; approver identity is separately recorded. Licensed-user identification is NOT verified authorization or a newly authenticated operator. Unauthenticated identity is labelled self-declared.
+- No RBAC, new roles, authentication, Windows-account allowlists, KeyGen or Superadmin changes. Approval context is extensible for later RBAC while retaining existing records.
+- Parent-linked lifecycle events retain actor, approver, transaction reference, UTC timestamps, actual action date, before/after values and evidence. Undo/Redo appends compensation. Ordinary Undo cannot cross completed disposal/reversal boundaries.
+- Event integrity hashes are checked. This is application-controlled history, not a tamper-proof or cryptographically authorized approval system.
+
+Synchronization, exchange and compatibility
+- Existing compressed saves, optional encryption and incremental file synchronization remain. Independent edits merge; conflicting offline lifecycle states require explicit review, retaining both histories and a resolution event. An available choice cannot overwrite completed disposal.
+- Supported sync, imports and restores reconcile known disposal history. A Windows-user-protected local safeguard retains known disposal history/evidence for that project. A new disconnected PC with only an old copy cannot know about events it has never received: synchronize or open a current project first.
+- Scoped MIE packs retain selected lifecycle evidence without unrelated equipment records. Native files remain the preferred full backup.
+- Excel includes an Equipment Lifecycle audit worksheet and evidence resources by default. Excluding it also excludes the history/evidence payload; a selective spreadsheet is not a complete backup. Excel audit protection is ordinary worksheet protection, not a security boundary.
+- Existing older files open in 1.17.0. Lifecycle-bearing files require 1.17.0 or newer; unsafe older readers are gated. License keys and activation remain unchanged.
+
+Twenty-language on-demand packs update 63 guide topics and safe tutorials. Language/help content is downloaded separately and remains usable offline after installation. Core Inventory/Quarantine remains free; Min. Stock, Metrics, Forecasting, In-Order and Rig/Well Schedule retain their existing license gates.
+
+Validation uses synthetic projects: source classification, quantity splitting, approvals, repair/release, disposal, Undo boundaries, encrypted/native/Excel saves, scoped exchanges, concurrent lifecycle conflicts, incremental sync/recovery, free/paid workspace and tutorial restoration. Operational project files were not edited. This is a review release, not a Microsoft Store submission.
+
+Run MIE Portable.exe on Windows 10/11 with .NET Framework 4.8. Extract the ZIP first and retain an independent backup of your project before testing the new lifecycle migration. Keep your existing settings and encryption keys.
+https://github.com/elma-iot/ELMA-IoT-MIE

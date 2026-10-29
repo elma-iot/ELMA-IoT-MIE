@@ -10,13 +10,27 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v29) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-> **1.16.1 review:** **Replace** is immediately left of Export in Schematics: select an updated XLSX/PDF, keep only the drawing or review equipment updates for the linked well. Cross-tab serial warnings explain Inventory/installed/Quarantine conflicts, with glow, hover locations and Outstanding alerts. [Release notes](ReleaseNotes-1.16.1-review.txt); [twenty-language content v29](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v29) includes 57 guide topics and safe demonstrations. The review EXE and application source remain private.
+> **1.17.0 review:** trace equipment through inspection, repair, testing, release, scrap approval and disposal, with named confirmations and supporting documents. Procurement separates available, quarantined, offsite and disposed stock. [Release notes](ReleaseNotes-1.17.0-review.txt) · [20-language guide/tutorial packs v30](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30), 63 guide topics. Source and review EXE remain private; this review has not been submitted to Microsoft Store.
 
-![Quarantine with synthetic equipment and Damaged/Scrap status](assets/screenshots/1.15.5/quarantine.png)
+### Equipment lifecycle and approvals
+
+Inventory and Quarantine remain separate worksheets, connected by stable equipment identities. **Condition**, **Availability**, **Disposition**, **Location** and **Custody** have distinct meanings. Partial nonserialized quantities retain a linked parent/child history. Quarantine is owned unavailable equipment, never incoming supply. Offsite repair stays owned at its actual facility; completed disposal is historical, outside active physical stock.
+
+Use **Lifecycle** for inspection, repair, test/certification and release. **Release to Service**, **Approve for Scrap**, **Complete Disposal** and a documented reversal require a dedicated named confirmation and evidence/reference. Scrap approval retains physical stock until the separate disposal action. The disposed archive is read-only, and ordinary Undo cannot reactivate disposed equipment. Undo/Redo retains compensating events.
+
+![Named confirmation using synthetic equipment and a demonstration approver](assets/screenshots/1.17.0/lifecycle-approval.png)
+
+Existing license name and user ID are recorded when present; this identifies the application user and **does not verify approval authority**. Approvers remain explicitly identified and self-declared. RBAC, new authentication and KeyGen changes are deferred. History is integrity-checked through supported app operations, without a claim of tamper-proof authorization.
+
+![Audit-only disposed equipment view with synthetic data](assets/screenshots/1.17.0/disposed-archive.png)
+
+Known disposal history is retained across supported native saves, sync, exchanges and local older-backup restoration. Conflicting offline states require review and preserve both histories. A disconnected PC cannot know about disposal events it has never received; synchronize or open a current project before relying on stock availability. Full native project backups retain the complete history/evidence. Excel includes an **Equipment Lifecycle** audit sheet by default; excluding it makes the export an incomplete lifecycle backup.
+
+Old project files open in 1.17.0. Lifecycle-bearing projects require 1.17.0+ so older readers cannot silently discard safeguards. Legacy Scrap is migrated for assessment, never assumed disposed. Existing license keys are unchanged. Core Inventory/Quarantine is free; the planning dashboards retain their existing license requirements.
 
 ![Automatic minimum-stock preview with synthetic historical wells and rig schedule](assets/screenshots/1.15.5/autofill.png)
 
@@ -41,7 +55,7 @@ Choose **File → Import → Import MIE project…** to compare another pack wit
 
 ### Quarantine and automatic minimum-stock suggestions
 
-In **Inventory**, enter Edit, select a physical item and choose **Quarantine**. Select its equipment section, condition, actual date and inspection reference. PN/SN, location, comments and extra fields are preserved; the Inventory source is cleared. **Damaged** means awaiting inspection; **Scrap** means unfit for use. Both are excluded from usable stock. Undo/Redo, revisions, synchronization, compressed project saves and free Excel export retain the item and status. Projects containing quarantined items require MIE **1.15.5+**; older project files still open in the new app.
+In **Inventory**, enter Edit, select a physical item and choose **Quarantine**. Record condition, actual location/date, quantity, reason and evidence. The source is cleared or reduced and unavailable equipment is retained with the same identity or a linked quantity split. **History** shows the read-only lifecycle events and documents; **Disposed archive** shows completed disposals outside active stock. Returned installed equipment must be assessed before approved release. Physical held, available, quarantined, owned offsite and historical disposed quantities are reported separately.
 
 In licensed **Min. Stock**, the table/sparkle icon beside Edit opens a calculated preview using the active programme and eligible history. No initial well selection is required.
 
@@ -245,14 +259,14 @@ Copyright © 2026 ELMA IoT. All rights reserved. This information page does not 
 
 ## Current public pack downloads
 
-The [v13 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v13) contains the language and learning packs for MIE 1.12.2. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
+The [v30 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) contains the language and learning packs for MIE 1.17.0. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
 
 | Pack | Current version | File |
 |---|---|---|
 | Classic games and shared host | 1.11.11 | [Game host DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Arcade-Pack-1.11.11.dll) |
 | Nebula Vanguard | 1.11.7 | [Native 3D game DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Nebula-Vanguard-1.11.7.dll) |
-| All 20 interface languages | 1.12.2 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v13/MIE-Languages-1.12.2.zip) |
-| User guide and tutorials | 1.12.2 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v13/MIE-Learning-1.12.2.zip) |
+| All 20 interface languages | 1.17.0 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v30/MIE-Languages-1.17.0.zip) |
+| User guide and tutorials | 1.17.0 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v30/MIE-Learning-1.17.0.zip) |
 | Theme Studio | 1.11.0 | [Theme editor](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Theme-Studio-1.11.0.exe) |
 | GLB model viewer | 1.11.0 | [Viewer DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-GLB-Viewer-1.11.0.dll) |
 
