@@ -1,0 +1,15 @@
+ELMA-IoT MIE 1.16.0 — project merge and record sharing
+
+- File > Import > Import MIE project incrementally adds missing records and reviews populated differences. Blank incoming values do not erase current data; omissions do not delete records. Repeated imports do not duplicate unchanged records.
+- Open and recent projects offer Merge into current project, Save current and open, or Cancel. Switching requires a successful save first. Cancelling or failing Save keeps the current workspace open.
+- Review field conflicts with Keep current value or Use imported value, optionally for remaining conflicts. A final summary precedes the merge. One Undo/Redo covers the entire merge, including schematics. Existing unsaved edits, project identity, sync destination and formatting are retained.
+- Right-click a record in Master Equip. list, Inventory, Quarantine, In-Order or licensed Min. Stock to export a small standalone .miepack or prepare an email draft. Inventory exports one physical item, not other equipment stored in the native row.
+- Right-click a Schematics list well name to share the drawing and its uniquely linked well record. Required illustrations are deduplicated; unrelated rows, hidden shared-string data, branding, sync configuration and unrelated audit entries are excluded from scoped packs. A native schematic document is shared whole.
+- File > Send to > Mail recipient prepares the whole project. Email requires a compatible default Windows desktop Simple MAPI application. MIE opens a draft for you to review and send; it does not automatically send. If handoff fails, the attachment path is shown for manual use. Encrypted source packs retain encryption; share keys separately.
+- Background comparison and preparation preserve UI responsiveness. Source imports are read-only and do not run recovery against the incoming file. Ambiguous identities, unsafe formula/schema changes or new contradictory physical-stock assignments stop import for manual review.
+- Separate on-demand language and learning packs cover all 20 languages, 56 guide topics and safe interactive demonstrations. These include centered one-click Autofill checkboxes, Apply-header select/clear all and matching Min. Stock editor formatting.
+
+Compatibility: Existing project formats and license keys remain supported. This release adds no new project storage format. Quarantine data still requires reader 1.15.5+, custom master columns 1.15.1+, and scheduling data 1.15.0+. Existing data requirements are preserved. No operational project data, credentials or owner keys are included in the release.
+
+Run MIE Portable.exe on Windows 10/11 with .NET Framework 4.8. Extract the ZIP before running. Keep your existing project/settings folders. Language/help content downloads on demand and remains available offline after download. New XLSX drawing import uses installed Excel where required.
+Public project: https://github.com/elma-iot/ELMA-IoT-MIE

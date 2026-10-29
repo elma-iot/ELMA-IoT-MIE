@@ -10,15 +10,26 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v27) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v28) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-> **1.15.5 review:** **Quarantine** is a free tab after Inventory, with **Damaged / Scrap** status and traceable, undoable transfers out of usable stock. Licensed **Min. Stock Autofill** now analyzes eligible historical wells and the imported rig schedule automatically; manual well selection is optional. The icon beside Edit explains missing evidence when disabled. See [release notes](ReleaseNotes-1.15.5-review.txt) and separate [twenty-language content v27](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v27), with 53 guide topics and safe demonstrations. Source and review EXE are private.
+> **1.16.0 review:** Import another `.miepack` to merge missing records and review conflicting values, with one complete Undo. Open offers merge or **Save current and open**. Share a selected record or schematic through its right-click menu, or use **File → Send to → Mail recipient…** for the whole project. See [release notes](ReleaseNotes-1.16.0-review.txt). The [twenty-language content v28](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v28) contains 56 guide topics and safe demonstrations; source and the review EXE are private.
 
 ![Quarantine with synthetic equipment and Damaged/Scrap status](assets/screenshots/1.15.5/quarantine.png)
 
 ![Automatic minimum-stock preview with synthetic historical wells and rig schedule](assets/screenshots/1.15.5/autofill.png)
+
+
+### Merge projects and share selected records
+
+Choose **File → Import → Import MIE project…** to compare another pack with your current workspace. Review different populated fields, then approve the summary. Missing incoming values cannot clear existing values, and omitted records are retained. Current unsaved edits, styles and sync destination remain. Save keeps the merge; synchronize explicitly when ready. Repeated unchanged imports do not duplicate records. Ambiguous matches, unsupported formula changes or contradictory stock ownership require manual review.
+
+**Open** offers **Merge into current project**, **Save current and open**, or **Cancel**. A cancelled or failed Save prevents switching. Right-click a record in Master Equip. list, Inventory, Quarantine, In-Order or licensed Min. Stock to export a standalone scoped `.miepack`. Right-click the well name in Schematics to share its drawing. Scoped packs exclude unrelated rows and hidden string data; required drawings and illustrations are included. Native drawing documents are shared whole.
+
+**Send by email…** prepares a selection; **File → Send to → Mail recipient…** prepares the full project. MIE opens a draft in a compatible default Windows desktop Simple MAPI mail application; you choose recipients and send it. If your client does not support attachment handoff, use the displayed attachment path manually. Encryption is retained for encrypted source packs; share the key separately. No operational data is published here.
+
+![Synthetic project import review](assets/screenshots/1.16.0/import-review.png)
 
 ### Quarantine and automatic minimum-stock suggestions
 
