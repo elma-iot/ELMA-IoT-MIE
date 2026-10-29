@@ -10,16 +10,24 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v28) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v29) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-> **1.16.0 review:** Import another `.miepack` to merge missing records and review conflicting values, with one complete Undo. Open offers merge or **Save current and open**. Share a selected record or schematic through its right-click menu, or use **File → Send to → Mail recipient…** for the whole project. See [release notes](ReleaseNotes-1.16.0-review.txt). The [twenty-language content v28](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v28) contains 56 guide topics and safe demonstrations; source and the review EXE are private.
+> **1.16.1 review:** **Replace** is immediately left of Export in Schematics: select an updated XLSX/PDF, keep only the drawing or review equipment updates for the linked well. Cross-tab serial warnings explain Inventory/installed/Quarantine conflicts, with glow, hover locations and Outstanding alerts. [Release notes](ReleaseNotes-1.16.1-review.txt); [twenty-language content v29](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v29) includes 57 guide topics and safe demonstrations. The review EXE and application source remain private.
 
 ![Quarantine with synthetic equipment and Damaged/Scrap status](assets/screenshots/1.15.5/quarantine.png)
 
 ![Automatic minimum-stock preview with synthetic historical wells and rig schedule](assets/screenshots/1.15.5/autofill.png)
 
+
+### Replace a linked drawing
+
+Select the well in **Schematics**, then click **Replace** beside Export. Choose the newer XLSX/PDF; the existing well identity and links are preserved even when its filename differs. Import/render finishes in an isolated project before commit. Choose **Keep drawing only**, or review mappings and select **Apply import** to update equipment in the existing well. Closing the review leaves equipment unchanged while retaining the replacement. Undo/Redo and revision history track the drawing and later data edits separately. Source files are never edited.
+
+![Replace beside Export, synthetic well](assets/screenshots/1.16.1/replace-toolbar.png)
+
+Serial warnings cross-check Inventory, Master Equip. list, Quarantine and open In-Order entries after committed edits. Hover explains conflicting locations; automatic Outstanding issues clear after correction. Normal transfers clear Inventory atomically. Matching PNs alone are not duplicates; distinct SNs remain valid. Placeholder SNs and historical closed orders are excluded.
 
 ### Merge projects and share selected records
 

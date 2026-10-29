@@ -1,0 +1,14 @@
+ELMA-IoT MIE 1.16.1 — replace linked drawings and clarify cross-tab stock warnings
+
+- Schematics has Replace immediately to the left of Export. Select the well drawing, choose an updated XLSX/PDF and reuse the existing Review schematic import workflow: Keep drawing only, or review destinations/values and Apply import to Master Equip. list.
+- Replacement stays tied to the selected document and well even when the source filename/title differs. Existing links remain valid, including an updated extension when changing file type. A uniquely linked well is locked for equipment review. Ambiguous rows require selection.
+- The new source is imported and rendered in an isolated copy before committing. Failed imports and picker cancellation retain the old drawing. The original source file is read-only. The drawing replacement and later reviewed equipment edits have separate Undo/Redo steps and revision records. Closing the review keeps the replacement and leaves equipment unchanged.
+- Serial warnings check Inventory, installed Master Equip. list, Quarantine and open In-Order serial entries. Each affected record glows; hover cards identify the other locations and explain available-versus-installed, available-versus-quarantined and installed-versus-quarantined conflicts. Automatic Outstanding issues clear after correction. These checks run on committed cell edits and table refresh.
+- Repeated PNs with different serials remain valid. Min. Stock policies and schematic mirrors are not additional physical units. Fully received/cancelled orders are excluded; placeholder serials such as N/A, Unknown and Not installed do not produce duplicate warnings.
+- Normal installation/quarantine transfers retain their existing atomic behavior: Inventory is cleared and both endpoints support Undo/Redo. Cross-tab warnings also work in separated stock field views and when a previously hidden tab is activated.
+- On-demand language/help packs cover all 20 languages and 57 guide topics, including a safe Replace demonstration and a cross-tab duplicate/correction demonstration. Core EXE remains small.
+
+Compatibility: Existing project formats, license keys and previous 1.16.0 merge/sharing features remain supported. XLSX drawing import uses installed Excel; saved drawings can be viewed without it. No operational well data, keys or credentials are included. Store submission is not part of this review release.
+
+Run MIE Portable.exe on Windows 10/11 with .NET Framework 4.8. Extract the ZIP first. Keep your existing project and settings folders. Language/help content downloads on demand and remains available offline after download.
+https://github.com/elma-iot/ELMA-IoT-MIE
