@@ -1,0 +1,13 @@
+ELMA-IoT MIE 1.17.3 review — direct Open from an empty workspace
+
+Fixed the unnecessary Merge / Save current and open dialog when opening a MIE pack from an untouched empty workspace. Startup automatically creates an MIE.miepack file, and Open previously treated that filename as proof of project content.
+
+An untouched built-in template now opens the selected project directly, even when the template already has a saved filename. A new empty project behaves the same way. The source files are not rewritten by Open.
+
+The existing confirmation remains for actual edits, populated projects, imported drawings or illustrations, project branding, customizations and history. Cancelling that confirmation preserves the current workspace. The change does not erase real data or bypass save protection for user work.
+
+Regression checks cover the auto-created startup file, File New, saved empty templates, direct loading with no dialog, unchanged source bytes, populated-project confirmation/cancellation, unsaved edits and Undo to the clean template. Licensed startup and project merge/sharing checks pass.
+
+No project-format, licensing or translation changes. Existing v30 language/help packs already document direct Open from an empty workspace and remain compatible. This review has not been submitted to Microsoft Store. No operational project data is included.
+
+Windows 10/11 with .NET Framework 4.8. Extract the ZIP and run MIE Portable.exe.
