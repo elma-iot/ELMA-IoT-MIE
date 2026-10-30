@@ -1,0 +1,13 @@
+ELMA-IoT MIE 1.18.1 review — Master equipment color assignment
+
+View > Color assignment lists Drillships, equipment by PN, and WELL STATE. Click a color swatch to open the native color picker. The PN catalog includes Inventory and installed equipment; special rules cover empty, N/A, not installed and unverified values.
+
+Drillship rules fill both well-name and Drillship cells. Other rules fill the matching Master equipment/state cells. Only Master data-row fills change: headers, year dividers, data values, text/font/border formatting and other worksheets remain unchanged. Existing Master colors seed the palette; Fatih blue, AHH orange, corrosion-cap yellow, N/A grey-blue and empty white provide fallbacks.
+
+Apply offers Keep Manual, apply to the rest or Reset all colors when overrides or legacy color exceptions exist. Manual fills remain editable and are remembered even if the chosen color matches the automatic rule. Old workbooks do not identify hand-edited fills, so existing color outliers are conservatively preserved for review. Reset removes Master fill overrides. Cancel writes nothing.
+
+Assigned colors follow later PN, drillship and well-state edits. New values appear on reopening the dialog. Workbook-native fills and hidden named rules survive native saves and Excel export/reimport. One transaction records the palette update and supports Undo/Redo. The color catalog is prepared in a background copy; applying uses the existing asynchronous workbook workflow and rejects a stale catalog.
+
+Twenty-language interface, guide and synthetic tutorial packs are updated in public content v32. The tutorial demonstrates the dialog without changing the user's project. Existing licensing, lifecycle, stock, duplicate warning and synchronization behavior remains intact. No new database, licensing, encryption or minimum-reader requirement was introduced for the color rules. Older readers can display the stored fills; edit with this version to maintain automatic rules and manual provenance.
+
+Review build only, not submitted to Microsoft Store. No operational well data, keys or licenses are included in repositories or release archives. Windows 10/11 with .NET Framework 4.8. Extract and run MIE Portable.exe.

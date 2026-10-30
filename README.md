@@ -10,9 +10,17 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v31) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v32) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+> **1.18.1 review:** View → Color assignment configures Master drillship, PN and well-state fills, with manual-override preservation or reset. Drillship colors apply to both well-name and Drillship cells. [Release notes](ReleaseNotes-1.18.1-review.txt). Updated [20-language v32 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v32). Source and review EXE remain private; this review has not been submitted to Microsoft Store.
+
+### Master equipment color assignment
+
+Click a swatch under Drillships, Equipment (PN) or WELL STATE. The initial palette follows existing Master fills. Apply can preserve manual fills and legacy exceptions, or reset all Master data-row fills. Later data edits follow the rules automatically; Undo/Redo, native saving and Excel export retain the assignments. Other worksheet fills, headers, year dividers and operational values are preserved.
+
+![Master color assignment — synthetic demonstration](assets/color-assignment-1.18.1.png)
 
 > **1.18.0 review:** controlled equipment moves, optional retained Inventory links, duplicate-safe destinations and automatic row focus. Print, PDF and Excel extraction for the active tab, with preview and page setup. [Release notes](ReleaseNotes-1.18.0-review.txt). Updated [20-language v31 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v31). Source and review EXE remain private; this review has not been submitted to Microsoft Store.
 
@@ -272,14 +280,14 @@ Copyright © 2026 ELMA IoT. All rights reserved. This information page does not 
 
 ## Current public pack downloads
 
-The [v31 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v31) contains the language and learning packs for MIE 1.18.0. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
+The [v32 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v32) contains the language and learning packs for MIE 1.18.1. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
 
 | Pack | Current version | File |
 |---|---|---|
 | Classic games and shared host | 1.11.11 | [Game host DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Arcade-Pack-1.11.11.dll) |
 | Nebula Vanguard | 1.11.7 | [Native 3D game DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Nebula-Vanguard-1.11.7.dll) |
-| All 20 interface languages | 1.18.0 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v31/MIE-Languages-1.18.0.zip) |
-| User guide and tutorials | 1.18.0 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v31/MIE-Learning-1.18.0.zip) |
+| All 20 interface languages | 1.18.1 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v32/MIE-Languages-1.18.1.zip) |
+| User guide and tutorials | 1.18.1 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v32/MIE-Learning-1.18.1.zip) |
 | Theme Studio | 1.11.0 | [Theme editor](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Theme-Studio-1.11.0.exe) |
 | GLB model viewer | 1.11.0 | [Viewer DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-GLB-Viewer-1.11.0.dll) |
 
