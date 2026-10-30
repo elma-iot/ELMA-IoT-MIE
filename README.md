@@ -14,7 +14,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
-> **1.17.1 review:** smooth pixel scrolling for lists and tables while retaining virtualization. Guide tutorials use a lightweight demonstration workspace, show the moving hand, and restore the original project on X/Escape. [Patch notes](ReleaseNotes-1.17.1-review.txt). The [1.17.0 lifecycle improvements](ReleaseNotes-1.17.0-review.txt) and [20-language v30 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) remain supported. Source and review EXE remain private; this patch has not been submitted to Microsoft Store.
+> **1.17.2 review:** fixes the false save/discard prompt when license verification adds planning sheets to an untouched startup template. Real edits still require saving. [Patch notes](ReleaseNotes-1.17.2-review.txt). Includes the [1.17.1 smooth scrolling and tutorial fixes](ReleaseNotes-1.17.1-review.txt) and [1.17.0 lifecycle improvements](ReleaseNotes-1.17.0-review.txt). Existing [20-language v30 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) remain compatible. Source and review EXE remain private; this patch has not been submitted to Microsoft Store.
 
 ### Equipment lifecycle and approvals
 

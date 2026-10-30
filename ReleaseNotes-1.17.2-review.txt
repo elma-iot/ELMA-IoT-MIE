@@ -1,0 +1,11 @@
+ELMA-IoT MIE 1.17.2 review — clean licensed startup
+
+Fixed a false save/discard prompt when launching an empty application with a license file beside the EXE. Internet-time verification can finish after the free template is created; adding licensed planning sheets was being counted as a user edit.
+
+The untouched template now adopts those built-in sheets as its initialization baseline. This creates no user-edit audit or recovery journal. Genuine unsaved edits remain marked as changed; saved projects and lifecycle safeguards retain their existing behavior. No licensing verification, keys, features or authorization rules were changed.
+
+Regression checks reproduce delayed license validation, then verify clean close, saved empty projects, tab navigation, blank-cell entry without typing, genuine edits, repeated license refresh and Undo. Background editing, planning layouts and lifecycle checks also pass.
+
+Project format and minimum-reader version are unchanged. Existing 1.17.0 language/learning packs remain compatible; translated interface and guide content did not change. No operational project data is included. This is a review release, not a Microsoft Store submission.
+
+Windows 10/11 with .NET Framework 4.8. Extract the ZIP and run MIE Portable.exe.
