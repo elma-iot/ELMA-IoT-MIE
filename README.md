@@ -10,11 +10,24 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v31) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-> **1.17.4 review:** faster lifecycle project loading and lighter, sharp vector-text equipment cells. An extensive local test project opened in about 3.7 seconds versus 30 seconds; rapid-scroll frame stalls were substantially reduced. Performance varies by project and PC. [Measurements and validation](ReleaseNotes-1.17.4-review.txt). Includes the [empty-workspace Open fix](ReleaseNotes-1.17.3-review.txt). Existing [20-language v30 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) remain compatible. Source and review EXE remain private; this patch has not been submitted to Microsoft Store.
+> **1.18.0 review:** controlled equipment moves, optional retained Inventory links, duplicate-safe destinations and automatic row focus. Print, PDF and Excel extraction for the active tab, with preview and page setup. [Release notes](ReleaseNotes-1.18.0-review.txt). Updated [20-language v31 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v31). Source and review EXE remain private; this review has not been submitted to Microsoft Store.
+
+### Equipment moves and printing
+
+Right-click installed equipment to send it to Inventory. Inventory offers Add to Well and Send to Quarantine, including a removal checkbox. Leave it unticked to retain a linked register entry; quarantined links are orange and unavailable. Non-disposed items can return from Quarantine for assessment, while approved release remains separate. Destination groups can be selected or created, and the affected row is revealed after each move. Matching PN/SN records update an existing listing without counting another physical item.
+
+![Retained quarantined equipment in Inventory — synthetic demonstration](assets/inventory-register-1.18.0.png)
+
+The printer icon, File → Print and Ctrl+P offer preview, printer selection, PDF destination, orientation, paper, margins and scaling. Excel extraction uses the existing exporter for the active tab only.
+
+![Active-tab print preview — synthetic demonstration](assets/print-preview-1.18.0.png)
+
+New workflow records require 1.18.0 or newer; earlier project files continue to open. Existing licensing rules are unchanged.
+
 
 ### Equipment lifecycle and approvals
 
@@ -259,14 +272,14 @@ Copyright © 2026 ELMA IoT. All rights reserved. This information page does not 
 
 ## Current public pack downloads
 
-The [v30 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) contains the language and learning packs for MIE 1.17.0. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
+The [v31 data-pack release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v31) contains the language and learning packs for MIE 1.18.0. The other modules remain in the [v12 complete module release](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v21). Use the in-app pack menu for compatible downloads; earlier releases remain available at their original URLs.
 
 | Pack | Current version | File |
 |---|---|---|
 | Classic games and shared host | 1.11.11 | [Game host DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Arcade-Pack-1.11.11.dll) |
 | Nebula Vanguard | 1.11.7 | [Native 3D game DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Nebula-Vanguard-1.11.7.dll) |
-| All 20 interface languages | 1.17.0 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v30/MIE-Languages-1.17.0.zip) |
-| User guide and tutorials | 1.17.0 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v30/MIE-Learning-1.17.0.zip) |
+| All 20 interface languages | 1.18.0 | [Language ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v31/MIE-Languages-1.18.0.zip) |
+| User guide and tutorials | 1.18.0 | [Learning ZIP](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v31/MIE-Learning-1.18.0.zip) |
 | Theme Studio | 1.11.0 | [Theme editor](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-Theme-Studio-1.11.0.exe) |
 | GLB model viewer | 1.11.0 | [Viewer DLL](https://github.com/elma-iot/ELMA-IoT-MIE/releases/download/mie-content-v12/MIE-GLB-Viewer-1.11.0.dll) |
 
