@@ -11,3 +11,5 @@ Assigned colors follow later PN, drillship and well-state edits. New values appe
 Twenty-language interface, guide and synthetic tutorial packs are updated in public content v32. The tutorial demonstrates the dialog without changing the user's project. Existing licensing, lifecycle, stock, duplicate warning and synchronization behavior remains intact. No new database, licensing, encryption or minimum-reader requirement was introduced for the color rules. Older readers can display the stored fills; edit with this version to maintain automatic rules and manual provenance.
 
 Review build only, not submitted to Microsoft Store. No operational well data, keys or licenses are included in repositories or release archives. Windows 10/11 with .NET Framework 4.8. Extract and run MIE Portable.exe.
+
+Color-picker correction: the 16 native custom-color slots are shared between Color assignment and cell fill/text formatting pickers, and saved in local application settings for the next session. Selecting another equipment item retains its own current color without clearing the custom palette. No workbook data changes merely by editing the picker palette.
