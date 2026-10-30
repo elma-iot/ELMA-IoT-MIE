@@ -1,0 +1,14 @@
+ELMA-IoT MIE 1.17.1 review — scrolling and tutorial playback
+
+- Shared eased pixel wheel scrolling for tables, lists, guide pages and other scroll viewers, including detached workspaces. Shift-wheel scrolls horizontally; Ctrl-wheel retains existing zoom. Native scrollbar dragging, editing and keyboard input remain supported. Windows animation preferences are respected.
+- Lists and grids retain pixel virtualization/recycling and bounded table caches. Illustration Library now uses the shared table configuration. Existing wrapped-column measurement prevents row-height jumps and missing initial columns.
+- Tutorial playback prepares a lightweight isolated demonstration workspace instead of copying and rebuilding the whole operational project. The original project, editor, views and detached tabs are restored afterward.
+- Removed synchronous full-workspace bitmap capture. Frost retains the live scene, with mask updates limited to approximately 30 per second rather than duplicated on each hand movement.
+- Fade completion has a dispatcher-timeout fallback when Windows stops presenting frames. Preparation is cancellable; X and Escape restore the workspace and guide.
+- Tested actual guide play buttons at normal animation speed, moving hand, tutorial X and native guide close. A read-only test with the latest local project reproduced the previous delay and confirmed fixed playback without saving changes.
+- Tests cover 5,000-row lists, routed wheel input, horizontal motion, boundaries, native scrollbars, bounded virtualization, initial viewport/zoom, free tutorials in 20 languages and lifecycle demonstrations in English/Turkish. Lifecycle and approval regressions pass.
+
+Project schema, lifecycle minimum-reader version, licensing and encryption are unchanged. Existing 1.17.0 language/learning packs (public content v30) remain compatible; no guide text or translated UI strings changed. Source and review EXE remain private. No operational data is packaged. This is not a Microsoft Store submission.
+
+Windows 10/11 with .NET Framework 4.8. Extract the ZIP and run MIE Portable.exe.
+https://github.com/elma-iot/ELMA-IoT-MIE
