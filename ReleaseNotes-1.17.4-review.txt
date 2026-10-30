@@ -1,0 +1,13 @@
+ELMA-IoT MIE 1.17.4 review — loading and table rendering performance
+
+Opening a lifecycle-bearing project now reuses the equipment-register scan during reconciliation instead of reparsing the full register for every equipment identity. The scan refreshes after actual worksheet mutations. Conflict review, evidence, disposal safeguards and terminal-state validation remain in place.
+
+Master equipment cells use retained native vector text with cached layouts instead of constructing multiple styled/bound text controls for every PN/SN line. Text remains sharp at different zoom/DPI settings. Fonts, colors, wrapping, alignment, hidden fields, editing, warning glows and counterpart tooltips remain available. Duplicate warning cards are reused until their content or language changes. Shared smooth wheel scrolling yields to pending input and rendering before requesting another offset.
+
+Measured on one existing extensive project, using an isolated temporary copy: opening improved from approximately 30 seconds to 3.7 seconds. The final workbook-reconciliation stage dropped from about 28 seconds to 1.2 seconds. A rapid full-table scrolling stress test reduced the 95th-percentile frame interval from approximately 400 ms to 140–165 ms. These are local measurements, not a 60-FPS guarantee; fast cold scrolling still involves virtualized row layout. Hardware rendering was already active (WPF tier 2); it is not newly enabled by this update. Bounded row virtualization remains enabled; wrapped columns are measured together to avoid missing initial columns and changing row heights.
+
+Validation covers vector field text, Unicode, wrapped heights, field visibility, independent unwrapped alignment, recycled row contents and lossless editors; initial visible columns at multiple widths/zoom levels; duplicate tooltips/glows; stock appearance; smooth scrolling and scrollbars; lifecycle core, approvals, reconciliation, sync and transfers; empty-project opening, clean startup, background editing and scoped project exchange. Operational source files were not modified or included in this release.
+
+No project-format, licensing or translation changes. Existing v30 language/help packs remain compatible. This review has not been submitted to Microsoft Store.
+
+Windows 10/11 with .NET Framework 4.8. Extract the ZIP and run MIE Portable.exe.

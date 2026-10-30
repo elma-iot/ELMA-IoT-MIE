@@ -14,7 +14,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
-> **1.17.3 review:** opening a MIE pack from an untouched empty workspace now proceeds directly, even if the startup template already has a filename. Populated projects and genuine edits retain the merge/save choice. [Patch notes](ReleaseNotes-1.17.3-review.txt). Includes the [licensed startup fix](ReleaseNotes-1.17.2-review.txt), [smooth scrolling and tutorial fixes](ReleaseNotes-1.17.1-review.txt), and [lifecycle improvements](ReleaseNotes-1.17.0-review.txt). Existing [20-language v30 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) remain compatible. Source and review EXE remain private; this patch has not been submitted to Microsoft Store.
+> **1.17.4 review:** faster lifecycle project loading and lighter, sharp vector-text equipment cells. An extensive local test project opened in about 3.7 seconds versus 30 seconds; rapid-scroll frame stalls were substantially reduced. Performance varies by project and PC. [Measurements and validation](ReleaseNotes-1.17.4-review.txt). Includes the [empty-workspace Open fix](ReleaseNotes-1.17.3-review.txt). Existing [20-language v30 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v30) remain compatible. Source and review EXE remain private; this patch has not been submitted to Microsoft Store.
 
 ### Equipment lifecycle and approvals
 
