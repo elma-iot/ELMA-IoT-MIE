@@ -272,3 +272,6 @@ Project XLSX export remembers its last successful folder. Each Print / Export vi
 
 Returning to MIE after export (1.18.16 review)
 When saving windows close, focus returns to the same MIE tab. If you switch to another application while export runs in the background, export completion leaves that application active.
+
+Final localization release (1.18.17)
+The in-application guide and safe tutorial narration cover all 20 languages. The final terminology review clarifies export windows, completion progress and PN/SN on separate lines within one Excel cell.

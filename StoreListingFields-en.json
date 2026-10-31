@@ -1,7 +1,7 @@
 {
-  "version": "1.18.16",
+  "version": "1.18.17",
   "descriptionSource": "StoreListing-en.txt",
-  "releaseNotesSource": "StoreReleaseNotes-1.18.16.txt",
+  "releaseNotesSource": "StoreReleaseNotes-1.18.17.txt",
   "shortDescription": "Trace wellhead equipment from delivery to installation and return. Link schematics, follow equipment timelines and audit logs, and export styled Excel records in a multilingual Windows workspace.",
   "features": [
     "Track orders, Inventory and installed equipment with retained/permanent transfers, unavailable stock states and auditable PN/SN matching.",
