@@ -22,3 +22,5 @@ Projects stay local unless you choose to synchronize, export or share them. Lice
 
 REQUIREMENTS AND OPTIONAL CONTENT
 Windows 10/11 x64 with .NET Framework 4.8. Microsoft Excel is needed for native XLSX schematic import and rendering. Network access is used for optional data downloads and configured synchronization or licensing services. Store executable modules are bundled in the MSIX and are not downloaded as executable updates. Newer project workflows may require a newer application reader; minimum-reader checks protect incompatible records. No customer data, owner keys or project credentials are included.
+
+Export the selected graph or table subtab to PDF or Excel. History includes editable native Excel timeline charts, and worksheet selection covers current views and logs. Combined PN/SN values use separate cell lines with wrapping. Export formats and folders survive restarts. Measured saving progress closes on completion and returns focus to MIE; background work leaves other applications alone when intentionally selected.
