@@ -1,29 +1,21 @@
-ELMA-IoT MIE brings master equipment records, well schematics and reusable illustrations into one Windows workspace for wellhead equipment teams. Follow hardware from expected delivery through inventory to installation, while keeping part numbers, serial numbers and source drawings close to the record.
+ELMA-IoT MIE brings equipment records, well schematics and reusable illustrations into one Windows workspace for wellhead equipment teams. Follow hardware from delivery through Inventory, installation, return, inspection and release.
 
 EQUIPMENT TRACEABILITY
-Maintain the Master Equip. list, Inventory and In-Order views. Record expected deliveries, receive equipment into stock and select matching inventory when recording installed equipment. Duplicate and stock-conflict cells glow for attention; hover cards identify the matching wells or stock entries. Outstanding actions and their tab count update as issues are found or resolved.
+Maintain Master Equip. list, Inventory, Quarantine and In-Order views. Separate PN, SN, Location and Comments fields sit under editable equipment sections. Record partial receipts and controlled moves with reasons, dates and user or PC identity. Duplicate tips identify matching wells and offer a retained or permanent transfer. Retained installed equipment stays in its original Inventory position with an orangish whole-row marker and remains unavailable until returned. Inspection and release rules still apply afterward. Permanent transfer removes the Inventory placeholder while keeping history.
 
-SCHEMATICS AND ILLUSTRATIONS
-Open a well's linked schematic or import a missing drawing. Readable XLSX schematic labels can fill available equipment and well details in the selected master row; conflicting existing values are retained for review. The illustration library reuses identical resources while retaining each occurrence's dimensions, scale, rotation and flips. Supported native vector groups remain available in saved previews. A bundled optional viewer supports user-supplied static GLB 3D models.
+SCHEMATICS AND HISTORY
+Import readable XLSX or PDF schematics and link them to wells. Review detected values before applying them. Inventory supplies the authoritative PN for a same-serial correction; exact reviewed drawing references identify editable labels, while ambiguous or flattened drawings retain an explicit correction note. Updated drawings offer a choice to keep their PN or use the corrected installed PN. Original external files remain unchanged.
+Right-click equipment to display its history timeline. Search by SN, follow locations over time, and open the exact full log record from an event. The illustration library reuses identical resources while preserving placement dimensions and transforms. An optional bundled viewer supports user-supplied static GLB models.
 
-EDIT, REVIEW AND EXCHANGE
-Edit cells, format text and fills, add well rows and year separators, and use undo/redo and find/replace. Changes enter the named Revision History workflow. Save a compressed MIE project with shared drawing resources, use Save as for a separate copy, or export the master workbook with its linked Schematics folder as XLSX. Shared resources reduce repeated drawing storage while preserving original native drawing content; derived preview caches regenerate when needed. Subsequent master-only saves reuse the compressed drawing archive. Older project files remain readable; projects saved in the new format require version 1.12.0 or later. Wells with linked schematics appear underlined. Export individual schematics to supported XLSX, PDF, PNG and JPEG formats. Backups support local recovery.
+EDIT, PRINT AND EXCHANGE
+Global Undo and Redo stay beside Sync and work across tabs. Edit cells and formatting, add rows and fields, find/replace, and manage supported column headings. Print the active tab or save PDF. Excel extraction preserves visible data, styling, exact identifiers, dates and cell Notes; timeline extraction includes the graph and event table. Native project XLSX export retains formulas and linked drawings.
+Save compressed MIE projects with shared resources. Background saving, backup and synchronization use snapshots so later edits can remain pending for the next operation. Incremental processing reuses unchanged resources where applicable. Competing sync edits require review; recovery history remains available.
 
-LOCAL AND CLOUD SYNCHRONIZATION
-Local-folder and network-share synchronization are available in Free. Licensed cloud synchronization supports Google Drive and compatible WebDAV services including Nextcloud, ownCloud, Koofr and pCloud. One progress window displays connection/request activity, elapsed time, errors and completion warnings. Cancel is available from the beginning; Retry appears after a failed or cancelled worker stops. Quiet waits remain visible. Conflicting copies require a choice and backups are retained. Windows network-share calls may need their system timeout before cancellation finishes.
+FREE AND OPTIONAL LICENSED FEATURES
+Local records, lifecycle workflows and local-folder/network-share synchronization are available in Free. An optional owner-issued license enables the existing branding, cloud synchronization, encryption and planning features under separately agreed terms. Activation does not process payment or start a subscription. Licensed Min. Stock, Metrics and Rig/Well Schedule provide reviewed policies, dated activities and procurement estimates, not approved orders or confirmed designs. Existing encrypted projects still require their correct key.
 
-PERSONALIZE AND LEARN
-Light, Dark and Auto themes, detachable views, per-tab zoom and remembered window layouts help organize the workspace. Additional interface languages and the searchable guide/tutorials download as separate data packs, with 20 supported languages including English. Imported project data keeps its original language. Downloaded data packs work offline. Theme Studio and executable viewer/game modules are included in the Store package. Optional idle-screen games are ancillary features.
+LANGUAGES AND APPEARANCE
+The interface, guide and synthetic tutorials support 20 languages, including right-to-left layouts. Language and guide data download on demand and remain available offline afterward. Imported project data retains its original content and language. Theme Studio covers light, dark and custom themes, graphs, cell highlights and tips. Tutorial demonstrations restore the original project.
 
-FREE AND LICENSED FEATURES
-Core equipment records, editing, import/export, local project work and local/network-folder sync do not require payment or a product account. Optional owner-issued licenses enable project branding, cloud synchronization and encryption of new files/backups. Licensed options remain discoverable: selecting an unavailable feature explains whether a new, renewed or updated license is needed, and Get License opens activation. There is no in-app checkout or automatic subscription. Licensed checks and remote services require their respective connections.
-
-Licenses may be issued to partners, for evaluation or under a separately agreed commercial arrangement. Any fees, duration and support terms are agreed with the owner beforehand. Activation does not take payment or start an automatically renewing subscription.
-
-PROJECT DATA AND ACTIVATION
-Projects remain local unless you choose a synchronization destination or export/share files. No publisher account or advertising is required. License activation creates an encrypted request containing your name, surname, machine identity and request time for you to share with the owner. Licensed features use an internet time check.
-
-REQUIREMENTS
-Windows 10/11 with .NET Framework 4.8. Microsoft Excel must be installed for the supported import/rendering of new XLSX schematics; saved schematic previews can be viewed without Excel. Initial language/guide downloads require internet access. No customer well data or source drawings are included.
-
-Part of the ELMA-IoT project.
+REQUIREMENTS AND OPTIONAL CONTENT
+Windows 10/11 x64 with .NET Framework 4.8. Microsoft Excel is needed for native XLSX schematic import and rendering. Network access is used for optional data downloads and configured synchronization or licensing services. Store executable modules are bundled in the MSIX and are not downloaded as executable updates. Newer project workflows may require a newer application reader; minimum-reader checks protect incompatible records. No customer data, owner keys or project credentials are included.
