@@ -1,0 +1,19 @@
+{
+  "version": "1.18.10",
+  "descriptionSource": "StoreListing-en.txt",
+  "releaseNotesSource": "StoreReleaseNotes-1.18.10.txt",
+  "shortDescription": "Trace wellhead equipment from delivery to installation and return. Link schematics, follow equipment timelines and audit logs, and export styled Excel records in a multilingual Windows workspace.",
+  "features": [
+    "Track orders, Inventory and installed equipment with retained/permanent transfers, unavailable stock states and auditable PN/SN matching.",
+    "Return, inspect, repair, test and release equipment through controlled lifecycle actions; preserve Quarantine and disposal history.",
+    "Use reviewed source-label references to correct linked schematic PNs, retain prior revisions and review updated drawings.",
+    "Use global Undo/Redo, named revisions, column management and styled Excel extraction with standard cell Notes.",
+    "Search equipment by SN, follow its location timeline and open the exact full-log record from an event.",
+    "Continue working during background save, backup and sync; reuse unchanged drawing resources incrementally.",
+    "Set minimum-stock policies, highlight shortages and review Autofill suggestions from historical wells and rig schedules.",
+    "Plan rig/well activities, equipment requirements and dated procurement using available stock and incoming orders.",
+    "Explore equipment and procurement Metrics; export selected licensed planning worksheets to Excel.",
+    "Synchronize through Google Drive or supported WebDAV services, with optional project/backup encryption.",
+    "20-language guides and synthetic tutorials, light/dark/custom themes and configurable graphs, highlights and tips."
+  ]
+}

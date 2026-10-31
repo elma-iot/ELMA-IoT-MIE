@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 > **1.18.10:** responsive Inventory scrolling, retained installations marked unavailable until returned, authoritative Inventory PN corrections, exact linked-drawing references, equipment history timelines, global Undo/Redo and styled Excel extraction with Notes. Guides and synthetic tutorials cover these workflows in all 20 languages. [Release notes](ReleaseNotes-1.18.10.md) · [Application notes](ApplicationNotes.md) · [Signed content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v34).
 >
-> Application source and the main portable EXE remain private. A matching Microsoft Store candidate is prepared; submission and certification are not yet confirmed. The existing Store listing remains available.
+> Application source and the main portable EXE remain private. Microsoft Store version **1.18.10.0** was submitted on **31 October 2026** as **Submission 9**. Partner Center confirmed **Update in certification**; publication is automatic after approval. Approval and public availability of this update remain pending. The existing Store listing remains available.
 
 > **1.18.1 review:** View → Color assignment configures Master drillship, PN and well-state fills, with manual-override preservation or reset. Drillship colors apply to both well-name and Drillship cells. [Release notes](ReleaseNotes-1.18.1-review.txt). Updated [20-language v33 packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v33). Source and review EXE remain private; this review has not been submitted to Microsoft Store.
 

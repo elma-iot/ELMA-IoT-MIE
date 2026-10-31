@@ -17,5 +17,8 @@ Local records, lifecycle workflows and local-folder/network-share synchronizatio
 LANGUAGES AND APPEARANCE
 The interface, guide and synthetic tutorials support 20 languages, including right-to-left layouts. Language and guide data download on demand and remain available offline afterward. Imported project data retains its original content and language. Theme Studio covers light, dark and custom themes, graphs, cell highlights and tips. Tutorial demonstrations restore the original project.
 
+PROJECT DATA AND ACTIVATION
+Projects stay local unless you choose to synchronize, export or share them. License activation creates an encrypted request with your name, surname, machine identity and request time for you to provide to the owner; licensed features verify internet time. No publisher account or advertising is required.
+
 REQUIREMENTS AND OPTIONAL CONTENT
 Windows 10/11 x64 with .NET Framework 4.8. Microsoft Excel is needed for native XLSX schematic import and rendering. Network access is used for optional data downloads and configured synchronization or licensing services. Store executable modules are bundled in the MSIX and are not downloaded as executable updates. Newer project workflows may require a newer application reader; minimum-reader checks protect incompatible records. No customer data, owner keys or project credentials are included.
