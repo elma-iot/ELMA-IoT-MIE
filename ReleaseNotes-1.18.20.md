@@ -1,0 +1,14 @@
+﻿# MIE 1.18.20
+
+- Equipment-cell Delete is available directly outside Edit mode in Master Installed, Inventory, Quarantine and In-Order. Stock rows offer it from every data cell. PN and SN clear together; other details are retained. Existing formula and disposal protections apply.
+- Delete well/item row is available in context menus. Stock deletion removes only the selected displayed item, preserving other equipment sections. Removing a retained Inventory listing leaves the physical item at its well or Quarantine location. Existing populated purchase-order history remains protected.
+- Schematics has Delete beside Replace. Confirmation removes the project drawing and well links, retains installed equipment, and supports one-step Undo/Redo.
+- Context menus put Cut, Copy and Paste first, then row clipboard actions, deletion, history and project actions. Ctrl+C, Ctrl+X and Ctrl+V use the same commands. Shift+Space selects a whole row; Ctrl+Insert, Shift+Insert and Shift+Delete provide standard alternate clipboard shortcuts. Text fields retain native keyboard behavior.
+- Cut defers source removal until Paste commits. Empty cells accept Paste; occupied cells show old and proposed values and require confirmation. Cancellation and stale-state rejection preserve both sides. Worksheet row Paste inserts above/below the destination according to the pointer half. Copied equipment records get distinct identities; duplicate-serial warnings remain meaningful. Physical transfers between worksheets continue using controlled movement actions.
+- Changes record source/destination and old/new values, actor identity and undoable audit entries. Display history — Cell shows a timeline for the selected cell, including prior occupants and replacements. Graph points open their related full log records.
+- Workbook preparation, parsing and changes run on a worker using a lightweight snapshot. Tabs, menus and scrolling remain enabled. Concurrent edits are checked before committing; unrelated work is preserved. Paste focuses and briefly highlights its destination if the user is still in that view.
+- The guide, synthetic tutorial and new clipboard/history labels are updated for all 20 languages. Copied text and Excel exports continue excluding internal equipment identifiers.
+
+Verification includes cell/row cut and copy, empty/occupied-cell flows, cancellation, stale edits, reference and identity preservation, row insertion direction, undo/redo, old/new cell timelines, context-menu ordering, standard shortcuts, active deletion outside Edit, Quarantine reconciliation and schematic deletion/save/reopen. A dispatcher test checks that tabs and menus remain usable during background work. Optional language/learning data is pinned by exact compiled hashes; existing signed executable modules remain bundled for Store mode.
+
+Microsoft Store package: 1.18.20.0. Submission status will be recorded in STORE-RELEASE.md after Partner Center confirmation.
