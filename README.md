@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/mie.png" alt="ELMA-IoT MIE" width="112">
 
@@ -13,6 +13,8 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 [Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v36) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+**Portable review 1.18.19** adds logged, undoable PN/SN clearing and Quarantine duplicate reconciliation, with expanded equipment editors. [Review instructions](ReleaseNotes-1.18.19-review.md). The Store submission remains 1.18.18.0.
 
 **1.18.18** fixes doubled Excel headings on first open, table headers, scrollbar dragging and Inventory/Quarantine row handling. [Release notes](ReleaseNotes-1.18.18.md). Partner Center confirms Submission 11 is in certification, with automatic publication after approval. Public availability of this update remains pending.
 

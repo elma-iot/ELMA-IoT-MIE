@@ -1,6 +1,6 @@
-# Application notes
+﻿# Application notes
 
-Current release: **1.18.18**. [Release changes](ReleaseNotes-1.18.18.md).
+Current portable review: **1.18.19**. [Equipment editing guide and changes](ReleaseNotes-1.18.19-review.md). Store submission remains **1.18.18.0**.
 
 The corrected **1.18.18** build replaces the earlier portable review and fixes the doubled Excel heading on first open, table headings, scrollbar dragging and Inventory/Quarantine row handling.
 
