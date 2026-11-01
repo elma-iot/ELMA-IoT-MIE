@@ -1,5 +1,9 @@
 # Microsoft Store release
 
+## MIE 1.19.11 submitted
+
+Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
+
 ## MIE 1.19.11 local candidate — 1 November 2026
 
 Prepared for owner testing; **not uploaded or submitted to Microsoft Store**. Package `1.19.11.0 x64`, 26,204,540 bytes, SHA-256 `aa18faeb36716911f530bdc58eccf0bb70dd206f3ca6943eeaa5c903fa0da238`. No existing Partner Center submission was changed.

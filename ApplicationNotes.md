@@ -1,3 +1,7 @@
+## MIE 1.19.11 Store submission
+
+Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
+
 # MIE 1.19.11 — current-tab search and audited replacement
 
 Release candidate for owner testing. Not submitted to Microsoft Store; the existing submission remains unchanged.

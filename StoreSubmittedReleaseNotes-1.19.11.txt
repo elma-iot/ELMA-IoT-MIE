@@ -1,0 +1,5 @@
+Version 1.19.11
+
+Ctrl+F now opens a themed current-tab search popup, including history/schedule subtabs. Expand advanced search for case, whole-word and regular-expression options. Ctrl+H, Replace and Replace All work in View and Edit modes on editable tables, with background processing, old/new history and Undo. Search focuses the matching row/cell below its popup, and clears temporary highlighting when closed. Updated guides, tutorials and translations.
+
+Original GLB models are shared by part number and stored once; documents, damage marks and deformation remain specific to each serial number. Incremental synchronization reuses unchanged model resources. The header search finds SN, PN or description across tabs, with a themed, scrollable dropdown of up to 20 rows and direct row navigation.

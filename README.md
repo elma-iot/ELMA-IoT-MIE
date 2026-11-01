@@ -337,3 +337,5 @@ Original GLB models are shared by PN and stored once. Documents and damage remai
 ## MIE 1.19.11 candidate
 
 Ctrl+F opens current-tab search, including History/Schedule subtabs and detached windows. Expand advanced controls for case, whole-word and regex matching. Editable tables support Ctrl+H and background Replace/Replace All in View or Edit mode, with old/new history and Undo. Focused results stay below the popup and temporary highlighting clears on close. [Release notes](ReleaseNotes-1.19.11.md); [guides and optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49). Microsoft Store submission is held for owner testing.
+
+**MIE 1.19.11 Store submission confirmed:** Submission 15 is In certification / Pre-processing and will publish automatically after certification passes. [Submission record](StoreSubmission-1.19.11.md). Earlier candidate holds are historical.
