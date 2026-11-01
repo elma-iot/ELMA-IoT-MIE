@@ -14,6 +14,8 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+**1.19.02 portable review** adds concise Quarantine action tips and direct inspection/lifecycle controls in Item View. Inventory retains its details; free users can open the controlled lifecycle form from the tip. [Review notes](ReleaseNotes-1.19.02.md). Store submission remains on hold.
+
 **1.19.01 portable review** adds an aligned Upload button below the attachment list, a divider that starts halfway and remembers its downward adjustment, and right-click Save as for each original attachment. [Review notes](ReleaseNotes-1.19.01.md). Store submission and version 2.0 remain on hold.
 
 **1.19.00 portable review** adds inspection evidence and licensed Item View, a separate 3D viewer with centered draggable X/Y/Z sections and per-part dashed hatching, local pack fallback and preserved PN/SN formatting. Print Item View to PDF or Excel; compatible desktop Excel can embed its original GLB as a rotatable object. [Review notes](ReleaseNotes-1.19.00.md). The attached-documents list is now at the bottom of the left Item View pane. The owner has deferred version 2.0.0 until the remaining fixes are complete. This version is for testing and has not been submitted to Microsoft Store. [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v39) include the guide/tutorials and all 20 languages.
