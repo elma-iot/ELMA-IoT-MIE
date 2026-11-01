@@ -14,6 +14,8 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+**1.19.03 portable review** adds optional inspection date/reason defaults with history provenance and fitted image previews with wheel zoom, drag-to-pan and Fit controls. [Review notes](ReleaseNotes-1.19.03.md). Store submission remains on hold.
+
 **1.19.02 portable review** adds concise Quarantine action tips and direct inspection/lifecycle controls in Item View. Inventory retains its details; free users can open the controlled lifecycle form from the tip. [Review notes](ReleaseNotes-1.19.02.md). Store submission remains on hold.
 
 **1.19.01 portable review** adds an aligned Upload button below the attachment list, a divider that starts halfway and remembers its downward adjustment, and right-click Save as for each original attachment. [Review notes](ReleaseNotes-1.19.01.md). Store submission and version 2.0 remain on hold.
