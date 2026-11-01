@@ -12,4 +12,4 @@ The scene pattern follows [Fusion display effects](https://www.autodesk.com/lear
 
 Validation covers extreme/coarse UVs, rendered paint color over wood and remapped metal, left/right deformation, no idle checkpoint, asynchronous session commit, failed-close recovery, dense-mesh interaction, application busy-state behavior, saved damage/return history, exports, dialogs and translated help. Guides/tutorials and all 20 language catalogs are updated. Viewer rendering/tools remain in the separately verified pack.
 
-Review EXE: `build/MIE Portable.exe`. Restart MIE for the verified 1.19.09 viewer from `mie-content-v47`, or use Browse pack. The local Microsoft Store candidate is held for owner testing; no Partner Center upload or submission.
+Review EXE: `build/MIE Portable.exe`. Restart MIE for the verified 1.19.09 viewer from `mie-content-v47`, or use Browse pack. Microsoft Store update **1.19.9.0** was submitted on **1 November 2026** as **Submission 14**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification. [Submission record](StoreSubmission-1.19.09.md).

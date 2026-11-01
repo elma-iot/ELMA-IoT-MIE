@@ -1,6 +1,6 @@
 # Application notes
 
-Current portable review and local Store candidate: **1.19.09** separates paint UVs from model textures, uses left/right deformation and saves editing sessions asynchronously. A soft circular CAD-style floor adds separate shadow and optional model reflection. Failed checkpoints remain recoverable. [Review notes](ReleaseNotes-1.19.09.md). Guides/tutorials and all 20 languages are updated. Store upload/submission remain held.
+Current portable review and local Store candidate: **1.19.09** separates paint UVs from model textures, uses left/right deformation and saves editing sessions asynchronously. A soft circular CAD-style floor adds separate shadow and optional model reflection. Failed checkpoints remain recoverable. [Review notes](ReleaseNotes-1.19.09.md). Guides/tutorials and all 20 languages are updated. Submitted to Microsoft Store as **Submission 14**, in certification/pre-processing with automatic publication after approval. [Submission record](StoreSubmission-1.19.09.md).
 
 Previous portable review and local Store candidate: **1.19.08** places the model filename beside Settings and adds live brush/deformation footprints, indexed surface picking, cached decals and coalesced incremental background deformation. [Review notes](ReleaseNotes-1.19.08.md). Store upload/submission remain held.
 
