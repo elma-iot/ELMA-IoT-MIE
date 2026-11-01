@@ -10,11 +10,11 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v38) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v39) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-**2.0.0 portable review** adds inspection evidence and licensed Item View, a separate 3D viewer with centered draggable X/Y/Z sections and per-part dashed hatching, local pack fallback and preserved PN/SN formatting. Print Item View to PDF or Excel; compatible desktop Excel can embed its original GLB as a rotatable object. [Review notes](ReleaseNotes-2.0.0.md). This version is for testing and has not been submitted to Microsoft Store. [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v38) include the guide/tutorials and all 20 languages.
+**1.19.00 portable review** adds inspection evidence and licensed Item View, a separate 3D viewer with centered draggable X/Y/Z sections and per-part dashed hatching, local pack fallback and preserved PN/SN formatting. Print Item View to PDF or Excel; compatible desktop Excel can embed its original GLB as a rotatable object. [Review notes](ReleaseNotes-1.19.00.md). The attached-documents list is now at the bottom of the left Item View pane. The owner has deferred version 2.0.0 until the remaining fixes are complete. This version is for testing and has not been submitted to Microsoft Store. [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v39) include the guide/tutorials and all 20 languages.
 
 **1.18.20** adds standard cell/row clipboard commands, direct deletion, schematic Delete and cell-history graphs with old/new values. Changes prepare in the background. The guide, tutorial and 20 languages are updated. [Release notes](ReleaseNotes-1.18.20.md). Microsoft Store Submission 13 (1.18.20.0) is in certification and will publish automatically after approval. Availability remains pending.
 
