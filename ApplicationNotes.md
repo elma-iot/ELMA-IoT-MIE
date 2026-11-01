@@ -1,6 +1,6 @@
 ﻿# Application notes
 
-Current release: **1.18.20**. [Clipboard, deletion and cell-history changes](ReleaseNotes-1.18.20.md). Portable and Store package validation, regression checks and all 20 translated tutorial playbacks passed. The portable release is published privately; Store Submission 13 is in draft awaiting completion of the package upload. Confirmed Store status is recorded in STORE-RELEASE.md.
+Current release: **1.18.20**. [Clipboard, deletion and cell-history changes](ReleaseNotes-1.18.20.md). Portable and Store package validation, regression checks and all 20 translated tutorial playbacks passed. The portable release is published privately. Microsoft Store **Submission 13** (`1152921505702288513`) is **in certification**, with Submission complete and Pre-processing in progress. Publication is automatic after approval; availability of 1.18.20 remains pending. Confirmed Store status is recorded in STORE-RELEASE.md.
 
 Previous release: **1.18.19**. [Equipment editing guide and changes](ReleaseNotes-1.18.19-review.md). Partner Center confirmed on **1 November 2026** that **Submission 12** (`1152921505702288457`) is live in Microsoft Store.
 

@@ -14,9 +14,9 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
-**1.18.20** adds standard cell/row clipboard commands, direct deletion, schematic Delete and cell-history graphs with old/new values. Changes prepare in the background. The guide, tutorial and 20 languages are updated. [Release notes](ReleaseNotes-1.18.20.md). Store submission is being prepared.
+**1.18.20** adds standard cell/row clipboard commands, direct deletion, schematic Delete and cell-history graphs with old/new values. Changes prepare in the background. The guide, tutorial and 20 languages are updated. [Release notes](ReleaseNotes-1.18.20.md). Microsoft Store Submission 13 (1.18.20.0) is in certification and will publish automatically after approval. Availability remains pending.
 
-**1.18.19** adds logged, undoable PN/SN clearing and Quarantine duplicate reconciliation, with expanded equipment editors. [Review instructions](ReleaseNotes-1.18.19-review.md). Microsoft Store Submission 12 (1.18.19.0) is in certification, with automatic publication after approval. Public availability of this update remains pending; 1.18.18.0 is live.
+**1.18.19** adds logged, undoable PN/SN clearing and Quarantine duplicate reconciliation, with expanded equipment editors. [Review instructions](ReleaseNotes-1.18.19-review.md). Microsoft Store Submission 12 (1.18.19.0) is live.
 
 **1.18.18** fixes doubled Excel headings on first open, table headers, scrollbar dragging and Inventory/Quarantine row handling. [Release notes](ReleaseNotes-1.18.18.md). Partner Center confirms Submission 11 is now the live Store presence.
 
