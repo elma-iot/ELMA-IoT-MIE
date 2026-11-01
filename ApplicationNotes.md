@@ -1,8 +1,8 @@
 ﻿# Application notes
 
-Current candidate: **1.18.20**. [Clipboard, deletion and cell-history changes](ReleaseNotes-1.18.20.md). The portable and Store packages are being verified for the requested submission. Confirmed Store status is recorded in STORE-RELEASE.md.
+Current release: **1.18.20**. [Clipboard, deletion and cell-history changes](ReleaseNotes-1.18.20.md). Portable and Store package validation, regression checks and all 20 translated tutorial playbacks passed. The portable release is published privately; Store Submission 13 is in draft awaiting completion of the package upload. Confirmed Store status is recorded in STORE-RELEASE.md.
 
-Previous submission: **1.18.19**. [Equipment editing guide and changes](ReleaseNotes-1.18.19-review.md). Microsoft Store version **1.18.19.0** was submitted on **1 November 2026** as Submission 12 (`1152921505702288457`). Partner Center confirms **Update in certification**, Submission complete and Pre-processing in progress, with automatic publication after approval. Public availability remains pending. Submission 11 (**1.18.18.0**) is the current live Store presence.
+Previous release: **1.18.19**. [Equipment editing guide and changes](ReleaseNotes-1.18.19-review.md). Partner Center confirmed on **1 November 2026** that **Submission 12** (`1152921505702288457`) is live in Microsoft Store.
 
 The corrected **1.18.18** build replaces the earlier portable review and fixes the doubled Excel heading on first open, table headings, scrollbar dragging and Inventory/Quarantine row handling.
 
