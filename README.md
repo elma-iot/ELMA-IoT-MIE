@@ -14,6 +14,8 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+**1.19.05 portable review and Store candidate** dismisses worksheet tips during scrolling and waits for deliberate pointer movement before another hover. Current guides, tutorials and all 20 languages are verified. [Review notes](ReleaseNotes-1.19.05.md). The Store candidate is prepared locally; upload and submission remain on hold pending owner testing.
+
 **1.19.04 portable review** applies a shared owner-focus rule to dialogs and file pickers. Inspection review explains missing prerequisites and retains the form and evidence after a failed submission. [Review notes](ReleaseNotes-1.19.04.md). Store submission remains on hold.
 
 **1.19.03 portable review** adds optional inspection date/reason defaults with history provenance and fitted image previews with wheel zoom, drag-to-pan and Fit controls. [Review notes](ReleaseNotes-1.19.03.md). Store submission remains on hold.
