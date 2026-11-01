@@ -333,3 +333,7 @@ The current [Microsoft Store product description](StoreListing-en.txt) covers eq
 ## MIE 1.19.10 candidate
 
 Original GLB models are shared by PN and stored once. Documents and damage remain serial-specific. Header search by SN, PN or description starts only on Enter or the embedded lens, lists all matches in a themed dropdown of up to 20 rows, and opens the selected tab and row. [Release notes](ReleaseNotes-1.19.10.md). Updated guides, tutorials, all 20 language packs and optional modules are available in [mie-content-v48](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v48). This candidate is held for owner testing; 1.19.09 remains in Microsoft Store certification.
+
+## MIE 1.19.11 candidate
+
+Ctrl+F opens current-tab search, including History/Schedule subtabs and detached windows. Expand advanced controls for case, whole-word and regex matching. Editable tables support Ctrl+H and background Replace/Replace All in View or Edit mode, with old/new history and Undo. Focused results stay below the popup and temporary highlighting clears on close. [Release notes](ReleaseNotes-1.19.11.md); [guides and optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49). Microsoft Store submission is held for owner testing.

@@ -1,5 +1,13 @@
 # Microsoft Store release
 
+## MIE 1.19.11 local candidate — 1 November 2026
+
+Prepared for owner testing; **not uploaded or submitted to Microsoft Store**. Package `1.19.11.0 x64`, 26,204,540 bytes, SHA-256 `aa18faeb36716911f530bdc58eccf0bb70dd206f3ca6943eeaa5c903fa0da238`. No existing Partner Center submission was changed.
+
+Ctrl+F searches the current tab/subtab in a common themed popup with expandable case/whole-word/regex options. Ctrl+H and Replace/Replace All work in View and Edit modes on editable tables, through background transactions with old/new history and Undo. Find scrolls and focuses the matching cell with temporary highlighting, cleared on close; the row stays below even expanded controls. Read-only views remain search-only. [Release notes](ReleaseNotes-1.19.11.md).
+
+Guides, tutorials and 20 translations are updated in [mie-content-v49](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49). Validation includes all 12 tabs, History and Schedule subtabs, background replacement from both modes, history and Undo, popup clearance, highlight cleanup, regex errors, all 20 search tutorials, header search, Item View and offline module/tamper checks. Evidence: `.audit/finalfind11911.log`, `.audit/tabfind11911.log`, `.audit/searchreplace11911.log`, `.audit/offlinefind11911.log`, `.audit/boundedfind11911.log` and `.audit/Store-1.19.11/candidate.json`.
+
 ## MIE 1.19.10 local candidate — 1 November 2026
 
 Prepared for owner testing; **not uploaded or submitted to Microsoft Store**. Package `1.19.10.0 x64`, 26,198,542 bytes, SHA-256 `f711d86c0808954f55fb3f4a9ee2a4075583a7b9e42c13a91e709c467a4b9f9f`. 1.19.09 Submission 14 remains in certification.
