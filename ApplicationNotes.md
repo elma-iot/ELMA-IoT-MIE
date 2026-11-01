@@ -1,6 +1,8 @@
 # Application notes
 
-Current portable review and local Store candidate: **1.19.07** fixes textured cut restoration and adds solid section surfaces, shaded double arrows, perspective/orthographic overlays, contextual brush controls and an icon toolbar. All viewer implementation remains in the optional pack. [Review notes](ReleaseNotes-1.19.07.md). Guide/tutorials and 20 languages updated. Store upload/submission remain held.
+Current portable review and local Store candidate: **1.19.08** places the model filename beside Settings and adds live brush/deformation footprints, indexed surface picking, cached decals and coalesced incremental background deformation. [Review notes](ReleaseNotes-1.19.08.md). Store upload/submission remain held.
+
+Previous portable review and local Store candidate: **1.19.07** fixes textured cut restoration and adds solid section surfaces, shaded double arrows, perspective/orthographic overlays, contextual brush controls and an icon toolbar. All viewer implementation remains in the optional pack. [Review notes](ReleaseNotes-1.19.07.md). Guide/tutorials and 20 languages updated. Store upload/submission remain held.
 
 Previous portable review and local Store candidate: **1.19.06** updates the optional 3D pack with pointer zoom, item-specific settings, texture mapping/wrapping, damage marking and reversible Raise/Lower deformation. Return to Inventory clears active damage and retains its historical checkpoints plus scene settings. [Review notes](ReleaseNotes-1.19.06.md). Guides, tutorials and all 20 languages are updated. Store upload/submission remain held for owner testing.
 
