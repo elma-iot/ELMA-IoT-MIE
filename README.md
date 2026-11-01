@@ -14,6 +14,8 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+Portable review **1.18.18** corrects table headers, scrollbar dragging, Excel opening panes and Inventory/Quarantine row handling. [Review notes](ReleaseNotes-1.18.18.md). Microsoft Store Submission 10 remains version 1.18.17.0.
+
 > **1.18.17:** graph-aware printing, editable Excel history charts, current worksheet export choices, PN/SN cell line breaks, remembered destinations and measured saving progress, corrected focus after saving, smoother view reuse and updated tooltips. Guides and safe tutorials cover all 20 languages. [Release notes](ReleaseNotes-1.18.17.md) · [User guide](UserGuide.txt) · [Application notes](ApplicationNotes.md) · [Signed content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v36).
 >
 > Application source and the main portable EXE remain private. Version **1.18.17.0** is submitted as Microsoft Store **Submission 10**. Partner Center confirms **Update in certification** and automatic publication after approval. Approval and public availability of this update remain pending; the existing Store listing remains available.
