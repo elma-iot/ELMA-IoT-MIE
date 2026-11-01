@@ -1,11 +1,12 @@
 {
-  "version": "1.18.18",
+  "version": "1.19.07",
   "descriptionSource": "StoreListing-en.txt",
-  "releaseNotesSource": "StoreReleaseNotes-1.18.18.txt",
+  "releaseNotesSource": "StoreReleaseNotes-1.19.07.txt",
   "shortDescription": "Trace wellhead equipment from delivery to installation and return. Link schematics, follow equipment timelines and audit logs, and export styled Excel records in a multilingual Windows workspace.",
   "features": [
     "Track orders, Inventory and installed equipment with retained/permanent transfers, unavailable stock states and auditable PN/SN matching.",
     "Return, inspect, repair, test and release equipment through controlled lifecycle actions; preserve Quarantine and disposal history.",
+    "Licensed Item View retains documents and original GLB models, with textures, controllable sections and reversible damage marking/deformation previews.",
     "Use reviewed source-label references to correct linked schematic PNs, retain prior revisions and review updated drawings.",
     "Use global Undo/Redo, named revisions and current worksheet selections; export wrapped PN/SN cells, standard Notes and editable history charts.",
     "Search by SN, follow a full-width location timeline and open the exact full-log record; print the selected graph or log subtab.",

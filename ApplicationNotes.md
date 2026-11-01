@@ -1,4 +1,23 @@
-﻿# Application notes
+# Application notes
+
+Current portable review and local Store candidate: **1.19.07** fixes textured cut restoration and adds solid section surfaces, shaded double arrows, perspective/orthographic overlays, contextual brush controls and an icon toolbar. All viewer implementation remains in the optional pack. [Review notes](ReleaseNotes-1.19.07.md). Guide/tutorials and 20 languages updated. Store upload/submission remain held.
+
+Previous portable review and local Store candidate: **1.19.06** updates the optional 3D pack with pointer zoom, item-specific settings, texture mapping/wrapping, damage marking and reversible Raise/Lower deformation. Return to Inventory clears active damage and retains its historical checkpoints plus scene settings. [Review notes](ReleaseNotes-1.19.06.md). Guides, tutorials and all 20 languages are updated. Store upload/submission remain held for owner testing.
+
+
+Previous portable review and local Store candidate: **1.19.05** dismisses/suppresses worksheet tips during scrolling until the pointer deliberately moves again. Current guides, translations and optional content are verified; the Store candidate includes the paired Theme Studio and approved offline modules. [Review notes](ReleaseNotes-1.19.05.md). Upload/submission remain on hold pending owner testing.
+
+Previous portable review: **1.19.04** applies a shared owner-focus rule to dialogs, corrects nested file-picker ownership, explains inspection release prerequisites and retains the form and evidence on failed submission. [Review notes](ReleaseNotes-1.19.04.md). Not submitted to Microsoft Store.
+
+Previous portable review: **1.19.03** adds optional inspection date/reason defaults with audit provenance and fitted image previews with wheel zoom, drag-to-pan and Fit / + / − controls. [Review notes](ReleaseNotes-1.19.03.md). Not submitted to Microsoft Store.
+
+Previous portable review: **1.19.02** adds concise Quarantine action tips and Item View lifecycle controls. [Review notes](ReleaseNotes-1.19.02.md). Inventory retains its detailed tips. Not submitted to Microsoft Store.
+
+Previous portable review: **1.19.01** adds the half-height attachment area, remembered divider, aligned Upload button and per-file Save as menu. [Review notes](ReleaseNotes-1.19.01.md). Not submitted to Microsoft Store; version 2.0 is deferred.
+
+Previous portable review: **1.19.00** adds inspection proof, licensed Item View, on-demand 3D controls and draggable hatched X/Y/Z sections, offline pack import and preserved identifier formatting. [Review notes](ReleaseNotes-1.19.00.md). This version has not been submitted to Microsoft Store.
+
+Previous portable review: **1.18.21** corrects returned Inventory assessment visibility and navigation. See [review notes](ReleaseNotes-1.18.21.md). This patch is not yet submitted to Microsoft Store.
 
 Current release: **1.18.20**. [Clipboard, deletion and cell-history changes](ReleaseNotes-1.18.20.md). Portable and Store package validation, regression checks and all 20 translated tutorial playbacks passed. The portable release is published privately. Microsoft Store **Submission 13** (`1152921505702288513`) is **in certification**, with Submission complete and Pre-processing in progress. Publication is automatic after approval; availability of 1.18.20 remains pending. Confirmed Store status is recorded in STORE-RELEASE.md.
 

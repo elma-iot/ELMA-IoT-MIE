@@ -10,11 +10,11 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v44) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v45) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-**1.19.06 portable review and Store candidate** expands the optional 3D pack with responsive rendering, per-item settings, textures and placement, surface damage brushes and reversible Raise/Lower deformation. Returns clear active damage and retain history and scene settings. [Review notes](ReleaseNotes-1.19.06.md). Updated guides/tutorials and all 20 languages. Store upload and submission remain held for owner testing.
+**1.19.07 portable review and Store candidate** improves the optional 3D pack with solid sections, reliable textured-model restoration, a shaded double-arrow section handle, perspective/orthographic views and translucent brush/deformation overlays. The icon toolbar aligns with Reset view. [Review notes](ReleaseNotes-1.19.07.md). Updated guide/tutorials and all 20 languages. Store upload and submission remain held for owner testing.
 
 **1.19.05 portable review and Store candidate** dismisses worksheet tips during scrolling and waits for deliberate pointer movement before another hover. Current guides, tutorials and all 20 languages are verified. [Review notes](ReleaseNotes-1.19.05.md). The Store candidate is prepared locally; upload and submission remain on hold pending owner testing.
 

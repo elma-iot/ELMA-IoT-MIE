@@ -1,0 +1,1 @@
+Improved optional 3D viewer: reliable cut-view restoration, solid section faces, shaded movement arrows, perspective/orthographic view overlay and brush/deformation tool overlays. Icon toolbar, per-item projection settings, reference geometry stability and updated guides/tutorials in 20 languages. Existing equipment evidence, inspection and audit controls are retained.
