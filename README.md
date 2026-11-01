@@ -329,3 +329,7 @@ The [1.11.5 language and learning packs](https://github.com/elma-iot/ELMA-IoT-MI
 
 
 The current [Microsoft Store product description](StoreListing-en.txt) covers equipment traceability, schematic autofill, duplicate glows and hover cards, synchronization feedback, on-demand language/guide packs, requirements and Free/licensed features. It was refreshed with the 1.12.2.0 submission. See the [1.12.2 release notes](ReleaseNotes-1.12.2.txt) for shared drawing storage, linked-well styling and licensed-feature prompt changes.
+
+## MIE 1.19.10 candidate
+
+Original GLB models are shared by PN and stored once. Documents and damage remain serial-specific. Header search by SN, PN or description starts only on Enter or the embedded lens, lists all matches in a themed dropdown of up to 20 rows, and opens the selected tab and row. [Release notes](ReleaseNotes-1.19.10.md). Updated guides, tutorials, all 20 language packs and optional modules are available in [mie-content-v48](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v48). This candidate is held for owner testing; 1.19.09 remains in Microsoft Store certification.
