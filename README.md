@@ -10,9 +10,23 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v47) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+## Equipment markings and damage tracking
+
+Document identification marks and the location and appearance of visible damage on each item's 3D model. Link these records to the individual item and retain visual references for future inspections, repairs and disposition decisions.
+
+The original model is shared by **part number (PN)**, while damage records and supporting documents remain specific to the equipment's **serial number (SN)**. This helps teams track each unit's condition, communicate findings and compare changes over time. These tools are available through the licensed **Item View**.
+
+[![Watch: recording equipment markings and damage in ELMA-IoT MIE](https://img.youtube.com/vi/WYOf4QP24P0/hqdefault.jpg)](https://www.youtube.com/watch?v=WYOf4QP24P0)
+
+**[Watch the short walkthrough on YouTube](https://www.youtube.com/watch?v=WYOf4QP24P0)**
+
+Download the software for free from the [Microsoft Store](https://apps.microsoft.com/detail/9NSZMSQKXH67). Item View and other licensed features require an active license.
+
+**Current version: 1.19.11** — current-tab search and audited replacement, with updated guides, tutorials and all 20 languages. [Release notes](ReleaseNotes-1.19.11.md) · [Compatible optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49).
 
 **1.19.09 portable review and Store candidate** separates paint from model textures, uses left/right deformation and commits editing sessions asynchronously without the global busy indicator. A soft circular CAD-style ground adds separate shadow and optional model reflection. All rendering remains in the verified optional pack. [Review notes](ReleaseNotes-1.19.09.md). Guides/tutorials and all 20 languages are updated. Microsoft Store update **1.19.9.0** is submitted as **Submission 14**, in certification with automatic publication after approval. [Submission record](StoreSubmission-1.19.09.md).
 
