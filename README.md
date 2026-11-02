@@ -14,6 +14,8 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+**1.19.14 role access review candidate:** Five signed licensing roles with department scopes control menus, right-click actions, shortcuts, data changes and optional 3D editing. Full Control reviews and saves protected projects; restricted licensed users open free/unprotected databases for viewing only. Ordinary free projects retain their existing behavior. Guides and 20-language packs are updated. [Release notes](ReleaseNotes-1.19.14.md) · [Roles and protection](RoleBasedAccess.md) · [Validation](RoleValidation-1.19.14.md) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v52). Microsoft Store candidate is prepared and held for owner testing; no submission yet.
+
 **1.19.13 portable review:** Item View adds attachment Replace and Rename (F2), with confirmation, Undo/Redo and preserved audit evidence. Display names remain specific to each equipment item; original files and other equipment's shared models are retained. Renames survive project exchanges and synchronization with concurrent conflict review. Renamed projects require 1.19.13 or newer; older projects still open. [Review notes](ReleaseNotes-1.19.13-review.md) · [Updated 20-language help packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v51). This review has not been submitted to Microsoft Store.
 
 ## Equipment markings and damage tracking
