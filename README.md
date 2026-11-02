@@ -14,7 +14,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
-**1.19.12 portable review:** Item View adds a Delete button, Del shortcut and right-click removal with confirmation and Undo/Redo. Removal is item-specific; disk originals and audit evidence are retained, and other equipment keeps shared models. Projects with removals require 1.19.12 or newer. [Review notes](ReleaseNotes-1.19.12-review.md) · [Updated 20-language guide/tutorial packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v50). This review has not been submitted to Microsoft Store.
+**1.19.13 portable review:** Item View adds attachment Replace and Rename (F2), with confirmation, Undo/Redo and preserved audit evidence. Display names remain specific to each equipment item; original files and other equipment's shared models are retained. Renames survive project exchanges and synchronization with concurrent conflict review. Renamed projects require 1.19.13 or newer; older projects still open. [Review notes](ReleaseNotes-1.19.13-review.md) · [Updated 20-language help packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v51). This review has not been submitted to Microsoft Store.
 
 ## Equipment markings and damage tracking
 
