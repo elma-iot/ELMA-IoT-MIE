@@ -14,6 +14,9 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+**Microsoft Store update:** Version 1.19.15.0 was submitted on 3 November 2026 and is in certification. Publication will follow Microsoft's approval. The currently available Store version may remain older until approval and rollout.
+
+
 **1.19.15 role visibility review:** Help > About and License activation show the active role and assigned departments, update after license changes, and clearly identify legacy/free licenses without assigned roles. The guide and all 20 translations are updated. [Release notes](ReleaseNotes-1.19.15.md) · [Validation](RoleValidation-1.19.15.md) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v53). Microsoft Store submission remains on hold for owner testing.
 
 **1.19.14 role access review candidate:** Five signed licensing roles with department scopes control menus, right-click actions, shortcuts, data changes and optional 3D editing. Full Control reviews and saves protected projects; restricted licensed users open free/unprotected databases for viewing only. Ordinary free projects retain their existing behavior. Guides and 20-language packs are updated. [Release notes](ReleaseNotes-1.19.14.md) · [Roles and protection](RoleBasedAccess.md) · [Validation](RoleValidation-1.19.14.md) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v52). Microsoft Store candidate is prepared and held for owner testing; no submission yet.
