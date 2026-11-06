@@ -10,12 +10,14 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v53) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
 **Microsoft Store update:** Version 1.19.15.0 was submitted on 3 November 2026 and is in certification. Publication will follow Microsoft's approval. The currently available Store version may remain older until approval and rollout.
 
+
+**1.19.16 prepared update:** Animated model-availability badges refresh after uploads without restarting. Clear covers preserve visible dials; viewer tools move beside Home, with a pallet toggle and corrected wood grain. About is centered and licensed Full Control can customize the transparent header icon, with default fallback when licensing is unavailable. Zero-minimum policy removal preserves Inventory equipment. Guides, four new guided examples and all 20 translations cover the recent changes. [Release notes](ReleaseNotes-1.19.16.md) · [Validation](Validation-1.19.16.md) · [User guide](UserGuide.txt). Packages and v54 download assets are prepared locally; this version has not been submitted to Microsoft Store. Earlier preparation notes below are historical.
 
 **1.19.15 role visibility review:** Help > About and License activation show the active role and assigned departments, update after license changes, and clearly identify legacy/free licenses without assigned roles. The guide and all 20 translations are updated. [Release notes](ReleaseNotes-1.19.15.md) · [Validation](RoleValidation-1.19.15.md) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v53). Microsoft Store submission remains on hold for owner testing.
 

@@ -1,3 +1,9 @@
+# MIE 1.19.16 prepared update
+
+See [release notes](ReleaseNotes-1.19.16.md), [validation](Validation-1.19.16.md) and the updated [user guide](UserGuide.txt). Includes live 3D model badges, transparent dials, revised viewer/pallet controls, safe minimum-stock policy removal, centered About and Full Control header customization with license fallback. All 20 languages and 80 new guided-example runs are validated. Local packages and download assets are prepared; no 1.19.16 Store submission has been made.
+
+The records below describe previous updates.
+
 ## MIE 1.19.11 Store submission
 
 Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
