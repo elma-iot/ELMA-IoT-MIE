@@ -1,3 +1,11 @@
+# MIE 1.19.17 release candidate
+
+Equipment cells support up to six independently tracked items, independent PN/SN field counts, and Inventory append beneath the matching PN. Includes complete Delete/Undo, per-SN history, return and Quarantine, and corrected column drag capture with gentle acceleration and endpoint braking. Guide/tutorial help and all 20 languages are updated. [Release notes](ReleaseNotes-1.19.17.md) · [445 targeted validation assertions](Validation-1.19.17.md) · [User guide](UserGuide.txt).
+
+Portable EXE and Microsoft Store MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store. The [approved optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v55) are available for MIE 1.19.17.
+
+---
+
 # MIE 1.19.16 prepared update
 
 See [release notes](ReleaseNotes-1.19.16.md), [validation](Validation-1.19.16.md) and the updated [user guide](UserGuide.txt). Includes live 3D model badges, transparent dials, revised viewer/pallet controls, safe minimum-stock policy removal, centered About and Full Control header customization with license fallback. All 20 languages and 80 new guided-example runs are validated. Local packages and download assets are prepared; no 1.19.16 Store submission has been made.

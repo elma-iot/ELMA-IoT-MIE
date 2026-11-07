@@ -14,6 +14,11 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+## Prepared for owner testing: 1.19.17
+
+Six items per equipment cell, matching-PN append, independent serial history and lifecycle, complete cell Delete/Undo, and smoother, correctly aligned column drag previews. Edge scrolling accelerates gently and brakes near the ends. [Release notes](ReleaseNotes-1.19.17.md) · [Validation](Validation-1.19.17.md). Store submission remains held for owner review.
+
+
 **Microsoft Store update:** Version 1.19.15.0 was submitted on 3 November 2026 and is in certification. Publication will follow Microsoft's approval. The currently available Store version may remain older until approval and rollout.
 
 
