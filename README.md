@@ -14,6 +14,11 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+## Prepared for owner testing: 1.19.21
+
+Install available Inventory hardware directly from empty Master cells, with shared movement/history logic and confirmed return/delete choices. Includes faster save preparation and licensed 3D Beta well assembly from reviewed depths and original shared PN models. [Release notes](ReleaseNotes-1.19.21.md) · [633 checks](Validation-1.19.21.md) · [Movement audit](Movement-Audit-1.19.21.md). Store submission remains held.
+
+
 ## Prepared for owner testing: 1.19.20
 
 Readable cell editors retain worksheet styling in both light and dark themes. Includes grouped PN/SN controls, live theme overrides and row sizing that follows added fields and wrapped text. [Release notes](ReleaseNotes-1.19.20.md) · [234 targeted checks](Validation-1.19.20.md). Store submission remains held.
@@ -34,7 +39,7 @@ Row and column border resizing with double-click fitting, dimensions saved in MI
 Six items per equipment cell, matching-PN append, independent serial history and lifecycle, complete cell Delete/Undo, and smoother, correctly aligned column drag previews. Edge scrolling accelerates gently and brakes near the ends. [Release notes](ReleaseNotes-1.19.17.md) · [Validation](Validation-1.19.17.md). Store submission remains held for owner review.
 
 
-**Microsoft Store update:** Version 1.19.15.0 was submitted on 3 November 2026 and is in certification. Publication will follow Microsoft's approval. The currently available Store version may remain older until approval and rollout.
+**Microsoft Store update:** Version 1.19.15.0 was submitted on 3 November 2026 and was recorded in certification at submission. This dated record does not establish the current Store rollout status.
 
 
 **1.19.16 prepared update:** Animated model-availability badges refresh after uploads without restarting. Clear covers preserve visible dials; viewer tools move beside Home, with a pallet toggle and corrected wood grain. About is centered and licensed Full Control can customize the transparent header icon, with default fallback when licensing is unavailable. Zero-minimum policy removal preserves Inventory equipment. Guides, four new guided examples and all 20 translations cover the recent changes. [Release notes](ReleaseNotes-1.19.16.md) · [Validation](Validation-1.19.16.md) · [User guide](UserGuide.txt). Packages and v54 download assets are prepared locally; this version has not been submitted to Microsoft Store. Earlier preparation notes below are historical.

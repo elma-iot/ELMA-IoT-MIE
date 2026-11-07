@@ -1,3 +1,11 @@
+# MIE 1.19.21 movement and well-view candidate
+
+Master hover/right-click Inventory installation, related sections in visible header order, checked transfers, confirmed return/delete/cancel and grouped Undo. Includes empty informational tip suppression and immediate save preparation. Licensed 3D Beta assembles original shared PN models with seabed soil from reviewed drawing depths, units and anchors; missing models/depths remain omitted. [Release notes](ReleaseNotes-1.19.21.md) · [633 checks](Validation-1.19.21.md) · [Movement audit](Movement-Audit-1.19.21.md) · [User guide](UserGuide.txt) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v59).
+
+EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
+
+---
+
 # MIE 1.19.20 editor styling candidate
 
 Single-item and grouped cell editors now retain the worksheet display colors, with readable labels, inputs, carets and selectors in light and dark themes. Theme Studio overrides apply to open editors. Edit rows grow and shrink for PN/SN fields and wrapped text, then restore their saved heights. [Release notes](ReleaseNotes-1.19.20.md) · [234 targeted checks](Validation-1.19.20.md) · [User guide](UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v58).
