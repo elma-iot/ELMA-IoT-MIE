@@ -14,6 +14,11 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+## Prepared for owner testing: 1.19.19
+
+Background snapshot recovery keeps routine edits free of per-change disk writes. Temporary checkpoints preserve newer edits; named projects save explicitly or after ten minutes of PC inactivity. Includes faster layout-only changes and updated guides in all 20 languages. [Release notes](ReleaseNotes-1.19.19.md) · [553 targeted assertions](Validation-1.19.19.md). Store submission remains held.
+
+
 ## Prepared for owner testing: 1.19.18
 
 Row and column border resizing with double-click fitting, dimensions saved in MIE packs and Excel exports, compact cleared multi-item cells and common theme styling for editor fields. [Release notes](ReleaseNotes-1.19.18.md) · [Validation](Validation-1.19.18.md). Microsoft Store submission remains held.
