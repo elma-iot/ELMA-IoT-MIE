@@ -1,3 +1,9 @@
+# MIE 1.19.22 model connection candidate
+
+Named model connection surfaces and point crosses, 3D snap, vertical reference dimensions, selected-mesh appearance, model information and save recovery. Includes eight guided examples and updated guides and interface catalogs in all 20 languages. [Release notes](ReleaseNotes-1.19.22.md) · [How to use the tools](ModelConnections-1.19.22.md). Microsoft Store submission remains on hold.
+
+---
+
 # MIE 1.19.21 movement and well-view candidate
 
 Master hover/right-click Inventory installation, related sections in visible header order, checked transfers, confirmed return/delete/cancel and grouped Undo. Includes empty informational tip suppression and immediate save preparation. Licensed 3D Beta assembles original shared PN models with seabed soil from reviewed drawing depths, units and anchors; missing models/depths remain omitted. [Release notes](ReleaseNotes-1.19.21.md) · [633 checks](Validation-1.19.21.md) · [Movement audit](Movement-Audit-1.19.21.md) · [User guide](UserGuide.txt) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v59).
