@@ -1,3 +1,11 @@
+# MIE 1.19.18 sizing candidate
+
+Row/column border resizing and double-click fitting now retain dimensions through MIE pack reopening and Excel export. Cleared equipment cells show compact PN/SN lines while retaining their configured input capacity, and editor fields follow light/dark themes. [Release notes](ReleaseNotes-1.19.18.md) · [412 targeted assertions](Validation-1.19.18.md) · [User guide](UserGuide.txt) · [Updated language/learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v56).
+
+EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
+
+---
+
 # MIE 1.19.17 release candidate
 
 Equipment cells support up to six independently tracked items, independent PN/SN field counts, and Inventory append beneath the matching PN. Includes complete Delete/Undo, per-SN history, return and Quarantine, and corrected column drag capture with gentle acceleration and endpoint braking. Guide/tutorial help and all 20 languages are updated. [Release notes](ReleaseNotes-1.19.17.md) · [445 targeted validation assertions](Validation-1.19.17.md) · [User guide](UserGuide.txt).
