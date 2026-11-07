@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "قياس حجم الشبكة",
     "Position along X [m]": "الموضع بطول X [م]",
     "Position along Y [m]": "الموضع على طول Y [m]",
-    "Position along Z [m]": "الموضع على طول Z [m]"
+    "Position along Z [m]": "الموضع على طول Z [m]",
+    "All serials": "جميع المسلسلات",
+    "Select one serial number to view its documents or edit damage.": "حدد رقمًا تسلسليًا واحدًا لعرض المستندات الخاصة به أو تعديل الضرر."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

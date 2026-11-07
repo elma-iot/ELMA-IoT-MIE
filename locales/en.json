@@ -3275,6 +3275,8 @@
     "Measuring mesh volume": "Measuring mesh volume",
     "Position along X [m]": "Position along X [m]",
     "Position along Y [m]": "Position along Y [m]",
-    "Position along Z [m]": "Position along Z [m]"
+    "Position along Z [m]": "Position along Z [m]",
+    "All serials": "All serials",
+    "Select one serial number to view its documents or edit damage.": "Select one serial number to view its documents or edit damage."
   }
 }

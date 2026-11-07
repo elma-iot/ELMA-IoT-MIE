@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "การวัดปริมาตรตาข่าย",
     "Position along X [m]": "ตำแหน่งตาม X [m]",
     "Position along Y [m]": "ตำแหน่งตาม Y [m]",
-    "Position along Z [m]": "ตำแหน่งตามแนว Z [m]"
+    "Position along Z [m]": "ตำแหน่งตามแนว Z [m]",
+    "All serials": "ซีรีย์ทั้งหมด",
+    "Select one serial number to view its documents or edit damage.": "เลือกหมายเลขซีเรียลหนึ่งหมายเลขเพื่อดูเอกสารหรือแก้ไขความเสียหาย"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

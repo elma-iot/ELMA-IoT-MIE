@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "اندازه‌گیری حجم مش",
     "Position along X [m]": "موقعیت در امتداد X [m]",
     "Position along Y [m]": "موقعیت در امتداد Y [m]",
-    "Position along Z [m]": "موقعیت در امتداد Z [m]"
+    "Position along Z [m]": "موقعیت در امتداد Z [m]",
+    "All serials": "همه سریال ها",
+    "Select one serial number to view its documents or edit damage.": "یک شماره سریال را برای مشاهده اسناد آن یا ویرایش آسیب انتخاب کنید."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

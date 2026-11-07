@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Đo thể tích lưới",
     "Position along X [m]": "Vị trí dọc theo X [m]",
     "Position along Y [m]": "Vị trí dọc theo Y [m]",
-    "Position along Z [m]": "Vị trí dọc theo Z [m]"
+    "Position along Z [m]": "Vị trí dọc theo Z [m]",
+    "All serials": "Tất cả các sê-ri",
+    "Select one serial number to view its documents or edit damage.": "Chọn một số sê-ri để xem tài liệu của nó hoặc chỉnh sửa hư hỏng."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

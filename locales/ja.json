@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "メッシュ体積の測定",
     "Position along X [m]": "X に沿った位置 [m]",
     "Position along Y [m]": "Y 方向の位置 [m]",
-    "Position along Z [m]": "Z 方向の位置 [m]"
+    "Position along Z [m]": "Z 方向の位置 [m]",
+    "All serials": "全シリアル",
+    "Select one serial number to view its documents or edit damage.": "シリアル番号を 1 つ選択して、そのドキュメントを表示するか、損傷を編集します。"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

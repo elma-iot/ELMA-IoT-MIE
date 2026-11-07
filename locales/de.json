@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Netzvolumen messen",
     "Position along X [m]": "Position entlang X [m]",
     "Position along Y [m]": "Position entlang Y [m]",
-    "Position along Z [m]": "Position entlang Z [m]"
+    "Position along Z [m]": "Position entlang Z [m]",
+    "All serials": "Alle Serien",
+    "Select one serial number to view its documents or edit damage.": "Wählen Sie eine Seriennummer aus, um deren Dokumente anzuzeigen oder Schäden zu bearbeiten."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

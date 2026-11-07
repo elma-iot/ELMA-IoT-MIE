@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "जाल की मात्रा मापना",
     "Position along X [m]": "एक्स [एम] के साथ स्थिति",
     "Position along Y [m]": "Y के साथ स्थिति [m]",
-    "Position along Z [m]": "Z के अनुदिश स्थिति [m]"
+    "Position along Z [m]": "Z के अनुदिश स्थिति [m]",
+    "All serials": "सभी धारावाहिक",
+    "Select one serial number to view its documents or edit damage.": "इसके दस्तावेज़ देखने या क्षति को संपादित करने के लिए एक क्रमांक का चयन करें।"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

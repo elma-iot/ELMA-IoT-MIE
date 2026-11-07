@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Ağ hacminin ölçülmesi",
     "Position along X [m]": "X boyunca konum [m]",
     "Position along Y [m]": "Y boyunca konum [m]",
-    "Position along Z [m]": "Z boyunca konum [m]"
+    "Position along Z [m]": "Z boyunca konum [m]",
+    "All serials": "Tüm diziler",
+    "Select one serial number to view its documents or edit damage.": "Belgelerini görüntülemek veya hasarı düzenlemek için bir seri numarası seçin."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

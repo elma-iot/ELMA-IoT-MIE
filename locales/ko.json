@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "메시 체적 측정",
     "Position along X [m]": "X를 따른 위치 [m]",
     "Position along Y [m]": "Y에 따른 위치 [m]",
-    "Position along Z [m]": "Z를 따른 위치 [m]"
+    "Position along Z [m]": "Z를 따른 위치 [m]",
+    "All serials": "연재물 전체",
+    "Select one serial number to view its documents or edit damage.": "문서를 보거나 손상을 편집하려면 하나의 일련 번호를 선택하십시오."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

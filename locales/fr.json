@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Mesure du volume des mailles",
     "Position along X [m]": "Position selon X [m]",
     "Position along Y [m]": "Position selon Y [m]",
-    "Position along Z [m]": "Position selon Z [m]"
+    "Position along Z [m]": "Position selon Z [m]",
+    "All serials": "Toutes les séries",
+    "Select one serial number to view its documents or edit damage.": "Sélectionnez un numéro de série pour afficher ses documents ou modifier les dommages."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

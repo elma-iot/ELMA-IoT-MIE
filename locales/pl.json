@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Pomiar objętości siatki",
     "Position along X [m]": "Pozycja wzdłuż X [m]",
     "Position along Y [m]": "Pozycja wzdłuż Y [m]",
-    "Position along Z [m]": "Pozycja wzdłuż Z [m]"
+    "Position along Z [m]": "Pozycja wzdłuż Z [m]",
+    "All serials": "Wszystkie seriale",
+    "Select one serial number to view its documents or edit damage.": "Wybierz jeden numer seryjny, aby wyświetlić jego dokumenty lub edytować uszkodzenia."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

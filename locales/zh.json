@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "测量网格体积",
     "Position along X [m]": "沿 X 的位置 [m]",
     "Position along Y [m]": "沿 Y 的位置 [m]",
-    "Position along Z [m]": "沿 Z 轴的位置 [m]"
+    "Position along Z [m]": "沿 Z 轴的位置 [m]",
+    "All serials": "所有系列",
+    "Select one serial number to view its documents or edit damage.": "选择一个序列号以查看其文档或编辑损坏。"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

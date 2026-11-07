@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Измерение объема сетки",
     "Position along X [m]": "Позиция по X [м]",
     "Position along Y [m]": "Позиция по оси Y [м]",
-    "Position along Z [m]": "Позиция по оси Z [м]"
+    "Position along Z [m]": "Позиция по оси Z [м]",
+    "All serials": "Все сериалы",
+    "Select one serial number to view its documents or edit damage.": "Выберите один серийный номер, чтобы просмотреть его документы или отредактировать повреждения."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "মেশ ভলিউম পরিমাপ",
     "Position along X [m]": "X [মি] বরাবর অবস্থান",
     "Position along Y [m]": "Y [মি] বরাবর অবস্থান",
-    "Position along Z [m]": "Z [m] বরাবর অবস্থান"
+    "Position along Z [m]": "Z [m] বরাবর অবস্থান",
+    "All serials": "সব সিরিয়াল",
+    "Select one serial number to view its documents or edit damage.": "ডকুমেন্ট দেখতে বা ক্ষতি সম্পাদনা করতে একটি সিরিয়াল নম্বর নির্বাচন করুন।"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

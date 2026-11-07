@@ -3275,7 +3275,9 @@
     "Measuring mesh volume": "Mengukur volume jaring",
     "Position along X [m]": "Posisi sepanjang X [m]",
     "Position along Y [m]": "Posisi sepanjang Y [m]",
-    "Position along Z [m]": "Posisi sepanjang Z [m]"
+    "Position along Z [m]": "Posisi sepanjang Z [m]",
+    "All serials": "Semua serial",
+    "Select one serial number to view its documents or edit damage.": "Pilih satu nomor seri untuk melihat dokumennya atau mengedit kerusakan."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [
