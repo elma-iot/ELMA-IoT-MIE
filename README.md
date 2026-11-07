@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ## Prepared for owner testing: 1.19.22
 
-Named model connection surfaces and point crosses, 3D snap, vertical reference dimensions, selected-mesh appearance, model information and save recovery. Includes eight guided examples and updated guides and interface catalogs in all 20 languages. [Release notes](ReleaseNotes-1.19.22.md) · [How to use the tools](ModelConnections-1.19.22.md). Microsoft Store submission remains on hold. [760 checks](Validation-1.19.22.md).
+Named model connection surfaces and point crosses, 3D snap, vertical reference dimensions, selected-mesh appearance, model information and save recovery. Includes eight guided examples and updated guides and interface catalogs in all 20 languages. [Release notes](ReleaseNotes-1.19.22.md) · [How to use the tools](ModelConnections-1.19.22.md). Microsoft Store submission remains on hold. [893 checks](Validation-1.19.22.md).
 
 ## Prepared for owner testing: 1.19.21
 

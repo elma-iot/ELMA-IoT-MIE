@@ -2,7 +2,7 @@
 
 Prepared for owner testing. Microsoft Store upload and submission remain on hold.
 
-760 assertions passed across 12 suites.
+893 assertions passed across 17 suites.
 
 - ConnectionCommitChecks: 15 assertions.
 - ConnectionGeometryChecks: 19 assertions.
@@ -27,6 +27,8 @@ MakeAppx packaging, package integrity, embedded application/module hashes, uncha
 
 The model preview remains a beta engineering aid. Review mesh-derived snap candidates, original units, calculated distances and approximate steel weight. Shared connection metadata does not automatically approve or install a well stack-up.
 
-Portable SHA-256: `dcdf6899ec8b6ff78932c5ee8e85f881d7823947ce878ef9d86206ee9f06f5cd`
+Portable SHA-256: `921fd342c660a2567979d9db1872ae79d51a2ebe07e2442279268b81a160448a`
 
-MSIX SHA-256: `0538014950ff76cac1e7f826fc8fa03be07dd86183919714fa14ddf0593e3642`
+MSIX SHA-256: `a5cc74fce45bac77a52e3bf1b092e5432b8e97759522e232f051fcbd6d032466`
+
+Inventory section matching follow-up: 133 targeted assertions cover the shared routing matcher, eligible catalog generation, transfers, duplicate consolidation and actual transfer UI. Generic slope-indicator columns include their range-labelled Inventory sections; range-specific columns remain restricted to their own range. Custom 16/18-inch Landing Sub columns match plural Inventory labels without confusing the two sizes. Stock-planning categories remain separate, recorded source sections survive installation/return, and eligibility checks still exclude installed or assessment stock. An owner project was inspected read-only and its file hash remained unchanged.
