@@ -14,6 +14,11 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+## Prepared for owner testing: 1.19.20
+
+Readable cell editors retain worksheet styling in both light and dark themes. Includes grouped PN/SN controls, live theme overrides and row sizing that follows added fields and wrapped text. [Release notes](ReleaseNotes-1.19.20.md) · [234 targeted checks](Validation-1.19.20.md). Store submission remains held.
+
+
 ## Prepared for owner testing: 1.19.19
 
 Background snapshot recovery keeps routine edits free of per-change disk writes. Temporary checkpoints preserve newer edits; named projects save explicitly or after ten minutes of PC inactivity. Includes faster layout-only changes and updated guides in all 20 languages. [Release notes](ReleaseNotes-1.19.19.md) · [553 targeted assertions](Validation-1.19.19.md). Store submission remains held.

@@ -1,3 +1,11 @@
+# MIE 1.19.20 editor styling candidate
+
+Single-item and grouped cell editors now retain the worksheet display colors, with readable labels, inputs, carets and selectors in light and dark themes. Theme Studio overrides apply to open editors. Edit rows grow and shrink for PN/SN fields and wrapped text, then restore their saved heights. [Release notes](ReleaseNotes-1.19.20.md) · [234 targeted checks](Validation-1.19.20.md) · [User guide](UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v58).
+
+EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
+
+---
+
 # MIE 1.19.19 background recovery candidate
 
 Edits stay in the working workspace. Temporary recovery checkpoints are coalesced on a background worker after two quiet seconds; changes made while writing stay pending. Named projects save explicitly, on exit when Save is chosen, or after ten minutes of PC inactivity. Layout changes skip equipment lifecycle/stock recalculation. Guides and all 20 language packs are updated. [Release notes](ReleaseNotes-1.19.19.md) · [553 targeted assertions](Validation-1.19.19.md) · [User guide](UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v57).
