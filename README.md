@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ## Update 1.19.31
 
-Renamed GLB filenames appear immediately in the well-constructor model dropdown, including models uploaded with identical names. Selection, connections, units and motion settings are preserved. Guides and tutorials are updated in all 20 languages. [Release notes](ReleaseNotes-1.19.31.md) · [Validation](Validation-1.19.31.md). Microsoft Store submission is being prepared.
+Renamed GLB filenames appear immediately in the well-constructor model dropdown, including models uploaded with identical names. Selection, connections, units and motion settings are preserved. Guides and tutorials are updated in all 20 languages. [Release notes](ReleaseNotes-1.19.31.md) · [Validation](Validation-1.19.31.md). [Microsoft Store Submission 21](StoreSubmission-1.19.31.md) is in certification, with automatic publication after approval.
 
 ## Prepared for owner testing: 1.19.23
 

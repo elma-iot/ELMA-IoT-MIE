@@ -9,3 +9,6 @@
 - Distribution archives contain no customer projects, private licenses, authorization keys or owner tools.
 
 Microsoft certification is a separate external process. Local passing checks do not imply Store approval.
+
+- English model motion/constructor tutorial routes passed and restored the original workspace.
+- All four public optional assets and eight private release assets match local lengths and SHA-256 digests after upload.
