@@ -379,3 +379,5 @@ Use the standard filter to choose AISI/SAE, ASTM or API, then select a grade. Th
 
 Choosing a well-constructor GLB
 In Schematics 3D Beta, each Hardware cell shows a model dropdown directly below its equipment name when its P/N has multiple GLBs. Choose the model to display for that row; connections, model units and motion controls refresh live. The chosen content hash is saved with the constructor and restored when reopened. The advanced Models, units and depth references controls remain available.
+
+Renamed GLB filenames appear immediately in the well-constructor model dropdown. The selected model, connections and motion settings are preserved.
