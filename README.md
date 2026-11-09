@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ## Update 1.19.30
 
-Fixed Item View attachment renaming and added a per-row model selector directly below the equipment name in the well constructor. Connections and motion controls refresh immediately; selected models persist. Includes the material library, contact preview, cut-view and live merge improvements from 1.19.29. [Release notes](ReleaseNotes-1.19.30.md) · [Validation](Validation-1.19.30.md). Microsoft Store submission is being prepared.
+Fixed Item View attachment renaming and added a per-row model selector directly below the equipment name in the well constructor. Connections and motion controls refresh immediately; selected models persist. Includes the material library, contact preview, cut-view and live merge improvements from 1.19.29. [Release notes](ReleaseNotes-1.19.30.md) · [Validation](Validation-1.19.30.md). [Microsoft Store Submission 20](StoreSubmission-1.19.30.md) is in certification, with automatic publication after approval.
 
 ## Prepared for owner testing: 1.19.23
 

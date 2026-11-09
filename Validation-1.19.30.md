@@ -11,3 +11,5 @@
 - Distribution archives exclude customer projects, private licenses, authorization keys and owner tools. Local testing authorization is kept outside archives.
 
 Checksums accompany the release assets. Microsoft certification is a separate external process.
+
+- All four public optional assets and eight private release assets match local lengths and SHA-256 digests after upload.
