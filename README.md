@@ -10,9 +10,13 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v61) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v66) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+## Prepared for owner testing: 1.19.28
+
+Faster Schematics 3D cut-view navigation with unchanged geometry and measurements. Native project merge now includes saved seabed plans, custom equipment columns, explicit conflict choices and immediate live refresh. Guides, tutorials and all 20 language catalogs are current. [Release notes](ReleaseNotes-1.19.28.md) · [Validation](Validation-1.19.28.md). Microsoft Store submission will follow owner testing.
 
 ## Prepared for owner testing: 1.19.23
 
