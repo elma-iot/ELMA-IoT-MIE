@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ## Update 1.19.29
 
-Shared P/N material presets with AISI/SAE, ASTM and API selection, approximate contact deformation preview, safe mesh/group renaming, live hover identification and improved model-tree layout. Cut view remains active during movement. Includes complete live project merge and faster schematic sections. [Release notes](ReleaseNotes-1.19.29.md) · [Validation](Validation-1.19.29.md).
+Shared P/N material presets with AISI/SAE, ASTM and API selection, approximate contact deformation preview, safe mesh/group renaming, live hover identification and improved model-tree layout. Cut view remains active during movement. Includes complete live project merge and faster schematic sections. [Release notes](ReleaseNotes-1.19.29.md) · [Validation](Validation-1.19.29.md). [Microsoft Store Submission 19](StoreSubmission-1.19.29.md) is in certification; pre-processing was in progress when checked.
 
 ## Prepared for owner testing: 1.19.23
 

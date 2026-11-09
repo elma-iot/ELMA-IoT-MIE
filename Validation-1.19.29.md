@@ -10,3 +10,6 @@
 - Material/deformation scope is documented in the release notes and material-library notes. Temporary contact projection is not engineering stress/failure analysis.
 
 Checksums accompany the release assets. Microsoft certification is a separate external process; local checks do not establish Store approval.
+
+- Final Store offline runtime checks passed: bundled viewer and Theme Studio load without executable downloads; writable state is separate; corrupted executable content is rejected.
+- Uploaded GitHub assets: all four public optional assets and all eight private release assets match local lengths and SHA-256 digests.
