@@ -10,13 +10,13 @@
 
 A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
 
-[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v67) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v68) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
 
-## Update 1.19.29
+## Update 1.19.30
 
-Shared P/N material presets with AISI/SAE, ASTM and API selection, approximate contact deformation preview, safe mesh/group renaming, live hover identification and improved model-tree layout. Cut view remains active during movement. Includes complete live project merge and faster schematic sections. [Release notes](ReleaseNotes-1.19.29.md) · [Validation](Validation-1.19.29.md). [Microsoft Store Submission 19](StoreSubmission-1.19.29.md) is in certification; pre-processing was in progress when checked.
+Fixed Item View attachment renaming and added a per-row model selector directly below the equipment name in the well constructor. Connections and motion controls refresh immediately; selected models persist. Includes the material library, contact preview, cut-view and live merge improvements from 1.19.29. [Release notes](ReleaseNotes-1.19.30.md) · [Validation](Validation-1.19.30.md). Microsoft Store submission is being prepared.
 
 ## Prepared for owner testing: 1.19.23
 
