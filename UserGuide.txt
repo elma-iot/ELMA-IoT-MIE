@@ -375,3 +375,7 @@ Model tree, material presets and renaming
 The mesh tree sits beside the attachment pane and uses the available model height. Right-click any mesh, motion group or CAD node > Rename. Display names are saved with the P/N model; stable IDs preserve motion, materials, connections and saved readings. Mesh labels retain their ordinal to distinguish equal names. Context menus stay inside the window and scroll when needed. Material opens a library of over 130 editable room-temperature presets grouped by alloy family, including indium and lead. Choosing a preset fills the name, Young’s modulus and Poisson ratio. Both contact dropdowns highlight hovered meshes live in the viewport; leaving or closing the dialog restores normal appearance.
 
 Use the standard filter to choose AISI/SAE, ASTM or API, then select a grade. The full designation is saved as the material name and the populated physical properties remain editable.
+
+
+Choosing a well-constructor GLB
+In Schematics 3D Beta, each Hardware cell shows a model dropdown directly below its equipment name when its P/N has multiple GLBs. Choose the model to display for that row; connections, model units and motion controls refresh live. The chosen content hash is saved with the constructor and restored when reopened. The advanced Models, units and depth references controls remain available.
