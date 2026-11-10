@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "इस पी/एन मॉडल और मेश से भौतिक संपत्तियों को बचाया जाता है। उपस्थिति अपरिवर्तित है.",
     "Shared PN model library. No equipment record or serial number is required.": "साझा PN मॉडल लाइब्रेरी। किसी उपकरण रिकॉर्ड या सीरियल नंबर की आवश्यकता नहीं है।",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "मॉडल इस प्रोजेक्ट की साझा PN लाइब्रेरी में संग्रहीत है। कोई स्टॉक या सीरियल-नंबर रिकॉर्ड नहीं बनाया गया है.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: सीरियल नंबर उपलब्ध नहीं है। डुप्लिकेट जाँच से बाहर।"
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: सीरियल नंबर उपलब्ध नहीं है। डुप्लिकेट जाँच से बाहर।",
+    "Make 2D schematics": "2D आरेख बनाएँ",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "इस कुएं के 2D योजनाबद्ध रूप में कॉन्फ़िगर किए गए 3D कुएं और इसकी उपकरण तालिका का एक पोर्ट्रेट स्नैपशॉट सहेजें।",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "कोई 2D योजनाबद्ध नहीं। Master Equip. list डेटा का उपयोग करके कुएं को कॉन्फ़िगर करें।",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Master Equip. list डेटा से इस कुएं का निर्माण करने के लिए 3D Beta का उपयोग करें। 2D ड्राइंग वैकल्पिक है।",
+    "Save the configured 3D well as a 2D schematic before leaving?": "जाने से पहले कॉन्फ़िगर किए गए 3D को 2D योजनाबद्ध रूप से सहेजें?",
+    "Save the configured 3D well as a 2D schematic.": "कॉन्फ़िगर किए गए 3D को 2D योजनाबद्ध तरीके से सहेजें।",
+    "Keep the 3D configuration without creating a 2D schematic.": "2D योजनाबद्ध बनाए बिना 3D कॉन्फ़िगरेशन बनाए रखें।",
+    "2D schematic saved from the configured 3D well.": "2D योजनाबद्ध रूप से कॉन्फ़िगर किए गए 3D से सहेजा गया।",
+    "Could not save 2D schematic": "2D योजनाबद्ध सहेजा नहीं जा सका",
+    "Could not save 3D configuration": "3D कॉन्फ़िगरेशन सहेजा नहीं जा सका",
+    "Snapshot generated from the configured 3D well": "कॉन्फ़िगर किए गए 3D वेल से उत्पन्न स्नैपशॉट",
+    "The 3D schematic snapshot is empty.": "3D योजनाबद्ध स्नैपशॉट खाली है।",
+    "This well already has a 2D schematic.": "इस कुएं में पहले से ही 2D योजनाबद्ध है।",
+    "Select a single matching well in Master Equip. list.": "Master Equip. list में एक मेल खाने वाले कुएं का चयन करें।"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

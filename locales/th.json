@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "คุณสมบัติทางกายภาพจะถูกบันทึกด้วยโมเดล P/N และ mesh นี้ รูปลักษณ์ไม่เปลี่ยนแปลง",
     "Shared PN model library. No equipment record or serial number is required.": "ไลบรารีโมเดล PN ที่ใช้ร่วมกัน ไม่จำเป็นต้องมีบันทึกอุปกรณ์หรือหมายเลขซีเรียล",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "โมเดลถูกจัดเก็บไว้ในไลบรารี PN ที่แชร์ของโปรเจ็กต์นี้ ไม่มีการสร้างบันทึกสต็อคหรือหมายเลขซีเรียล",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: ไม่มีหมายเลขประจำเครื่อง ไม่รวมในการตรวจสอบหมายเลขซ้ำ"
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: ไม่มีหมายเลขประจำเครื่อง ไม่รวมในการตรวจสอบหมายเลขซ้ำ",
+    "Make 2D schematics": "สร้างแผนผัง 2D",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "บันทึกสแนปชอตแนวตั้งของ 3D well ที่กำหนดค่าไว้และตารางอุปกรณ์เป็นแผนผัง 2D ของหลุมนี้",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "ไม่มีแผนผัง 2D กำหนดค่าบ่อโดยใช้ข้อมูล Master Equip. list",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "ใช้ 3D Beta เพื่อสร้างหลุมนี้จากข้อมูล Master Equip. list ภาพวาด 2D เป็นทางเลือก",
+    "Save the configured 3D well as a 2D schematic before leaving?": "บันทึก 3D ที่กำหนดค่าไว้ รวมถึงแผนผัง 2D ก่อนออกเดินทางหรือไม่",
+    "Save the configured 3D well as a 2D schematic.": "บันทึก 3D ที่กำหนดค่าไว้ รวมถึงแผนผัง 2D",
+    "Keep the 3D configuration without creating a 2D schematic.": "คงการกำหนดค่า 3D ไว้โดยไม่ต้องสร้างแผนผัง 2D",
+    "2D schematic saved from the configured 3D well.": "แผนผัง 2D บันทึกจาก 3D ที่กำหนดค่าไว้อย่างดี",
+    "Could not save 2D schematic": "ไม่สามารถบันทึกแผนผัง 2D ได้",
+    "Could not save 3D configuration": "ไม่สามารถบันทึกการกำหนดค่า 3D",
+    "Snapshot generated from the configured 3D well": "สแนปช็อตที่สร้างจาก 3D ที่กำหนดค่าไว้อย่างดี",
+    "The 3D schematic snapshot is empty.": "สแน็ปช็อตแผนผัง 3D ว่างเปล่า",
+    "This well already has a 2D schematic.": "บ่อน้ำนี้มีแผนผัง 2D อยู่แล้ว",
+    "Select a single matching well in Master Equip. list.": "เลือกหลุมเดียวที่ตรงกันใน Master Equip. list"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

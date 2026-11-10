@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "As propriedades físicas são salvas com este modelo P/N e malha. A aparência permanece inalterada.",
     "Shared PN model library. No equipment record or serial number is required.": "Biblioteca de modelos PN compartilhada. Nenhum registro do equipamento ou número de série é necessário.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "O modelo está armazenado na biblioteca PN compartilhada deste projeto. Nenhum registro de estoque ou número de série é criado.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: número de série indisponível. Excluído da verificação de duplicados."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: número de série indisponível. Excluído da verificação de duplicados.",
+    "Make 2D schematics": "Criar esquema 2D",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Salve um retrato instantâneo do poço 3D configurado e sua tabela de equipamentos como o esquema 2D deste poço.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Nenhum esquema 2D. Configure o poço usando dados Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Use 3D Beta para construir este poço a partir de dados Master Equip. list. Um desenho 2D é opcional.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Salvar o 3D configurado bem como um esquema 2D antes de sair?",
+    "Save the configured 3D well as a 2D schematic.": "Salve o 3D configurado como um esquema 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Mantenha a configuração 3D sem criar um esquema 2D.",
+    "2D schematic saved from the configured 3D well.": "Esquema 2D salvo do poço 3D configurado.",
+    "Could not save 2D schematic": "Não foi possível salvar o esquema 2D",
+    "Could not save 3D configuration": "Não foi possível salvar a configuração 3D",
+    "Snapshot generated from the configured 3D well": "Instantâneo gerado a partir do poço 3D configurado",
+    "The 3D schematic snapshot is empty.": "O instantâneo esquemático 3D está vazio.",
+    "This well already has a 2D schematic.": "Este poço já possui um esquema 2D.",
+    "Select a single matching well in Master Equip. list.": "Selecione um único poço correspondente em Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

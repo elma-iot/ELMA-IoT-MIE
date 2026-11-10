@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "خواص فیزیکی با این مدل P/N و مش ذخیره می شود. ظاهر بدون تغییر است.",
     "Shared PN model library. No equipment record or serial number is required.": "کتابخانه مدل PN مشترک. هیچ سابقه تجهیزات یا شماره سریال مورد نیاز نیست.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "مدل در کتابخانه مشترک PN این پروژه ذخیره می شود. هیچ سابقه سهام یا شماره سریالی ایجاد نشده است.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: شماره سریال موجود نیست. از بررسی تکراری‌ها مستثنا است."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: شماره سریال موجود نیست. از بررسی تکراری‌ها مستثنا است.",
+    "Make 2D schematics": "ایجاد نقشه دوبعدی",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "یک عکس فوری پرتره از چاه پیکربندی شده 3D و جدول تجهیزات آن را به عنوان شماتیک 2D این چاه ذخیره کنید.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "شماتیک 2D وجود ندارد. چاه را با استفاده از داده های Master Equip. list پیکربندی کنید.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "از 3D Beta برای ساختن این چاه از داده های Master Equip. list استفاده کنید. طراحی 2D اختیاری است.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "3D پیکربندی شده و شماتیک 2D را قبل از خروج ذخیره کنید؟",
+    "Save the configured 3D well as a 2D schematic.": "3D پیکربندی شده و همچنین یک شماتیک 2D را ذخیره کنید.",
+    "Keep the 3D configuration without creating a 2D schematic.": "پیکربندی 3D را بدون ایجاد یک شماتیک 2D حفظ کنید.",
+    "2D schematic saved from the configured 3D well.": "شماتیک 2D از چاه پیکربندی شده 3D ذخیره شده است.",
+    "Could not save 2D schematic": "شماتیک 2D ذخیره نشد",
+    "Could not save 3D configuration": "پیکربندی 3D ذخیره نشد",
+    "Snapshot generated from the configured 3D well": "عکس فوری تولید شده از چاه پیکربندی شده 3D",
+    "The 3D schematic snapshot is empty.": "عکس فوری شماتیک 3D خالی است.",
+    "This well already has a 2D schematic.": "این چاه قبلاً یک شماتیک 2D دارد.",
+    "Select a single matching well in Master Equip. list.": "یک چاه منطبق را در Master Equip. list انتخاب کنید."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

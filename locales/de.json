@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Physikalische Eigenschaften werden mit diesem P/N-Modell und Netz gespeichert. Aussehen ist unverändert.",
     "Shared PN model library. No equipment record or serial number is required.": "Gemeinsame PN -Modellbibliothek. Es ist kein Gerätedatensatz oder eine Seriennummer erforderlich.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Das Modell wird in der gemeinsam genutzten PN -Bibliothek dieses Projekts gespeichert. Es wird kein Bestands- oder Seriennummernsatz erstellt.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: Seriennummer nicht verfügbar. Von der Duplikatprüfung ausgeschlossen."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: Seriennummer nicht verfügbar. Von der Duplikatprüfung ausgeschlossen.",
+    "Make 2D schematics": "2D-Schema erstellen",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Speichern Sie einen Porträt-Schnappschuss des konfigurierten 3D -Bohrlochs und seiner Gerätetabelle als 2D -Schema dieses Bohrlochs.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Kein 2D -Schema. Konfigurieren Sie den Brunnen mithilfe der Master Equip. list -Daten.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Verwenden Sie 3D Beta, um dieses Bohrloch aus Master Equip. list -Daten zu erstellen. Eine 2D -Zeichnung ist optional.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Vor dem Verlassen das konfigurierte 3D sowie einen 2D -Schaltplan speichern?",
+    "Save the configured 3D well as a 2D schematic.": "Speichern Sie das konfigurierte 3D sowie einen 2D -Schaltplan.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Behalten Sie die 3D -Konfiguration bei, ohne einen 2D -Schaltplan zu erstellen.",
+    "2D schematic saved from the configured 3D well.": "2D -Schaltplan aus dem konfigurierten 3D -Brunnen gespeichert.",
+    "Could not save 2D schematic": "2D -Schema konnte nicht gespeichert werden",
+    "Could not save 3D configuration": "Die 3D -Konfiguration konnte nicht gespeichert werden",
+    "Snapshot generated from the configured 3D well": "Snapshot generiert aus dem konfigurierten 3D -Well",
+    "The 3D schematic snapshot is empty.": "Der 3D -Schaltplan-Snapshot ist leer.",
+    "This well already has a 2D schematic.": "Für dieses Bohrloch gibt es bereits einen 2D -Schaltplan.",
+    "Select a single matching well in Master Equip. list.": "Wählen Sie eine einzelne passende Vertiefung in Master Equip. list aus."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

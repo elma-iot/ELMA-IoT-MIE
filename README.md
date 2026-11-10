@@ -16,7 +16,7 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 ## Prepared for owner testing: 1.19.33
 
-Double-click Master Equip. list cells to edit and click another cell to continue. NA/N/A serials have a translated explanation and are excluded from duplicate checks. Includes the well cut-view repair and updated guides/tutorials in 20 languages. [Release notes](ReleaseNotes-1.19.33.md) · [Validation](Validation-1.19.33.md). Store submission awaits owner testing.
+Construct 3D wells directly from Master Equip. list data without uploading a 2D drawing. Make 2D schematics saves the full portrait view and equipment table, with a Yes/No reminder when leaving. Double-click Master Equip. list cells to edit and click another cell to continue. NA/N/A serials have a translated explanation and are excluded from duplicate checks. Includes the well cut-view repair and updated guides/tutorials in 20 languages. [Release notes](ReleaseNotes-1.19.33.md) · [Validation](Validation-1.19.33.md). Store submission awaits owner testing.
 
 ## Update 1.19.31
 

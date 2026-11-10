@@ -3482,6 +3482,20 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.",
     "Shared PN model library. No equipment record or serial number is required.": "Shared PN model library. No equipment record or serial number is required.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "The model is stored in this project's shared PN library. No stock or serial-number record is created.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: serial number not available. Excluded from duplicate serial checks."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: serial number not available. Excluded from duplicate serial checks.",
+    "Make 2D schematics": "Make 2D schematics",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "No 2D schematic. Configure the well using Master Equip. list data.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Save the configured 3D well as a 2D schematic before leaving?",
+    "Save the configured 3D well as a 2D schematic.": "Save the configured 3D well as a 2D schematic.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Keep the 3D configuration without creating a 2D schematic.",
+    "2D schematic saved from the configured 3D well.": "2D schematic saved from the configured 3D well.",
+    "Could not save 2D schematic": "Could not save 2D schematic",
+    "Could not save 3D configuration": "Could not save 3D configuration",
+    "Snapshot generated from the configured 3D well": "Snapshot generated from the configured 3D well",
+    "The 3D schematic snapshot is empty.": "The 3D schematic snapshot is empty.",
+    "This well already has a 2D schematic.": "This well already has a 2D schematic.",
+    "Select a single matching well in Master Equip. list.": "Select a single matching well in Master Equip. list."
   }
 }

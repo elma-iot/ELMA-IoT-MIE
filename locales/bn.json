@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "এই P/N মডেল এবং জাল দিয়ে ভৌত বৈশিষ্ট্য সংরক্ষণ করা হয়। চেহারা অপরিবর্তিত।",
     "Shared PN model library. No equipment record or serial number is required.": "শেয়ার করা PN মডেল লাইব্রেরি। কোন সরঞ্জাম রেকর্ড বা সিরিয়াল নম্বর প্রয়োজন নেই.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "মডেলটি এই প্রকল্পের ভাগ করা PN লাইব্রেরিতে সংরক্ষিত আছে। কোন স্টক বা সিরিয়াল নম্বর রেকর্ড তৈরি করা হয় না.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: সিরিয়াল নম্বর অনুপলব্ধ। ডুপ্লিকেট পরীক্ষা থেকে বাদ।"
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: সিরিয়াল নম্বর অনুপলব্ধ। ডুপ্লিকেট পরীক্ষা থেকে বাদ।",
+    "Make 2D schematics": "2D স্কিম্যাটিক তৈরি করুন",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "কনফিগার করা 3D কূপের একটি পোর্ট্রেট স্ন্যাপশট এবং এই কূপের 2D স্কিম্যাটিক হিসাবে এর সরঞ্জাম টেবিল সংরক্ষণ করুন।",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "কোন 2D পরিকল্পিত নয়। Master Equip. list ডেটা ব্যবহার করে কূপটি কনফিগার করুন।",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Master Equip. list ডেটা থেকে এটি তৈরি করতে 3D Beta ব্যবহার করুন৷ একটি 2D অঙ্কন ঐচ্ছিক।",
+    "Save the configured 3D well as a 2D schematic before leaving?": "যাওয়ার আগে কনফিগার করা 3D কে একটি 2D স্কিম্যাটিক হিসাবে সংরক্ষণ করুন?",
+    "Save the configured 3D well as a 2D schematic.": "কনফিগার করা 3D এবং একটি 2D স্কিম্যাটিক সংরক্ষণ করুন৷",
+    "Keep the 3D configuration without creating a 2D schematic.": "2D স্কিম্যাটিক তৈরি না করে 3D কনফিগারেশন রাখুন।",
+    "2D schematic saved from the configured 3D well.": "2D স্কিম্যাটিক কনফিগার করা 3D থেকে ভালভাবে সংরক্ষণ করা হয়েছে।",
+    "Could not save 2D schematic": "2D পরিকল্পিত সংরক্ষণ করা যায়নি",
+    "Could not save 3D configuration": "3D কনফিগারেশন সংরক্ষণ করা যায়নি",
+    "Snapshot generated from the configured 3D well": "কনফিগার করা 3D ভাল থেকে স্ন্যাপশট তৈরি করা হয়েছে",
+    "The 3D schematic snapshot is empty.": "3D স্কিম্যাটিক স্ন্যাপশট খালি।",
+    "This well already has a 2D schematic.": "এই কূপের ইতিমধ্যেই একটি 2D পরিকল্পিত রয়েছে৷",
+    "Select a single matching well in Master Equip. list.": "Master Equip. list -এ একটি একক ম্যাচিং ভাল নির্বাচন করুন।"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

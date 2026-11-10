@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Właściwości fizyczne są zapisywane w tym modelu P/N i siatce. Wygląd bez zmian.",
     "Shared PN model library. No equipment record or serial number is required.": "Udostępniona biblioteka modeli PN. Nie jest wymagana żadna dokumentacja urządzenia ani numer seryjny.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Model jest przechowywany we współdzielonej bibliotece PN tego projektu. Nie jest tworzony żaden rekord zapasów ani numeru seryjnego.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: numer seryjny niedostępny. Pomijany przy sprawdzaniu duplikatów."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: numer seryjny niedostępny. Pomijany przy sprawdzaniu duplikatów.",
+    "Make 2D schematics": "Utwórz schemat 2D",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Zapisz migawkę portretową skonfigurowanej studni 3D i jej tabelę wyposażenia jako schemat tej studni 2D.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Brak schematu 2D. Skonfiguruj studnię, korzystając z danych Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Użyj 3D Beta, aby skonstruować tę studnię na podstawie danych Master Equip. list. Rysunek 2D jest opcjonalny.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Zapisać skonfigurowany schemat 3D oraz schemat 2D przed opuszczeniem?",
+    "Save the configured 3D well as a 2D schematic.": "Zapisz skonfigurowany 3D oraz schemat 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Zachowaj konfigurację 3D bez tworzenia schematu 2D.",
+    "2D schematic saved from the configured 3D well.": "Schemat 2D zapisany ze skonfigurowanej studni 3D.",
+    "Could not save 2D schematic": "Nie można zapisać schematu 2D",
+    "Could not save 3D configuration": "Nie można zapisać konfiguracji 3D",
+    "Snapshot generated from the configured 3D well": "Migawka wygenerowana ze skonfigurowanej studni 3D",
+    "The 3D schematic snapshot is empty.": "Migawka schematu 3D jest pusta.",
+    "This well already has a 2D schematic.": "Ta studnia ma już schemat 2D.",
+    "Select a single matching well in Master Equip. list.": "Wybierz pojedynczą pasującą studnię w Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

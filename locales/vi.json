@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Các đặc tính vật lý được lưu với mô hình và lưới P/N này. Ngoại hình không thay đổi.",
     "Shared PN model library. No equipment record or serial number is required.": "Thư viện mô hình PN được chia sẻ. Không cần hồ sơ thiết bị hoặc số sê-ri.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Mô hình được lưu trữ trong thư viện PN được chia sẻ của dự án này. Không có bản ghi số hàng hoặc số sê-ri nào được tạo.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: không có số sê-ri. Được loại khỏi kiểm tra trùng lặp."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: không có số sê-ri. Được loại khỏi kiểm tra trùng lặp.",
+    "Make 2D schematics": "Tạo sơ đồ 2D",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Lưu ảnh chụp nhanh dọc của giếng 3D đã được cấu hình và bảng thiết bị của nó dưới dạng sơ đồ 2D của giếng này.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Không có sơ đồ 2D. Định cấu hình giếng bằng dữ liệu Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Sử dụng 3D Beta để xây dựng giếng này từ dữ liệu Master Equip. list. Bản vẽ 2D là tùy chọn.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Lưu 3D đã được định cấu hình cũng như sơ đồ 2D trước khi rời đi?",
+    "Save the configured 3D well as a 2D schematic.": "Lưu 3D đã được định cấu hình cũng như sơ đồ 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Giữ cấu hình 3D mà không tạo sơ đồ 2D.",
+    "2D schematic saved from the configured 3D well.": "Sơ đồ 2D được lưu từ giếng 3D đã được định cấu hình.",
+    "Could not save 2D schematic": "Không thể lưu sơ đồ 2D",
+    "Could not save 3D configuration": "Không thể lưu cấu hình 3D",
+    "Snapshot generated from the configured 3D well": "Ảnh chụp nhanh được tạo từ giếng 3D đã được định cấu hình",
+    "The 3D schematic snapshot is empty.": "Ảnh chụp sơ đồ 3D trống.",
+    "This well already has a 2D schematic.": "Giếng này đã có sơ đồ 2D.",
+    "Select a single matching well in Master Equip. list.": "Chọn một giếng phù hợp duy nhất trong Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

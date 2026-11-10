@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Properti fisik disimpan dengan model dan mesh P/N ini. Penampilan tidak berubah.",
     "Shared PN model library. No equipment record or serial number is required.": "Pustaka model PN bersama. Tidak diperlukan catatan peralatan atau nomor seri.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Model disimpan di perpustakaan PN bersama proyek ini. Tidak ada catatan stok atau nomor seri yang dibuat.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: nomor seri tidak tersedia. Dikecualikan dari pemeriksaan duplikat."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: nomor seri tidak tersedia. Dikecualikan dari pemeriksaan duplikat.",
+    "Make 2D schematics": "Buat skema 2D",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Simpan snapshot potret sumur 3D yang dikonfigurasi dan tabel perlengkapannya sebagai skema 2D sumur ini.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Tidak ada skema 2D. Konfigurasikan sumur menggunakan data Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Gunakan 3D Beta untuk membuat sumur ini dari data Master Equip. list. Gambar 2D bersifat opsional.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Simpan 3D yang telah dikonfigurasi serta skema 2D sebelum berangkat?",
+    "Save the configured 3D well as a 2D schematic.": "Simpan 3D yang dikonfigurasi serta skema 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Pertahankan konfigurasi 3D tanpa membuat skema 2D.",
+    "2D schematic saved from the configured 3D well.": "Skema 2D disimpan dari sumur 3D yang dikonfigurasi.",
+    "Could not save 2D schematic": "Tidak dapat menyimpan skema 2D",
+    "Could not save 3D configuration": "Tidak dapat menyimpan konfigurasi 3D",
+    "Snapshot generated from the configured 3D well": "Snapshot dihasilkan dari sumur 3D yang dikonfigurasi",
+    "The 3D schematic snapshot is empty.": "Snapshot skema 3D kosong.",
+    "This well already has a 2D schematic.": "Sumur ini sudah mempunyai skema 2D.",
+    "Select a single matching well in Master Equip. list.": "Pilih satu sumur yang cocok di Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

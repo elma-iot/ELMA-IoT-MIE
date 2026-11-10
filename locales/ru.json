@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Физические свойства сохраняются с этой моделью и сеткой P/N. Внешний вид не изменился.",
     "Shared PN model library. No equipment record or serial number is required.": "Общая библиотека моделей PN. Никакой записи об оборудовании или серийного номера не требуется.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Модель хранится в общей библиотеке PN этого проекта. Записи о запасах или серийных номерах не создаются.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: серийный номер недоступен. Исключён из проверки дубликатов."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: серийный номер недоступен. Исключён из проверки дубликатов.",
+    "Make 2D schematics": "Создать 2D-схему",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Сохраните портретный снимок настроенной скважины 3D и таблицу ее оборудования в виде схемы 2D этой скважины.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Нет схемы 2D. Настройте скважину, используя данные Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Используйте 3D Beta, чтобы построить эту скважину на основе данных Master Equip. list. Чертеж 2D не является обязательным.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Сохранить настроенный 3D и схему 2D перед уходом?",
+    "Save the configured 3D well as a 2D schematic.": "Сохраните настроенный 3D, а также схему 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Сохраните конфигурацию 3D без создания схемы 2D.",
+    "2D schematic saved from the configured 3D well.": "Схема 2D сохранена из настроенного колодца 3D.",
+    "Could not save 2D schematic": "Не удалось сохранить схему 2D.",
+    "Could not save 3D configuration": "Не удалось сохранить конфигурацию 3D.",
+    "Snapshot generated from the configured 3D well": "Снимок, созданный из настроенной лунки 3D",
+    "The 3D schematic snapshot is empty.": "Снимок схемы 3D пуст.",
+    "This well already has a 2D schematic.": "Для этой скважины уже есть схема 2D.",
+    "Select a single matching well in Master Equip. list.": "Выберите одну подходящую лунку в Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

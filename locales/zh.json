@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "物理属性随此 P/N 模型和网格一起保存。外观没有变化。",
     "Shared PN model library. No equipment record or serial number is required.": "共享 PN 模型库。不需要设备记录或序列号。",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "模型存储在此项目的共享 PN 库中。不会创建库存或序列号记录。",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A：序列号不可用。不参与序列号重复检查。"
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A：序列号不可用。不参与序列号重复检查。",
+    "Make 2D schematics": "生成二维示意图",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "将已配置的 3D 井及其设备表的纵向快照保存为该井的 2D 原理图。",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "没有 2D 原理图。使用 Master Equip. list 数据配置孔。",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "使用 3D Beta 根据 Master Equip. list 数据构建此孔。 2D 绘图是可选的。",
+    "Save the configured 3D well as a 2D schematic before leaving?": "在离开之前保存配置的 3D 以及 2D 原理图吗？",
+    "Save the configured 3D well as a 2D schematic.": "保存配置的 3D 以及 2D 原理图。",
+    "Keep the 3D configuration without creating a 2D schematic.": "保留 3D 配置，而不创建 2D 原理图。",
+    "2D schematic saved from the configured 3D well.": "从已配置的 3D 中保存的 2D 原理图。",
+    "Could not save 2D schematic": "无法保存 2D 原理图",
+    "Could not save 3D configuration": "无法保存 3D 配置",
+    "Snapshot generated from the configured 3D well": "从配置的 3D 生成的快照",
+    "The 3D schematic snapshot is empty.": "3D 原理图快照为空。",
+    "This well already has a 2D schematic.": "这口井已经有 2D 原理图。",
+    "Select a single matching well in Master Equip. list.": "在 Master Equip. list 中选择单个匹配孔。"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Fiziksel özellikler bu P/N modeli ve ağ ile kaydedilir. Görünüm değişmez.",
     "Shared PN model library. No equipment record or serial number is required.": "Paylaşılan PN model kitaplığı. Ekipman kaydına veya seri numarasına gerek yoktur.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Model, bu projenin paylaşılan PN kitaplığında depolanıyor. Stok ve seri numarası kaydı oluşturulmaz.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: seri numarası mevcut değil. Yinelenen seri kontrolüne dahil edilmez."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: seri numarası mevcut değil. Yinelenen seri kontrolüne dahil edilmez.",
+    "Make 2D schematics": "2B şema oluştur",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Yapılandırılmış 3D kuyusunun ve ekipman tablosunun portre anlık görüntüsünü bu kuyunun 2D şeması olarak kaydedin.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "2D şeması yok. Master Equip. list verilerini kullanarak kuyuyu yapılandırın.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Master Equip. list verilerinden bu kuyucuğu oluşturmak için 3D Beta 'i kullanın. 2D çizimi isteğe bağlıdır.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Ayrılmadan önce yapılandırılmış 3D kuyucuğu bir 2D şeması olarak kaydedilsin mi?",
+    "Save the configured 3D well as a 2D schematic.": "Yapılandırılmış 3D kuyusunu 2D şeması olarak kaydedin.",
+    "Keep the 3D configuration without creating a 2D schematic.": "2D şeması oluşturmadan 3D yapılandırmasını koruyun.",
+    "2D schematic saved from the configured 3D well.": "2D şeması, yapılandırılmış 3D kuyusundan kaydedildi.",
+    "Could not save 2D schematic": "2D şeması kaydedilemedi",
+    "Could not save 3D configuration": "3D yapılandırması kaydedilemedi",
+    "Snapshot generated from the configured 3D well": "Yapılandırılmış 3D kuyusundan oluşturulan anlık görüntü",
+    "The 3D schematic snapshot is empty.": "3D şematik anlık görüntüsü boş.",
+    "This well already has a 2D schematic.": "Bu kuyucuğun zaten bir 2D şeması var.",
+    "Select a single matching well in Master Equip. list.": "Master Equip. list 'te eşleşen tek bir kuyucuk seçin."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

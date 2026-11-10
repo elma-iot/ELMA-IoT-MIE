@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "يتم حفظ الخصائص الفيزيائية باستخدام نموذج P/N والشبكة. المظهر لم يتغير.",
     "Shared PN model library. No equipment record or serial number is required.": "مكتبة نماذج PN المشتركة. لا يلزم وجود سجل للمعدات أو الرقم التسلسلي.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "تم تخزين النموذج في مكتبة PN المشتركة لهذا المشروع. لا يتم إنشاء سجل المخزون أو الرقم التسلسلي.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: الرقم التسلسلي غير متوفر. يُستبعد من فحص تكرار الأرقام."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: الرقم التسلسلي غير متوفر. يُستبعد من فحص تكرار الأرقام.",
+    "Make 2D schematics": "إنشاء مخطط ثنائي الأبعاد",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "احفظ لقطة عمودية لبئر 3D التي تم تكوينها وجدول المعدات الخاص بها مثل المخطط التخطيطي 2D لهذا البئر.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "لا يوجد مخطط تخطيطي لـ 2D. تكوين البئر باستخدام بيانات Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "استخدم 3D Beta لإنشاء هذا البئر من بيانات Master Equip. list. رسم 2D اختياري.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "هل تريد حفظ 3D الذي تم تكوينه بالإضافة إلى مخطط 2D قبل المغادرة؟",
+    "Save the configured 3D well as a 2D schematic.": "احفظ 3D الذي تم تكوينه بالإضافة إلى مخطط 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "احتفظ بتكوين 3D دون إنشاء مخطط 2D.",
+    "2D schematic saved from the configured 3D well.": "تم حفظ مخطط 2D من بئر 3D الذي تم تكوينه.",
+    "Could not save 2D schematic": "تعذر حفظ مخطط 2D",
+    "Could not save 3D configuration": "تعذر حفظ تكوين 3D",
+    "Snapshot generated from the configured 3D well": "لقطة تم إنشاؤها من بئر 3D الذي تم تكوينه",
+    "The 3D schematic snapshot is empty.": "اللقطة التخطيطية لـ 3D فارغة.",
+    "This well already has a 2D schematic.": "يحتوي هذا البئر بالفعل على مخطط 2D.",
+    "Select a single matching well in Master Equip. list.": "حدد بئرًا واحدًا مطابقًا في Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

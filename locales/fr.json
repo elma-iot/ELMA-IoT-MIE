@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Les propriétés physiques sont enregistrées avec ce modèle P/N et ce maillage. L'apparence est inchangée.",
     "Shared PN model library. No equipment record or serial number is required.": "Bibliothèque de modèles PN partagée. Aucun dossier d’équipement ni numéro de série n’est requis.",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Le modèle est stocké dans la bibliothèque PN partagée de ce projet. Aucun enregistrement de stock ou de numéro de série n'est créé.",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A : numéro de série indisponible. Exclu de la détection des doublons."
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A : numéro de série indisponible. Exclu de la détection des doublons.",
+    "Make 2D schematics": "Créer un schéma 2D",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "Enregistrez un instantané portrait du puits 3D configuré et de sa table d'équipement en tant que schéma 2D de ce puits.",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "Pas de schéma 2D. Configurez le puits à l'aide des données Master Equip. list.",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "Utilisez 3D Beta pour construire ce puits à partir des données Master Equip. list. Un dessin 2D est facultatif.",
+    "Save the configured 3D well as a 2D schematic before leaving?": "Enregistrer le puits 3D configuré ainsi qu'un schéma 2D avant de partir?",
+    "Save the configured 3D well as a 2D schematic.": "Enregistrez le puits 3D configuré ainsi qu'un schéma 2D.",
+    "Keep the 3D configuration without creating a 2D schematic.": "Conservez la configuration 3D sans créer de schéma 2D.",
+    "2D schematic saved from the configured 3D well.": "Schéma 2D enregistré à partir du puits 3D configuré.",
+    "Could not save 2D schematic": "Impossible d'enregistrer le schéma 2D",
+    "Could not save 3D configuration": "Impossible d'enregistrer la configuration 3D",
+    "Snapshot generated from the configured 3D well": "Snapshot généré à partir du puits 3D configuré",
+    "The 3D schematic snapshot is empty.": "L'instantané schématique 3D est vide.",
+    "This well already has a 2D schematic.": "Ce puits possède déjà un schéma 2D.",
+    "Select a single matching well in Master Equip. list.": "Sélectionnez un seul puits correspondant dans Master Equip. list."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

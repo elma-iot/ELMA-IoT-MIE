@@ -3482,7 +3482,21 @@
     "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "物理的特性は、この P/N モデルとメッシュとともに保存されます。見た目は変わらず。",
     "Shared PN model library. No equipment record or serial number is required.": "共有 PN モデル ライブラリ。機器の記録やシリアル番号は必要ありません。",
     "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "モデルは、このプロジェクトの共有 PN ライブラリに保存されています。在庫やシリアル番号の記録は作成されません。",
-    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A：シリアル番号は不明です。重複チェックの対象外です。"
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A：シリアル番号は不明です。重複チェックの対象外です。",
+    "Make 2D schematics": "2D模式図を作成",
+    "Save a portrait snapshot of the configured 3D well and its equipment table as this well's 2D schematic.": "構成された 3D 坑井とその機器テーブルのポートレート スナップショットを、この坑井の 2D 回路図として保存します。",
+    "No 2D schematic. Configure the well using Master Equip. list data.": "2D 回路図がありません。 Master Equip. list データを使用してウェルを構成します。",
+    "Use 3D Beta to construct this well from Master Equip. list data. A 2D drawing is optional.": "3D Beta を使用して、 Master Equip. list データからこのウェルを構築します。 2D 図面はオプションです。",
+    "Save the configured 3D well as a 2D schematic before leaving?": "終了する前に、構成された 3D および 2D 回路図を保存しますか?",
+    "Save the configured 3D well as a 2D schematic.": "構成された 3D および 2D 回路図を保存します。",
+    "Keep the 3D configuration without creating a 2D schematic.": "2D 回路図を作成せずに、ELAMIEPROTECTED0X 構成を維持します。",
+    "2D schematic saved from the configured 3D well.": "構成された 3D ウェルから保存された 2D 回路図。",
+    "Could not save 2D schematic": "2D 回路図を保存できませんでした",
+    "Could not save 3D configuration": "3D 構成を保存できませんでした",
+    "Snapshot generated from the configured 3D well": "構成された 3D ウェルから生成されたスナップショット",
+    "The 3D schematic snapshot is empty.": "3D 回路図スナップショットが空です。",
+    "This well already has a 2D schematic.": "この井戸にはすでに 2D 回路図があります。",
+    "Select a single matching well in Master Equip. list.": "Master Equip. list で一致するウェルを 1 つ選択します。"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [
