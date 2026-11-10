@@ -1,5 +1,6 @@
 # MIE 1.19.33 — master-driven 3D construction and direct cell editing
 
+- Connection IDs in Item View and the connection manager sort numerically. New connection points suggest the previous point name with an incremented numeric suffix, preserving padding such as 01 to 02. Existing connection identities remain unchanged.
 - Construct wells directly from Master Equip. list data without uploading a 2D schematic. Cancel the import picker, select 3D Beta and configure the existing attached PN models. Saved 3D-only configurations reopen directly in 3D.
 - Make 2D schematics saves the complete portrait 3D print view and equipment table as a project drawing. Leaving a configured 3D-only well asks Yes/No; No retains its editable 3D configuration. Saving the 2D snapshot immediately links and underlines the master well name.
 - Generated drawings retain the editable 3D settings, work in normal schematic viewing/export, and support Undo/Redo. 3D-only drafts are excluded from XLSX schematic exports.

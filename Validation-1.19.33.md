@@ -29,3 +29,10 @@ The revised 1.19.33 package allows master-list-driven 3D construction without an
 The 23 standalone-well checks exercise attached-PN model loading without a drawing, optional-import cancellation state, sidebar naming, No retaining the 3D draft, direct reopening, actual portrait capture, source XLSX containing the image, native persistence of drawing and 3D state, immediate master hyperlink/underline, Undo/Redo, actual tab-switch Yes handling, the standard 2D viewer, exclusion of drafts from XLSX schematic export, and generated-state preservation in background/synchronization metadata.
 
 The final Store bundle also passed all offline content checks after the revision. Both ZIP/MSIX archives and exact component hashes were verified again; Store submission remains on hold for owner testing.
+
+## Connection ordering and sequential names
+
+- ConnectionSurfaceUiChecks: 70 checks passed.
+- ConnectionSurfaceChecks: 31 checks passed.
+
+Eight focused naming/order checks cover padded suffixes, decimal carries, arbitrary-length numbers, ascending summary IDs, separate point/surface name sequences and preserving existing labels. Both final distribution archives and updated module hashes were verified; the updated Store bundle passed offline verification. The current application is left running; the revised local test folder is `release-assets/1.19.33-connection-update` and loads after closing the current instance.
