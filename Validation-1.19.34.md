@@ -19,3 +19,9 @@ The duplicate tests cover identical model content with differing exporter string
 The well tests cover the toolbar placement beside Select measurements, Cancel preserving the existing drawing, confirmed capture of the live camera/cut/measurement view, persistent preview replacement, retaining the drawing ID and master hyperlink, rejecting stale reviews, keeping the editable constructor and Undo/Redo. The current-scene capture was rendered and visually inspected.
 
 A read-only local investigation found separately attached GLBs with identical binary chunks and JSON differing only in asset.generator. Connection editing writes profile JSON revisions rather than new GLBs. Current choices previously included both metadata variants and superseded versions. This release resolves eligible aliases at read time and preserves original resources and audit history. Genuine geometric variants remain separate.
+
+## Owner-test correction: repeated unavailable serials
+
+The previous restore selected the first component/PN/SN match for every repeated identity. Two unavailable-serial valves therefore reopened on the same connection despite distinct entries in the saved configuration. The compatibility reader now consumes each legacy occurrence once, and new captures store distinct row keys plus parent/target row references.
+
+SavedWellRestoreChecks reproduces the pre-fix collision, confirms distinct restored targets, builds the complete saved assembly, verifies unique saved keys and a capture/restore round trip, and verifies the source project hash remains unchanged. The 31 standalone-well checks and existing model-resolution checks also pass.
