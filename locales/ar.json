@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "معادن صلبة وسيراميك",
     "Polymers and elastomers": "بوليمرات وإلاستومرات",
     "All standards": "كل المعايير",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "قيم ابتدائية نموذجية لدرجة حرارة الغرفة. عدّلها حسب الدرجة والحالة ودرجة الحرارة الفعلية."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "قيم ابتدائية نموذجية لدرجة حرارة الغرفة. عدّلها حسب الدرجة والحالة ودرجة الحرارة الفعلية.",
+    "Add PN": "أضف PN",
+    "Add a GLB model by part number without creating an equipment record.": "أضف نموذج GLB برقم القطعة دون إنشاء سجل للمعدات.",
+    "Add this part-number model to the project library.": "قم بإضافة نموذج رقم الجزء هذا إلى مكتبة المشروع.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "معاينة تقريبية لجهة الاتصال المرنة، وليس تحليل الضغط. تعمل الصلابة النسبية على توزيع التشوه المحلي بين كلا السطحين. لا يوجد مرونة أو قوى أو تنبؤ بالفشل. يتم الحفاظ على الهندسة الأصلية. التقديرات هي افتراضات قابلة للتحرير، وليست خصائص المواد المكتشفة.",
+    "Choose a GLB model.": "اختر طراز GLB.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "اختر شبكتي الاتصال. حركها باستخدام عناصر التحكم في الحركة الموجودة. يظل عرض القطع متاحًا.",
+    "Enter a name containing 1 to 160 characters.": "أدخل اسمًا يتكون من 1 إلى 160 حرفًا.",
+    "Enter a part number and select a GLB model.": "أدخل رقم الجزء وحدد طراز GLB.",
+    "Enter a valid part number and description.": "أدخل رقم القطعة ووصفًا صالحًا.",
+    "Model library": "المكتبة النموذجية",
+    "No physical material assigned. Add material or enable estimates.": "لم يتم تعيين أي مادة مادية. إضافة مادة أو تمكين التقديرات.",
+    "Part model added": "تمت إضافة نموذج الجزء",
+    "Part model texture added": "تمت إضافة نسيج نموذج الجزء",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "يتم حفظ الخصائص الفيزيائية باستخدام نموذج P/N والشبكة. المظهر لم يتغير.",
+    "Shared PN model library. No equipment record or serial number is required.": "مكتبة نماذج PN المشتركة. لا يلزم وجود سجل للمعدات أو الرقم التسلسلي.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "تم تخزين النموذج في مكتبة PN المشتركة لهذا المشروع. لا يتم إنشاء سجل المخزون أو الرقم التسلسلي.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: الرقم التسلسلي غير متوفر. يُستبعد من فحص تكرار الأرقام."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "कठोर धातुएँ और सिरेमिक",
     "Polymers and elastomers": "पॉलिमर और इलास्टोमर",
     "All standards": "सभी मानक",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "कमरे के तापमान के सामान्य प्रारंभिक मान। वास्तविक ग्रेड, स्थिति और तापमान के अनुसार बदलें।"
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "कमरे के तापमान के सामान्य प्रारंभिक मान। वास्तविक ग्रेड, स्थिति और तापमान के अनुसार बदलें।",
+    "Add PN": "PN जोड़ें",
+    "Add a GLB model by part number without creating an equipment record.": "उपकरण रिकॉर्ड बनाए बिना भाग संख्या के आधार पर GLB मॉडल जोड़ें।",
+    "Add this part-number model to the project library.": "इस पार्ट-नंबर मॉडल को प्रोजेक्ट लाइब्रेरी में जोड़ें।",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "अनुमानित लोचदार संपर्क पूर्वावलोकन, तनाव विश्लेषण नहीं। सापेक्ष कठोरता दोनों सतहों के बीच स्थानीय विकृति वितरित करती है। कोई प्लास्टिसिटी, ताकत या विफलता की भविष्यवाणी नहीं। मूल ज्यामिति संरक्षित है. अनुमान संपादन योग्य धारणाएँ हैं, पता लगाए गए भौतिक गुण नहीं।",
+    "Choose a GLB model.": "एक GLB मॉडल चुनें।",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "दो संपर्क जाल चुनें। मौजूदा गति नियंत्रणों का उपयोग करके उन्हें स्थानांतरित करें। कट व्यू उपलब्ध रहता है.",
+    "Enter a name containing 1 to 160 characters.": "1 से 160 वर्णों वाला नाम दर्ज करें।",
+    "Enter a part number and select a GLB model.": "एक भाग संख्या दर्ज करें और एक GLB मॉडल चुनें।",
+    "Enter a valid part number and description.": "एक वैध भाग संख्या और विवरण दर्ज करें।",
+    "Model library": "मॉडल लाइब्रेरी",
+    "No physical material assigned. Add material or enable estimates.": "कोई भौतिक सामग्री नहीं सौंपी गई। सामग्री जोड़ें या अनुमान सक्षम करें.",
+    "Part model added": "पार्ट मॉडल जोड़ा गया",
+    "Part model texture added": "भाग मॉडल बनावट जोड़ी गई",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "इस पी/एन मॉडल और मेश से भौतिक संपत्तियों को बचाया जाता है। उपस्थिति अपरिवर्तित है.",
+    "Shared PN model library. No equipment record or serial number is required.": "साझा PN मॉडल लाइब्रेरी। किसी उपकरण रिकॉर्ड या सीरियल नंबर की आवश्यकता नहीं है।",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "मॉडल इस प्रोजेक्ट की साझा PN लाइब्रेरी में संग्रहीत है। कोई स्टॉक या सीरियल-नंबर रिकॉर्ड नहीं बनाया गया है.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: सीरियल नंबर उपलब्ध नहीं है। डुप्लिकेट जाँच से बाहर।"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

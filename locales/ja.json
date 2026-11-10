@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "硬質金属・セラミックス",
     "Polymers and elastomers": "ポリマー・エラストマー",
     "All standards": "すべての規格",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "室温での代表的な初期値です。実際の鋼種、状態、温度に合わせて編集してください。"
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "室温での代表的な初期値です。実際の鋼種、状態、温度に合わせて編集してください。",
+    "Add PN": "PN を追加",
+    "Add a GLB model by part number without creating an equipment record.": "機器レコードを作成せずに、部品番号で GLB モデルを追加します。",
+    "Add this part-number model to the project library.": "この部品番号モデルをプロジェクト ライブラリに追加します。",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "応力解析ではなく、近似的な弾性接触プレビュー。相対的な剛性により、両方のサーフェス間の局所的な変形が分散されます。可塑性、力、破損の予測はありません。元のジオメトリは保持されます。推定値は編集可能な仮定であり、検出された材料特性ではありません。",
+    "Choose a GLB model.": "GLB モデルをお選びください。",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "接触する 2 つのメッシュを選択します。既存のモーション コントロールを使用してそれらを移動します。カットビューは引き続き利用可能です。",
+    "Enter a name containing 1 to 160 characters.": "1～160文字の名前を入力してください。",
+    "Enter a part number and select a GLB model.": "部品番号を入力し、 GLB モデルを選択してください。",
+    "Enter a valid part number and description.": "有効な部品番号と説明を入力してください。",
+    "Model library": "モデルライブラリ",
+    "No physical material assigned. Add material or enable estimates.": "物理マテリアルが割り当てられていません。材料を追加するか、見積りを有効にします。",
+    "Part model added": "部品モデルを追加しました",
+    "Part model texture added": "パーツモデルテクスチャ追加",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "物理的特性は、この P/N モデルとメッシュとともに保存されます。見た目は変わらず。",
+    "Shared PN model library. No equipment record or serial number is required.": "共有 PN モデル ライブラリ。機器の記録やシリアル番号は必要ありません。",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "モデルは、このプロジェクトの共有 PN ライブラリに保存されています。在庫やシリアル番号の記録は作成されません。",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A：シリアル番号は不明です。重複チェックの対象外です。"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

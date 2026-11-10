@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "Kim loại cứng và gốm",
     "Polymers and elastomers": "Polyme và elastome",
     "All standards": "Tất cả tiêu chuẩn",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Giá trị ban đầu điển hình ở nhiệt độ phòng. Điều chỉnh theo mác, trạng thái và nhiệt độ thực tế."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Giá trị ban đầu điển hình ở nhiệt độ phòng. Điều chỉnh theo mác, trạng thái và nhiệt độ thực tế.",
+    "Add PN": "Thêm PN",
+    "Add a GLB model by part number without creating an equipment record.": "Thêm mẫu GLB theo số bộ phận mà không tạo bản ghi thiết bị.",
+    "Add this part-number model to the project library.": "Thêm mô hình số bộ phận này vào thư viện dự án.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Xem trước tiếp điểm đàn hồi gần đúng, không phải phân tích ứng suất. Độ cứng tương đối phân bố biến dạng cục bộ giữa cả hai bề mặt. Không có độ dẻo, lực hoặc dự đoán lỗi. Hình học ban đầu được bảo tồn. Ước tính là các giả định có thể chỉnh sửa, không phát hiện được thuộc tính vật chất.",
+    "Choose a GLB model.": "Chọn mẫu GLB.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Chọn hai mắt lưới tiếp xúc. Di chuyển chúng bằng cách sử dụng các điều khiển chuyển động hiện có. Chế độ xem cắt vẫn có sẵn.",
+    "Enter a name containing 1 to 160 characters.": "Nhập tên chứa từ 1 đến 160 ký tự.",
+    "Enter a part number and select a GLB model.": "Nhập số bộ phận và chọn kiểu GLB.",
+    "Enter a valid part number and description.": "Nhập số bộ phận và mô tả hợp lệ.",
+    "Model library": "Thư viện mô hình",
+    "No physical material assigned. Add material or enable estimates.": "Không có tài liệu vật lý nào được chỉ định. Thêm tài liệu hoặc kích hoạt ước tính.",
+    "Part model added": "Đã thêm mô hình bộ phận",
+    "Part model texture added": "Đã thêm kết cấu mô hình phần",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Các đặc tính vật lý được lưu với mô hình và lưới P/N này. Ngoại hình không thay đổi.",
+    "Shared PN model library. No equipment record or serial number is required.": "Thư viện mô hình PN được chia sẻ. Không cần hồ sơ thiết bị hoặc số sê-ri.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Mô hình được lưu trữ trong thư viện PN được chia sẻ của dự án này. Không có bản ghi số hàng hoặc số sê-ri nào được tạo.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: không có số sê-ri. Được loại khỏi kiểm tra trùng lặp."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

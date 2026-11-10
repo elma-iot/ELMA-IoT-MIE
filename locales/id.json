@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "Logam keras dan keramik",
     "Polymers and elastomers": "Polimer dan elastomer",
     "All standards": "Semua standar",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Nilai awal umum pada suhu ruang. Sesuaikan dengan kelas, kondisi dan suhu sebenarnya."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Nilai awal umum pada suhu ruang. Sesuaikan dengan kelas, kondisi dan suhu sebenarnya.",
+    "Add PN": "Tambahkan PN",
+    "Add a GLB model by part number without creating an equipment record.": "Tambahkan model GLB berdasarkan nomor komponen tanpa membuat catatan peralatan.",
+    "Add this part-number model to the project library.": "Tambahkan model nomor bagian ini ke perpustakaan proyek.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Perkiraan pratinjau kontak elastis, bukan analisis tegangan. Kekakuan relatif mendistribusikan deformasi lokal antara kedua permukaan. Tidak ada plastisitas, kekuatan atau prediksi kegagalan. Geometri asli dipertahankan. Estimasi adalah asumsi yang dapat diedit, bukan sifat material yang terdeteksi.",
+    "Choose a GLB model.": "Pilih model GLB.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Pilih dua jerat yang saling bersentuhan. Pindahkan mereka menggunakan kontrol gerakan yang ada. Tampilan potongan tetap tersedia.",
+    "Enter a name containing 1 to 160 characters.": "Masukkan nama yang berisi 1 hingga 160 karakter.",
+    "Enter a part number and select a GLB model.": "Masukkan nomor komponen dan pilih model GLB.",
+    "Enter a valid part number and description.": "Masukkan nomor bagian dan deskripsi yang valid.",
+    "Model library": "Perpustakaan model",
+    "No physical material assigned. Add material or enable estimates.": "Tidak ada materi fisik yang ditugaskan. Tambahkan materi atau aktifkan perkiraan.",
+    "Part model added": "Model bagian ditambahkan",
+    "Part model texture added": "Tekstur model bagian ditambahkan",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Properti fisik disimpan dengan model dan mesh P/N ini. Penampilan tidak berubah.",
+    "Shared PN model library. No equipment record or serial number is required.": "Pustaka model PN bersama. Tidak diperlukan catatan peralatan atau nomor seri.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Model disimpan di perpustakaan PN bersama proyek ini. Tidak ada catatan stok atau nomor seri yang dibuat.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: nomor seri tidak tersedia. Dikecualikan dari pemeriksaan duplikat."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

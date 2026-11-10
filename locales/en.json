@@ -3465,6 +3465,23 @@
     "Hard metals and ceramics": "Hard metals and ceramics",
     "Polymers and elastomers": "Polymers and elastomers",
     "All standards": "All standards",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.",
+    "Add PN": "Add PN",
+    "Add a GLB model by part number without creating an equipment record.": "Add a GLB model by part number without creating an equipment record.",
+    "Add this part-number model to the project library.": "Add this part-number model to the project library.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.",
+    "Choose a GLB model.": "Choose a GLB model.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.",
+    "Enter a name containing 1 to 160 characters.": "Enter a name containing 1 to 160 characters.",
+    "Enter a part number and select a GLB model.": "Enter a part number and select a GLB model.",
+    "Enter a valid part number and description.": "Enter a valid part number and description.",
+    "Model library": "Model library",
+    "No physical material assigned. Add material or enable estimates.": "No physical material assigned. Add material or enable estimates.",
+    "Part model added": "Part model added",
+    "Part model texture added": "Part model texture added",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.",
+    "Shared PN model library. No equipment record or serial number is required.": "Shared PN model library. No equipment record or serial number is required.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "The model is stored in this project's shared PN library. No stock or serial-number record is created.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: serial number not available. Excluded from duplicate serial checks."
   }
 }

@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "硬质金属和陶瓷",
     "Polymers and elastomers": "聚合物和弹性体",
     "All standards": "所有标准",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "室温下的典型初始值。请按实际牌号、状态和温度调整。"
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "室温下的典型初始值。请按实际牌号、状态和温度调整。",
+    "Add PN": "添加 PN",
+    "Add a GLB model by part number without creating an equipment record.": "按零件号添加 GLB 型号，无需创建设备记录。",
+    "Add this part-number model to the project library.": "将此零件编号模型添加到项目库中。",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "近似弹性接触预览，而非应力分析。相对刚度将局部变形分布在两个表面之间。无塑性、力或失效预测。原始几何形状被保留。估计值是可编辑的假设，而不是检测到的材料属性。",
+    "Choose a GLB model.": "选择 GLB 模型。",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "选择两个接触网格。使用现有的运动控件移动它们。剪切视图仍然可用。",
+    "Enter a name containing 1 to 160 characters.": "输入包含 1 到 160 个字符的名称。",
+    "Enter a part number and select a GLB model.": "输入部件号并选择 GLB 型号。",
+    "Enter a valid part number and description.": "输入有效的部件号和说明。",
+    "Model library": "模型库",
+    "No physical material assigned. Add material or enable estimates.": "未分配物理材料。添加材料或启用估算。",
+    "Part model added": "已添加零件模型",
+    "Part model texture added": "添加了零件模型纹理",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "物理属性随此 P/N 模型和网格一起保存。外观没有变化。",
+    "Shared PN model library. No equipment record or serial number is required.": "共享 PN 模型库。不需要设备记录或序列号。",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "模型存储在此项目的共享 PN 库中。不会创建库存或序列号记录。",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A：序列号不可用。不参与序列号重复检查。"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

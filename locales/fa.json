@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "فلزات سخت و سرامیک",
     "Polymers and elastomers": "پلیمرها و الاستومرها",
     "All standards": "همه استانداردها",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "مقادیر اولیه معمول در دمای اتاق. برای گرید، وضعیت و دمای واقعی تنظیم کنید."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "مقادیر اولیه معمول در دمای اتاق. برای گرید، وضعیت و دمای واقعی تنظیم کنید.",
+    "Add PN": "PN را اضافه کنید",
+    "Add a GLB model by part number without creating an equipment record.": "بدون ایجاد سابقه تجهیزات، یک مدل GLB را بر اساس شماره قطعه اضافه کنید.",
+    "Add this part-number model to the project library.": "این مدل شماره قسمت را به کتابخانه پروژه اضافه کنید.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "پیش‌نمایش تماس الاستیک تقریبی، نه تحلیل تنش. سفتی نسبی تغییر شکل موضعی را بین هر دو سطح توزیع می کند. بدون پیش بینی انعطاف پذیری، نیرو یا شکست. هندسه اصلی حفظ شده است. تخمین ها مفروضات قابل ویرایش هستند، نه ویژگی های مواد شناسایی شده.",
+    "Choose a GLB model.": "مدل GLB را انتخاب کنید.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "دو مش تماس را انتخاب کنید. آنها را با استفاده از کنترل های حرکتی موجود حرکت دهید. نمای برش همچنان در دسترس است.",
+    "Enter a name containing 1 to 160 characters.": "نامی حاوی 1 تا 160 کاراکتر وارد کنید.",
+    "Enter a part number and select a GLB model.": "شماره قطعه را وارد کنید و مدل GLB را انتخاب کنید.",
+    "Enter a valid part number and description.": "یک شماره قطعه معتبر و توضیحات وارد کنید.",
+    "Model library": "کتابخانه مدل",
+    "No physical material assigned. Add material or enable estimates.": "هیچ ماده فیزیکی اختصاص داده نشده است. مواد را اضافه کنید یا تخمین ها را فعال کنید.",
+    "Part model added": "مدل قطعه اضافه شد",
+    "Part model texture added": "بافت مدل قطعه اضافه شد",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "خواص فیزیکی با این مدل P/N و مش ذخیره می شود. ظاهر بدون تغییر است.",
+    "Shared PN model library. No equipment record or serial number is required.": "کتابخانه مدل PN مشترک. هیچ سابقه تجهیزات یا شماره سریال مورد نیاز نیست.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "مدل در کتابخانه مشترک PN این پروژه ذخیره می شود. هیچ سابقه سهام یا شماره سریالی ایجاد نشده است.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: شماره سریال موجود نیست. از بررسی تکراری‌ها مستثنا است."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

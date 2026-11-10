@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "Sert metaller ve seramikler",
     "Polymers and elastomers": "Polimerler ve elastomerler",
     "All standards": "Tüm standartlar",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Oda sıcaklığındaki tipik başlangıç değerleri. Gerçek kalite, durum ve sıcaklığa göre düzenleyin."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Oda sıcaklığındaki tipik başlangıç değerleri. Gerçek kalite, durum ve sıcaklığa göre düzenleyin.",
+    "Add PN": "PN 'i ekleyin",
+    "Add a GLB model by part number without creating an equipment record.": "Ekipman kaydı oluşturmadan GLB modelini parça numarasına göre ekleyin.",
+    "Add this part-number model to the project library.": "Bu parça numarası modelini proje kitaplığına ekleyin.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Gerilim analizi değil, yaklaşık elastik temas önizlemesi. Göreceli sertlik, yerel deformasyonu her iki yüzey arasında dağıtır. Esneklik, kuvvet veya arıza tahmini yok. Orijinal geometri korunur. Tahminler, tespit edilen malzeme özellikleri değil, düzenlenebilir varsayımlardır.",
+    "Choose a GLB model.": "Bir GLB modeli seçin.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Temas eden iki ağı seçin. Mevcut hareket kontrollerini kullanarak bunları taşıyın. Kesim görünümü kullanılabilir durumda kalır.",
+    "Enter a name containing 1 to 160 characters.": "1 ila 160 karakter içeren bir ad girin.",
+    "Enter a part number and select a GLB model.": "Bir parça numarası girin ve bir GLB modeli seçin.",
+    "Enter a valid part number and description.": "Geçerli bir parça numarası ve açıklama girin.",
+    "Model library": "Model kitaplığı",
+    "No physical material assigned. Add material or enable estimates.": "Fiziksel materyal atanmadı. Malzeme ekleyin veya tahminleri etkinleştirin.",
+    "Part model added": "Parça modeli eklendi",
+    "Part model texture added": "Parça modeli dokusu eklendi",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Fiziksel özellikler bu P/N modeli ve ağ ile kaydedilir. Görünüm değişmez.",
+    "Shared PN model library. No equipment record or serial number is required.": "Paylaşılan PN model kitaplığı. Ekipman kaydına veya seri numarasına gerek yoktur.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Model, bu projenin paylaşılan PN kitaplığında depolanıyor. Stok ve seri numarası kaydı oluşturulmaz.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: seri numarası mevcut değil. Yinelenen seri kontrolüne dahil edilmez."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "Hartmetalle und Keramik",
     "Polymers and elastomers": "Polymere und Elastomere",
     "All standards": "Alle Normen",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Typische Anfangswerte bei Raumtemperatur. An Sorte, Zustand und Temperatur anpassen."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Typische Anfangswerte bei Raumtemperatur. An Sorte, Zustand und Temperatur anpassen.",
+    "Add PN": "PN hinzufügen",
+    "Add a GLB model by part number without creating an equipment record.": "Fügen Sie ein GLB -Modell nach Teilenummer hinzu, ohne einen Gerätedatensatz zu erstellen.",
+    "Add this part-number model to the project library.": "Dieses Teilenummernmodell zur Projektbibliothek hinzufügen.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Ungefähre Vorschau des elastischen Kontakts, keine Spannungsanalyse. Die relative Steifigkeit verteilt die lokale Verformung auf beide Oberflächen. Keine Plastizität, Kräfte oder Fehlervorhersage. Die ursprüngliche Geometrie bleibt erhalten. Bei Schätzungen handelt es sich um bearbeitbare Annahmen, nicht um erkannte Materialeigenschaften.",
+    "Choose a GLB model.": "Wählen Sie ein GLB -Modell.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Wählen Sie die beiden Kontaktnetze aus. Bewegen Sie sie mit den vorhandenen Bewegungssteuerungen. Die Schnittansicht bleibt verfügbar.",
+    "Enter a name containing 1 to 160 characters.": "Geben Sie einen Namen mit 1 bis 160 Zeichen ein.",
+    "Enter a part number and select a GLB model.": "Geben Sie eine Teilenummer ein und wählen Sie ein GLB -Modell aus.",
+    "Enter a valid part number and description.": "Geben Sie eine gültige Teilenummer und Beschreibung ein.",
+    "Model library": "Modellbibliothek",
+    "No physical material assigned. Add material or enable estimates.": "Kein physisches Material zugewiesen. Fügen Sie Material hinzu oder aktivieren Sie Kostenvoranschläge.",
+    "Part model added": "Teilemodell hinzugefügt",
+    "Part model texture added": "Teilmodelltextur hinzugefügt",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Physikalische Eigenschaften werden mit diesem P/N-Modell und Netz gespeichert. Aussehen ist unverändert.",
+    "Shared PN model library. No equipment record or serial number is required.": "Gemeinsame PN -Modellbibliothek. Es ist kein Gerätedatensatz oder eine Seriennummer erforderlich.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Das Modell wird in der gemeinsam genutzten PN -Bibliothek dieses Projekts gespeichert. Es wird kein Bestands- oder Seriennummernsatz erstellt.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: Seriennummer nicht verfügbar. Von der Duplikatprüfung ausgeschlossen."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

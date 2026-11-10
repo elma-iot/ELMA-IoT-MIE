@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "경질 금속 및 세라믹",
     "Polymers and elastomers": "폴리머 및 엘라스토머",
     "All standards": "모든 표준",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "상온의 일반적인 초기값입니다. 실제 등급, 상태 및 온도에 맞게 조정하세요."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "상온의 일반적인 초기값입니다. 실제 등급, 상태 및 온도에 맞게 조정하세요.",
+    "Add PN": "PN 추가",
+    "Add a GLB model by part number without creating an equipment record.": "장비 기록을 생성하지 않고 부품 번호로 GLB 모델을 추가합니다.",
+    "Add this part-number model to the project library.": "이 부품 번호 모델을 프로젝트 라이브러리에 추가하십시오.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "응력 해석이 아닌 대략적인 탄성 접촉 미리보기입니다. 상대 강성은 두 표면 사이의 국부적 변형을 분산시킵니다. 가소성, 힘 또는 파손 예측이 없습니다. 원래 형상은 유지됩니다. 추정치는 편집 가능한 가정이지 감지된 재료 특성이 아닙니다.",
+    "Choose a GLB model.": "GLB 모델을 선택하세요.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "두 개의 접촉 메시를 선택합니다. 기존 모션 컨트롤을 사용하여 이동합니다. 절단 뷰는 계속 사용할 수 있습니다.",
+    "Enter a name containing 1 to 160 characters.": "1~160자로 구성된 이름을 입력하세요.",
+    "Enter a part number and select a GLB model.": "부품 번호를 입력하고 GLB 모델을 선택하세요.",
+    "Enter a valid part number and description.": "유효한 부품 번호와 설명을 입력하세요.",
+    "Model library": "모델 라이브러리",
+    "No physical material assigned. Add material or enable estimates.": "물리적 재질이 할당되지 않았습니다. 자료를 추가하거나 견적을 활성화하세요.",
+    "Part model added": "부품 모델이 추가되었습니다.",
+    "Part model texture added": "부품 모델 텍스처가 추가되었습니다.",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "물리적 특성은 이 P/N 모델 및 메시에 저장됩니다. 외관은 변함이 없습니다.",
+    "Shared PN model library. No equipment record or serial number is required.": "공유 PN 모델 라이브러리. 장비 기록이나 일련 번호가 필요하지 않습니다.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "모델은 이 프로젝트의 공유 PN 라이브러리에 저장됩니다. 재고 또는 일련번호 레코드가 생성되지 않습니다.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: 일련번호를 사용할 수 없습니다. 중복 검사에서 제외됩니다."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

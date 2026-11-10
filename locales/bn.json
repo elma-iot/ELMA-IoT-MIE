@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "কঠিন ধাতু ও সিরামিক",
     "Polymers and elastomers": "পলিমার ও ইলাস্টোমার",
     "All standards": "সব মান",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "কক্ষ তাপমাত্রার সাধারণ প্রাথমিক মান। প্রকৃত গ্রেড, অবস্থা ও তাপমাত্রা অনুযায়ী বদলান।"
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "কক্ষ তাপমাত্রার সাধারণ প্রাথমিক মান। প্রকৃত গ্রেড, অবস্থা ও তাপমাত্রা অনুযায়ী বদলান।",
+    "Add PN": "PN যোগ করুন",
+    "Add a GLB model by part number without creating an equipment record.": "একটি যন্ত্রের রেকর্ড তৈরি না করে অংশ সংখ্যা দ্বারা একটি GLB মডেল যোগ করুন।",
+    "Add this part-number model to the project library.": "প্রকল্প লাইব্রেরিতে এই অংশ-সংখ্যার মডেলটি যোগ করুন।",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "আনুমানিক ইলাস্টিক যোগাযোগের পূর্বরূপ, স্ট্রেস বিশ্লেষণ নয়। আপেক্ষিক দৃঢ়তা উভয় পৃষ্ঠের মধ্যে স্থানীয় বিকৃতি বিতরণ করে। কোন প্লাস্টিসিটি, বাহিনী বা ব্যর্থতার পূর্বাভাস নেই। মূল জ্যামিতি সংরক্ষিত। অনুমান হল সম্পাদনাযোগ্য অনুমান, সনাক্ত করা উপাদান বৈশিষ্ট্য নয়।",
+    "Choose a GLB model.": "একটি GLB মডেল চয়ন করুন৷",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "দুটি যোগাযোগের মেশ বেছে নিন। বিদ্যমান গতি নিয়ন্ত্রণ ব্যবহার করে তাদের সরান। কাট ভিউ উপলব্ধ থাকে।",
+    "Enter a name containing 1 to 160 characters.": "1 থেকে 160 অক্ষর সম্বলিত একটি নাম লিখুন।",
+    "Enter a part number and select a GLB model.": "একটি অংশ নম্বর লিখুন এবং একটি GLB মডেল নির্বাচন করুন৷",
+    "Enter a valid part number and description.": "একটি বৈধ অংশ নম্বর এবং বিবরণ লিখুন।",
+    "Model library": "মডেল লাইব্রেরি",
+    "No physical material assigned. Add material or enable estimates.": "কোনো ভৌত উপাদান বরাদ্দ নেই। উপাদান যোগ করুন বা অনুমান সক্ষম করুন.",
+    "Part model added": "অংশ মডেল যোগ করা হয়েছে",
+    "Part model texture added": "অংশ মডেল টেক্সচার যোগ করা হয়েছে",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "এই P/N মডেল এবং জাল দিয়ে ভৌত বৈশিষ্ট্য সংরক্ষণ করা হয়। চেহারা অপরিবর্তিত।",
+    "Shared PN model library. No equipment record or serial number is required.": "শেয়ার করা PN মডেল লাইব্রেরি। কোন সরঞ্জাম রেকর্ড বা সিরিয়াল নম্বর প্রয়োজন নেই.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "মডেলটি এই প্রকল্পের ভাগ করা PN লাইব্রেরিতে সংরক্ষিত আছে। কোন স্টক বা সিরিয়াল নম্বর রেকর্ড তৈরি করা হয় না.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: সিরিয়াল নম্বর অনুপলব্ধ। ডুপ্লিকেট পরীক্ষা থেকে বাদ।"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

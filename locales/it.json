@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "Metalli duri e ceramiche",
     "Polymers and elastomers": "Polimeri ed elastomeri",
     "All standards": "Tutte le norme",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Valori iniziali tipici a temperatura ambiente. Adattare a grado, stato e temperatura reali."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Valori iniziali tipici a temperatura ambiente. Adattare a grado, stato e temperatura reali.",
+    "Add PN": "Aggiungi PN",
+    "Add a GLB model by part number without creating an equipment record.": "Aggiungi un modello GLB in base al codice prodotto senza creare un record dell'apparecchiatura.",
+    "Add this part-number model to the project library.": "Aggiungi questo modello con codice articolo alla libreria del progetto.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Anteprima approssimativa del contatto elastico, non analisi delle sollecitazioni. La rigidezza relativa distribuisce la deformazione locale tra entrambe le superfici. Nessuna plasticità, forze o previsione di guasti. La geometria originale viene preservata. Le stime sono ipotesi modificabili, non proprietà dei materiali rilevate.",
+    "Choose a GLB model.": "Scegli un modello GLB.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Scegli le due mesh a contatto. Spostali utilizzando i controlli di movimento esistenti. La vista tagliata rimane disponibile.",
+    "Enter a name containing 1 to 160 characters.": "Immettere un nome contenente da 1 a 160 caratteri.",
+    "Enter a part number and select a GLB model.": "Inserisci un codice articolo e seleziona un modello GLB.",
+    "Enter a valid part number and description.": "Immettere un codice prodotto e una descrizione validi.",
+    "Model library": "Libreria di modelli",
+    "No physical material assigned. Add material or enable estimates.": "Nessun materiale fisico assegnato. Aggiungi materiale o abilita preventivi.",
+    "Part model added": "Modello della parte aggiunto",
+    "Part model texture added": "Aggiunta texture del modello della parte",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Le proprietà fisiche vengono salvate con questo modello P/N e mesh. L'aspetto è invariato.",
+    "Shared PN model library. No equipment record or serial number is required.": "Libreria di modelli PN condivisa. Non è richiesto alcun record dell'apparecchiatura o numero di serie.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Il modello è archiviato nella libreria PN condivisa di questo progetto. Non viene creato alcun record di stock o numero di serie.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: numero di serie non disponibile. Escluso dal controllo dei duplicati."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

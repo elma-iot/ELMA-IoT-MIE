@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "โลหะแข็งและเซรามิก",
     "Polymers and elastomers": "พอลิเมอร์และอีลาสโตเมอร์",
     "All standards": "ทุกมาตรฐาน",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "ค่าเริ่มต้นทั่วไปที่อุณหภูมิห้อง ปรับตามเกรด สภาพ และอุณหภูมิจริง"
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "ค่าเริ่มต้นทั่วไปที่อุณหภูมิห้อง ปรับตามเกรด สภาพ และอุณหภูมิจริง",
+    "Add PN": "เพิ่ม PN",
+    "Add a GLB model by part number without creating an equipment record.": "เพิ่มรุ่น GLB ตามหมายเลขชิ้นส่วนโดยไม่ต้องสร้างบันทึกอุปกรณ์",
+    "Add this part-number model to the project library.": "เพิ่มโมเดลหมายเลขชิ้นส่วนนี้ลงในไลบรารีโครงการ",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "การแสดงตัวอย่างหน้าสัมผัสแบบยืดหยุ่นโดยประมาณ ไม่ใช่การวิเคราะห์ความเค้น ความแข็งสัมพัทธ์จะกระจายการเสียรูปเฉพาะจุดระหว่างพื้นผิวทั้งสอง ไม่มีความเป็นพลาสติก แรง หรือการคาดการณ์ความล้มเหลว รูปทรงดั้งเดิมยังคงอยู่ การประมาณการเป็นสมมติฐานที่แก้ไขได้ โดยตรวจไม่พบคุณสมบัติของวัสดุ",
+    "Choose a GLB model.": "เลือกรุ่น GLB",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "เลือกตาข่ายที่สัมผัสกันทั้งสองอัน เคลื่อนย้ายโดยใช้ตัวควบคุมการเคลื่อนไหวที่มีอยู่ มุมมองการตัดยังคงมีอยู่",
+    "Enter a name containing 1 to 160 characters.": "ป้อนชื่อที่มีอักขระ 1 ถึง 160 ตัว",
+    "Enter a part number and select a GLB model.": "ป้อนหมายเลขชิ้นส่วนและเลือกรุ่น GLB",
+    "Enter a valid part number and description.": "ป้อนหมายเลขชิ้นส่วนและคำอธิบายที่ถูกต้อง",
+    "Model library": "ไลบรารีโมเดล",
+    "No physical material assigned. Add material or enable estimates.": "ไม่มีการกำหนดวัสดุทางกายภาพ เพิ่มวัสดุหรือเปิดใช้การประมาณการ",
+    "Part model added": "เพิ่มโมเดลชิ้นส่วนแล้ว",
+    "Part model texture added": "เพิ่มพื้นผิวโมเดลชิ้นส่วนแล้ว",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "คุณสมบัติทางกายภาพจะถูกบันทึกด้วยโมเดล P/N และ mesh นี้ รูปลักษณ์ไม่เปลี่ยนแปลง",
+    "Shared PN model library. No equipment record or serial number is required.": "ไลบรารีโมเดล PN ที่ใช้ร่วมกัน ไม่จำเป็นต้องมีบันทึกอุปกรณ์หรือหมายเลขซีเรียล",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "โมเดลถูกจัดเก็บไว้ในไลบรารี PN ที่แชร์ของโปรเจ็กต์นี้ ไม่มีการสร้างบันทึกสต็อคหรือหมายเลขซีเรียล",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: ไม่มีหมายเลขประจำเครื่อง ไม่รวมในการตรวจสอบหมายเลขซ้ำ"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

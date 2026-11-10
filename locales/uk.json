@@ -3465,7 +3465,24 @@
     "Hard metals and ceramics": "Тверді метали та кераміка",
     "Polymers and elastomers": "Полімери та еластомери",
     "All standards": "Усі стандарти",
-    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Типові початкові значення за кімнатної температури. Уточніть для марки, стану й температури."
+    "Typical room-temperature starting values. Adjust for the actual grade, condition and temperature.": "Типові початкові значення за кімнатної температури. Уточніть для марки, стану й температури.",
+    "Add PN": "Додати PN",
+    "Add a GLB model by part number without creating an equipment record.": "Додайте модель GLB за номером деталі без створення запису обладнання.",
+    "Add this part-number model to the project library.": "Додайте цю модель номерів деталей до бібліотеки проекту.",
+    "Approximate elastic contact preview, not stress analysis. Relative stiffness distributes local deformation between both surfaces. No plasticity, forces or failure prediction. Original geometry is preserved. Estimates are editable assumptions, not detected material properties.": "Приблизний попередній перегляд пружного контакту, а не аналіз напруги. Відносна жорсткість розподіляє локальну деформацію між обома поверхнями. Немає пластичності, сил або передбачення несправності. Оригінальна геометрія збережена. Оцінки – це редаговані припущення, а не виявлені властивості матеріалу.",
+    "Choose a GLB model.": "Виберіть модель GLB.",
+    "Choose the two contacting meshes. Move them using the existing motion controls. Cut view remains available.": "Виберіть дві контактні сітки. Перемістіть їх за допомогою наявних елементів керування рухом. Вид розрізу залишається доступним.",
+    "Enter a name containing 1 to 160 characters.": "Введіть назву, що містить від 1 до 160 символів.",
+    "Enter a part number and select a GLB model.": "Введіть номер деталі та виберіть модель GLB.",
+    "Enter a valid part number and description.": "Введіть дійсний номер деталі та опис.",
+    "Model library": "Бібліотека моделей",
+    "No physical material assigned. Add material or enable estimates.": "Фізичний матеріал не призначено. Додайте матеріал або ввімкніть оцінки.",
+    "Part model added": "Модель деталі додано",
+    "Part model texture added": "Додано текстуру моделі частини",
+    "Physical properties are saved with this P/N model and mesh. Appearance is unchanged.": "Фізичні властивості зберігаються за допомогою цієї моделі P/N і сітки. Зовнішній вигляд без змін.",
+    "Shared PN model library. No equipment record or serial number is required.": "Спільна бібліотека моделей PN. Запис про обладнання чи серійний номер не потрібні.",
+    "The model is stored in this project's shared PN library. No stock or serial-number record is created.": "Модель зберігається в спільній бібліотеці PN цього проекту. Не створюється запис запасу чи серійного номера.",
+    "NA / N/A: serial number not available. Excluded from duplicate serial checks.": "NA / N/A: серійний номер недоступний. Виключено з перевірки дублікатів."
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [
