@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "从配置的 3D 生成的快照",
     "The 3D schematic snapshot is empty.": "3D 原理图快照为空。",
     "This well already has a 2D schematic.": "这口井已经有 2D 原理图。",
-    "Select a single matching well in Master Equip. list.": "在 Master Equip. list 中选择单个匹配孔。"
+    "Select a single matching well in Master Equip. list.": "在 Master Equip. list 中选择单个匹配孔。",
+    "Replace 2D schematic from 3D scene": "从 3D 场景中替换 2D 原理图",
+    "Replace 2D schematic": "替换 2D 原理图",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "将 {0} 的 2D 原理图替换为当前的 3D 场景？",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "当前相机、剪切视图和选定的测量结果将被保存。 Undo 恢复之前的绘图；保留可编辑的 3D 配置。",
+    "Replace the 2D schematic with the current 3D scene.": "将 2D 原理图替换为当前的 3D 场景。",
+    "Keep the existing 2D schematic.": "保留现有的 2D 原理图。",
+    "2D schematic replaced with the current 3D scene.": "2D 原理图替换为当前的 3D 场景。",
+    "The 2D schematic changed. Review it before replacing it.": "2D 原理图已更改。更换之前请先检查一下。",
+    "No well scene is available to capture.": "没有可捕捉的井场景。",
+    "2D schematic replaced from 3D": "2D 原理图已替换为 3D",
+    "2D schematic created from 3D": "从 3D 创建的 2D 原理图"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

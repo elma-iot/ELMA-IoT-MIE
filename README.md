@@ -14,6 +14,10 @@ A focused Windows workspace for subsea wellhead hardware and consumables, built 
 
 </div>
 
+## Prepared for owner testing: 1.19.34
+
+Shared model choices collapse exporter-metadata duplicates onto the configured copy while retaining original resources, history and genuine variants. Replace 2D schematic from 3D scene sits beside Select measurements, with confirmation and Undo/Redo. Guides and all 20 languages are updated. [Release notes](ReleaseNotes-1.19.34.md) · [Validation](Validation-1.19.34.md). Microsoft Store submission awaits owner testing.
+
 ## Prepared for owner testing: 1.19.33
 
 Construct 3D wells directly from Master Equip. list data without uploading a 2D drawing. Make 2D schematics saves the full portrait view and equipment table, with a Yes/No reminder when leaving. Double-click Master Equip. list cells to edit and click another cell to continue. NA/N/A serials have a translated explanation and are excluded from duplicate checks. Includes the well cut-view repair and updated guides/tutorials in 20 languages. [Release notes](ReleaseNotes-1.19.33.md) · [Validation](Validation-1.19.33.md). Store submission awaits owner testing.

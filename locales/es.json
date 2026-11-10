@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "Instantánea generada a partir del pozo 3D configurado",
     "The 3D schematic snapshot is empty.": "La instantánea del esquema 3D está vacía.",
     "This well already has a 2D schematic.": "Este pozo ya cuenta con un esquema 2D.",
-    "Select a single matching well in Master Equip. list.": "Seleccione un único pozo coincidente en Master Equip. list."
+    "Select a single matching well in Master Equip. list.": "Seleccione un único pozo coincidente en Master Equip. list.",
+    "Replace 2D schematic from 3D scene": "Reemplazar el esquema 2D de la escena 3D",
+    "Replace 2D schematic": "Reemplazar el esquema 2D",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "¿Reemplazar el esquema 2D para {0} con la escena actual 3D?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "Se guardarán la cámara actual, la vista de corte y las mediciones seleccionadas. Undo restaura el dibujo anterior; se mantiene la configuración editable 3D.",
+    "Replace the 2D schematic with the current 3D scene.": "Reemplace el esquema 2D con la escena 3D actual.",
+    "Keep the existing 2D schematic.": "Mantener el esquema 2D existente.",
+    "2D schematic replaced with the current 3D scene.": "Esquema de 2D reemplazado con la escena 3D actual.",
+    "The 2D schematic changed. Review it before replacing it.": "El esquema de 2D cambió. Revíselo antes de reemplazarlo.",
+    "No well scene is available to capture.": "No hay ninguna escena de pozo disponible para capturar.",
+    "2D schematic replaced from 3D": "Esquema de 2D reemplazado de 3D",
+    "2D schematic created from 3D": "Esquema de 2D creado a partir de 3D"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

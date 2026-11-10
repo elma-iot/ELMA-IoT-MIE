@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "Snapshot generiert aus dem konfigurierten 3D -Well",
     "The 3D schematic snapshot is empty.": "Der 3D -Schaltplan-Snapshot ist leer.",
     "This well already has a 2D schematic.": "Für dieses Bohrloch gibt es bereits einen 2D -Schaltplan.",
-    "Select a single matching well in Master Equip. list.": "Wählen Sie eine einzelne passende Vertiefung in Master Equip. list aus."
+    "Select a single matching well in Master Equip. list.": "Wählen Sie eine einzelne passende Vertiefung in Master Equip. list aus.",
+    "Replace 2D schematic from 3D scene": "Ersetzen Sie das 2D -Schema aus der 3D -Szene",
+    "Replace 2D schematic": "Ersetzen Sie den 2D -Schaltplan",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "Den 2D -Schaltplan für {0} durch die aktuelle 3D -Szene ersetzen?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "Die aktuelle Kamera, Schnittansicht und ausgewählte Messungen werden gespeichert. Undo stellt die vorherige Zeichnung wieder her; Die editierbare 3D -Konfiguration bleibt erhalten.",
+    "Replace the 2D schematic with the current 3D scene.": "Ersetzen Sie den 2D -Schaltplan durch die aktuelle 3D -Szene.",
+    "Keep the existing 2D schematic.": "Behalten Sie den vorhandenen 2D -Schaltplan bei.",
+    "2D schematic replaced with the current 3D scene.": "2D -Schema wurde durch die aktuelle 3D -Szene ersetzt.",
+    "The 2D schematic changed. Review it before replacing it.": "Der 2D -Schaltplan wurde geändert. Überprüfen Sie es, bevor Sie es ersetzen.",
+    "No well scene is available to capture.": "Es ist keine Bohrlochszene zum Erfassen verfügbar.",
+    "2D schematic replaced from 3D": "2D -Schaltplan durch 3D ersetzt",
+    "2D schematic created from 3D": "2D -Schema erstellt aus 3D"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

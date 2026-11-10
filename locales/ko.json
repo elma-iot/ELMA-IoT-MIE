@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "구성된 3D 웰에서 생성된 스냅샷",
     "The 3D schematic snapshot is empty.": "3D 회로도 스냅샷이 비어 있습니다.",
     "This well already has a 2D schematic.": "이 우물에는 이미 2D 설계도가 있습니다.",
-    "Select a single matching well in Master Equip. list.": "Master Equip. list 에서 일치하는 단일 웰을 선택합니다."
+    "Select a single matching well in Master Equip. list.": "Master Equip. list 에서 일치하는 단일 웰을 선택합니다.",
+    "Replace 2D schematic from 3D scene": "3D 장면에서 2D 회로도 교체",
+    "Replace 2D schematic": "2D 회로도 교체",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "{0} 에 대한 2D 회로도를 현재 3D 장면으로 바꾸시겠습니까?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "현재 카메라, 컷 뷰 및 선택한 측정값이 저장됩니다. Undo 는 이전 도면을 복원합니다. 편집 가능한 3D 구성이 유지됩니다.",
+    "Replace the 2D schematic with the current 3D scene.": "2D 회로도를 현재 3D 장면으로 교체합니다.",
+    "Keep the existing 2D schematic.": "기존 2D 회로도를 유지합니다.",
+    "2D schematic replaced with the current 3D scene.": "2D 회로도가 현재 3D 장면으로 대체되었습니다.",
+    "The 2D schematic changed. Review it before replacing it.": "2D 회로도가 변경되었습니다. 교체하기 전에 검토해 보세요.",
+    "No well scene is available to capture.": "캡처할 수 있는 우물 장면이 없습니다.",
+    "2D schematic replaced from 3D": "3D 에서 교체된 2D 회로도",
+    "2D schematic created from 3D": "3D 에서 생성된 2D 회로도"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

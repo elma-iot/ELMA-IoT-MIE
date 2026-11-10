@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "構成された 3D ウェルから生成されたスナップショット",
     "The 3D schematic snapshot is empty.": "3D 回路図スナップショットが空です。",
     "This well already has a 2D schematic.": "この井戸にはすでに 2D 回路図があります。",
-    "Select a single matching well in Master Equip. list.": "Master Equip. list で一致するウェルを 1 つ選択します。"
+    "Select a single matching well in Master Equip. list.": "Master Equip. list で一致するウェルを 1 つ選択します。",
+    "Replace 2D schematic from 3D scene": "3D シーンから 2D 回路図を置き換えます",
+    "Replace 2D schematic": "2D 回路図を置き換えます",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "{0} の 2D 回路図を現在の 3D シーンに置き換えますか?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "現在のカメラ、カットビュー、選択した測定値が保存されます。 Undo は前の図面を復元します。編集可能な 3D 構成は保持されます。",
+    "Replace the 2D schematic with the current 3D scene.": "2D 回路図を現在の 3D シーンに置き換えます。",
+    "Keep the existing 2D schematic.": "既存の 2D 回路図を保持します。",
+    "2D schematic replaced with the current 3D scene.": "2D 回路図が現在の 3D シーンに置き換えられました。",
+    "The 2D schematic changed. Review it before replacing it.": "2D 回路図が変更されました。交換する前に見直してください。",
+    "No well scene is available to capture.": "キャプチャできる井戸のシーンがありません。",
+    "2D schematic replaced from 3D": "2D 回路図が 3D から置き換えられました",
+    "2D schematic created from 3D": "3D から作成された 2D 回路図"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

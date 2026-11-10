@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "عکس فوری تولید شده از چاه پیکربندی شده 3D",
     "The 3D schematic snapshot is empty.": "عکس فوری شماتیک 3D خالی است.",
     "This well already has a 2D schematic.": "این چاه قبلاً یک شماتیک 2D دارد.",
-    "Select a single matching well in Master Equip. list.": "یک چاه منطبق را در Master Equip. list انتخاب کنید."
+    "Select a single matching well in Master Equip. list.": "یک چاه منطبق را در Master Equip. list انتخاب کنید.",
+    "Replace 2D schematic from 3D scene": "شماتیک 2D را از صحنه 3D جایگزین کنید",
+    "Replace 2D schematic": "شماتیک 2D را جایگزین کنید",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "شماتیک 2D را برای {0} با صحنه فعلی 3D جایگزین کنید؟",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "دوربین فعلی، نمای برش و اندازه‌گیری‌های انتخاب شده ذخیره می‌شوند. Undo نقشه قبلی را بازیابی می کند. پیکربندی قابل ویرایش 3D حفظ می شود.",
+    "Replace the 2D schematic with the current 3D scene.": "شماتیک 2D را با صحنه فعلی 3D جایگزین کنید.",
+    "Keep the existing 2D schematic.": "شماتیک 2D موجود را حفظ کنید.",
+    "2D schematic replaced with the current 3D scene.": "شماتیک 2D با صحنه فعلی 3D جایگزین شد.",
+    "The 2D schematic changed. Review it before replacing it.": "شماتیک 2D تغییر کرد. قبل از تعویض آن را بررسی کنید.",
+    "No well scene is available to capture.": "هیچ صحنه چاهی برای ضبط در دسترس نیست.",
+    "2D schematic replaced from 3D": "شماتیک 2D از 3D جایگزین شد",
+    "2D schematic created from 3D": "شماتیک 2D از 3D ایجاد شد"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

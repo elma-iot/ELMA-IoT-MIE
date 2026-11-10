@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "कॉन्फ़िगर किए गए 3D वेल से उत्पन्न स्नैपशॉट",
     "The 3D schematic snapshot is empty.": "3D योजनाबद्ध स्नैपशॉट खाली है।",
     "This well already has a 2D schematic.": "इस कुएं में पहले से ही 2D योजनाबद्ध है।",
-    "Select a single matching well in Master Equip. list.": "Master Equip. list में एक मेल खाने वाले कुएं का चयन करें।"
+    "Select a single matching well in Master Equip. list.": "Master Equip. list में एक मेल खाने वाले कुएं का चयन करें।",
+    "Replace 2D schematic from 3D scene": "3D दृश्य से योजनाबद्ध 2D बदलें",
+    "Replace 2D schematic": "2D को योजनाबद्ध तरीके से बदलें",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "{0} के लिए 2D योजनाबद्ध को वर्तमान 3D दृश्य से बदलें?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "वर्तमान कैमरा, कट व्यू और चयनित माप सहेजे जाएंगे। Undo पिछली ड्राइंग को पुनर्स्थापित करता है; संपादन योग्य 3D कॉन्फ़िगरेशन रखा गया है।",
+    "Replace the 2D schematic with the current 3D scene.": "2D योजनाबद्ध को वर्तमान 3D दृश्य से बदलें।",
+    "Keep the existing 2D schematic.": "मौजूदा 2D को योजनाबद्ध रखें।",
+    "2D schematic replaced with the current 3D scene.": "2D योजनाबद्ध को वर्तमान 3D दृश्य से बदल दिया गया।",
+    "The 2D schematic changed. Review it before replacing it.": "2D योजनाबद्ध परिवर्तन हुआ। इसे बदलने से पहले इसकी समीक्षा करें.",
+    "No well scene is available to capture.": "कैप्चर करने के लिए कोई अच्छा दृश्य उपलब्ध नहीं है।",
+    "2D schematic replaced from 3D": "2D योजनाबद्ध को 3D से बदल दिया गया",
+    "2D schematic created from 3D": "3D से बनाया गया 2D योजनाबद्ध"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

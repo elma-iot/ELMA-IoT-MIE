@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "Yapılandırılmış 3D kuyusundan oluşturulan anlık görüntü",
     "The 3D schematic snapshot is empty.": "3D şematik anlık görüntüsü boş.",
     "This well already has a 2D schematic.": "Bu kuyucuğun zaten bir 2D şeması var.",
-    "Select a single matching well in Master Equip. list.": "Master Equip. list 'te eşleşen tek bir kuyucuk seçin."
+    "Select a single matching well in Master Equip. list.": "Master Equip. list 'te eşleşen tek bir kuyucuk seçin.",
+    "Replace 2D schematic from 3D scene": "3D sahnesinden 2D şemasını değiştirin",
+    "Replace 2D schematic": "2D şemasını değiştirin",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "{0} için 2D şeması mevcut 3D sahnesiyle değiştirilsin mi?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "Geçerli kamera, kesit görünümü ve seçilen ölçümler kaydedilecektir. Undo önceki çizimi geri yükler; düzenlenebilir 3D yapılandırması korunur.",
+    "Replace the 2D schematic with the current 3D scene.": "2D şemasını mevcut 3D sahnesiyle değiştirin.",
+    "Keep the existing 2D schematic.": "Mevcut 2D şemasını koruyun.",
+    "2D schematic replaced with the current 3D scene.": "2D şeması, mevcut 3D sahnesiyle değiştirildi.",
+    "The 2D schematic changed. Review it before replacing it.": "2D şeması değişti. Değiştirmeden önce gözden geçirin.",
+    "No well scene is available to capture.": "Yakalanacak kuyu sahnesi yok.",
+    "2D schematic replaced from 3D": "2D şeması, 3D 'ten değiştirildi",
+    "2D schematic created from 3D": "3D 'ten oluşturulan 2D şeması"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

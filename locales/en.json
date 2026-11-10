@@ -3496,6 +3496,17 @@
     "Snapshot generated from the configured 3D well": "Snapshot generated from the configured 3D well",
     "The 3D schematic snapshot is empty.": "The 3D schematic snapshot is empty.",
     "This well already has a 2D schematic.": "This well already has a 2D schematic.",
-    "Select a single matching well in Master Equip. list.": "Select a single matching well in Master Equip. list."
+    "Select a single matching well in Master Equip. list.": "Select a single matching well in Master Equip. list.",
+    "Replace 2D schematic from 3D scene": "Replace 2D schematic from 3D scene",
+    "Replace 2D schematic": "Replace 2D schematic",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "Replace the 2D schematic for {0} with the current 3D scene?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.",
+    "Replace the 2D schematic with the current 3D scene.": "Replace the 2D schematic with the current 3D scene.",
+    "Keep the existing 2D schematic.": "Keep the existing 2D schematic.",
+    "2D schematic replaced with the current 3D scene.": "2D schematic replaced with the current 3D scene.",
+    "The 2D schematic changed. Review it before replacing it.": "The 2D schematic changed. Review it before replacing it.",
+    "No well scene is available to capture.": "No well scene is available to capture.",
+    "2D schematic replaced from 3D": "2D schematic replaced from 3D",
+    "2D schematic created from 3D": "2D schematic created from 3D"
   }
 }

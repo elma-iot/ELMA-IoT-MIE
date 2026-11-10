@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "Ảnh chụp nhanh được tạo từ giếng 3D đã được định cấu hình",
     "The 3D schematic snapshot is empty.": "Ảnh chụp sơ đồ 3D trống.",
     "This well already has a 2D schematic.": "Giếng này đã có sơ đồ 2D.",
-    "Select a single matching well in Master Equip. list.": "Chọn một giếng phù hợp duy nhất trong Master Equip. list."
+    "Select a single matching well in Master Equip. list.": "Chọn một giếng phù hợp duy nhất trong Master Equip. list.",
+    "Replace 2D schematic from 3D scene": "Thay thế sơ đồ 2D từ cảnh 3D",
+    "Replace 2D schematic": "Thay thế sơ đồ 2D",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "Thay thế sơ đồ 2D cho {0} bằng cảnh 3D hiện tại?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "Máy ảnh hiện tại, chế độ xem cắt và số đo đã chọn sẽ được lưu. Undo khôi phục bản vẽ trước đó; cấu hình 3D có thể chỉnh sửa được giữ nguyên.",
+    "Replace the 2D schematic with the current 3D scene.": "Thay thế sơ đồ 2D bằng cảnh 3D hiện tại.",
+    "Keep the existing 2D schematic.": "Giữ sơ đồ 2D hiện có.",
+    "2D schematic replaced with the current 3D scene.": "Sơ đồ 2D được thay thế bằng cảnh 3D hiện tại.",
+    "The 2D schematic changed. Review it before replacing it.": "Sơ đồ 2D đã thay đổi. Hãy xem lại nó trước khi thay thế nó.",
+    "No well scene is available to capture.": "Không có cảnh giếng nước nào để chụp.",
+    "2D schematic replaced from 3D": "Sơ đồ 2D được thay thế từ 3D",
+    "2D schematic created from 3D": "Sơ đồ 2D được tạo từ 3D"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [

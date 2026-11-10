@@ -3496,7 +3496,18 @@
     "Snapshot generated from the configured 3D well": "কনফিগার করা 3D ভাল থেকে স্ন্যাপশট তৈরি করা হয়েছে",
     "The 3D schematic snapshot is empty.": "3D স্কিম্যাটিক স্ন্যাপশট খালি।",
     "This well already has a 2D schematic.": "এই কূপের ইতিমধ্যেই একটি 2D পরিকল্পিত রয়েছে৷",
-    "Select a single matching well in Master Equip. list.": "Master Equip. list -এ একটি একক ম্যাচিং ভাল নির্বাচন করুন।"
+    "Select a single matching well in Master Equip. list.": "Master Equip. list -এ একটি একক ম্যাচিং ভাল নির্বাচন করুন।",
+    "Replace 2D schematic from 3D scene": "3D দৃশ্য থেকে 2D স্কিম্যাটিক প্রতিস্থাপন করুন",
+    "Replace 2D schematic": "2D স্কিম্যাটিক প্রতিস্থাপন করুন",
+    "Replace the 2D schematic for {0} with the current 3D scene?": "{0} -এর জন্য 2D স্কিম্যাটিককে বর্তমান 3D দৃশ্য দিয়ে প্রতিস্থাপন করবেন?",
+    "The current camera, cut view and selected measurements will be saved. Undo restores the previous drawing; the editable 3D configuration is kept.": "বর্তমান ক্যামেরা, কাটা দৃশ্য এবং নির্বাচিত পরিমাপ সংরক্ষণ করা হবে। Undo পূর্ববর্তী অঙ্কন পুনরুদ্ধার করে; সম্পাদনাযোগ্য 3D কনফিগারেশন রাখা হয়।",
+    "Replace the 2D schematic with the current 3D scene.": "বর্তমান 3D দৃশ্যের সাথে 2D স্কিম্যাটিক প্রতিস্থাপন করুন।",
+    "Keep the existing 2D schematic.": "বিদ্যমান 2D পরিকল্পিত রাখুন।",
+    "2D schematic replaced with the current 3D scene.": "2D স্কিম্যাটিক বর্তমান 3D দৃশ্যের সাথে প্রতিস্থাপিত হয়েছে।",
+    "The 2D schematic changed. Review it before replacing it.": "2D পরিকল্পিত পরিবর্তন করা হয়েছে৷ এটি প্রতিস্থাপন করার আগে এটি পর্যালোচনা করুন.",
+    "No well scene is available to capture.": "ক্যাপচার করার জন্য কোন ভাল দৃশ্য উপলব্ধ নেই।",
+    "2D schematic replaced from 3D": "2D স্কিম্যাটিক 3D থেকে প্রতিস্থাপিত হয়েছে",
+    "2D schematic created from 3D": "3D থেকে 2D স্কিম্যাটিক তৈরি করা হয়েছে"
   },
   "previous": {
     "--build-project <master.xlsx> <schematics-folder> <output.miepack>": [
