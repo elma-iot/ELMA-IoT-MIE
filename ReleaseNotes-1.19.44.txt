@@ -1,0 +1,7 @@
+What's new in 1.19.44
+
+• Operate configured valves directly in 3D Demo and the Well Constructor Wizard. Connected LP wellhead valves show underwater bubbles, and handle changes update the affected meshes in place.
+• Author and edit threaded casing, tubing and drill pipe in Item View. Set Bottom Extend depths and enter cement tail and lead depths for cut views.
+• Set a default 3D camera per well. Cut view keeps your camera position and fades measurements back in when navigation stops.
+• The Well Constructor Wizard restores its saved monitor and window layout. The user guide and tutorials cover the new tools.
+Portable edition also includes the interactive MIE Well screensaver with valve and slope indicator controls, corrosion-cap lift and return, and configurable music.
