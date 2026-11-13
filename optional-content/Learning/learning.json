@@ -455,7 +455,7 @@
       "Id": "viewercontrols",
       "Parent": "itemview",
       "Title": "3D viewer controls, transparency and pallet",
-      "Body": "Navigate, damage-marking and deformation tools are in the top toolbar immediately left of Home. Home restores the fitted view; the adjacent command opens a larger 3D view. The rightmost pallet button shows or hides the Standard EUR pallet and stays synchronized with the same setting in Settings. The choice is remembered for the equipment item and model. Pallet wood grain follows each board along its longest dimension at a consistent physical scale, including the thin sides. Transparent model covers are rendered after solid geometry, and the clear parts are ordered from back to front as the camera changes. This keeps dials and decals visible beneath covers, such as the yellow graduated dial below the ball in H57720-101. Original model bytes are unchanged. Use Navigate for orbit, pan and pointer-centered wheel zoom. Marking, deformation, section cuts, materials, textures, lighting, per-item preferences and viewer Undo/Redo continue to use the existing controls. These visualization tools do not replace engineering measurements or inspection evidence. The guided example uses a generated demonstration cube, not customer equipment.\n\nThe shared model list treats GLBs that differ only in exporter metadata as the same model, preferring the copy with saved connection configuration. Original files and history remain stored. Different geometry, conflicting configured profiles and separate damage annotations remain distinct. Configured models are listed first; saved constructor selections follow unambiguous duplicate or replacement aliases. To refresh an existing 2D drawing, use Replace 2D schematic from 3D scene beside Select measurements in the 3D well toolbar. Review the confirmation before replacing. The saved image uses the current camera, cut view and selected measurements, excluding interactive controls. The linked well name and editable 3D settings are retained. Undo and Redo restore the previous and replacement drawings."
+      "Body": "Navigate, damage-marking and deformation tools are in the top toolbar immediately left of Home. Home restores the fitted view; the adjacent command opens a larger 3D view. The rightmost pallet button shows or hides the Standard EUR pallet and stays synchronized with the same setting in Settings. The choice is remembered for the equipment item and model. Pallet wood grain follows each board along its longest dimension at a consistent physical scale, including the thin sides. Transparent model covers are rendered after solid geometry, and the clear parts are ordered from back to front as the camera changes. This keeps dials and decals visible beneath covers, such as the yellow graduated dial below the ball in H57720-101. Original model bytes are unchanged. Use Navigate for orbit, pan and pointer-centered wheel zoom. Marking, deformation, section cuts, materials, textures, lighting, per-item preferences and viewer Undo/Redo continue to use the existing controls. These visualization tools do not replace engineering measurements or inspection evidence. The guided example uses a generated demonstration cube, not customer equipment.\n\nThe shared model list treats GLBs that differ only in exporter metadata as the same model, preferring the copy with saved connection configuration. Original files and history remain stored. Different geometry, conflicting configured profiles and separate damage annotations remain distinct. Configured models are listed first; saved constructor selections follow unambiguous duplicate or replacement aliases. To refresh an existing 2D drawing, use Replace 2D schematic from 3D scene beside Select measurements in the 3D well toolbar. Review the confirmation before replacing. The saved image uses the current camera, cut view and selected measurements, excluding interactive controls. The linked well name and editable 3D settings are retained. Undo and Redo restore the previous and replacement drawings. In well scenes, the speaker button mutes the equipment connection effect. The effect defaults to 20% volume."
     },
     {
       "Id": "applicationappearance",
@@ -509,7 +509,7 @@
       "Id": "connectionsurfaces",
       "Parent": "itemview",
       "Title": "Add and edit a connection surface",
-      "Body": "Open the item in Item View and select its GLB attachment. Select Add connection surface. Use the adjacent triangle to choose XY (normal Z), XZ (normal Y) or YZ (normal X), and confirm model units. For top and bottom levels on a Y-up model choose XZ. Move over the model: a translucent plane and green inner/outer intersection contours preview the position. Movement clamps to the model bounds. Click to enter a numeric ID and a name, then Apply. IDs must be unique on that model; another model may reuse the ID. Saved contours remain visible. Right-click a mark to edit its position, name or ID, or Delete it. Escape exits placement. These definitions are shared by PN/model; they are not serial-specific damage. New marks propose the next available numeric ID. Review it or enter another unused ID. Apply, Delete and Cancel remain fixed at the bottom while the fields scroll."
+      "Body": "Open the item in Item View and select its GLB attachment. Select Add connection surface. Use the adjacent triangle to choose XY (normal Z), XZ (normal Y) or YZ (normal X), and confirm model units. For top and bottom levels on a Y-up model choose XZ. Move over the model: a translucent plane and green inner/outer intersection contours preview the position. Movement clamps to the model bounds. Click to enter a numeric ID and a name, then Apply. IDs must be unique on that model; another model may reuse the ID. Saved contours remain visible. Right-click a mark to edit its position, name or ID, or Delete it. Escape exits placement. These definitions are shared by PN/model; they are not serial-specific damage. New marks propose the next available numeric ID. Review it or enter another unused ID. Apply, Delete and Cancel remain fixed at the bottom while the fields scroll. Connection Surface names include Bottom, Top, Latch Ring and Landing Shoulder. You can type a custom name and reuse it from suggestions."
     },
     {
       "Id": "connectionpoints",
@@ -617,6 +617,102 @@
       "Id": "partmodellibrary",
       "Title": "Add PN models without stock records",
       "Body": "In licensed Item View, select Add PN beside Reset view. Browse for a GLB file. Its filename without .glb fills PN automatically; description metadata fills Description when available. Both fields remain editable. Select Add to register the original model in the project shared PN library without creating an Inventory row, Master entry or serial number. Search the PN in the upper-left PN or SN search field and select Model library. Configure shared connections, mesh groups, pivots and motion before equipment is received. Painting, damage and inspection require a specific serial number. When matching equipment is added later, its model badge and shared model become available automatically. Save the project to retain the library; it is included in native project saves, backups and synchronization. Add PN requires a license, a writable project and equipment-editing/upload permissions. Source GLB files remain unchanged."
+    },
+    {
+      "Id": "wellwizard",
+      "Parent": "schematics",
+      "Title": "Well constructor wizard",
+      "Body": "Open Well constructor wizard using the wand button immediately before Sync. A paid license, a writable project and a role with well construction access are required. The separate window supports resize, minimize, maximize and Windows Snap. Loading uses the current theme and shows preparation progress; close the window to cancel loading. Choose a spud date and select or type a rig or drillship. The right-hand hardware table and 3D controls work like the Schematics 3D Demo. All construction changes remain in a draft until Save succeeds. The window remembers its monitor and snapped bounds. Use the branch arrows to collapse hardware, and the add or delete buttons to edit the table. The delete confirmation can also remove children."
+    },
+    {
+      "Id": "wizardinventory",
+      "Parent": "wellwizard",
+      "Title": "Select and replace wizard equipment",
+      "Body": "Hover over an empty Hardware cell to open the Inventory section picker, or right-click and choose Add equipment. Use Search by PN or SN beside the picker title to filter available items and open the best matching Inventory section. Search highlights the match. Click an item to add it. The next picker opens the last-used section when it still has compatible stock and highlights the next available item. Families follow the current Inventory, including families added later. Empty families and families with no selectable stock are hidden. Items that are unavailable, already installed or already selected in this draft cannot be selected again. Only families that match a compatible hardware row are shown. The chosen PN/SN appears immediately and is held in the draft while the 3D model loads in the background. You can continue selecting other equipment during loading. On an occupied row, right-click and choose Replace to open the same picker. Cancel replacement restores the previous draft equipment. Select This connection and Connect to using the saved model connection IDs. A connection point uses its exact saved location; a plane surface uses its computed mating center. Check which feature was selected if hardware attaches to an indicator rod instead of the well axis. Choose a model connection point or surface in the Depth reference dropdown above each hardware depth field. The value is calculated at that point. Edit it for a surveyed override, or clear it to return to calculation. Configured rotation, travel, inclination and heading controls appear below the depth. When two model variants have the same filename, the one with configured movement is marked Motion controls. Committed slope readings in Schematics update the linked Master row in the background while the 3D preview continues to update. Model top remains available. Click a depth field to place the text cursor directly in the input. In the wizard and Schematics 3D Demo, numeric changes apply after 10 seconds without typing. Press Enter to apply immediately. Set depths and device readings, including inclination and heading, as required; incomplete or conflicting connections need correction before saving."
+    },
+    {
+      "Id": "wizardsave",
+      "Parent": "wellwizard",
+      "Title": "Save, reset and resume a constructed well",
+      "Body": "Press Save and enter a new well name. The save commits the well to the Master equipment list, applies selected Inventory transfers or retained associations, saves the editable 3D settings and generates the linked portrait 2D schematic together. The well is placed by spud date; an unused Exp- slot may be reused when it has no equipment, history or linked drawing. Existing rig colors are retained and a new rig receives a color. Remove from Inventory requests a permanent transfer; otherwise the normal retained-Inventory association is used. Save leaves the wizard open. Further saves update that same well. Close keeps the unsaved draft on this computer for this project. Reopen the wizard to continue with the selected equipment, values, connections, and tree. Reset starts a new draft with the same tree and well inputs, clearing selected equipment, model connections, and movement settings. After Save, the tree is available when starting another well. Replacing equipment in a saved well returns the old item through the existing assessment workflow when the replacement is saved. A stale Inventory item, changed model or changed project can prevent saving; review the message and refresh the draft. One Undo or Redo covers the complete saved operation."
+    },
+    {
+      "Id": "identifierimport",
+      "Parent": "stock",
+      "Title": "Import PN and SN from Excel or readable PDF",
+      "Body": "Use the Import PN / SN button between Sync and Print in Master equipment list, Inventory or In-Order. Select an Excel file or a PDF with readable text; scanned image-only PDFs are not supported by this importer. Preparation progress is shown before the importer opens. For Excel, choose a worksheet from the dropdown at the top; the first worksheet is selected initially. Check the header row and source-column mappings and scan the worksheet if you change them. The left-hand columns show discovered PN and SN; the right-hand dropdowns choose the destination well and equipment group in Master, or equipment group in stock tabs. None means that row will not be imported. Existing PN/SN pairs are hidden by default; tick Show all beside the worksheet selector to review or regroup them. Confirm Reviewed for uncertain mappings or repeated identifiers only after checking the evidence. Repeated identifiers at different destinations can be retained in both destinations after review; duplicate warnings remain available afterward. Click the Import or Reviewed column header to tick or untick its displayed rows together. Import mapped / next worksheet applies the selected rows and removes that worksheet from this import session before advancing to the next. Reopening the importer lists all worksheets again. Multiple serial numbers sharing one PN are grouped under that PN in the destination cell, including rows mapped to the same well and family. Source references and evidence are retained in item history. Imported data updates the tables without reopening the project."
+    },
+    {
+      "Id": "foldermodels",
+      "Parent": "partmodellibrary",
+      "Title": "Import a folder of GLB models",
+      "Body": "Use the folder button beside Add PN in Item View to select a folder. The importer scans GLBs recursively, including subfolders, and reports progress. A filename normally begins with its PN and uses an underscore before its description. A revision suffix such as _v2 does not become part of the PN. Review unusual filenames; nonstandard identifiers remain searchable and the description is stored separately. New model-library PNs can be registered before equipment exists in Inventory or Master. Matching equipment can use the shared model when it is added later. Newer or optimized smaller replacements are compared with the current model. Saved connections, surfaces, mesh identities and movement settings are transferred automatically only when a safe match is found. Other imports finish before uncertain replacements are presented for review. The review popup shows the current model on the left and the proposed transfer on the right. Select a point or surface and use its arrows to adjust the proposed position, then Accept or Reject to advance. Check the model and retained settings before saving the project. Source GLBs are not rewritten. The folder importer batches project updates for faster processing. Licensed local projects can exceed 1 GiB in total resources. The free edition keeps the 1 GiB total cap. Individual GLB limits still apply."
+    },
+    {
+      "Id": "modelstamps",
+      "Parent": "itemview",
+      "Title": "3D marking and inspection notes",
+      "Body": "Models that contain stamp-area annotation metadata can show 3D callouts and markers for stamp locations in Item View. Use Show / hide notes to toggle drawing indicators and added notes. The annotations describe where markings belong and do not engrave PN or SN text into the source mesh. Read the evidence classification: drawing-indicated, related-family or unverified locations have different confidence. An absent annotation does not establish that the equipment has no stamp location. Changes to a shared PN model or its configuration refresh open Item View, Schematics 3D and wizard scenes in the background while retaining navigation and draft selections where they remain valid. In Item View, use Add note and click the model, or right-click a surface and choose Add note. Replace the selected Test Note text and choose Done to save or Cancel to close the draft. Marking notes use green spots by default. Inspection notes use blue and support spots or bands. For a band, choose its axis, enter its width in millimetres, and choose External, Internal or Both. Use Cut view to inspect highlights inside a bore. Note color opens the color picker. Right-click a callout or band and choose Change note or Delete note. Drag the arrows at the anchor in the 3D view. Spot notes move in four directions and slowly turn the model left at the right edge and right at the left edge. Surface notes move up or down along their band axis. Show / hide notes controls the 3D callouts and the notes list in the lower-right corner, including drawing indicators. Select a note in the list to turn the model toward it and highlight its anchor. If the active cut hides that anchor, selection reverses the retained side at the current plane. Notes follow the model during orbit. Save to defaults to P/N and shares the note across matching equipment. Open a specific unit and choose its S/N to keep an inspection or damage note with that unit. All serials shows shared P/N notes. The label is readable from both sides, including in right-to-left languages. Adaptive geometry uses lighter meshes for small on-screen markers. The model can still cover the part of a note physically behind it. On alternate models for that P/N, placements use the corresponding position within the model bounds. Check alignment when the geometry differs."
+    },
+    {
+      "Id": "modelsetuptransfer",
+      "Parent": "partmodellibrary",
+      "Title": "Transfer connections and movements",
+      "Body": "Select Transfer connections and movements from the Item View toolbar or right-click a GLB attachment. Pick another model for the same PN. Review the proposed connections side by side. Adjust positions and orientations, map movement meshes, and review the pivots and limits for linear, rotational and planar movement before applying."
+    },
+    {
+      "Id": "wellshrink",
+      "Parent": "wellwizard",
+      "Title": "Compact casing in cut view",
+      "Body": "In Item View, select Mark shrink range on the 3D toolbar. Use its arrow menu to choose the plane normal (X, Y, or Z), then click Point A and Point B. Set the percentage of the span to display and save. The same menu lets you edit or delete any of the three ranges per model. In well cut views and printed schematics, ranges aligned with the well axis are shortened for illustration. Continuous concentric pipes can shorten together. Unmarked fittings, branch equipment, and pipe ends protect the spans they occupy. Applied shrinkage is reported in the cut settings. Saved endpoints appear as matching magenta outlines in Item View. Right-click either endpoint and select Delete shrink range to remove both. The constructor calculates and labels actual depths from the full-length assembly."
+    },
+    {
+      "Id": "wizardreturn",
+      "Parent": "wellwizard",
+      "Title": "Delete a well or return its equipment",
+      "Body": "When deleting a populated well row from Master Equip. list, choose Return to Inventory, Delete without returning, or Cancel. Return uses the recorded Inventory section for each item and recreates it if needed. Equipment without a recorded section uses a matching section. Returned items require assessment before they are available again. History records each return or removal. The schematic stays in the library and one Undo reverses the row deletion and any returns."
+    },
+    {
+      "Id": "wellvalves",
+      "Parent": "well3dbeta",
+      "Title": "Operate valves in the 3D well",
+      "Body": "Right-click a valve with a configured quarter-turn handle and choose Operate. Drag the slider or scroll in 9° steps. Open (0°) is on the left and Close (90°) is on the right. The table shows the selected angle. A connected LP wellhead valve releases bubbles from its outlet while open. Valve angle edits update the moving meshes in place."
+    },
+    {
+      "Id": "wellcement",
+      "Parent": "well3dbeta",
+      "Title": "Set cement tail and lead depths",
+      "Body": "Enter the top of the dark tail cement and the top of the light lead cement in the Depth column as tail/lead, for example 1234.32/645.56. Enter one depth for light cement only. Cement starts at the shoe, stops at the seabed if the entered top is shallower, and leaves mud above a deeper cement top. Enable Cut view to see the annulus. When the deepest string has a float shoe and float collar, dark cement also fills its shoe track."
+    },
+    {
+      "Id": "wellhome",
+      "Parent": "well3dbeta",
+      "Title": "Set a default 3D view",
+      "Body": "Use the arrow beside Home to enter Adjust mode, move the camera and turn Adjust off to save the view for this well. A well without its own default uses the last adjusted view. Right-click the scene and choose Reset view to return to the default and resume rotation. Toggling Cut view keeps the current camera. Cut measurements fade out while you orbit or zoom and return after the camera settles."
+    },
+    {
+      "Id": "wellpipes",
+      "Parent": "itemview",
+      "Title": "Create and edit threaded pipes",
+      "Body": "In Item View, use the pipe icon and select a connection surface. In Pipe specification, choose Casing, Drill Pipe or Tubing, and set OD, ID and length. Fractional sizes such as 9 7/8 are accepted. Nominal weight presets can set the ID. Select top and bottom thread profiles, pin or box ends and thread hand. Down is the default direction from the selected surface. The pipe appears as a separate mesh. Right-click its mesh to edit or delete it. Generated threads are schematic."
+    },
+    {
+      "Id": "wellextend",
+      "Parent": "itemview",
+      "Title": "Extend a pipe to a target depth",
+      "Body": "In Item View, choose Extend Surface near Mark Shrink Range and mark the region that may stretch. In the well table, select Bottom Extend in the Depth column for the marked component and enter the shoe depth. The viewer uses the marked bottom surface or derived model bottom. The portrait cut view compresses long spans while retaining depth order and actual values."
+    },
+    {
+      "Id": "wellscreensaver",
+      "Parent": "well3dbeta",
+      "Title": "Set up and operate the 3D well screensaver",
+      "Body": "In the portable edition, keep MIE Well.scr beside MIE Portable.exe. Right-click the assembled well and choose Set as screensaver, then use Windows Screen Saver Settings to select MIE Well, preview it and open Settings. Set the Windows wait time and choose interactive controls or exit on input. The default interactive mode supports orbit, zoom, double-click to resume rotation and Esc to exit."
+    },
+    {
+      "Id": "wellsavercontrols",
+      "Parent": "wellscreensaver",
+      "Title": "Explore the interactive screensaver",
+      "Body": "Hover over a valve, slope indicator or corrosion cap for the right-click tip. Use Operate to change a valve angle or the slope indicator's angle and heading. Choose Lift to look inside the wellhead. The cap returns after 30 seconds of inactivity or when you double-click to resume rotation. Screensaver changes apply only to that session. Use Windows Screen Saver Settings > Settings for mute, volume (20% by default), and a custom music folder and track count. Tracks crossfade."
     }
   ],
   "Captions": {
@@ -740,7 +836,7 @@
     "caption-model-before": "These Inventory entries are synthetic examples with the same part number and different serial numbers. A model has not been attached yet.",
     "caption-model-after": "Attaching the generated cube updates the blue model badges immediately for matching part numbers. The cells and table layout stay in place; a restart is unnecessary.",
     "caption-viewer-transparent": "Original solid dials and decals render beneath transparent covers. Clear parts are ordered back to front while orbiting. This demonstration uses a simple generated cube.",
-    "caption-viewer-tools": "Navigate, mark and deform tools are now in the top toolbar immediately left of Home. The adjacent command opens a larger viewer.",
+    "caption-viewer-tools": "The top toolbar includes navigation, damage, deformation and model notes. Add note places a marking or inspection note on the model. Show / hide notes also controls drawing indicators. The button beside Home opens a larger viewer.",
     "caption-viewer-pallet": "Use the rightmost pallet button to show or hide the Standard EUR pallet. Settings reflects the same choice. Wood grain follows the boards at a consistent physical scale.",
     "caption-about-centered": "About centers the product icon and text, including license and role information. Only the GitHub project link stays left-aligned.",
     "caption-header-icon": "A licensed Full Control user can choose a transparent SVG or PNG for the header icon. It fits the header height and updates immediately. This tour does not select an image or change your preference.",
@@ -766,6 +862,16 @@
     "caption-well-build": "In Schematics, 3D Beta switches to the seabed assembly. Drag hardware onto its parent, select matching saved connections and Include. The preview updates automatically; None releases a target.",
     "caption-well-measure": "Cut view exposes the well and focuses the camera. Use the ruler or click a dimension to choose Top, Bottom and saved marks. All values are vertical offsets from DATUM.",
     "caption-well-print": "Print the active 3D Beta view as a portrait report: complete well on the left, all table rows on the right. Review paper size and selected dimensions before printing or saving PDF.",
-    "caption-model-physics": "Right-click each contacting mesh > Material to save physical properties with the P/N. Physics Deformations selects the contact pair. Estimate material properties overrides only this run. Use motion sliders with Cut view enabled; this reversible preview approximates local elastic contact and does not calculate stress or failure. Standard material filters AISI/SAE, ASTM and API grades. Hover either contact list to locate the mesh. Tree Rename preserves stable IDs."
+    "caption-model-physics": "Right-click each contacting mesh > Material to save physical properties with the P/N. Physics Deformations selects the contact pair. Estimate material properties overrides only this run. Use motion sliders with Cut view enabled; this reversible preview approximates local elastic contact and does not calculate stress or failure. Standard material filters AISI/SAE, ASTM and API grades. Hover either contact list to locate the mesh. Tree Rename preserves stable IDs.",
+    "caption-wizard-open": "The wand immediately before Sync opens the licensed Well constructor wizard. This tutorial uses a preview with sample equipment only.",
+    "caption-wizard-draft": "Choose the spud date and select or type the rig name. The real wizard stays separate from your project until Save succeeds.",
+    "caption-wizard-inventory": "Search the Inventory picker by PN or SN, or open a section and select a unit. The last used section reopens on the next pick. The wizard reserves the selected unit immediately and loads its model in the background.",
+    "caption-wizard-connections": "Choose the mating connections and select a depth reference. For numeric changes in the wizard and Schematics 3D Demo, wait 10 seconds after typing or press Enter to apply immediately.",
+    "caption-wizard-save": "Save asks for a well name and commits the well, Inventory changes and generated 2D schematic together. This preview only demonstrates the result.",
+    "caption-wizard-saved": "In the real wizard, Save leaves the window open and further saves update the same well. No well or Inventory data was saved by this tutorial.",
+    "caption-wizard-reset": "Reset clears the selected equipment and keeps the hardware tree. Closing the real wizard keeps the unsaved draft on this computer so you can resume it later.",
+    "caption-wizard-safe": "The tutorial preview closes without changing your project. In the real loading window, close the window to cancel preparation.",
+    "caption-well-operator": "Open the 3D well to use the camera, depth and equipment controls.",
+    "caption-well-pipe-tools": "Choose a marked surface or use the instrument panel to mark an extension range."
   }
 }
