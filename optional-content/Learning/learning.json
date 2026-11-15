@@ -700,7 +700,7 @@
       "Id": "wellextend",
       "Parent": "itemview",
       "Title": "Extend a pipe to a target depth",
-      "Body": "In Item View, choose Extend Surface near Mark Shrink Range and mark the region that may stretch. In the well table, select Bottom Extend in the Depth column for the marked component and enter the shoe depth. The viewer uses the marked bottom surface or derived model bottom. The portrait cut view compresses long spans while retaining depth order and actual values."
+      "Body": "In Item View, choose Extend Surface near Mark Shrink Range, select two points on the same mesh, and save. The marked band is saved with the part number and model. In the well table, choose Bottom Extend in the Depth column and enter the measured shoe depth. Hover over the bottom connection to highlight it, then drag it down or up to stretch or compress the marked band. The arrows and cement follow the drawn connection, while the reading to DATUM stays fixed. Mark Shrink Range also changes the drawing only."
     },
     {
       "Id": "wellscreensaver",
@@ -713,6 +713,36 @@
       "Parent": "wellscreensaver",
       "Title": "Explore the interactive screensaver",
       "Body": "Hover over a valve, slope indicator or corrosion cap for the right-click tip. Use Operate to change a valve angle or the slope indicator's angle and heading. Choose Lift to look inside the wellhead. The cap returns after 30 seconds of inactivity or when you double-click to resume rotation. Screensaver changes apply only to that session. Use Windows Screen Saver Settings > Settings for mute, volume (20% by default), and a custom music folder and track count. Tracks crossfade."
+    },
+    {
+      "Id": "wellengineering",
+      "Parent": "wellwizard",
+      "Title": "Work with well construction data",
+      "Body": "Use the tabs Wellhead Construction, Lithology and Well Trajectory in the 3D Demo or the Well Constructor Wizard. Detach the table with the upper-right button to use a separate window. Closing that window returns the table to the scene. The wizard retains lithology and trajectory in the local project draft, including before the well has been saved."
+    },
+    {
+      "Id": "welllithologysurvey",
+      "Parent": "wellengineering",
+      "Title": "Enter lithology and trajectory surveys",
+      "Body": "Download XLSX Template from the Lithology or Well Trajectory tab for editable columns and depth references. In Lithology, start at the seabed and end each layer below its top. Add row carries the previous bottom forward as the next top. Thickness is calculated from the two depths. Hover over a flagged row to read the conflict. Valid intervals set the colors and textures of Cut View. In Well Trajectory, choose Planned or Actual before entering measured depth, inclination and azimuth. Keep measured depths increasing and review the calculated survey values."
+    },
+    {
+      "Id": "welldepthlabels",
+      "Parent": "wellmeasurements",
+      "Title": "Arrange depth labels and edit the datum",
+      "Body": "In Cut View, right-click near an equipment connection and choose Add depth label to show the name and absolute depth, or Measure to Datum for a relative dimension. Drag labels or depth values horizontally. Alignment guides appear when they can snap to another label or value. Right-click a depth label to edit it. DATUM uses the same leader layout at the top of the HP wellhead. Edit its reported depth in the label, or clear the depth field to return to the model value. This changes the reported value in the table while equipment positions and relative dimensions keep their engineering reference."
+    },
+    {
+      "Id": "wellcutfinish",
+      "Parent": "wellmeasurements",
+      "Title": "Set the finish on cut hardware",
+      "Body": "Right-click an exposed equipment cut face and select Cut color and hatching. Choose the color and adjust spacing and line thickness in millimetres. Set orientation from minus 180 to plus 180 degrees, with 10-degree spinner steps. Zero line thickness turns hatching off. Changes preview immediately and Apply saves them per part number in the project. The viewer repairs matching cut seams automatically when it can form a closed boundary, keeping bores open. Metal cut faces reflect the scene lighting, while formation and cement remain matte."
+    },
+    {
+      "Id": "wellsectioncement",
+      "Parent": "wellcement",
+      "Title": "Read cement and formation in Cut View",
+      "Body": "Connected joints that continue the same casing string use one tail and lead cement sequence. Enter the top of tail and the top of lead as two depths separated by a slash. A single depth fills with lead cement from the shoe to that value. The fill stops at the seabed. Above the cement, the annulus shows mud where applicable. Use the bottom connection ring to change the illustrated length of a section with an Extend Surface modifier. Connected equipment moves with it and the cement follows the bottom ring."
     }
   ],
   "Captions": {
@@ -864,13 +894,13 @@
     "caption-well-print": "Print the active 3D Beta view as a portrait report: complete well on the left, all table rows on the right. Review paper size and selected dimensions before printing or saving PDF.",
     "caption-model-physics": "Right-click each contacting mesh > Material to save physical properties with the P/N. Physics Deformations selects the contact pair. Estimate material properties overrides only this run. Use motion sliders with Cut view enabled; this reversible preview approximates local elastic contact and does not calculate stress or failure. Standard material filters AISI/SAE, ASTM and API grades. Hover either contact list to locate the mesh. Tree Rename preserves stable IDs.",
     "caption-wizard-open": "The wand immediately before Sync opens the licensed Well constructor wizard. This tutorial uses a preview with sample equipment only.",
-    "caption-wizard-draft": "Choose the spud date and select or type the rig name. The real wizard stays separate from your project until Save succeeds.",
+    "caption-wizard-draft": "Choose the spud date and select or type the rig name. The real wizard stays separate from your project until Save succeeds. Detach the table to a separate window when comparing well data with another view.",
     "caption-wizard-inventory": "Search the Inventory picker by PN or SN, or open a section and select a unit. The last used section reopens on the next pick. The wizard reserves the selected unit immediately and loads its model in the background.",
-    "caption-wizard-connections": "Choose the mating connections and select a depth reference. For numeric changes in the wizard and Schematics 3D Demo, wait 10 seconds after typing or press Enter to apply immediately.",
+    "caption-wizard-connections": "Choose the mating connections and select a depth reference. For numeric changes in the wizard and Schematics 3D Demo, wait 10 seconds after typing or press Enter to apply immediately. Use the Lithology and Well Trajectory tabs to check formation intervals and the Planned and Actual surveys.",
     "caption-wizard-save": "Save asks for a well name and commits the well, Inventory changes and generated 2D schematic together. This preview only demonstrates the result.",
     "caption-wizard-saved": "In the real wizard, Save leaves the window open and further saves update the same well. No well or Inventory data was saved by this tutorial.",
     "caption-wizard-reset": "Reset clears the selected equipment and keeps the hardware tree. Closing the real wizard keeps the unsaved draft on this computer so you can resume it later.",
-    "caption-wizard-safe": "The tutorial preview closes without changing your project. In the real loading window, close the window to cancel preparation.",
+    "caption-wizard-safe": "The tutorial preview closes without changing your project. In the real loading window, close the window to cancel preparation. In either well view, right-click a cut face for its color and hatching, or right-click DATUM to edit the reported depth.",
     "caption-well-operator": "Open the 3D well to use the camera, depth and equipment controls.",
     "caption-well-pipe-tools": "Choose a marked surface or use the instrument panel to mark an extension range."
   }
