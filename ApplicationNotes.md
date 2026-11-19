@@ -1,3 +1,9 @@
+# MIE 1.19.69
+
+Storage connects 3D facility locations to individual Inventory records. The update also adds the Disposal register and evidence exports and improves technical-document search and 3D equipment annotations. [Release notes covering changes since 1.19.56](ReleaseNotes-1.19.69.md)
+
+---
+
 # MIE 1.19.22 model connection candidate
 
 Named model connection surfaces and point crosses, 3D snap, vertical reference dimensions, selected-mesh appearance, model information and save recovery. Includes eight guided examples and updated guides and interface catalogs in all 20 languages. [Release notes](ReleaseNotes-1.19.22.md) · [How to use the tools](ModelConnections-1.19.22.md). Microsoft Store submission remains on hold.

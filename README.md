@@ -4,15 +4,21 @@
 
 # ELMA-IoT MIE
 
-### From the purchase order to the installed wellhead.
+### From the purchase order through final disposal.
 
 **Equipment traceability · Well schematics · Shared illustration library**
 
-A focused Windows workspace for subsea wellhead hardware and consumables, built for the people planning, preparing, transporting and installing them.
+A focused Windows workspace for subsea wellhead hardware and consumables, built for procurement, warehouse, engineering, and operations teams.
 
 [Microsoft Store listing](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [Optional content](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v69) · [Support and feedback](https://github.com/elma-iot/ELMA-IoT-MIE/issues) · [ELMA-IoT](https://github.com/elma-iot)
 
 </div>
+
+## MIE 1.19.69
+
+Follow equipment from procurement through storage, installation, inspection, and disposal. The Storage workspace connects named 3D facility locations to exact Inventory records. Place equipment on a shelf, open its record from the scene, or click its **3D Map Location** in Inventory to return to it.
+
+This update also includes the Disposal register and evidence exports, indexed technical documents, and serial-specific 3D notes and damage. [Release notes covering changes since 1.19.56](ReleaseNotes-1.19.69.md)
 
 ## Prepared for owner testing: 1.19.34
 
@@ -133,7 +139,7 @@ The printer icon, File → Print and Ctrl+P offer preview, printer selection, PD
 New workflow records require 1.18.0 or newer; earlier project files continue to open. Existing licensing rules are unchanged.
 
 
-### Equipment lifecycle and approvals
+### Equipment lifecycle and approvals in 1.17.0
 
 Inventory and Quarantine remain separate worksheets, connected by stable equipment identities. **Condition**, **Availability**, **Disposition**, **Location** and **Custody** have distinct meanings. Partial nonserialized quantities retain a linked parent/child history. Quarantine is owned unavailable equipment, never incoming supply. Offsite repair stays owned at its actual facility; completed disposal is historical, outside active physical stock.
 
