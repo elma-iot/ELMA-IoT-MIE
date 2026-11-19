@@ -8,7 +8,7 @@ Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In 
 
 Prepared for owner testing; **not uploaded or submitted to Microsoft Store**. Package `1.19.11.0 x64`, 26,204,540 bytes, SHA-256 `aa18faeb36716911f530bdc58eccf0bb70dd206f3ca6943eeaa5c903fa0da238`. No existing Partner Center submission was changed.
 
-Ctrl+F searches the current tab/subtab in a common themed popup with expandable case/whole-word/regex options. Ctrl+H and Replace/Replace All work in View and Edit modes on editable tables, through background transactions with old/new history and Undo. Find scrolls and focuses the matching cell with temporary highlighting, cleared on close; the row stays below even expanded controls. Read-only views remain search-only. [Release notes](ReleaseNotes-1.19.11.md).
+Ctrl+F searches the current tab/subtab in a common themed popup with expandable case/whole-word/regex options. Ctrl+H and Replace/Replace All work in View and Edit modes on editable tables, through background transactions with old/new history and Undo. Find scrolls and focuses the matching cell with temporary highlighting, cleared on close; the row stays below even expanded controls. Read-only views remain search-only. [Release notes](../release-notes/ReleaseNotes-1.19.11.md).
 
 Guides, tutorials and 20 translations are updated in [mie-content-v49](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v49). Validation includes all 12 tabs, History and Schedule subtabs, background replacement from both modes, history and Undo, popup clearance, highlight cleanup, regex errors, all 20 search tutorials, header search, Item View and offline module/tamper checks. Evidence: `.audit/finalfind11911.log`, `.audit/tabfind11911.log`, `.audit/searchreplace11911.log`, `.audit/offlinefind11911.log`, `.audit/boundedfind11911.log` and `.audit/Store-1.19.11/candidate.json`.
 
@@ -16,7 +16,7 @@ Guides, tutorials and 20 translations are updated in [mie-content-v49](https://g
 
 Prepared for owner testing; **not uploaded or submitted to Microsoft Store**. Package `1.19.10.0 x64`, 26,198,542 bytes, SHA-256 `f711d86c0808954f55fb3f4a9ee2a4075583a7b9e42c13a91e709c467a4b9f9f`. 1.19.09 Submission 14 remains in certification.
 
-Includes one shared original GLB per PN, serial-specific documents and damage, immutable checkpoints and incremental resource reuse. The header search uses an embedded lens, matching header-button height/frame, Enter or click activation and a virtualized scrollable dropdown with direct row navigation. The result frame grows to at most 20 rows and shrinks for fewer matches; overflow uses the common theme scrollbar. Guides/tutorials and 20 language packs are updated. [Release notes](ReleaseNotes-1.19.10.md).
+Includes one shared original GLB per PN, serial-specific documents and damage, immutable checkpoints and incremental resource reuse. The header search uses an embedded lens, matching header-button height/frame, Enter or click activation and a virtualized scrollable dropdown with direct row navigation. The result frame grows to at most 20 rows and shrinks for fewer matches; overflow uses the common theme scrollbar. Guides/tutorials and 20 language packs are updated. [Release notes](../release-notes/ReleaseNotes-1.19.10.md).
 
 Checks: shared original/model isolation, two-PC model damage merging, return/undo/redo, native incremental saving, selected-item export, global search including 1,200 untruncated results, theme colors, Item View UI, all language bundles, incremental sync, inspection documents, save workflows and offline Store modules/tamper protection. Evidence: `.audit/modelsync11910.log`, `.audit/finalmodel11910.log`, `.audit/sharedchecks11910.log`, `.audit/finalshared11910.log`, `.audit/globalsearch11910.log`, `.audit/candidatechecks11910.log`, `.audit/offlineshared11910.log` and `.audit/Store-1.19.10/candidate.json`.
 
@@ -30,7 +30,7 @@ Display **1.19.09**; do not upload to Partner Center or submit until owner appro
 
 The optional 3D pack provides independent paint UVs, left/right deformation, deferred asynchronous editing checkpoints and a CAD-style circular floor with separate contact shadow and model reflection. Reflection is a native planar approximation with automatic fallback for software rendering and scenes above 200,000 displayed triangles. Store executable modules are bundled and verified. Portable packs use [mie-content-v47](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v47), with Browse pack fallback.
 
-[Review notes](ReleaseNotes-1.19.09.md), [Store notes](StoreReleaseNotes-1.19.09.txt), [reviewer instructions](StoreReviewerNotes-1.19.09.txt). Evidence: `.audit/sessionchecks11909.log`, `.audit/finalchecks11909.log`, `.audit/languagechecks11909.log`, `.audit/tutorialdiagnostics11909.log`, `.audit/offline11909.log` and `.audit/Store-1.19.09/candidate.json`. Checks cover rendered paint over remapped textures, no idle writes, quiet session commit, failed large-window recovery, damage/history, input, exports, dialogs, all 20 guide/tutorial languages and offline/tamper validation. No Store submission has been changed.
+[Review notes](../release-notes/ReleaseNotes-1.19.09.md), [Store notes](StoreReleaseNotes-1.19.09.txt), [reviewer instructions](../../../StoreReviewerNotes-1.19.09.txt). Evidence: `.audit/sessionchecks11909.log`, `.audit/finalchecks11909.log`, `.audit/languagechecks11909.log`, `.audit/tutorialdiagnostics11909.log`, `.audit/offline11909.log` and `.audit/Store-1.19.09/candidate.json`. Checks cover rendered paint over remapped textures, no idle writes, quiet session commit, failed large-window recovery, damage/history, input, exports, dialogs, all 20 guide/tutorial languages and offline/tamper validation. No Store submission has been changed.
 
 ## Version 1.19.8.0 - local candidate, held for owner testing, 1 November 2026
 
@@ -38,7 +38,7 @@ Display **1.19.08**; do not upload to Partner Center or submit until owner appro
 
 The separately verified 3D pack puts the filename beside Settings, adds live surface-projected marking/deformation footprints and uses indexed picking, local cached decals and incremental/coalesced background deformation. Previews do not modify equipment or history. Original models and audited damage history remain preserved. Store modules are bundled and verified; portable modules use [mie-content-v46](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v46), with Browse pack fallback.
 
-[Review notes](ReleaseNotes-1.19.08.md), [Store notes](StoreReleaseNotes-1.19.08.txt), [reviewer instructions](StoreReviewerNotes-1.19.08.txt). Evidence: `.audit/previewchecks11908.log`, `.audit/uichecks11908.log`, `.audit/tutorialchecks11908.log`, `.audit/offline11908.log` and `.audit/Store-1.19.08/candidate.json`. Dense synthetic-mesh performance checks cover surface preview, local triangle queries, cached stamps, queued-work retention and UI responsiveness. Guides/tutorials and all 20 languages are updated. No Store submission has been changed.
+[Review notes](../release-notes/ReleaseNotes-1.19.08.md), [Store notes](StoreReleaseNotes-1.19.08.txt), [reviewer instructions](../../../StoreReviewerNotes-1.19.08.txt). Evidence: `.audit/previewchecks11908.log`, `.audit/uichecks11908.log`, `.audit/tutorialchecks11908.log`, `.audit/offline11908.log` and `.audit/Store-1.19.08/candidate.json`. Dense synthetic-mesh performance checks cover surface preview, local triangle queries, cached stamps, queued-work retention and UI responsiveness. Guides/tutorials and all 20 languages are updated. No Store submission has been changed.
 
 ## Version 1.19.7.0 - local candidate, held for owner testing, 1 November 2026
 
@@ -46,7 +46,7 @@ Display **1.19.07**; do not upload to Partner Center or submit until the owner a
 
 The separately implemented 3D pack restores textured cut views, removes section patterns, adds a shaded movement arrow and provides perspective/orthographic and brush overlays. Store executable modules are bundled and digest-verified. Portable content uses [mie-content-v45](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v45), with local Browse pack fallback. Updated 20-language guides/tutorials and signed assets accompany this review.
 
-[Release notes](ReleaseNotes-1.19.07.md), [Store notes](StoreReleaseNotes-1.19.07.txt), [reviewer instructions](StoreReviewerNotes-1.19.07.txt). Evidence: `.audit/Store-1.19.07/candidate.json`, `.audit/offline11907.log`, `.audit/finalchecks11907.log`, `.audit/viewertests11907.log` and `.audit/sectionchecks11907.log`. The live Store release has not been modified.
+[Release notes](../release-notes/ReleaseNotes-1.19.07.md), [Store notes](StoreReleaseNotes-1.19.07.txt), [reviewer instructions](../../../StoreReviewerNotes-1.19.07.txt). Evidence: `.audit/Store-1.19.07/candidate.json`, `.audit/offline11907.log`, `.audit/finalchecks11907.log`, `.audit/viewertests11907.log` and `.audit/sectionchecks11907.log`. The live Store release has not been modified.
 
 ## Version 1.19.6.0 - local candidate, held for owner testing, 1 November 2026
 
@@ -56,7 +56,7 @@ Candidate: `dist/store/ELMA-IoT-MIE_1.19.6.0_x64.msix`, **26,154,296 bytes**, SH
 
 All rendering, texture, marking, deformation and viewer-history tools remain in the optional 3D assembly. Store executable modules are bundled and verified; portable installations obtain the approved pack from [mie-content-v44](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v44), with Browse pack fallback. Languages and guide/tutorial data are pinned by exact hashes and remain usable offline after installation. Viewer, annotation return/undo/save, inspection, PDF/Excel, guide rendering and translated tutorial checks passed. Offline Store checks cover real GLB loading, bundled tools, classic games and tamper rejection. Verification machine: WPF rendering tier 2; no per-vendor hardware benchmark is claimed.
 
-Prepared material: [review notes](ReleaseNotes-1.19.06.md), [Store release notes](StoreReleaseNotes-1.19.06.txt), [reviewer instructions](StoreReviewerNotes-1.19.06.txt). Evidence: `.audit/Store-1.19.06/candidate.json`, `.audit/Store-1.19.06/offline-checks.log`, `.audit/Release-1.19.06/final-validation.log` and `.audit/Release-1.19.06/release-checks.log`. Pricing, licensing, availability and privacy declarations are unchanged. The live Store release is unaffected.
+Prepared material: [review notes](../release-notes/ReleaseNotes-1.19.06.md), [Store release notes](../../../StoreReleaseNotes-1.19.06.txt), [reviewer instructions](../../../StoreReviewerNotes-1.19.06.txt). Evidence: `.audit/Store-1.19.06/candidate.json`, `.audit/Store-1.19.06/offline-checks.log`, `.audit/Release-1.19.06/final-validation.log` and `.audit/Release-1.19.06/release-checks.log`. Pricing, licensing, availability and privacy declarations are unchanged. The live Store release is unaffected.
 
 
 ## Version 1.19.5.0 - local candidate, held for owner testing, 1 November 2026
@@ -67,7 +67,7 @@ Candidate: `dist/store/ELMA-IoT-MIE_1.19.5.0_x64.msix`, **26,076,679 bytes**, SH
 
 Current approved language/learning data is published at [mie-content-v43](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v43), pinned by exact hashes in the app and available offline after installation. Existing signed viewer/game modules are reused because they remain compatible. Store checks cover on-demand data verification, offline executable loading, classic games, real GLB viewing, launching the paired Theme Studio and rejecting damaged executable content. Portable checks cover scrolling tips, existing action tips, translated guide rendering and tutorial playback. Evidence: `.audit/Store-1.19.05/candidate.json`, `.audit/Store-1.19.05/checks.log`, `.audit/Release-1.19.05/checks.log`.
 
-Prepared material: [review notes](ReleaseNotes-1.19.05.md), [Store release notes](StoreReleaseNotes-1.19.05.txt), [reviewer instructions](StoreReviewerNotes-1.19.05.txt), [English listing](StoreListing-en.txt), [listing fields](StoreListingFields-en.json). Pricing, licensing terms, availability and privacy declarations are unchanged. This preparation does not change the live Store release.
+Prepared material: [review notes](../release-notes/ReleaseNotes-1.19.05.md), [Store release notes](../../../StoreReleaseNotes-1.19.05.txt), [reviewer instructions](../../../StoreReviewerNotes-1.19.05.txt), [English listing](StoreListing-en.txt), [listing fields](StoreListingFields-en.json). Pricing, licensing terms, availability and privacy declarations are unchanged. This preparation does not change the live Store release.
 
 
 
@@ -77,7 +77,7 @@ Partner Center confirmed **Update in certification** for **Submission 13**, ID `
 
 Submitted package: `dist/store/ELMA-IoT-MIE_1.18.20.0_x64.msix`, 24,375,676 bytes, SHA-256 `eb0866015ee061965921ee1308eea990459b05d1b5a87b04296b892bebff9f12`. English description, release notes and reviewer testing instructions were updated. MakeAppx validation, offline Store modules, responsive clipboard/deletion checks, cell history, incremental recovery, all 20 translated tutorial playbacks and anonymous public data-download digests passed. Source and documentation are pushed; private v1.18.20 and public mie-content-v37 data releases are published. Existing approved signed executable modules remain unchanged. Evidence: `.audit/Release-1.18.20/store-submission.json`.
 
-Release notes: [1.18.20](ReleaseNotes-1.18.20.md), [Store notes](StoreReleaseNotes-1.18.20.txt), [reviewer instructions](StoreReviewerNotes-1.18.20.txt). Older entries below record their status at submission time.
+Release notes: [1.18.20](../release-notes/ReleaseNotes-1.18.20.md), [Store notes](../../../StoreReleaseNotes-1.18.20.txt), [reviewer instructions](../../../StoreReviewerNotes-1.18.20.txt). Older entries below record their status at submission time.
 
 ## Version 1.18.19.0 — submitted, 1 November 2026
 
@@ -85,7 +85,7 @@ Partner Center confirmed **Update in certification** for **Submission 12**, ID `
 
 Submitted package: `dist/store/ELMA-IoT-MIE_1.18.19.0_x64.msix`, 24,348,149 bytes, SHA-256 `f283f8560aa2cf536d06e65d8110cf2a7f628940638b2d174f219603c38ed989`. MakeAppx validation, Store offline bundle checks, equipment identifier deletion and Quarantine reconciliation regression checks passed. Existing approved signed executable modules and data packages are reused. English release notes and reviewer testing instructions were updated. Evidence: `.audit/Release-1.18.19/store-submission.json`.
 
-Release notes: [1.18.19](ReleaseNotes-1.18.19-review.md), [Store notes](StoreReleaseNotes-1.18.19.txt), [reviewer instructions](StoreReviewerNotes-1.18.19.txt).
+Release notes: [1.18.19](../release-notes/ReleaseNotes-1.18.19-review.md), [Store notes](../../../StoreReleaseNotes-1.18.19.txt), [reviewer instructions](../../../StoreReviewerNotes-1.18.19.txt).
 
 ## Version 1.18.18.0 — submitted, 1 November 2026
 
@@ -93,7 +93,7 @@ Partner Center confirmed **Update in certification** for **Submission 11**, ID `
 
 Submitted package: `dist/store/ELMA-IoT-MIE_1.18.18.0_x64.msix`, 24,343,332 bytes, SHA-256 `e43530cf46b845d2e037c563901c22670dbdfec39b919cc5847f1d5d059fcadd`. This is the corrected replacement for the earlier 1.18.18 portable review. It removes the worksheet-level offset that made Excel initially paint the frozen heading twice. The affected workbook reproduced the problem, and its comparison copy was confirmed to open with one header. Export and Store offline-bundle checks passed. Existing signed v36 optional content is reused without changing published package bytes. Evidence: `.audit/Release-1.18.18/store-submission.json`.
 
-Release notes: [1.18.18](ReleaseNotes-1.18.18.md), [Store notes](StoreReleaseNotes-1.18.18.txt), [reviewer instructions](StoreReviewerNotes-1.18.18.txt). Older entries below record their status at submission time.
+Release notes: [1.18.18](../release-notes/ReleaseNotes-1.18.18.md), [Store notes](StoreReleaseNotes-1.18.18.txt), [reviewer instructions](../../../StoreReviewerNotes-1.18.18.txt). Older entries below record their status at submission time.
 
 ## Version 1.18.17.0 — submitted, 31 October 2026
 
@@ -101,7 +101,7 @@ Partner Center confirmed **Update in certification** for **Submission 10**, ID `
 
 Submitted package: `dist/store/ELMA-IoT-MIE_1.18.17.0_x64.msix`, 24,343,114 bytes, SHA-256 `df6090d83e85090baaa1207509918e13e40593287b0105077ff4495865fd0aea`. MakeAppx validation, signed/offline bundle checks and actual public data-pack download verification passed. All 20 language packs preserve custom wording and reject unsafe paths. Product identity and publisher are unchanged. Evidence: `.audit/Release-1.18.17/store-submission.json`.
 
-Release notes: [1.18.17](ReleaseNotes-1.18.17.md), [Store notes](StoreReleaseNotes-1.18.17.txt), [reviewer instructions](StoreReviewerNotes-1.18.17.txt).
+Release notes: [1.18.17](../release-notes/ReleaseNotes-1.18.17.md), [Store notes](StoreReleaseNotes-1.18.17.txt), [reviewer instructions](../../../StoreReviewerNotes-1.18.17.txt).
 
 ## Version 1.18.10.0 — submitted, 31 October 2026
 
@@ -109,7 +109,7 @@ Partner Center confirmed **Update in certification** for **Submission 9**, ID `1
 
 Candidate: `dist/store/ELMA-IoT-MIE_1.18.10.0_x64.msix`, 24,317,125 bytes, SHA-256 `d2ae309c72af28ed1d94900b3fa3d8bbafec3a08c66129b775b0bcf21f120bcf`. The assigned product identity and publisher remain unchanged. MakeAppx validation, transparent/light/dark shell-icon checks, signed content verification and offline executable-module checks passed. Updated language and learning data are approved by exact app-compiled hashes; previously installed data works offline. Runtime checks cover all 20 languages, right-to-left guide rendering, corrected generated translations, custom wording preservation and synthetic tutorial restoration.
 
-Release notes: [1.18.10](ReleaseNotes-1.18.10.md), [Store notes](StoreReleaseNotes-1.18.10.txt), [reviewer instructions](StoreReviewerNotes-1.18.10.txt). Current status is recorded above; older entries below are historical.
+Release notes: [1.18.10](../release-notes/ReleaseNotes-1.18.10.md), [Store notes](../../../StoreReleaseNotes-1.18.10.txt), [reviewer instructions](../../../StoreReviewerNotes-1.18.10.txt). Current status is recorded above; older entries below are historical.
 
 ## Version 1.11.0.0 submitted — 18 October 2026
 

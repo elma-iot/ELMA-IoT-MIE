@@ -14,4 +14,4 @@ Version **1.19.29.0** was uploaded, validated and submitted for product `9NSZMSQ
 
 [Partner Center overview](https://partner.microsoft.com/en-us/dashboard/products/9NSZMSQKXH67/overview)
 
-The approved content is published as [mie-content-v67](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v67). The private portable/MSIX release is [v1.19.29](https://github.com/elma-iot/ELMA-IoT-MIE-Private/releases/tag/v1.19.29). All uploaded asset sizes and digests match the local builds. The matched local deliverables are in `release-assets/1.19.29`, with personal authorization retained outside distribution archives. See [validation](Validation-1.19.29.md).
+The approved content is published as [mie-content-v67](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v67). The private portable/MSIX release is [v1.19.29](https://github.com/elma-iot/ELMA-IoT-MIE-Private/releases/tag/v1.19.29). All uploaded asset sizes and digests match the local builds. The matched local deliverables are in `release-assets/1.19.29`, with personal authorization retained outside distribution archives. See [validation](../../validation/Validation-1.19.29.md).

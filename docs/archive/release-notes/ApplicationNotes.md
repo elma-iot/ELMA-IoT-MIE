@@ -1,18 +1,18 @@
 # MIE 1.19.69
 
-Storage connects 3D facility locations to individual Inventory records. The update also adds the Disposal register and evidence exports and improves technical-document search and 3D equipment annotations. [Release notes covering changes since 1.19.56](ReleaseNotes-1.19.69.md)
+Storage connects 3D facility locations to individual Inventory records. The update also adds the Disposal register and evidence exports and improves technical-document search and 3D equipment annotations. [Release notes covering changes since 1.19.56](../../../ReleaseNotes-1.19.69.md)
 
 ---
 
 # MIE 1.19.22 model connection candidate
 
-Named model connection surfaces and point crosses, 3D snap, vertical reference dimensions, selected-mesh appearance, model information and save recovery. Includes eight guided examples and updated guides and interface catalogs in all 20 languages. [Release notes](ReleaseNotes-1.19.22.md) · [How to use the tools](ModelConnections-1.19.22.md). Microsoft Store submission remains on hold.
+Named model connection surfaces and point crosses, 3D snap, vertical reference dimensions, selected-mesh appearance, model information and save recovery. Includes eight guided examples and updated guides and interface catalogs in all 20 languages. [Release notes](ReleaseNotes-1.19.22.md) · [How to use the tools](../../guides/ModelConnections-1.19.22.md). Microsoft Store submission remains on hold.
 
 ---
 
 # MIE 1.19.21 movement and well-view candidate
 
-Master hover/right-click Inventory installation, related sections in visible header order, checked transfers, confirmed return/delete/cancel and grouped Undo. Includes empty informational tip suppression and immediate save preparation. Licensed 3D Beta assembles original shared PN models with seabed soil from reviewed drawing depths, units and anchors; missing models/depths remain omitted. [Release notes](ReleaseNotes-1.19.21.md) · [633 checks](Validation-1.19.21.md) · [Movement audit](Movement-Audit-1.19.21.md) · [User guide](UserGuide.txt) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v59).
+Master hover/right-click Inventory installation, related sections in visible header order, checked transfers, confirmed return/delete/cancel and grouped Undo. Includes empty informational tip suppression and immediate save preparation. Licensed 3D Beta assembles original shared PN models with seabed soil from reviewed drawing depths, units and anchors; missing models/depths remain omitted. [Release notes](ReleaseNotes-1.19.21.md) · [633 checks](../../validation/Validation-1.19.21.md) · [Movement audit](../../validation/Movement-Audit-1.19.21.md) · [User guide](../../../UserGuide.txt) · [Optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v59).
 
 EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
 
@@ -20,7 +20,7 @@ EXE and MSIX are prepared for owner testing. This version has **not** been submi
 
 # MIE 1.19.20 editor styling candidate
 
-Single-item and grouped cell editors now retain the worksheet display colors, with readable labels, inputs, carets and selectors in light and dark themes. Theme Studio overrides apply to open editors. Edit rows grow and shrink for PN/SN fields and wrapped text, then restore their saved heights. [Release notes](ReleaseNotes-1.19.20.md) · [234 targeted checks](Validation-1.19.20.md) · [User guide](UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v58).
+Single-item and grouped cell editors now retain the worksheet display colors, with readable labels, inputs, carets and selectors in light and dark themes. Theme Studio overrides apply to open editors. Edit rows grow and shrink for PN/SN fields and wrapped text, then restore their saved heights. [Release notes](ReleaseNotes-1.19.20.md) · [234 targeted checks](../../validation/Validation-1.19.20.md) · [User guide](../../../UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v58).
 
 EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
 
@@ -28,7 +28,7 @@ EXE and MSIX are prepared for owner testing. This version has **not** been submi
 
 # MIE 1.19.19 background recovery candidate
 
-Edits stay in the working workspace. Temporary recovery checkpoints are coalesced on a background worker after two quiet seconds; changes made while writing stay pending. Named projects save explicitly, on exit when Save is chosen, or after ten minutes of PC inactivity. Layout changes skip equipment lifecycle/stock recalculation. Guides and all 20 language packs are updated. [Release notes](ReleaseNotes-1.19.19.md) · [553 targeted assertions](Validation-1.19.19.md) · [User guide](UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v57).
+Edits stay in the working workspace. Temporary recovery checkpoints are coalesced on a background worker after two quiet seconds; changes made while writing stay pending. Named projects save explicitly, on exit when Save is chosen, or after ten minutes of PC inactivity. Layout changes skip equipment lifecycle/stock recalculation. Guides and all 20 language packs are updated. [Release notes](ReleaseNotes-1.19.19.md) · [553 targeted assertions](../../validation/Validation-1.19.19.md) · [User guide](../../../UserGuide.txt) · [Optional data packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v57).
 
 EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
 
@@ -36,7 +36,7 @@ EXE and MSIX are prepared for owner testing. This version has **not** been submi
 
 # MIE 1.19.18 sizing candidate
 
-Row/column border resizing and double-click fitting now retain dimensions through MIE pack reopening and Excel export. Cleared equipment cells show compact PN/SN lines while retaining their configured input capacity, and editor fields follow light/dark themes. [Release notes](ReleaseNotes-1.19.18.md) · [412 targeted assertions](Validation-1.19.18.md) · [User guide](UserGuide.txt) · [Updated language/learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v56).
+Row/column border resizing and double-click fitting now retain dimensions through MIE pack reopening and Excel export. Cleared equipment cells show compact PN/SN lines while retaining their configured input capacity, and editor fields follow light/dark themes. [Release notes](ReleaseNotes-1.19.18.md) · [412 targeted assertions](../../validation/Validation-1.19.18.md) · [User guide](../../../UserGuide.txt) · [Updated language/learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v56).
 
 EXE and MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store.
 
@@ -44,7 +44,7 @@ EXE and MSIX are prepared for owner testing. This version has **not** been submi
 
 # MIE 1.19.17 release candidate
 
-Equipment cells support up to six independently tracked items, independent PN/SN field counts, and Inventory append beneath the matching PN. Includes complete Delete/Undo, per-SN history, return and Quarantine, and corrected column drag capture with gentle acceleration and endpoint braking. Guide/tutorial help and all 20 languages are updated. [Release notes](ReleaseNotes-1.19.17.md) · [445 targeted validation assertions](Validation-1.19.17.md) · [User guide](UserGuide.txt).
+Equipment cells support up to six independently tracked items, independent PN/SN field counts, and Inventory append beneath the matching PN. Includes complete Delete/Undo, per-SN history, return and Quarantine, and corrected column drag capture with gentle acceleration and endpoint braking. Guide/tutorial help and all 20 languages are updated. [Release notes](ReleaseNotes-1.19.17.md) · [445 targeted validation assertions](../../validation/Validation-1.19.17.md) · [User guide](../../../UserGuide.txt).
 
 Portable EXE and Microsoft Store MSIX are prepared for owner testing. This version has **not** been submitted to Microsoft Store. The [approved optional packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v55) are available for MIE 1.19.17.
 
@@ -52,13 +52,13 @@ Portable EXE and Microsoft Store MSIX are prepared for owner testing. This versi
 
 # MIE 1.19.16 prepared update
 
-See [release notes](ReleaseNotes-1.19.16.md), [validation](Validation-1.19.16.md) and the updated [user guide](UserGuide.txt). Includes live 3D model badges, transparent dials, revised viewer/pallet controls, safe minimum-stock policy removal, centered About and Full Control header customization with license fallback. All 20 languages and 80 new guided-example runs are validated. Local packages and download assets are prepared; no 1.19.16 Store submission has been made.
+See [release notes](ReleaseNotes-1.19.16.md), [validation](../../validation/Validation-1.19.16.md) and the updated [user guide](../../../UserGuide.txt). Includes live 3D model badges, transparent dials, revised viewer/pallet controls, safe minimum-stock policy removal, centered About and Full Control header customization with license fallback. All 20 languages and 80 new guided-example runs are validated. Local packages and download assets are prepared; no 1.19.16 Store submission has been made.
 
 The records below describe previous updates.
 
 ## MIE 1.19.11 Store submission
 
-Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
+Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](../store/StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
 
 # MIE 1.19.11 — current-tab search and audited replacement
 
@@ -90,7 +90,7 @@ Validation: shared-PN lookup, legacy uploads, serial isolation, incremental reso
 
 # Application notes
 
-Current portable review and local Store candidate: **1.19.09** separates paint UVs from model textures, uses left/right deformation and saves editing sessions asynchronously. A soft circular CAD-style floor adds separate shadow and optional model reflection. Failed checkpoints remain recoverable. [Review notes](ReleaseNotes-1.19.09.md). Guides/tutorials and all 20 languages are updated. Submitted to Microsoft Store as **Submission 14**, in certification/pre-processing with automatic publication after approval. [Submission record](StoreSubmission-1.19.09.md).
+Current portable review and local Store candidate: **1.19.09** separates paint UVs from model textures, uses left/right deformation and saves editing sessions asynchronously. A soft circular CAD-style floor adds separate shadow and optional model reflection. Failed checkpoints remain recoverable. [Review notes](ReleaseNotes-1.19.09.md). Guides/tutorials and all 20 languages are updated. Submitted to Microsoft Store as **Submission 14**, in certification/pre-processing with automatic publication after approval. [Submission record](../store/StoreSubmission-1.19.09.md).
 
 Previous portable review and local Store candidate: **1.19.08** places the model filename beside Settings and adds live brush/deformation footprints, indexed surface picking, cached decals and coalesced incremental background deformation. [Review notes](ReleaseNotes-1.19.08.md). Store upload/submission remain held.
 
@@ -111,7 +111,7 @@ Previous portable review: **1.19.01** adds the half-height attachment area, reme
 
 Previous portable review: **1.19.00** adds inspection proof, licensed Item View, on-demand 3D controls and draggable hatched X/Y/Z sections, offline pack import and preserved identifier formatting. [Review notes](ReleaseNotes-1.19.00.md). This version has not been submitted to Microsoft Store.
 
-Previous portable review: **1.18.21** corrects returned Inventory assessment visibility and navigation. See [review notes](ReleaseNotes-1.18.21.md). This patch is not yet submitted to Microsoft Store.
+Previous portable review: **1.18.21** corrects returned Inventory assessment visibility and navigation. See [review notes](../../../ReleaseNotes-1.18.21.md). This patch is not yet submitted to Microsoft Store.
 
 Current release: **1.18.20**. [Clipboard, deletion and cell-history changes](ReleaseNotes-1.18.20.md). Portable and Store package validation, regression checks and all 20 translated tutorial playbacks passed. The portable release is published privately. Microsoft Store **Submission 13** (`1152921505702288513`) is **in certification**, with Submission complete and Pre-processing in progress. Publication is automatic after approval; availability of 1.18.20 remains pending. Confirmed Store status is recorded in STORE-RELEASE.md.
 

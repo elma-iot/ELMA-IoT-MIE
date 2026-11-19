@@ -15,4 +15,4 @@ Connection data requires MIE 1.19.22 or later. Retain backups before opening upd
 
 The portable candidate includes the approved offline content cache for testing. The Store package bundles its approved executable modules; language and learning packs remain optional. Guide topics, eight guided examples and all 20 language catalogs are updated for this release.
 
-Guide: [Model connections and Item View](ModelConnections-1.19.22.md).
+Guide: [Model connections and Item View](../../../ModelConnections-1.19.22.md).

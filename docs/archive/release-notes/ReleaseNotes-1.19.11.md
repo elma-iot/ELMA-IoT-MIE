@@ -1,6 +1,6 @@
 # MIE 1.19.11 — current-tab search and audited replacement
 
-Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
+Submitted to Microsoft Store as **Submission 15**. Partner Center confirms **In certification / Pre-processing**, with automatic publication after certification passes. [Submission record](../store/StoreSubmission-1.19.11.md). The preparation/owner-testing holds below are historical.
 
 - Ctrl+F opens the search popup for the current tab and selected History or Schedule subtab, including detached windows. The header search retains its cross-tab scope.
 - More options expands case, whole-word and regular-expression controls, using the application theme. Enter/Next moves forward; Shift+Enter/Previous moves backward.
