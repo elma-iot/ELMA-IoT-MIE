@@ -1,0 +1,621 @@
+{
+  "Schema": 1,
+  "Roles": {
+    "explore": [
+      {
+        "Title": "Your wellhead systems in MIE",
+        "Body": "These scenes were captured from real project wells. The tour plays recorded images; it does not load or modify your models. Serial numbers are not shown.",
+        "Clip": 0
+      },
+      {
+        "Title": "Cut view and formations",
+        "Body": "Orbit the wellhead to inspect its arrangement. Cut View reveals internal equipment and illustrative formation layers. Detailed controls follow in the user guide.",
+        "Clip": 1
+      },
+      {
+        "Title": "Open a project and find your equipment",
+        "Body": "Use File > Open for a MIE project, or Import for a workbook. Tabs group installed equipment, inventory, orders, schematics and history. Search finds records across locations. Save retains your changes and attachments together.",
+        "Clip": 2
+      },
+      {
+        "Title": "Choose your working location",
+        "Body": "The location selector beside Search filters applicable tabs and the hardware offered in Well Constructor. All shows every location. Search still covers all locations and clears the filter when needed to show a selected result.",
+        "Clip": 0
+      },
+      {
+        "Title": "Edit with confidence",
+        "Body": "Double-click a cell to edit when your role permits. Undo reverses changes. Equipment actions and saved changes appear in history. This introduction never changes your project.",
+        "Clip": 2
+      },
+      {
+        "Title": "Why obtain a license?",
+        "Body": "Free users can start with the basic workspace. A license adds 3D equipment and well views, Well Constructor, technical-document references, planning and metrics. Your licensed role determines which data you can change.",
+        "Clip": 0
+      },
+      {
+        "Title": "Request activation and continue learning",
+        "Body": "Open Help > License activation. Your saved name and surname are filled in automatically. Choose a contact method to prepare your request, then apply the key you receive. Help > Start tutorial and User guide provide detailed help; Help > Start Tour replays this introduction.",
+        "Clip": 1
+      }
+    ],
+    "full": [
+      {
+        "Title": "Your wellhead systems in MIE",
+        "Body": "These scenes were captured from real project wells. The tour plays recorded images; it does not load or modify your models. Serial numbers are not shown.",
+        "Clip": 0
+      },
+      {
+        "Title": "Cut view and formations",
+        "Body": "Orbit the wellhead to inspect its arrangement. Cut View reveals internal equipment and illustrative formation layers. Detailed controls follow in the user guide.",
+        "Clip": 1
+      },
+      {
+        "Title": "Open a project and find your equipment",
+        "Body": "Use File > Open for a MIE project, or Import for a workbook. Tabs group installed equipment, inventory, orders, schematics and history. Search finds records across locations. Save retains your changes and attachments together.",
+        "Clip": 2
+      },
+      {
+        "Title": "Choose your working location",
+        "Body": "The location selector beside Search filters applicable tabs and the hardware offered in Well Constructor. All shows every location. Search still covers all locations and clears the filter when needed to show a selected result.",
+        "Clip": 0
+      },
+      {
+        "Title": "Edit with confidence",
+        "Body": "Double-click a cell to edit when your role permits. Undo reverses changes. Equipment actions and saved changes appear in history. This introduction never changes your project.",
+        "Clip": 2
+      },
+      {
+        "Title": "Rig/Well Schedule — licensed planning",
+        "Body": "Rig/Well Schedule requires an active license and remains separate from actual installations and stock transactions. Enable planning explicitly to add its worksheets; a versioned local recovery backup is created first. Older 1.13.3 and 1.14 projects open normally before this opt-in migration. A project with schedule data requires version 1.15 or later. Free or expired editions retain the data but hide the tab, block changes and exclude all schedule worksheets from Excel export. Use the existing detach, attach, reorder, hide, restore, search, clipboard, formatting, zoom and Undo controls. Activities and Equipment requirements are editable; Revisions is read-only.",
+        "Topic": "schedule",
+        "Clip": 2
+      },
+      {
+        "Title": "Activities, batches and timeline",
+        "Body": "Add activity plans an existing well or a provisional well without creating an actual registry record. Select a rig, project, activity type, design, status and scenario. Batch wells use semicolon-separated names; parent IDs and dependency IDs are available as columns. Drilling, completion, rig moves and maintenance remain distinct. Dates accept yyyy-MM-dd, yyyy-MM or yyyy-Q1. Month and quarter entries retain uncertain date windows. Choose Timeline and group by rig, well, project or year. Day, week, month, quarter and year scales support long schedules. Enable Edit to drag a bar, resize its right edge or move it to another rig lane. Approximate dates snap to their month or quarter scale. Orange outlines identify overlapping date ranges unless explicitly approved; dependency lines show predecessors. Cyan marks equipment readiness, gold marks order deadlines and orange marks today. Cancelled, completed and postponed activities do not create active future demand.",
+        "Topic": "schedulegantt",
+        "Clip": 2
+      },
+      {
+        "Title": "Equipment readiness and procurement",
+        "Body": "Equipment adds PN, quantity, requirement type, approval and supplier lead time to a planned activity. Future permanent equipment receives no automatic serial allocation. Reusable assets may be explicitly allocated by existing serial; overlapping readiness windows are flagged. Suggest equipment asks you to select genuinely comparable historical wells, shows sample size and confidence and adds checked suggestions as Proposed. Missing equipment records are not zero demand, and the registry has no complete design/applicability metadata. Approve applicability and quantity before projected stock is allocated. Readiness is planned start minus the default 30 calendar days; Policy changes the project default and individual activities or requirements can override it. The earliest plausible date is used conservatively for month or quarter plans. Order deadline subtracts verified or manually supplied supplier lead time; unknown lead time stays unknown. Procurement allocates stock and timely dated incoming orders once in date order, protects Min. Stock unless explicitly overridden and returns reusable quantities only after the latest finish. Recommended orders are incremental proposals, not created purchase orders. Actual inventory and installation records are unchanged. Outstanding and Metrics include planning risks, readiness and 30/60/90-day order deadlines. Historical actual starts and distinct scheduled starts remain separate.",
+        "Topic": "schedulebom",
+        "Clip": 2
+      },
+      {
+        "Title": "Inventory and In-Order",
+        "Body": "Inventory contains physical equipment; In-Order contains purchase order lines. Open purchase orders never count as physically available stock. Equipment is grouped under editable titles with a shared field header. Use the green + beside a row to add item rows or an equipment title. For a title, Add next inserts a complete section after the clicked equipment and all its rows; At the end appends it. For item rows, enter a number from 1 to 20 beside the equipment selector. Invalid counts show a tip above that input when Add is clicked. The batch is one Undo action. Select an equipment title to change its fill, font, size, text color, alignment and styling. The formatting toolbar displays current values and color swatches, with defaults instead of empty selectors. Confirm removal of rows or custom information columns. Existing stock identities, comments, revisions and Excel editing are retained. Purchase order lines with data are retained for audit; cancel their remaining quantity instead of deleting them.",
+        "Topic": "stock",
+        "Clip": 2
+      },
+      {
+        "Title": "Part numbers, quantities and order dates",
+        "Body": "In-Order shows No, Description, PN, Quantity [ea], Supplier, Comments, OPD, DOA, Received [ea], Cancelled [ea] and Remaining [ea]. Hover an abbreviated header for its meaning. PN identifies the equipment type. OPD is Order Placement Date; DOA is the promised or expected Date of Arrival. Original quantity is a positive whole number. Remaining quantity equals ordered minus received minus cancelled. Receipts never reduce the original quantity. Received and remaining fields are calculated and protected. Legacy SN and Location data remain available in legacy columns rather than being discarded. Quantity-based order lines do not represent individual serialized inventory units. Date fields accept yyyy-MM-dd and retain the existing overdue-date indication. Supplier and other custom fields survive save, sync and Excel export. In Edit mode, right-click a column heading in Inventory, In-Order or Min. Stock to add, remove or rename columns. No has no add or remove action. Add columns opens a batch popup with Add next or Add last relative to the chosen heading. Empty inputs are ignored. Required fields stay protected; custom information columns can be deleted after confirmation. Undo restores their labels, values and positions as one action. Stock information-column order is saved and survives Excel export and reimport. Equipment section titles remain separate from information columns.",
+        "Topic": "stockfields",
+        "Clip": 2
+      },
+      {
+        "Title": "Partial deliveries and movement history",
+        "Body": "Select an order item in In-Order and click Receive. Enter the received quantity, actual delivery date and a delivery reference unique within that order line. Serialized equipment requires one distinct serial number per received unit. Explicitly select non-serialized consumables when appropriate. The application creates physical Inventory records, preserves the original order quantity and updates only received and remaining totals. Over-receipts, duplicate delivery references and existing inventory serials require review. The entire receipt, stock records and movement history are one Undo action. Receipt, permanent installation or consumption, transfer, return, reservation, adjustment, cancellation and correction are recorded separately. Inventory Movement records internal transfers and allocations; Return moves selected installed equipment back into the selected Inventory category. Reusable equipment, wear bushings and corrosion caps are transfers rather than consumption. Correct source classification when descriptions disagree. Supplier, order, receipt, well, author, reason and timestamp are retained where known. When installing equipment from Inventory, confirm its actual movement date and reason. Actual event dates and the time the entry was recorded are kept separately. Earlier history is not invented from old report dates.",
+        "Topic": "receiving",
+        "Clip": 2
+      },
+      {
+        "Title": "Condition, availability, disposition and location",
+        "Body": "Condition describes the equipment: Serviceable, Suspected Damage, Damaged, Failed Inspection, Awaiting Assessment or Beyond Economical Repair. Availability describes whether it can be supplied: Available, Reserved, Quarantined / Unavailable or Disposed. Disposition describes the next decision: None, Pending Assessment, Inspection Required, Repair / Rework, Return to Supplier, Approved for Scrap or Completed Disposal. Location retains its own physical location text; Custody identifies Held or Offsite. Equipment at an external repair facility stays owned and unavailable, with its actual location retained.\nUse controlled lifecycle actions to change these fields; ordinary cell edits cannot replace the Equipment ID or bypass lifecycle state controls. Existing ordinary data corrections, custom fields and formatting remain possible for active records, and are recorded. A stable Equipment ID travels with transfers. Serialized equipment represents one physical unit. A partial quantity action on nonserialized stock creates a new child Equipment ID with Parent Equipment ID, reduces the original quantity and preserves metadata. The total reconciles before and after the split.\nLifecycle events retain their identity, parents, actor, action, recorded/actual timestamps, before/after states, reason and evidence. Application Undo and Redo preserve previous events and append compensation instead of deleting history. Completed disposal and its documented reversal create a boundary that ordinary Undo cannot cross. Integrity hashes detect altered or incomplete records during supported operations, but this is not a claim of tamper-proof storage or cryptographically verified authorization.",
+        "Topic": "lifecyclefields",
+        "Clip": 2
+      },
+      {
+        "Title": "Min. Stock — licensed stock policies",
+        "Body": "Min. Stock requires an active verified license. With an inactive or expired license, Min. Stock and Metrics disappear from the tab strip, available-tab list and tab settings; detached views close. Their saved records and settings are preserved for reactivation. The default columns are No, Description, PN, Min Stock [ea] and Lead Time [weeks]. Inventory discovers one row per normalized part number and equipment description, independent of serial number. Ten serialized units of the same type make one stock-policy row. Minimums and lead times survive refreshes, restarts and removal of the final Inventory unit. Use + to create policies for equipment not yet received. Review conflicting PN descriptions instead of silently merging them; correct Inventory classification or explicitly confirm genuinely separate descriptions. Use Columns and custom-column controls to show, hide, add and rearrange information. All normal search, clipboard, undo, zoom, attach, detach, reorder and restore-tab controls apply. Static red, yellow, blue or green accents show stock risk. Hover for actual quantities and the recommendation. Autofill is beside Edit. It checks evidence, calculates from eligible historical wells and the imported rig schedule automatically, and shows a review preview. Manual reference selection is optional. The Autofill child topic describes evidence thresholds, PN mix, limitations, safe application and the last-reviewed warning. Manual editing uses the same cell background, font, text color and alignment as the committed value, including custom formatting. A policy with a zero minimum can be removed while equipment remains in Inventory. An explicit exclusion prevents automatic rediscovery after refresh or reopening. Undo, Redo and explicit Add preserve the intended policy state. See Remove a zero-minimum stock policy for the complete procedure.",
+        "Topic": "minstock",
+        "Clip": 2
+      },
+      {
+        "Title": "Autofill — automatic forecast and data checks",
+        "Body": "Autofill is the table-with-sparkle icon immediately left of Edit in the licensed Min. Stock header. It moves with the tab when detached. The button is disabled when no supported forecast can be calculated; hover it to see what is missing. Manual stock-policy editing remains available. The readiness check is cached and refreshed after relevant project changes and at date/language refresh; it does not save project data.\nAutofill can use an approved dated equipment requirement in the active schedule scenario, or a dated upcoming drilling activity plus sufficient historical installation evidence. An approved requirement needs a valid PN, a positive quantity and a readiness date that is not in the past. Proposed or rejected requirements are not accepted as confirmed demand. Cancelled, completed, postponed and summary activities are excluded.\nFor historical estimates, eligible reference wells are distinct named wells with valid spud and end dates, an end date on or before today, and an end date no earlier than spud. At least three distinct completed wells must span 30 days by spud date. Each suggested historical PN also needs at least three positive examples spanning 30 days. These are minimum evidence checks, not a guarantee of statistical reliability. A blank or unverified equipment slot is excluded rather than counted as zero demand. Operational dates estimate consumption timing; they are not actual stock-movement timestamps.\nThe default opens and calculates automatically using eligible history and the current rig schedule. No manual well selection is required. Use selected historical wells only is an optional override; the same sufficiency checks apply to the selected subset. Change forecast start or the 1–520 week horizon, then Analyze references to recalculate. The default horizon is 52 weeks. The tool uses the active schedule scenario. A period with no supported demand shows an explanation rather than invented recommendations.\nHistorical PN mix is calculated within each standard equipment slot from positive verified PN records. A PN observed on 6 of 10 positive slot records contributes an estimated 0.6 units per future drilling well, not one unit on every well. Different variants are therefore not all assumed to be installed on each future well. PNs below the minimum evidence threshold are omitted without redistributing their share. If a scheduled region is specified, only matching historical region records are used; recognized Black Sea and Mediterranean names are normalized. If region/design is unspecified, pooled historical PN mix is labeled lower-confidence and requires an applicability review. Historic designs are not inferred from filenames or serial numbers.\nOnly included dated drilling activities contribute to historical estimates. Completion, rig moves and maintenance do not automatically consume drilling hardware. A repeated named planned well is counted once. Explicit approved equipment requirements take precedence for an activity; historical estimates are not added to the same activity, so partial approved plans still require a completeness review. The Approved schedule requirements mode restricts the calculation to explicit approved demand. Exact, month and quarter schedule dates retain their stored precision; earliest plausible starts are used for conservative timing.\nFor permanent equipment, expected quantities are grouped by PN and projected onto schedule dates. The recommendation is the ceiling of peak demand within a replenishment window plus configured safety stock. A known requirement/policy lead time defines the window; the largest known lead time for that PN is used. If no lead time is known, the selected forecast horizon is explicitly used as a planning assumption; supplier lead time is left unfilled. Reusable equipment uses peak concurrent units between planned start and finish, not permanent consumption. Without a finish date its occupancy is held indefinitely. Mixed reusable/permanent classification and duplicate policies for one PN are omitted for manual resolution.\nThe preview shows current minimum, recommendation, editable proposed minimum, lead time and evidence. Hover a row to read the calculation. Automatic historical estimates are unchecked by default; tick Apply only for reviewed rows. Existing higher manual minima are preserved by default. Current stock and open orders are not subtracted from a minimum physical-stock threshold. Use the separate schedule procurement view for dated stock allocation and proposed order quantities; an Autofill threshold is not itself an order quantity.\nApply changes only selected stock policies, fills unknown policy lead time only when supported, and can add missing PN policies. It does not approve schedule BOM items, place orders, assign serial numbers, record receipts or consume inventory. One Undo reverses the batch; Redo restores it. Normal named revision history records the changes. Native policy values and supporting revision history survive project save, synchronization and licensed Excel export. A manually entered minimum below the last reviewed recommendation glows with a hover explanation. That warning refers to the last reviewed calculation; rerun Autofill when history, programme or assumptions change.\nThe current Autofill is an explainable schedule and historical-installation-mix estimator. It does not fit a continuous monthly consumption rate, automatically infer well-design applicability, calculate shortage probabilities or automatically learn supplier reliability. Actual consumption movement forecasting in the separate policy engine has its own data requirements. A sufficient-evidence flag permits a reviewable estimate; it does not imply that a forecast is factual or high-confidence. The guide tutorial demonstrates insufficient and sufficient data using a temporary synthetic project, calculates a preview and applies a demonstration value, then restores the original workspace without saving its data. Apply checkboxes are centered and toggle with one click. Click the Apply column header to select every proposal, then click again to clear all; a mixed selection selects all on the next header click.",
+        "Topic": "minimumautofill",
+        "Clip": 2
+      },
+      {
+        "Title": "Well constructor wizard",
+        "Body": "Open Well constructor wizard using the wand button immediately before Sync. A paid license, a writable project and a role with well construction access are required. The separate window supports resize, minimize, maximize and Windows Snap. Loading uses the current theme and shows preparation progress; close the window to cancel loading. Choose a spud date and select or type a rig or drillship. The right-hand hardware table and 3D controls work like the Schematics 3D Demo. All construction changes remain in a draft until Save succeeds. The window remembers its monitor and snapped bounds. Use the branch arrows to collapse hardware, and the add or delete buttons to edit the table. The delete confirmation can also remove children.",
+        "Topic": "wellwizard",
+        "Clip": 3
+      },
+      {
+        "Title": "Select and replace wizard equipment",
+        "Body": "Hover over an empty Hardware cell to open the Inventory section picker, or right-click and choose Add equipment. Use Search by PN or SN beside the picker title to filter available items and open the best matching Inventory section. Search highlights the match. Click an item to add it. The next picker opens the last-used section when it still has compatible stock and highlights the next available item. Families follow the current Inventory, including families added later. Empty families and families with no selectable stock are hidden. Items that are unavailable, already installed or already selected in this draft cannot be selected again. Only families that match a compatible hardware row are shown. The chosen PN/SN appears immediately and is held in the draft while the 3D model loads in the background. You can continue selecting other equipment during loading. On an occupied row, right-click and choose Replace to open the same picker. Cancel replacement restores the previous draft equipment. Select This connection and Connect to using the saved model connection IDs. A connection point uses its exact saved location; a plane surface uses its computed mating center. Check which feature was selected if hardware attaches to an indicator rod instead of the well axis. Choose a model connection point or surface in the Depth reference dropdown above each hardware depth field. The value is calculated at that point. Edit it for a surveyed override, or clear it to return to calculation. Configured rotation, travel, inclination and heading controls appear below the depth. When two model variants have the same filename, the one with configured movement is marked Motion controls. Committed slope readings in Schematics update the linked Master row in the background while the 3D preview continues to update. Model top remains available. Click a depth field to place the text cursor directly in the input. In the wizard and Schematics 3D Demo, numeric changes apply after 10 seconds without typing. Press Enter to apply immediately. Set depths and device readings, including inclination and heading, as required; incomplete or conflicting connections need correction before saving.",
+        "Topic": "wizardinventory",
+        "Clip": 3
+      },
+      {
+        "Title": "Arrange parent and child hardware",
+        "Body": "1. Open 3D Beta and enlarge the constructor with its top-right four-arrow button if needed. The expanded table stays within the window and can scroll vertically; its header stays visible. Use the button again to return it to the right side. The footer zoom slider controls the scene. 2. Grab a hardware description and drop it onto the hardware that supports it. For example, drop a valve or slope indicator onto the LP wellhead. The item moves below its parent with indentation and branch lines. This works for generic hardware, without hardwired valve or indicator routing. Cycles and invalid parenting are rejected. 3. This connection lists the child model marks; Connect to lists marks on its parent. A reserved target cannot be reused until the previous item releases it by selecting None. Right-click > Make top-level removes the parent relationship. 4. Select Include and matching connections. Equipment appears smoothly at its connection and unchecked parts fade away. Connections to unchecked hardware are inactive. Review computed depths, orientation and all children before Accept. Right-click > 3D Viewer navigates to the corresponding PN/SN for configuration; reopening 3D Beta refreshes changed shared model data. Per-well hierarchy, scene lighting, cuts, measurements and movement readings are retained. Automatic orbit pauses during interaction and cut view; idle rotation resumes after 30 seconds when enabled. When a P/N has multiple GLBs, select the model from the dropdown directly below its name in the Hardware cell of the 3D well-constructor table. Connections, units and motion refresh live; the choice is saved with the well. Renamed GLB filenames appear immediately in the well-constructor model dropdown. The selected model, connections and motion settings are preserved.",
+        "Topic": "wellhierarchy",
+        "Clip": 3
+      },
+      {
+        "Title": "Add and edit a connection surface",
+        "Body": "Open the item in 3D Viewer and select its GLB attachment. Select Add connection surface. Use the adjacent triangle to choose XY (normal Z), XZ (normal Y) or YZ (normal X), and confirm model units. For top and bottom levels on a Y-up model choose XZ. Move over the model: a translucent plane and green inner/outer intersection contours preview the position. Movement clamps to the model bounds. Click to enter a numeric ID and a name, then Apply. IDs must be unique on that model; another model may reuse the ID. Saved contours remain visible. Right-click a mark to edit its position, name or ID, or Delete it. Escape exits placement. These definitions are shared by PN/model; they are not serial-specific damage. New marks propose the next available numeric ID. Review it or enter another unused ID. Apply, Delete and Cancel remain fixed at the bottom while the fields scroll. Connection Surface names include Bottom, Top, Latch Ring and Landing Shoulder. You can type a custom name and reuse it from suggestions.",
+        "Topic": "connectionsurfaces",
+        "Clip": 2
+      },
+      {
+        "Title": "Add a surface point and its cross marker",
+        "Body": "Select Add point connection, move over the model and left-click the desired surface. The cross follows the surface orientation; it is a point marker, not an intersection plane. Enter its unique numeric ID and descriptive name, review X/Y/Z in metres and Apply. Use 3D snap before clicking when a hole, ring or edge centre is needed. A snapped hole centre may lie in empty space inside the hole; confirm the intended location. Right-click a saved cross to change its ID, name or coordinates, or Delete it. Point and surface IDs share the same uniqueness rule. Point coordinates and normals stay with this PN/model and appear for other serials sharing that model. Connection point directions and X/Y/Z rotation are shared with the PN model. Use Reverse axis to adjust the local point frame; surface connections use direction and roll. The well constructor aligns both position and orientation. Replacing a shared PN model can retain its connection marks and orientations; review their positions if the replacement changes coordinates or units.",
+        "Topic": "connectionpoints",
+        "Clip": 2
+      },
+      {
+        "Title": "Compact casing in cut view",
+        "Body": "In 3D Viewer, select Mark shrink range on the 3D toolbar. Use its arrow menu to choose the plane normal (X, Y, or Z), then click Point A and Point B. Set the percentage of the span to display and save. The same menu lets you edit or delete any of the three ranges per model. In well cut views and printed schematics, ranges aligned with the well axis are shortened for illustration. Continuous concentric pipes can shorten together. Unmarked fittings, branch equipment, and pipe ends protect the spans they occupy. Applied shrinkage is reported in the cut settings. Saved endpoints appear as matching magenta outlines in 3D Viewer. Right-click either endpoint and select Delete shrink range to remove both. The constructor calculates and labels actual depths from the full-length assembly.",
+        "Topic": "wellshrink",
+        "Clip": 3
+      },
+      {
+        "Title": "Extend a pipe to a target depth",
+        "Body": "In 3D Viewer, choose Extend Surface near Mark Shrink Range, select two points on the same mesh, and save. The marked band is saved with the part number and model. In the well table, choose Bottom Extend in the Depth column and enter the measured shoe depth. Hover over the bottom connection to highlight it, then drag it down or up to stretch or compress the marked band. The arrows and cement follow the drawn connection, while the reading to DATUM stays fixed. Mark Shrink Range also changes the drawing only.",
+        "Topic": "wellextend",
+        "Clip": 3
+      },
+      {
+        "Title": "Save, reset and resume a constructed well",
+        "Body": "Press Save and enter a new well name. The save commits the well to the Master equipment list, applies selected Inventory transfers or retained associations, saves the editable 3D settings and generates the linked portrait 2D schematic together. The well is placed by spud date; an unused Exp- slot may be reused when it has no equipment, history or linked drawing. Existing rig colors are retained and a new rig receives a color. Remove from Inventory requests a permanent transfer; otherwise the normal retained-Inventory association is used. Save leaves the wizard open. Further saves update that same well. Close keeps the unsaved draft on this computer for this project. Reopen the wizard to continue with the selected equipment, values, connections, and tree. Reset starts a new draft with the same tree and well inputs, clearing selected equipment, model connections, and movement settings. After Save, the tree is available when starting another well. Replacing equipment in a saved well returns the old item through the existing assessment workflow when the replacement is saved. A stale Inventory item, changed model or changed project can prevent saving; review the message and refresh the draft. One Undo or Redo covers the complete saved operation.",
+        "Topic": "wizardsave",
+        "Clip": 3
+      },
+      {
+        "Title": "Navigate, cut and inspect a model",
+        "Body": "Use the mouse wheel to zoom towards the pointer, orbit with the left button in Navigate mode, and pan with middle drag. Home and Reset view fit the model; the view selector offers perspective, orthographic and preset directions. Open large 3D view gives more room. In Settings, select the cut axis even before enabling Cut view. Enable it and drag the double-arrow handle or use the position control to move the plane. Turn Cut view off to restore the full model. Scene lighting, ground, camera and item settings are retained separately from the original asset. Damage brush previews show where a mark will land; deformation raises with the left button and dents with the right. Damage remains tied to the SN and follows the existing return-to-service clearing workflow. Uploads support GLB files up to 120 MB within resource limits. Geometry optimization in the gear menu enables adaptive display levels generated in the background from immutable source geometry. Maximum screen error, reusable derived-cache memory and performance diagnostics are adjustable. Turn Adaptive geometry off to compare original geometry at the same camera position. Cuts, connection editing, mesh selection and damage editing use original detail. Diagnostics show estimated UI frame rate, frame interval, submitted triangles, mesh submissions, process RAM and active levels; WPF does not expose GPU timings or hardware draw-call counters. This is adaptive visualization, not a replacement for the original engineering model. The viewer pack contains its verified native optimizer and can fall back to original geometry if optimization is unavailable.",
+        "Topic": "modelviewcontrols",
+        "Clip": 2
+      },
+      {
+        "Title": "3D marking and inspection notes",
+        "Body": "Models that contain stamp-area annotation metadata can show 3D callouts and markers for stamp locations in 3D Viewer. Use Show / hide notes to toggle drawing indicators and added notes. The annotations describe where markings belong and do not engrave PN or SN text into the source mesh. Read the evidence classification: drawing-indicated, related-family or unverified locations have different confidence. An absent annotation does not establish that the equipment has no stamp location. Changes to a shared PN model or its configuration refresh open 3D Viewer, Schematics 3D and wizard scenes in the background while retaining navigation and draft selections where they remain valid. In 3D Viewer, use Add note and click the model, or right-click a surface and choose Add note. Replace the selected Test Note text and choose Done to save or Cancel to close the draft. Marking notes use green spots by default. Inspection notes use blue and support spots or bands. For a band, choose its axis, enter its width in millimetres, and choose External, Internal or Both. Use Cut view to inspect highlights inside a bore. Note color opens the color picker. Right-click a callout or band and choose Change note or Delete note. Drag the arrows at the anchor in the 3D view. Spot notes move in four directions and slowly turn the model left at the right edge and right at the left edge. Surface notes move up or down along their band axis. Show / hide notes controls the 3D callouts and the notes list in the lower-right corner, including drawing indicators. Select a note in the list to turn the model toward it and highlight its anchor. If the active cut hides that anchor, selection reverses the retained side at the current plane. Notes follow the model during orbit. Save to defaults to P/N and shares the note across matching equipment. Open a specific unit and choose its S/N to keep an inspection or damage note with that unit. All serials shows shared P/N notes. The label is readable from both sides, including in right-to-left languages. Adaptive geometry uses lighter meshes for small on-screen markers. The model can still cover the part of a note physically behind it. On alternate models for that P/N, placements use the corresponding position within the model bounds. Check alignment when the geometry differs.",
+        "Topic": "modelstamps",
+        "Clip": 2
+      },
+      {
+        "Title": "Physics Deformations and P/N materials",
+        "Body": "1. Right-click each contacting mesh and choose Material. Enter a material name, Young’s modulus in MPa and Poisson ratio. These physical properties are saved with the P/N model and mesh, separately from appearance. 2. Click Physics Deformations in the instrument toolbar and choose two different meshes. If either lacks a material, assign it before starting, or tick Estimate material properties. Estimates are editable assumptions and override values for this run only; saved P/N materials remain unchanged. 3. Start simulation, then use the configured linear, rotation or planar movement controls. Cut view stays active while the moved section is rebuilt. Only the selected direction half of a linear arrow is highlighted. 4. Click Physics Deformations again to disable the preview. The original CAD mesh is preserved. This is approximate quasi-static elastic surface contact, not volumetric finite element analysis. Relative stiffness shares local displacement between both parts; displacement is capped at 5% of part size. It does not predict stress, force, plastic deformation or failure, and may miss contact between coarse triangles or open surfaces. The selected pair is limited to 250000 vertices. The mesh tree sits beside the attachment pane and uses the available model height. Right-click any mesh, motion group or CAD node > Rename. Display names are saved with the P/N model; stable IDs preserve motion, materials, connections and saved readings. Mesh labels retain their ordinal to distinguish equal names. Context menus stay inside the window and scroll when needed. Material opens a library of over 130 editable room-temperature presets grouped by alloy family, including indium and lead. Choosing a preset fills the name, Young’s modulus and Poisson ratio. Both contact dropdowns highlight hovered meshes live in the viewport; leaving or closing the dialog restores normal appearance. Filter by AISI/SAE, ASTM or API, then select a grade to fill its editable properties.",
+        "Topic": "modelphysics",
+        "Clip": 2
+      },
+      {
+        "Title": "Inspection, repair, testing and release",
+        "Body": "Send to Quarantine records the condition and reason while retaining the owned physical item. Inspection and testing are applicable by default. If testing is genuinely not applicable, document the exemption justification when quarantining; this is a recorded declaration, not an automatic engineering assessment. Record Inspection records Pass or Fail with evidence. Failed inspection keeps the item unavailable. A new inspection resets test readiness so an old test is not silently reused.\nSend for Repair requires the actual facility location and supporting reference. It sets offsite custody and Repair / Rework, removes it from physically held/available stock and retains ownership. Record Repair Completion records evidence, actual location and whether it remains offsite or is physically returned; it does not automatically release the item. Inspection and applicable test/certification results must then be recorded. A failed test keeps the equipment unavailable.\nRelease to Service requires a passed inspection, applicable passed test or documented exemption, completed repair where required, named confirmation, evidence and an actual service location. Equipment still offsite must be explicitly recorded as physically returned. BER equipment needs a new assessment before release. Successful release transfers the same identity back to Inventory with serviceable/available state. It cannot bypass the engineering evidence checks by ordinary cell editing. Stock calculations and Outstanding update after the transaction.",
+        "Topic": "lifecyclerepair",
+        "Clip": 2
+      },
+      {
+        "Title": "Named approval and supporting evidence",
+        "Body": "Release to Service, Approve for Scrap, Complete Disposal and a disposal reversal require a dedicated explicit confirmation. Enter the approver name and surname, action reason and supporting evidence/reference. Attach inspection reports, test certificates, NCRs or disposal documents as appropriate. The confirmation displays the action, unit, quantity, actual date/location, application user, approver and evidence. Its Confirm action button remains disabled until the explicit confirmation checkbox is selected. Cancel records no approval.\nThe existing license holder name and license user ID are captured automatically when present. They identify the application user, not verified authorization or a currently authenticated operator. The separately entered approver identity is self-declared. When there is no license identity, the workflow captures the declared name and identity source. Approval records include UTC confirmation and recorded timestamps and an extensible approval context. No new roles, Windows-account restrictions, authentication, licensing rules, KeyGen changes or Superadmin changes are introduced. RBAC is deferred to a future major release without requiring a different historical approval record format.\nA document reference is allowed when a file is not attached. Embedded files are content-hashed and travel with native project saves and applicable exchanges; History can save an evidence copy. References are declarations, and the application does not verify that an external report proves the engineering condition. App history is read-only through normal controls and detects inconsistent event hashes; users with external file/system access are not prevented by a claimed tamper-proof signature scheme. Offline approvals remain supported.",
+        "Topic": "lifecycleapproval",
+        "Clip": 2
+      },
+      {
+        "Title": "Why obtain a license?",
+        "Body": "Free users can start with the basic workspace. A license adds 3D equipment and well views, Well Constructor, technical-document references, planning and metrics. Your licensed role determines which data you can change.",
+        "Clip": 0
+      },
+      {
+        "Title": "Request activation and continue learning",
+        "Body": "Open Help > License activation. Your saved name and surname are filled in automatically. Choose a contact method to prepare your request, then apply the key you receive. Help > Start tutorial and User guide provide detailed help; Help > Start Tour replays this introduction.",
+        "Clip": 1
+      }
+    ],
+    "planning": [
+      {
+        "Title": "Your wellhead systems in MIE",
+        "Body": "These scenes were captured from real project wells. The tour plays recorded images; it does not load or modify your models. Serial numbers are not shown.",
+        "Clip": 0
+      },
+      {
+        "Title": "Cut view and formations",
+        "Body": "Orbit the wellhead to inspect its arrangement. Cut View reveals internal equipment and illustrative formation layers. Detailed controls follow in the user guide.",
+        "Clip": 1
+      },
+      {
+        "Title": "Open a project and find your equipment",
+        "Body": "Use File > Open for a MIE project, or Import for a workbook. Tabs group installed equipment, inventory, orders, schematics and history. Search finds records across locations. Save retains your changes and attachments together.",
+        "Clip": 2
+      },
+      {
+        "Title": "Choose your working location",
+        "Body": "The location selector beside Search filters applicable tabs and the hardware offered in Well Constructor. All shows every location. Search still covers all locations and clears the filter when needed to show a selected result.",
+        "Clip": 0
+      },
+      {
+        "Title": "Edit with confidence",
+        "Body": "Double-click a cell to edit when your role permits. Undo reverses changes. Equipment actions and saved changes appear in history. This introduction never changes your project.",
+        "Clip": 2
+      },
+      {
+        "Title": "Rig/Well Schedule — licensed planning",
+        "Body": "Rig/Well Schedule requires an active license and remains separate from actual installations and stock transactions. Enable planning explicitly to add its worksheets; a versioned local recovery backup is created first. Older 1.13.3 and 1.14 projects open normally before this opt-in migration. A project with schedule data requires version 1.15 or later. Free or expired editions retain the data but hide the tab, block changes and exclude all schedule worksheets from Excel export. Use the existing detach, attach, reorder, hide, restore, search, clipboard, formatting, zoom and Undo controls. Activities and Equipment requirements are editable; Revisions is read-only.",
+        "Topic": "schedule",
+        "Clip": 2
+      },
+      {
+        "Title": "Activities, batches and timeline",
+        "Body": "Add activity plans an existing well or a provisional well without creating an actual registry record. Select a rig, project, activity type, design, status and scenario. Batch wells use semicolon-separated names; parent IDs and dependency IDs are available as columns. Drilling, completion, rig moves and maintenance remain distinct. Dates accept yyyy-MM-dd, yyyy-MM or yyyy-Q1. Month and quarter entries retain uncertain date windows. Choose Timeline and group by rig, well, project or year. Day, week, month, quarter and year scales support long schedules. Enable Edit to drag a bar, resize its right edge or move it to another rig lane. Approximate dates snap to their month or quarter scale. Orange outlines identify overlapping date ranges unless explicitly approved; dependency lines show predecessors. Cyan marks equipment readiness, gold marks order deadlines and orange marks today. Cancelled, completed and postponed activities do not create active future demand.",
+        "Topic": "schedulegantt",
+        "Clip": 2
+      },
+      {
+        "Title": "Equipment readiness and procurement",
+        "Body": "Equipment adds PN, quantity, requirement type, approval and supplier lead time to a planned activity. Future permanent equipment receives no automatic serial allocation. Reusable assets may be explicitly allocated by existing serial; overlapping readiness windows are flagged. Suggest equipment asks you to select genuinely comparable historical wells, shows sample size and confidence and adds checked suggestions as Proposed. Missing equipment records are not zero demand, and the registry has no complete design/applicability metadata. Approve applicability and quantity before projected stock is allocated. Readiness is planned start minus the default 30 calendar days; Policy changes the project default and individual activities or requirements can override it. The earliest plausible date is used conservatively for month or quarter plans. Order deadline subtracts verified or manually supplied supplier lead time; unknown lead time stays unknown. Procurement allocates stock and timely dated incoming orders once in date order, protects Min. Stock unless explicitly overridden and returns reusable quantities only after the latest finish. Recommended orders are incremental proposals, not created purchase orders. Actual inventory and installation records are unchanged. Outstanding and Metrics include planning risks, readiness and 30/60/90-day order deadlines. Historical actual starts and distinct scheduled starts remain separate.",
+        "Topic": "schedulebom",
+        "Clip": 2
+      },
+      {
+        "Title": "Part numbers, quantities and order dates",
+        "Body": "In-Order shows No, Description, PN, Quantity [ea], Supplier, Comments, OPD, DOA, Received [ea], Cancelled [ea] and Remaining [ea]. Hover an abbreviated header for its meaning. PN identifies the equipment type. OPD is Order Placement Date; DOA is the promised or expected Date of Arrival. Original quantity is a positive whole number. Remaining quantity equals ordered minus received minus cancelled. Receipts never reduce the original quantity. Received and remaining fields are calculated and protected. Legacy SN and Location data remain available in legacy columns rather than being discarded. Quantity-based order lines do not represent individual serialized inventory units. Date fields accept yyyy-MM-dd and retain the existing overdue-date indication. Supplier and other custom fields survive save, sync and Excel export. In Edit mode, right-click a column heading in Inventory, In-Order or Min. Stock to add, remove or rename columns. No has no add or remove action. Add columns opens a batch popup with Add next or Add last relative to the chosen heading. Empty inputs are ignored. Required fields stay protected; custom information columns can be deleted after confirmation. Undo restores their labels, values and positions as one action. Stock information-column order is saved and survives Excel export and reimport. Equipment section titles remain separate from information columns.",
+        "Topic": "stockfields",
+        "Clip": 2
+      },
+      {
+        "Title": "Min. Stock — licensed stock policies",
+        "Body": "Min. Stock requires an active verified license. With an inactive or expired license, Min. Stock and Metrics disappear from the tab strip, available-tab list and tab settings; detached views close. Their saved records and settings are preserved for reactivation. The default columns are No, Description, PN, Min Stock [ea] and Lead Time [weeks]. Inventory discovers one row per normalized part number and equipment description, independent of serial number. Ten serialized units of the same type make one stock-policy row. Minimums and lead times survive refreshes, restarts and removal of the final Inventory unit. Use + to create policies for equipment not yet received. Review conflicting PN descriptions instead of silently merging them; correct Inventory classification or explicitly confirm genuinely separate descriptions. Use Columns and custom-column controls to show, hide, add and rearrange information. All normal search, clipboard, undo, zoom, attach, detach, reorder and restore-tab controls apply. Static red, yellow, blue or green accents show stock risk. Hover for actual quantities and the recommendation. Autofill is beside Edit. It checks evidence, calculates from eligible historical wells and the imported rig schedule automatically, and shows a review preview. Manual reference selection is optional. The Autofill child topic describes evidence thresholds, PN mix, limitations, safe application and the last-reviewed warning. Manual editing uses the same cell background, font, text color and alignment as the committed value, including custom formatting. A policy with a zero minimum can be removed while equipment remains in Inventory. An explicit exclusion prevents automatic rediscovery after refresh or reopening. Undo, Redo and explicit Add preserve the intended policy state. See Remove a zero-minimum stock policy for the complete procedure.",
+        "Topic": "minstock",
+        "Clip": 2
+      },
+      {
+        "Title": "Autofill — automatic forecast and data checks",
+        "Body": "Autofill is the table-with-sparkle icon immediately left of Edit in the licensed Min. Stock header. It moves with the tab when detached. The button is disabled when no supported forecast can be calculated; hover it to see what is missing. Manual stock-policy editing remains available. The readiness check is cached and refreshed after relevant project changes and at date/language refresh; it does not save project data.\nAutofill can use an approved dated equipment requirement in the active schedule scenario, or a dated upcoming drilling activity plus sufficient historical installation evidence. An approved requirement needs a valid PN, a positive quantity and a readiness date that is not in the past. Proposed or rejected requirements are not accepted as confirmed demand. Cancelled, completed, postponed and summary activities are excluded.\nFor historical estimates, eligible reference wells are distinct named wells with valid spud and end dates, an end date on or before today, and an end date no earlier than spud. At least three distinct completed wells must span 30 days by spud date. Each suggested historical PN also needs at least three positive examples spanning 30 days. These are minimum evidence checks, not a guarantee of statistical reliability. A blank or unverified equipment slot is excluded rather than counted as zero demand. Operational dates estimate consumption timing; they are not actual stock-movement timestamps.\nThe default opens and calculates automatically using eligible history and the current rig schedule. No manual well selection is required. Use selected historical wells only is an optional override; the same sufficiency checks apply to the selected subset. Change forecast start or the 1–520 week horizon, then Analyze references to recalculate. The default horizon is 52 weeks. The tool uses the active schedule scenario. A period with no supported demand shows an explanation rather than invented recommendations.\nHistorical PN mix is calculated within each standard equipment slot from positive verified PN records. A PN observed on 6 of 10 positive slot records contributes an estimated 0.6 units per future drilling well, not one unit on every well. Different variants are therefore not all assumed to be installed on each future well. PNs below the minimum evidence threshold are omitted without redistributing their share. If a scheduled region is specified, only matching historical region records are used; recognized Black Sea and Mediterranean names are normalized. If region/design is unspecified, pooled historical PN mix is labeled lower-confidence and requires an applicability review. Historic designs are not inferred from filenames or serial numbers.\nOnly included dated drilling activities contribute to historical estimates. Completion, rig moves and maintenance do not automatically consume drilling hardware. A repeated named planned well is counted once. Explicit approved equipment requirements take precedence for an activity; historical estimates are not added to the same activity, so partial approved plans still require a completeness review. The Approved schedule requirements mode restricts the calculation to explicit approved demand. Exact, month and quarter schedule dates retain their stored precision; earliest plausible starts are used for conservative timing.\nFor permanent equipment, expected quantities are grouped by PN and projected onto schedule dates. The recommendation is the ceiling of peak demand within a replenishment window plus configured safety stock. A known requirement/policy lead time defines the window; the largest known lead time for that PN is used. If no lead time is known, the selected forecast horizon is explicitly used as a planning assumption; supplier lead time is left unfilled. Reusable equipment uses peak concurrent units between planned start and finish, not permanent consumption. Without a finish date its occupancy is held indefinitely. Mixed reusable/permanent classification and duplicate policies for one PN are omitted for manual resolution.\nThe preview shows current minimum, recommendation, editable proposed minimum, lead time and evidence. Hover a row to read the calculation. Automatic historical estimates are unchecked by default; tick Apply only for reviewed rows. Existing higher manual minima are preserved by default. Current stock and open orders are not subtracted from a minimum physical-stock threshold. Use the separate schedule procurement view for dated stock allocation and proposed order quantities; an Autofill threshold is not itself an order quantity.\nApply changes only selected stock policies, fills unknown policy lead time only when supported, and can add missing PN policies. It does not approve schedule BOM items, place orders, assign serial numbers, record receipts or consume inventory. One Undo reverses the batch; Redo restores it. Normal named revision history records the changes. Native policy values and supporting revision history survive project save, synchronization and licensed Excel export. A manually entered minimum below the last reviewed recommendation glows with a hover explanation. That warning refers to the last reviewed calculation; rerun Autofill when history, programme or assumptions change.\nThe current Autofill is an explainable schedule and historical-installation-mix estimator. It does not fit a continuous monthly consumption rate, automatically infer well-design applicability, calculate shortage probabilities or automatically learn supplier reliability. Actual consumption movement forecasting in the separate policy engine has its own data requirements. A sufficient-evidence flag permits a reviewable estimate; it does not imply that a forecast is factual or high-confidence. The guide tutorial demonstrates insufficient and sufficient data using a temporary synthetic project, calculates a preview and applies a demonstration value, then restores the original workspace without saving its data. Apply checkboxes are centered and toggle with one click. Click the Apply column header to select every proposal, then click again to clear all; a mixed selection selects all on the next header click.",
+        "Topic": "minimumautofill",
+        "Clip": 2
+      },
+      {
+        "Title": "Inventory and In-Order",
+        "Body": "Inventory contains physical equipment; In-Order contains purchase order lines. Open purchase orders never count as physically available stock. Equipment is grouped under editable titles with a shared field header. Use the green + beside a row to add item rows or an equipment title. For a title, Add next inserts a complete section after the clicked equipment and all its rows; At the end appends it. For item rows, enter a number from 1 to 20 beside the equipment selector. Invalid counts show a tip above that input when Add is clicked. The batch is one Undo action. Select an equipment title to change its fill, font, size, text color, alignment and styling. The formatting toolbar displays current values and color swatches, with defaults instead of empty selectors. Confirm removal of rows or custom information columns. Existing stock identities, comments, revisions and Excel editing are retained. Purchase order lines with data are retained for audit; cancel their remaining quantity instead of deleting them.",
+        "Topic": "stock",
+        "Clip": 2
+      },
+      {
+        "Title": "Partial deliveries and movement history",
+        "Body": "Select an order item in In-Order and click Receive. Enter the received quantity, actual delivery date and a delivery reference unique within that order line. Serialized equipment requires one distinct serial number per received unit. Explicitly select non-serialized consumables when appropriate. The application creates physical Inventory records, preserves the original order quantity and updates only received and remaining totals. Over-receipts, duplicate delivery references and existing inventory serials require review. The entire receipt, stock records and movement history are one Undo action. Receipt, permanent installation or consumption, transfer, return, reservation, adjustment, cancellation and correction are recorded separately. Inventory Movement records internal transfers and allocations; Return moves selected installed equipment back into the selected Inventory category. Reusable equipment, wear bushings and corrosion caps are transfers rather than consumption. Correct source classification when descriptions disagree. Supplier, order, receipt, well, author, reason and timestamp are retained where known. When installing equipment from Inventory, confirm its actual movement date and reason. Actual event dates and the time the entry was recorded are kept separately. Earlier history is not invented from old report dates.",
+        "Topic": "receiving",
+        "Clip": 2
+      },
+      {
+        "Title": "Physical stock, availability and procurement",
+        "Body": "Physically held stock is serviceable held stock plus quarantined held stock. Available stock is eligible serviceable Inventory minus recorded reservations. Quarantined stock remains physically held but unavailable. Offsite repair stock remains owned at its external location and is reported separately from physically held stock. Disposed quantities are historical only. Installed well equipment is allocated/historical equipment and is not available warehouse stock.\nOnly confirmed outstanding In-Order quantities contribute incoming supply; fully received, cancelled, explicitly draft/proposed or rejected orders do not. Quarantine never becomes an incoming order. Stock forecasts, minimum-stock coverage and recommendations use eligible available stock, not all owned stock. Transfers, reservations, repair and disposal are not fabricated well-consumption events. Existing historical/schedule forecast assumptions remain unchanged.\nSerialized duplicates are counted at most once and kept unavailable pending review, rather than inflating coverage. Repeated PNs with distinct SNs remain valid. Stable IDs and quantity splits preserve total balances across transfers, partial quarantine, repair, release and disposal. Outstanding records assessment, offsite repair, scrap/disposal and stale-restoration actions. Licensed Metrics adds physical held, available, quarantined, offsite owned and disposed-history counts plus numeric per-PN Excel data. Min. Stock, Forecasting and Metrics remain licensed; the core Inventory/Quarantine lifecycle remains available in the free workflow.",
+        "Topic": "lifecyclestock",
+        "Clip": 2
+      },
+      {
+        "Title": "Schedule scenarios, revisions and synchronization",
+        "Body": "Policy selects the active planning scenario. Each activity belongs to a scenario, so alternatives do not spend the same stock together. Duplicate copies an activity and its requirements, clears reusable serial assignments and returns copied requirements to Proposed. Revisions saves named planning snapshots, compares changed dates, added or removed activities and rig changes, and can restore a selected snapshot after explicit confirmation. Restore changes planning inputs only and can be undone. All edits use the existing named Revision History, local recovery, compression, optional encryption and incremental synchronization. Stable activity and requirement IDs support field-level merging. Independent edits merge automatically; conflicting assignments require a decision. Settings, custom columns and manually reviewed requirements travel with the project. Tutorials use a temporary synthetic workspace and restore your original data and view without saving their demonstrations.",
+        "Topic": "schedulerevisions",
+        "Clip": 2
+      },
+      {
+        "Title": "Why obtain a license?",
+        "Body": "Free users can start with the basic workspace. A license adds 3D equipment and well views, Well Constructor, technical-document references, planning and metrics. Your licensed role determines which data you can change.",
+        "Clip": 0
+      },
+      {
+        "Title": "Request activation and continue learning",
+        "Body": "Open Help > License activation. Your saved name and surname are filled in automatically. Choose a contact method to prepare your request, then apply the key you receive. Help > Start tutorial and User guide provide detailed help; Help > Start Tour replays this introduction.",
+        "Clip": 1
+      }
+    ],
+    "field": [
+      {
+        "Title": "Your wellhead systems in MIE",
+        "Body": "These scenes were captured from real project wells. The tour plays recorded images; it does not load or modify your models. Serial numbers are not shown.",
+        "Clip": 0
+      },
+      {
+        "Title": "Cut view and formations",
+        "Body": "Orbit the wellhead to inspect its arrangement. Cut View reveals internal equipment and illustrative formation layers. Detailed controls follow in the user guide.",
+        "Clip": 1
+      },
+      {
+        "Title": "Open a project and find your equipment",
+        "Body": "Use File > Open for a MIE project, or Import for a workbook. Tabs group installed equipment, inventory, orders, schematics and history. Search finds records across locations. Save retains your changes and attachments together.",
+        "Clip": 2
+      },
+      {
+        "Title": "Choose your working location",
+        "Body": "The location selector beside Search filters applicable tabs and the hardware offered in Well Constructor. All shows every location. Search still covers all locations and clears the filter when needed to show a selected result.",
+        "Clip": 0
+      },
+      {
+        "Title": "Edit with confidence",
+        "Body": "Double-click a cell to edit when your role permits. Undo reverses changes. Equipment actions and saved changes appear in history. This introduction never changes your project.",
+        "Clip": 2
+      },
+      {
+        "Title": "Condition, availability, disposition and location",
+        "Body": "Condition describes the equipment: Serviceable, Suspected Damage, Damaged, Failed Inspection, Awaiting Assessment or Beyond Economical Repair. Availability describes whether it can be supplied: Available, Reserved, Quarantined / Unavailable or Disposed. Disposition describes the next decision: None, Pending Assessment, Inspection Required, Repair / Rework, Return to Supplier, Approved for Scrap or Completed Disposal. Location retains its own physical location text; Custody identifies Held or Offsite. Equipment at an external repair facility stays owned and unavailable, with its actual location retained.\nUse controlled lifecycle actions to change these fields; ordinary cell edits cannot replace the Equipment ID or bypass lifecycle state controls. Existing ordinary data corrections, custom fields and formatting remain possible for active records, and are recorded. A stable Equipment ID travels with transfers. Serialized equipment represents one physical unit. A partial quantity action on nonserialized stock creates a new child Equipment ID with Parent Equipment ID, reduces the original quantity and preserves metadata. The total reconciles before and after the split.\nLifecycle events retain their identity, parents, actor, action, recorded/actual timestamps, before/after states, reason and evidence. Application Undo and Redo preserve previous events and append compensation instead of deleting history. Completed disposal and its documented reversal create a boundary that ordinary Undo cannot cross. Integrity hashes detect altered or incomplete records during supported operations, but this is not a claim of tamper-proof storage or cryptographically verified authorization.",
+        "Topic": "lifecyclefields",
+        "Clip": 2
+      },
+      {
+        "Title": "Inventory and In-Order",
+        "Body": "Inventory contains physical equipment; In-Order contains purchase order lines. Open purchase orders never count as physically available stock. Equipment is grouped under editable titles with a shared field header. Use the green + beside a row to add item rows or an equipment title. For a title, Add next inserts a complete section after the clicked equipment and all its rows; At the end appends it. For item rows, enter a number from 1 to 20 beside the equipment selector. Invalid counts show a tip above that input when Add is clicked. The batch is one Undo action. Select an equipment title to change its fill, font, size, text color, alignment and styling. The formatting toolbar displays current values and color swatches, with defaults instead of empty selectors. Confirm removal of rows or custom information columns. Existing stock identities, comments, revisions and Excel editing are retained. Purchase order lines with data are retained for audit; cancel their remaining quantity instead of deleting them.",
+        "Topic": "stock",
+        "Clip": 2
+      },
+      {
+        "Title": "Well constructor wizard",
+        "Body": "Open Well constructor wizard using the wand button immediately before Sync. A paid license, a writable project and a role with well construction access are required. The separate window supports resize, minimize, maximize and Windows Snap. Loading uses the current theme and shows preparation progress; close the window to cancel loading. Choose a spud date and select or type a rig or drillship. The right-hand hardware table and 3D controls work like the Schematics 3D Demo. All construction changes remain in a draft until Save succeeds. The window remembers its monitor and snapped bounds. Use the branch arrows to collapse hardware, and the add or delete buttons to edit the table. The delete confirmation can also remove children.",
+        "Topic": "wellwizard",
+        "Clip": 3
+      },
+      {
+        "Title": "Select and replace wizard equipment",
+        "Body": "Hover over an empty Hardware cell to open the Inventory section picker, or right-click and choose Add equipment. Use Search by PN or SN beside the picker title to filter available items and open the best matching Inventory section. Search highlights the match. Click an item to add it. The next picker opens the last-used section when it still has compatible stock and highlights the next available item. Families follow the current Inventory, including families added later. Empty families and families with no selectable stock are hidden. Items that are unavailable, already installed or already selected in this draft cannot be selected again. Only families that match a compatible hardware row are shown. The chosen PN/SN appears immediately and is held in the draft while the 3D model loads in the background. You can continue selecting other equipment during loading. On an occupied row, right-click and choose Replace to open the same picker. Cancel replacement restores the previous draft equipment. Select This connection and Connect to using the saved model connection IDs. A connection point uses its exact saved location; a plane surface uses its computed mating center. Check which feature was selected if hardware attaches to an indicator rod instead of the well axis. Choose a model connection point or surface in the Depth reference dropdown above each hardware depth field. The value is calculated at that point. Edit it for a surveyed override, or clear it to return to calculation. Configured rotation, travel, inclination and heading controls appear below the depth. When two model variants have the same filename, the one with configured movement is marked Motion controls. Committed slope readings in Schematics update the linked Master row in the background while the 3D preview continues to update. Model top remains available. Click a depth field to place the text cursor directly in the input. In the wizard and Schematics 3D Demo, numeric changes apply after 10 seconds without typing. Press Enter to apply immediately. Set depths and device readings, including inclination and heading, as required; incomplete or conflicting connections need correction before saving.",
+        "Topic": "wizardinventory",
+        "Clip": 3
+      },
+      {
+        "Title": "Arrange parent and child hardware",
+        "Body": "1. Open 3D Beta and enlarge the constructor with its top-right four-arrow button if needed. The expanded table stays within the window and can scroll vertically; its header stays visible. Use the button again to return it to the right side. The footer zoom slider controls the scene. 2. Grab a hardware description and drop it onto the hardware that supports it. For example, drop a valve or slope indicator onto the LP wellhead. The item moves below its parent with indentation and branch lines. This works for generic hardware, without hardwired valve or indicator routing. Cycles and invalid parenting are rejected. 3. This connection lists the child model marks; Connect to lists marks on its parent. A reserved target cannot be reused until the previous item releases it by selecting None. Right-click > Make top-level removes the parent relationship. 4. Select Include and matching connections. Equipment appears smoothly at its connection and unchecked parts fade away. Connections to unchecked hardware are inactive. Review computed depths, orientation and all children before Accept. Right-click > 3D Viewer navigates to the corresponding PN/SN for configuration; reopening 3D Beta refreshes changed shared model data. Per-well hierarchy, scene lighting, cuts, measurements and movement readings are retained. Automatic orbit pauses during interaction and cut view; idle rotation resumes after 30 seconds when enabled. When a P/N has multiple GLBs, select the model from the dropdown directly below its name in the Hardware cell of the 3D well-constructor table. Connections, units and motion refresh live; the choice is saved with the well. Renamed GLB filenames appear immediately in the well-constructor model dropdown. The selected model, connections and motion settings are preserved.",
+        "Topic": "wellhierarchy",
+        "Clip": 3
+      },
+      {
+        "Title": "Choose DATUM measurements and cut view",
+        "Body": "1. In Settings, choose the cut axis and enable Cut view. The camera turns smoothly to the exposed side and fits from three metres below seabed to three metres above the highest installed equipment. You can then orbit, pan or zoom freely. Cutting stops automatic rotation. 2. Click a measurement line, value or caption, or use the ruler icon above the scene, to open Measurements from DATUM. This panel matches the constructor size. Expand hardware to choose its Top, Bottom, saved points and connection surfaces; tick Seabed for the DATUM-to-seabed distance. Changes apply live. Close the panel with its upper-right cross. 3. Every displayed value is measured vertically from DATUM, in metres to three decimal places. Values above DATUM may be negative. A point level uses its vertical height, not a diagonal centre-to-centre distance. 4. Short dimensions use lanes nearest the structure and long dimensions use outer lanes. Values and equipment captions remain horizontal and single-line; leaders attach to actual retained model surfaces while orbiting, including the mudmat bottom. Selected measurements are remembered for the well. These are derived from original posed geometry and configured units; validate them against the approved drawing.",
+        "Topic": "wellmeasurements",
+        "Clip": 3
+      },
+      {
+        "Title": "Read cement and formation in Cut View",
+        "Body": "Connected joints that continue the same casing string use one tail and lead cement sequence. Enter the top of tail and the top of lead as two depths separated by a slash. A single depth fills with lead cement from the shoe to that value. The fill stops at the seabed. Above the cement, the annulus shows mud where applicable. Use the bottom connection ring to change the illustrated length of a section with an Extend Surface modifier. Connected equipment moves with it and the cement follows the bottom ring.",
+        "Topic": "wellsectioncement",
+        "Clip": 3
+      },
+      {
+        "Title": "Save, reset and resume a constructed well",
+        "Body": "Press Save and enter a new well name. The save commits the well to the Master equipment list, applies selected Inventory transfers or retained associations, saves the editable 3D settings and generates the linked portrait 2D schematic together. The well is placed by spud date; an unused Exp- slot may be reused when it has no equipment, history or linked drawing. Existing rig colors are retained and a new rig receives a color. Remove from Inventory requests a permanent transfer; otherwise the normal retained-Inventory association is used. Save leaves the wizard open. Further saves update that same well. Close keeps the unsaved draft on this computer for this project. Reopen the wizard to continue with the selected equipment, values, connections, and tree. Reset starts a new draft with the same tree and well inputs, clearing selected equipment, model connections, and movement settings. After Save, the tree is available when starting another well. Replacing equipment in a saved well returns the old item through the existing assessment workflow when the replacement is saved. A stale Inventory item, changed model or changed project can prevent saving; review the message and refresh the draft. One Undo or Redo covers the complete saved operation.",
+        "Topic": "wizardsave",
+        "Clip": 3
+      },
+      {
+        "Title": "Delete a well or return its equipment",
+        "Body": "When deleting a populated well row from Master Equip. list, choose Return to Inventory, Delete without returning, or Cancel. Return uses the recorded Inventory section for each item and recreates it if needed. Equipment without a recorded section uses a matching section. Returned items require assessment before they are available again. History records each return or removal. The schematic stays in the library and one Undo reverses the row deletion and any returns.",
+        "Topic": "wizardreturn",
+        "Clip": 3
+      },
+      {
+        "Title": "Why obtain a license?",
+        "Body": "Free users can start with the basic workspace. A license adds 3D equipment and well views, Well Constructor, technical-document references, planning and metrics. Your licensed role determines which data you can change.",
+        "Clip": 0
+      },
+      {
+        "Title": "Request activation and continue learning",
+        "Body": "Open Help > License activation. Your saved name and surname are filled in automatically. Choose a contact method to prepare your request, then apply the key you receive. Help > Start tutorial and User guide provide detailed help; Help > Start Tour replays this introduction.",
+        "Clip": 1
+      }
+    ],
+    "inspection": [
+      {
+        "Title": "Your wellhead systems in MIE",
+        "Body": "These scenes were captured from real project wells. The tour plays recorded images; it does not load or modify your models. Serial numbers are not shown.",
+        "Clip": 0
+      },
+      {
+        "Title": "Cut view and formations",
+        "Body": "Orbit the wellhead to inspect its arrangement. Cut View reveals internal equipment and illustrative formation layers. Detailed controls follow in the user guide.",
+        "Clip": 1
+      },
+      {
+        "Title": "Open a project and find your equipment",
+        "Body": "Use File > Open for a MIE project, or Import for a workbook. Tabs group installed equipment, inventory, orders, schematics and history. Search finds records across locations. Save retains your changes and attachments together.",
+        "Clip": 2
+      },
+      {
+        "Title": "Choose your working location",
+        "Body": "The location selector beside Search filters applicable tabs and the hardware offered in Well Constructor. All shows every location. Search still covers all locations and clears the filter when needed to show a selected result.",
+        "Clip": 0
+      },
+      {
+        "Title": "Edit with confidence",
+        "Body": "Double-click a cell to edit when your role permits. Undo reverses changes. Equipment actions and saved changes appear in history. This introduction never changes your project.",
+        "Clip": 2
+      },
+      {
+        "Title": "Condition, availability, disposition and location",
+        "Body": "Condition describes the equipment: Serviceable, Suspected Damage, Damaged, Failed Inspection, Awaiting Assessment or Beyond Economical Repair. Availability describes whether it can be supplied: Available, Reserved, Quarantined / Unavailable or Disposed. Disposition describes the next decision: None, Pending Assessment, Inspection Required, Repair / Rework, Return to Supplier, Approved for Scrap or Completed Disposal. Location retains its own physical location text; Custody identifies Held or Offsite. Equipment at an external repair facility stays owned and unavailable, with its actual location retained.\nUse controlled lifecycle actions to change these fields; ordinary cell edits cannot replace the Equipment ID or bypass lifecycle state controls. Existing ordinary data corrections, custom fields and formatting remain possible for active records, and are recorded. A stable Equipment ID travels with transfers. Serialized equipment represents one physical unit. A partial quantity action on nonserialized stock creates a new child Equipment ID with Parent Equipment ID, reduces the original quantity and preserves metadata. The total reconciles before and after the split.\nLifecycle events retain their identity, parents, actor, action, recorded/actual timestamps, before/after states, reason and evidence. Application Undo and Redo preserve previous events and append compensation instead of deleting history. Completed disposal and its documented reversal create a boundary that ordinary Undo cannot cross. Integrity hashes detect altered or incomplete records during supported operations, but this is not a claim of tamper-proof storage or cryptographically verified authorization.",
+        "Topic": "lifecyclefields",
+        "Clip": 2
+      },
+      {
+        "Title": "3D Viewer and inspection documents",
+        "Body": "Returned items remain visible in Inventory and in the Quarantine assessment list as one physical item. Hover the Inventory row to open its Quarantine entry. Quarantine hover cards show a short status and 3D Viewer instead of stock-planning details. Choose 3D Viewer to open the correct equipment in the licensed 3D Viewer, then Review inspection or Lifecycle for controlled actions. Users without 3D Viewer can open the lifecycle form directly from the tip. Inventory retains its detailed tips. In Quarantine you can also choose Edit and Review inspection. Upload PDF, Word, Excel or scanned-photo proof, or select existing attached reports. Record Pass or Fail, optional notes, applicable passed tests and the named approver. The actual action date and reason are optional. A blank date uses cached verified internet time when available, otherwise the PC clock. A blank reason records the reviewer and selected decision automatically; the history identifies both automatic defaults and their date source. Manually entered values are retained. Evidence, required tests and explicit approval remain required. Submit and explicitly confirm Release to Service or Approve for Scrap. Required inspection, testing and repair checks still apply. A photo supplies evidence but does not record a passed test. If testing is required, complete it and explicitly select Record Test / Certification. The form explains missing prerequisites before confirmation. Rejected submissions keep the form, notes and attachments for correction. Accept, Cancel, Escape and title-bar close return to the owning MIE window; background completion does not interrupt another application you deliberately selected. Scrap approval does not record completed disposal. One Undo reverses the decision while keeping audit evidence. Licensed users can right-click equipment and choose 3D Viewer. 3D Viewer has information and status on the left, with the attached-documents list in the bottom half of the left pane and the Upload button directly below it. Drag the divider downward to reduce this area; it cannot grow above half the pane. Its position is remembered. Right-click an attachment and choose Save as to save the original file to the PC. The right pane is reserved primarily for document and 3D model viewing. Images fit the preview pane on opening. Use the wheel or plus/minus buttons to zoom, drag with the left or middle mouse button to pan, and Fit or double-click to refit. PDF previews load one page at a time; Word and Excel previews show read-only text or tables. Save as preserves the original file. Use the print button to export the displayed 3D Viewer to PDF or Excel, including the current scene and section. PDF contains a static view. Compatible installed desktop Excel can add the original GLB as a native rotatable object on a separate worksheet; the first sheet preserves the displayed section. 3D Viewer is excluded from File Save project as XLSX. Documents remain inside the MIE project through incremental saving, backup and synchronization; identical file bytes are stored once.  Viewer settings are remembered separately for each equipment item and model, including camera, materials, color, textures, lighting and section settings. The section axis and position can be selected before enabling Cut view. Wheel zoom keeps the point under the pointer fixed; left drag orbits and right or middle drag pans in Navigate mode. Automatic rotation is off by default. The viewer uses the Windows-selected Direct3D adapter when hardware rendering is available; its rendering-tier indicator reports capability, not a guarantee for every driver. Frozen meshes and bitmap view-cube labels reduce redraw work; preferences save in background batches. Pallet boards have wood grain and UV coordinates. Choose an original procedural texture or Upload texture to retain a PNG/JPEG image with the item. Select model UV, box, planar, cylindrical or spherical mapping, repeat or mirror wrapping, clamp, U/V repeat and offset, and rotation. The native presets cover familiar material categories and are approximations, not V-Ray material files or the V-Ray renderer. Damage marking offers a reddish Spot brush with size and softness, a white Circle brush with adjustable thickness, and selectable colors. Raise and Lower brushes deform a preview using size, softness and strength; coarse surfaces refine locally within limits. These are visual damage observations, not dimensional engineering or inspection measurements. Original GLB bytes remain unchanged. Viewer Undo/Redo and Ctrl+Z/Ctrl+Y handle marking, deformation, texture/material changes and Reset model. Damage records save with the item and remain in project history through incremental save, backup and sync. Returning to Inventory clears active decals and deformations and restores original geometry while retaining prior damage checkpoints and selected scene settings. Undo/Redo of the return restores the corresponding damage state. Save damage marks can retry a failed automatic save. Reset model restores original materials and removes active damage and can itself be undone. 3D Viewer exports show the current scene; any native rotatable Excel object retains the original GLB.PN and SN keep their entered suffix zeros, such as -004. View > Normalize displayed PN / SN is off by default and changes presentation only; duplicate checks still compare canonical identifiers. Attached GLB models use the optional viewer pack, downloaded and verified in the background. If GitHub is unreachable, choose Browse pack and select the required pack from this PC. MIE verifies its approved checksum before installation; an incorrect pack cannot replace a working pack. SWIMS-style scene controls include damped orbiting, automatic rotation, Home, a draggable view cube, six camera views, a large-window option, material and color settings, lighting controls and a standard EUR pallet reference. The native WPF scene approximates the WebGL lighting and materials. Cut view starts at the model center and provides X, Y or Z sections. Drag the shaded double arrow in the scene to move the section along its axis, use the position slider or the focused grip arrow keys for fine adjustment, choose Center section to reset, and reverse the retained side. The arrow can be hidden without disabling the section. Sections are calculated in the background without changing the uploaded model; closed cut faces use plain solid fills without hatching, while inner cavities remain open. Open or non-manifold boundaries are left unfilled. Model metalness, roughness, emissive color and studio lights control the reflected highlights. The viewer uses the Windows hardware rendering path where supported by the graphics driver. Viewer settings are remembered per model. Scene backgrounds, floor and pallet colors are adjustable in Theme Studio. Hidden or closed scenes stop their animation timers. The model filename shares the Settings toolbar row to leave more room for the canvas. Paint has its own fixed clipped UV coordinates and appears above the model texture, independent of texture wrapping, repeat or placement. In deformation mode, left click raises a convex area and right click makes a concave dent; middle drag pans. Stroke pauses do not save or refresh the workbook. Changes commit asynchronously on explicit Save, when leaving or closing the viewer, or when saving or closing the project. Failed writes retain the pending scene for retry. The circular CAD-style ground has soft transparent edges, a polished surface, separate contact shadow and optional model reflection. Ground reflection and Ground shadow can be toggled in Settings and are remembered per item. Reflections automatically fall back to the polished floor for software rendering or scenes above 200,000 displayed triangles. Theme Studio Model Floor controls the ground color. Active damage and deformation brushes project a footprint onto the model before clicking. The preview is not saved or recorded in history; clicking or dragging applies a stroke. Pointer mode clears the preview. Spatial surface indexing and cached decals avoid whole-model searches for each mark. A single background deformation worker reuses completed strokes and processes the latest queued work without restarting every stamp. Tutorials use synthetic data and restore your project. Original GLB models are shared by part number and appear in the attachment list of every matching item, including items added later. Only the original model is shared: inspection documents, uploaded textures, damage marks, deformation and scene settings remain specific to the individual item. The original bytes are stored once by content hash; incremental synchronization sends only new resources, not the unchanged model. Returning an item to Inventory clears its active damage while retaining its history and scene settings. Selected-item projects include the shared original without another item’s documents or damage. The header search field sits to the left of Undo. Enter a serial number, part number or description, then press Enter or click Search. Typing does not start a search. Matching items are listed with their tab in a scrollable dropdown below the field; all matches are available. Click a result to collapse the list, open its tab and focus its row. Search runs in the background and superseded searches are canceled. Existing per-tab search tools remain available. Press Ctrl+F in any tab to open a themed search popup for that tab and its currently selected subtab. This also works in detached windows. More options expands case-sensitive, whole-word and regular-expression search. Use Enter or Next to find forward and Shift+Enter or Previous to find backward. Editable worksheets offer Replace and Replace All, also available with Ctrl+H, from View mode or Edit mode. Replacement enables editing when needed and uses background processing. Each changed value retains its old and new values in history, and Undo restores a batch together. Read-only logs, graphs, documents and calculated views remain search-only. Search scrolls to and focuses a match with a temporary themed highlight, which is removed when the popup closes. The table keeps the focused row below the popup, including expanded advanced controls. The header search continues to search across tabs. For a Master cell with one PN and several serials, right-click 3D Viewer to open its shared PN model with All serials selected. Only shared models are listed in this mode; serial documents, inspection actions, painting and deformation stay unavailable. Choose a specific serial in the item selector to load its own evidence and damage and enable the editing tools permitted by your role. Select All serials to return to the shared view. Material and connection settings remain PN-specific. A duplicate warning does not suppress the model badge; uploaded model availability refreshes on existing Master columns in the background.",
+        "Topic": "itemview",
+        "Clip": 2
+      },
+      {
+        "Title": "Navigate, cut and inspect a model",
+        "Body": "Use the mouse wheel to zoom towards the pointer, orbit with the left button in Navigate mode, and pan with middle drag. Home and Reset view fit the model; the view selector offers perspective, orthographic and preset directions. Open large 3D view gives more room. In Settings, select the cut axis even before enabling Cut view. Enable it and drag the double-arrow handle or use the position control to move the plane. Turn Cut view off to restore the full model. Scene lighting, ground, camera and item settings are retained separately from the original asset. Damage brush previews show where a mark will land; deformation raises with the left button and dents with the right. Damage remains tied to the SN and follows the existing return-to-service clearing workflow. Uploads support GLB files up to 120 MB within resource limits. Geometry optimization in the gear menu enables adaptive display levels generated in the background from immutable source geometry. Maximum screen error, reusable derived-cache memory and performance diagnostics are adjustable. Turn Adaptive geometry off to compare original geometry at the same camera position. Cuts, connection editing, mesh selection and damage editing use original detail. Diagnostics show estimated UI frame rate, frame interval, submitted triangles, mesh submissions, process RAM and active levels; WPF does not expose GPU timings or hardware draw-call counters. This is adaptive visualization, not a replacement for the original engineering model. The viewer pack contains its verified native optimizer and can fall back to original geometry if optimization is unavailable.",
+        "Topic": "modelviewcontrols",
+        "Clip": 2
+      },
+      {
+        "Title": "3D marking and inspection notes",
+        "Body": "Models that contain stamp-area annotation metadata can show 3D callouts and markers for stamp locations in 3D Viewer. Use Show / hide notes to toggle drawing indicators and added notes. The annotations describe where markings belong and do not engrave PN or SN text into the source mesh. Read the evidence classification: drawing-indicated, related-family or unverified locations have different confidence. An absent annotation does not establish that the equipment has no stamp location. Changes to a shared PN model or its configuration refresh open 3D Viewer, Schematics 3D and wizard scenes in the background while retaining navigation and draft selections where they remain valid. In 3D Viewer, use Add note and click the model, or right-click a surface and choose Add note. Replace the selected Test Note text and choose Done to save or Cancel to close the draft. Marking notes use green spots by default. Inspection notes use blue and support spots or bands. For a band, choose its axis, enter its width in millimetres, and choose External, Internal or Both. Use Cut view to inspect highlights inside a bore. Note color opens the color picker. Right-click a callout or band and choose Change note or Delete note. Drag the arrows at the anchor in the 3D view. Spot notes move in four directions and slowly turn the model left at the right edge and right at the left edge. Surface notes move up or down along their band axis. Show / hide notes controls the 3D callouts and the notes list in the lower-right corner, including drawing indicators. Select a note in the list to turn the model toward it and highlight its anchor. If the active cut hides that anchor, selection reverses the retained side at the current plane. Notes follow the model during orbit. Save to defaults to P/N and shares the note across matching equipment. Open a specific unit and choose its S/N to keep an inspection or damage note with that unit. All serials shows shared P/N notes. The label is readable from both sides, including in right-to-left languages. Adaptive geometry uses lighter meshes for small on-screen markers. The model can still cover the part of a note physically behind it. On alternate models for that P/N, placements use the corresponding position within the model bounds. Check alignment when the geometry differs.",
+        "Topic": "modelstamps",
+        "Clip": 2
+      },
+      {
+        "Title": "Manage attachments",
+        "Body": "Select a document or GLB in the 3D Viewer attachment list. Click the Delete button beside Upload, press the Delete key while the list is focused, or right-click the selected entry and choose Delete. Review the filename and confirm, or Cancel to keep it. The three actions use the same confirmation and background transaction.\nRemoval affects only the selected equipment item. Its original file on disk is not deleted. The original bytes and immutable attachment audit records remain available through history, including evidence used for earlier approvals. If the GLB is shared by PN, other equipment keeps its shared original; removing it from one serial does not delete the model for every serial. Identical file aliases on the selected serial are hidden together by resource hash.\nUndo restores the attachment and records the restoration; Redo removes it again. Re-uploading the same file explicitly makes it visible again. Other uploads, serial damage records, equipment condition, stock quantities and source files are unchanged. Stale selections and changed equipment are rejected rather than deleting a different attachment. Removed reports are excluded from the current inspection report picker but their historic approval evidence is retained.\nNative saves, incremental saves, project exchanges and synchronization retain attachment visibility alongside existing evidence. Projects with removal records require MIE 1.19.13 or newer; older projects still open. Older applications cannot enforce this visibility and are prevented from opening these newer records. Keeping historical evidence means this action does not guarantee a smaller project file. The tutorial uses synthetic evidence and demonstrates Cancel without touching the user's project.\nRight-click an attachment and choose Rename to change its displayed filename for this equipment, keeping the file extension. Press F2 as a shortcut. Save as uses the new name; source files and original audit evidence keep their original names. Duplicate active filenames are rejected.\nChoose Replace to select one replacement file and confirm. The previous upload is removed from this equipment’s active list and retained in history. Other equipment keeps its shared model. Existing model damage stays with the original model hash and is not transferred onto different geometry. Replacement and rename each support Undo and Redo. Changes are saved in the project, selected-record exchanges and synchronization. Concurrent filename edits use normal field conflict review. Renamed projects require MIE 1.19.13 or newer. The attachment tutorial demonstrates safe selection and cancellation; no user project is changed.",
+        "Topic": "itemattachments",
+        "Clip": 2
+      },
+      {
+        "Title": "Inspection, repair, testing and release",
+        "Body": "Send to Quarantine records the condition and reason while retaining the owned physical item. Inspection and testing are applicable by default. If testing is genuinely not applicable, document the exemption justification when quarantining; this is a recorded declaration, not an automatic engineering assessment. Record Inspection records Pass or Fail with evidence. Failed inspection keeps the item unavailable. A new inspection resets test readiness so an old test is not silently reused.\nSend for Repair requires the actual facility location and supporting reference. It sets offsite custody and Repair / Rework, removes it from physically held/available stock and retains ownership. Record Repair Completion records evidence, actual location and whether it remains offsite or is physically returned; it does not automatically release the item. Inspection and applicable test/certification results must then be recorded. A failed test keeps the equipment unavailable.\nRelease to Service requires a passed inspection, applicable passed test or documented exemption, completed repair where required, named confirmation, evidence and an actual service location. Equipment still offsite must be explicitly recorded as physically returned. BER equipment needs a new assessment before release. Successful release transfers the same identity back to Inventory with serviceable/available state. It cannot bypass the engineering evidence checks by ordinary cell editing. Stock calculations and Outstanding update after the transaction.",
+        "Topic": "lifecyclerepair",
+        "Clip": 2
+      },
+      {
+        "Title": "Named approval and supporting evidence",
+        "Body": "Release to Service, Approve for Scrap, Complete Disposal and a disposal reversal require a dedicated explicit confirmation. Enter the approver name and surname, action reason and supporting evidence/reference. Attach inspection reports, test certificates, NCRs or disposal documents as appropriate. The confirmation displays the action, unit, quantity, actual date/location, application user, approver and evidence. Its Confirm action button remains disabled until the explicit confirmation checkbox is selected. Cancel records no approval.\nThe existing license holder name and license user ID are captured automatically when present. They identify the application user, not verified authorization or a currently authenticated operator. The separately entered approver identity is self-declared. When there is no license identity, the workflow captures the declared name and identity source. Approval records include UTC confirmation and recorded timestamps and an extensible approval context. No new roles, Windows-account restrictions, authentication, licensing rules, KeyGen changes or Superadmin changes are introduced. RBAC is deferred to a future major release without requiring a different historical approval record format.\nA document reference is allowed when a file is not attached. Embedded files are content-hashed and travel with native project saves and applicable exchanges; History can save an evidence copy. References are declarations, and the application does not verify that an external report proves the engineering condition. App history is read-only through normal controls and detects inconsistent event hashes; users with external file/system access are not prevented by a claimed tamper-proof signature scheme. Offline approvals remain supported.",
+        "Topic": "lifecycleapproval",
+        "Clip": 2
+      },
+      {
+        "Title": "Why obtain a license?",
+        "Body": "Free users can start with the basic workspace. A license adds 3D equipment and well views, Well Constructor, technical-document references, planning and metrics. Your licensed role determines which data you can change.",
+        "Clip": 0
+      },
+      {
+        "Title": "Request activation and continue learning",
+        "Body": "Open Help > License activation. Your saved name and surname are filled in automatically. Choose a contact method to prepare your request, then apply the key you receive. Help > Start tutorial and User guide provide detailed help; Help > Start Tour replays this introduction.",
+        "Clip": 1
+      }
+    ],
+    "view": [
+      {
+        "Title": "Your wellhead systems in MIE",
+        "Body": "These scenes were captured from real project wells. The tour plays recorded images; it does not load or modify your models. Serial numbers are not shown.",
+        "Clip": 0
+      },
+      {
+        "Title": "Cut view and formations",
+        "Body": "Orbit the wellhead to inspect its arrangement. Cut View reveals internal equipment and illustrative formation layers. Detailed controls follow in the user guide.",
+        "Clip": 1
+      },
+      {
+        "Title": "Open a project and find your equipment",
+        "Body": "Use File > Open for a MIE project, or Import for a workbook. Tabs group installed equipment, inventory, orders, schematics and history. Search finds records across locations. Save retains your changes and attachments together.",
+        "Clip": 2
+      },
+      {
+        "Title": "Choose your working location",
+        "Body": "The location selector beside Search filters applicable tabs and the hardware offered in Well Constructor. All shows every location. Search still covers all locations and clears the filter when needed to show a selected result.",
+        "Clip": 0
+      },
+      {
+        "Title": "Edit with confidence",
+        "Body": "Double-click a cell to edit when your role permits. Undo reverses changes. Equipment actions and saved changes appear in history. This introduction never changes your project.",
+        "Clip": 2
+      },
+      {
+        "Title": "Why obtain a license?",
+        "Body": "Free users can start with the basic workspace. A license adds 3D equipment and well views, Well Constructor, technical-document references, planning and metrics. Your licensed role determines which data you can change.",
+        "Clip": 0
+      },
+      {
+        "Title": "Request activation and continue learning",
+        "Body": "Open Help > License activation. Your saved name and surname are filled in automatically. Choose a contact method to prepare your request, then apply the key you receive. Help > Start tutorial and User guide provide detailed help; Help > Start Tour replays this introduction.",
+        "Clip": 1
+      }
+    ]
+  },
+  "Clips": [
+    [
+      "media/0/000.jpg",
+      "media/0/001.jpg",
+      "media/0/002.jpg",
+      "media/0/003.jpg",
+      "media/0/004.jpg",
+      "media/0/005.jpg",
+      "media/0/006.jpg",
+      "media/0/007.jpg",
+      "media/0/008.jpg",
+      "media/0/009.jpg",
+      "media/0/010.jpg",
+      "media/0/011.jpg",
+      "media/0/011.jpg",
+      "media/0/010.jpg",
+      "media/0/009.jpg",
+      "media/0/008.jpg",
+      "media/0/007.jpg",
+      "media/0/006.jpg",
+      "media/0/005.jpg",
+      "media/0/004.jpg",
+      "media/0/003.jpg",
+      "media/0/002.jpg",
+      "media/0/001.jpg",
+      "media/0/000.jpg"
+    ],
+    [
+      "media/1/000.jpg",
+      "media/1/001.jpg",
+      "media/1/002.jpg",
+      "media/1/003.jpg",
+      "media/1/004.jpg",
+      "media/1/005.jpg",
+      "media/1/006.jpg",
+      "media/1/007.jpg",
+      "media/1/008.jpg",
+      "media/1/009.jpg",
+      "media/1/010.jpg",
+      "media/1/011.jpg",
+      "media/1/011.jpg",
+      "media/1/010.jpg",
+      "media/1/009.jpg",
+      "media/1/008.jpg",
+      "media/1/007.jpg",
+      "media/1/006.jpg",
+      "media/1/005.jpg",
+      "media/1/004.jpg",
+      "media/1/003.jpg",
+      "media/1/002.jpg",
+      "media/1/001.jpg",
+      "media/1/000.jpg"
+    ],
+    [
+      "media/2/000.jpg",
+      "media/2/001.jpg",
+      "media/2/002.jpg",
+      "media/2/003.jpg",
+      "media/2/004.jpg",
+      "media/2/005.jpg",
+      "media/2/006.jpg",
+      "media/2/007.jpg",
+      "media/2/008.jpg",
+      "media/2/009.jpg",
+      "media/2/010.jpg",
+      "media/2/011.jpg",
+      "media/2/011.jpg",
+      "media/2/010.jpg",
+      "media/2/009.jpg",
+      "media/2/008.jpg",
+      "media/2/007.jpg",
+      "media/2/006.jpg",
+      "media/2/005.jpg",
+      "media/2/004.jpg",
+      "media/2/003.jpg",
+      "media/2/002.jpg",
+      "media/2/001.jpg",
+      "media/2/000.jpg"
+    ],
+    [
+      "media/3/000.jpg",
+      "media/3/001.jpg",
+      "media/3/002.jpg",
+      "media/3/003.jpg",
+      "media/3/004.jpg",
+      "media/3/005.jpg",
+      "media/3/006.jpg",
+      "media/3/007.jpg",
+      "media/3/008.jpg",
+      "media/3/009.jpg",
+      "media/3/010.jpg",
+      "media/3/011.jpg",
+      "media/3/011.jpg",
+      "media/3/010.jpg",
+      "media/3/009.jpg",
+      "media/3/008.jpg",
+      "media/3/007.jpg",
+      "media/3/006.jpg",
+      "media/3/005.jpg",
+      "media/3/004.jpg",
+      "media/3/003.jpg",
+      "media/3/002.jpg",
+      "media/3/001.jpg",
+      "media/3/000.jpg"
+    ]
+  ]
+}

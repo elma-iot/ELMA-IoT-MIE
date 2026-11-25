@@ -8,9 +8,15 @@
 
 A Windows workspace for equipment records, technical documents, well schematics, and 3D facility views.
 
-[Microsoft Store](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [What's new in 1.19.69](ReleaseNotes-1.19.69.md) · [User guide](UserGuide.txt)
+[Microsoft Store](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [What's new in 1.20.13](ReleaseNotes-1.20.13.md) · [User guide](UserGuide.txt)
 
 </div>
+
+## In version 1.20.13
+
+The 3D Map lets you place deck cargo and follow a vessel’s route. In Inventory, review duplicate serials in a printable list. In the 3D Viewer, resume a batch import from the review badge and choose between model versions when placing equipment.
+
+The user guide and guided tutorials are available in all 20 interface languages. They cover vessel and container placement, model replacement, duplicate review, and local save and preload settings. [Current guide](UserGuide.txt) · [Downloadable language and learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v94)
 
 ## One equipment record across teams
 
@@ -22,12 +28,12 @@ Procurement, warehouse, engineering, and operations teams can follow the same se
 
 ## Storage and equipment lifecycle
 
-In **Storage**, mark named shelf and floor locations in a 3D facility, place equipment on pallets, and arrange the pallets. Click **3D Map Location** in Inventory to fly to the exact item. In the workshop view, hover over equipment for its part number, serial number, and description, or choose **See in Inventory** to open its row.
+In **3D Map**, mark named shelf and floor locations in a 3D facility, place equipment on pallets, and arrange the pallets. Click **3D Map Location** in Inventory to fly to the exact item. In the workshop view, hover over equipment for its part number, serial number, and description, or choose **See in Inventory** to open its row.
 
 ```mermaid
 flowchart LR
     A["In-Order"] -->|Receive| B["Inventory"]
-    B <-->|Locate| S["3D Storage"]
+    B <-->|Locate| S["3D Map"]
     B -->|Install| C["Master equipment list"]
     B -->|Hold for assessment| Q["Quarantine"]
     Q -->|Release to service| B
