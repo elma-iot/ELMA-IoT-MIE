@@ -8,15 +8,36 @@
 
 A Windows workspace for equipment records, technical documents, well schematics, and 3D facility views.
 
-[Microsoft Store](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [What's new in 1.20.13](ReleaseNotes-1.20.13.md) · [User guide](UserGuide.txt)
+[Microsoft Store](https://apps.microsoft.com/detail/9NSZMSQKXH67) · [What's new in 1.21.0](ReleaseNotes-1.21.0.md) · [User guide](UserGuide.txt)
 
 </div>
 
-## In version 1.20.13
+## What's new in 1.21.0
 
-The 3D Map lets you place deck cargo and follow a vessel’s route. In Inventory, review duplicate serials in a printable list. In the 3D Viewer, resume a batch import from the review badge and choose between model versions when placing equipment.
+MIE sends the changed encrypted project objects your team needs. Keep working as synchronization runs, and use Full Sync / Repair to verify both project copies. Save and reopen organization projects from their encrypted working folder.
 
-The user guide and guided tutorials are available in all 20 interface languages. They cover vessel and container placement, model replacement, duplicate review, and local save and preload settings. [Current guide](UserGuide.txt) · [Downloadable language and learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v94)
+| Workflow | 1.20.22, previous Git release | 1.21.0 |
+|---|---|---|
+| Shared Windows folder | Incremental change batches and periodic project snapshots | Committed revisions exchange the encrypted objects they need. An unchanged sync transfers no project data. |
+| Local save | Portable project archive and incremental recovery journal | Encrypted working store commits changed objects and reopens from Recent Projects. Portable archives remain available for exchange. |
+| Work during sync | Background transfer with limits on editing during synchronization | Browse, edit and save during transfer. MIE defers an incoming update if newer local work needs protection. |
+| Merge and repair | Existing field conflict review, snapshot recovery and replay | Verified object reuse, faster supported independent edits and bidirectional Full Sync / Repair. |
+| Shared storage and history | Snapshot, change and recovery folders | Queued cleanup for retired payloads, storage diagnostics and explicit administrator maintenance. |
+| Downloadable help | Earlier interface translations and tutorials | Updated interface, shared-folder guide and safe tutorial preview in 20 languages. |
+
+### Performance measured on one Windows PC
+
+| Operation | Earlier 1.21.0 build | Updated 1.21.0 build |
+|---|---:|---:|
+| Refresh an open workbook after a small Inventory change | 8.114 s | 1.006 s |
+| Apply that workbook refresh on the UI thread | 1.414 s | 0.015 s |
+| Merge an independent drawing rename and model replacement | 41.740 s | 14.422 s |
+
+The updated build pulled one Inventory record in 0.242 s. These timings use isolated local folders and measure the application. Performance on your share depends on the connection and project workload.
+
+The release also includes periodic inspection reminders, printable inspection reports with serial-specific evidence, weight and description lookup from technical references, and improvements to storage-area selection, equipment lists and pallet configuration.
+
+[Release notes](ReleaseNotes-1.21.0.md) · [Language and learning packs](https://github.com/elma-iot/ELMA-IoT-MIE/releases/tag/mie-content-v95)
 
 ## One equipment record across teams
 
